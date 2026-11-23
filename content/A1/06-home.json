@@ -1,0 +1,26 @@
+{
+  "topic": "Ev",
+  "items": [
+    {"type":"WORD","en":"house","tr":"ev, müstakil ev","ipa":"/haʊs/","pos":"noun","example":"We have a small house.","exampleTr":"Küçük bir evimiz var.","emoji":"🏠","imageQuery":"house","note":"'house' binayı, 'home' yuvayı anlatır."},
+    {"type":"WORD","en":"home","tr":"ev, yuva","ipa":"/həʊm/","pos":"noun","example":"I'm at home now.","exampleTr":"Şu an evdeyim.","emoji":"🏡","imageQuery":null,"note":"'at home' (evde) kalıbında 'the' kullanılmaz."},
+    {"type":"SENTENCE","en":"I'm at home.","tr":"Evdeyim.","ipa":null,"pos":null,"example":"Call me. I'm at home.","exampleTr":"Beni ara. Evdeyim.","emoji":"📞","imageQuery":null,"note":null},
+    {"type":"WORD","en":"room","tr":"oda","ipa":"/ruːm/","pos":"noun","example":"My room is on the left.","exampleTr":"Odam solda.","emoji":"🛋️","imageQuery":"room","note":null},
+    {"type":"WORD","en":"kitchen","tr":"mutfak","ipa":"/ˈkɪtʃɪn/","pos":"noun","example":"She's in the kitchen.","exampleTr":"O mutfakta.","emoji":"🍳","imageQuery":"kitchen","note":null},
+    {"type":"WORD","en":"bathroom","tr":"banyo","ipa":"/ˈbɑːθruːm/","pos":"noun","example":"The bathroom is upstairs.","exampleTr":"Banyo üst katta.","emoji":"🛁","imageQuery":"bathroom","note":null},
+    {"type":"CHUNK","en":"Where's the toilet?","tr":"Tuvalet nerede?","ipa":null,"pos":null,"example":"Excuse me, where's the toilet?","exampleTr":"Affedersiniz, tuvalet nerede?","emoji":"🚻","imageQuery":null,"note":"Evde 'bathroom' denir, dışarıda 'toilet'."},
+    {"type":"WORD","en":"bedroom","tr":"yatak odası","ipa":"/ˈbedruːm/","pos":"noun","example":"My bedroom is quiet.","exampleTr":"Yatak odam sessiz.","emoji":"🛏️","imageQuery":"bedroom","note":null},
+    {"type":"WORD","en":"bed","tr":"yatak, karyola","ipa":"/bed/","pos":"noun","example":"The bed is very comfortable.","exampleTr":"Yatak çok rahat.","emoji":"🛏️","imageQuery":"bed","note":null},
+    {"type":"WORD","en":"door","tr":"kapı","ipa":"/dɔː/","pos":"noun","example":"Close the door, please.","exampleTr":"Kapıyı kapat, lütfen.","emoji":"🚪","imageQuery":"door","note":null},
+    {"type":"WORD","en":"window","tr":"pencere","ipa":"/ˈwɪndəʊ/","pos":"noun","example":"Open the window, it's hot.","exampleTr":"Pencereyi aç, sıcak.","emoji":"🪟","imageQuery":"window","note":null},
+    {"type":"WORD","en":"table","tr":"masa","ipa":"/ˈteɪbl/","pos":"noun","example":"Dinner is on the table.","exampleTr":"Akşam yemeği masada.","emoji":"🪑","imageQuery":"table","note":null},
+    {"type":"WORD","en":"chair","tr":"sandalye","ipa":"/tʃeə/","pos":"noun","example":"Take a chair and sit down.","exampleTr":"Bir sandalye al ve otur.","emoji":"🪑","imageQuery":"chair","note":null},
+    {"type":"WORD","en":"sofa","tr":"kanepe, koltuk","ipa":"/ˈsəʊfə/","pos":"noun","example":"He's sleeping on the sofa.","exampleTr":"Kanepede uyuyor.","emoji":"🛋️","imageQuery":"sofa","note":null},
+    {"type":"WORD","en":"light","tr":"ışık, lamba","ipa":"/laɪt/","pos":"noun","example":"The light is on.","exampleTr":"Işık açık.","emoji":"💡","imageQuery":"light bulb","note":null},
+    {"type":"PHRASAL","en":"turn on","tr":"açmak (ışık, TV, cihaz)","ipa":"/tɜːn ɒn/","pos":null,"example":"Turn on the light, please.","exampleTr":"Işığı aç, lütfen.","emoji":"🔛","imageQuery":null,"note":"Su ve cihaz için de kullanılır."},
+    {"type":"PHRASAL","en":"turn off","tr":"kapatmak (ışık, TV, cihaz)","ipa":"/tɜːn ɒf/","pos":null,"example":"Turn off the TV, it's late.","exampleTr":"TV'yi kapat, geç oldu.","emoji":"📴","imageQuery":null,"note":null},
+    {"type":"WORD","en":"key","tr":"anahtar","ipa":"/kiː/","pos":"noun","example":"I can't find my keys.","exampleTr":"Anahtarlarımı bulamıyorum.","emoji":"🔑","imageQuery":"keys","note":null},
+    {"type":"WORD","en":"fridge","tr":"buzdolabı","ipa":"/frɪdʒ/","pos":"noun","example":"There's milk in the fridge.","exampleTr":"Buzdolabında süt var.","emoji":"🧊","imageQuery":"fridge","note":null},
+    {"type":"WORD","en":"floor","tr":"yer, zemin, kat","ipa":"/flɔː/","pos":"noun","example":"My flat is on the second floor.","exampleTr":"Dairem ikinci katta.","emoji":"🏢","imageQuery":"floor","note":null},
+    {"type":"CHUNK","en":"Make yourself at home","tr":"kendini evinde hisset","ipa":null,"pos":null,"example":"Come in. Make yourself at home!","exampleTr":"Gel. Kendini evinde hisset!","emoji":"🤗","imageQuery":null,"note":"Misafire söylenen sıcak bir cümle."}
+  ]
+}

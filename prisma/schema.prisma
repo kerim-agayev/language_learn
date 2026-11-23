@@ -1,0 +1,134 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../lib/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Level {
+  A1
+  A2
+  B1
+  B2
+  C1
+  C2
+}
+
+enum ItemType {
+  WORD
+  CHUNK
+  PHRASAL
+  SENTENCE
+}
+
+model User {
+  id           String       @id @default(cuid())
+  email        String       @unique
+  name         String
+  passwordHash String
+  intervalMin  Int          @default(5)
+  workStart    String       @default("09:00")
+  workEnd      String       @default("18:00")
+  dailyGoal    Int          @default(20)
+  level        Level        @default(A1)
+  createdAt    DateTime     @default(now())
+  sessions     Session[]
+  items        UserItem[]
+  logs         ReviewLog[]
+  teams        TeamMember[]
+}
+
+// id = sha256 of the cookie token, so a DB leak doesn't leak live sessions
+model Session {
+  id        String   @id
+  userId    String
+  expiresAt DateTime
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Team {
+  id         String           @id @default(cuid())
+  name       String
+  code       String           @unique
+  createdAt  DateTime         @default(now())
+  members    TeamMember[]
+  challenges DailyChallenge[]
+}
+
+model TeamMember {
+  userId String
+  teamId String
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  team   Team   @relation(fields: [teamId], references: [id], onDelete: Cascade)
+
+  @@id([userId, teamId])
+}
+
+model Item {
+  id        Int         @id @default(autoincrement())
+  type      ItemType
+  level     Level
+  order     Int
+  en        String
+  tr        String
+  ipa       String?
+  pos       String?
+  example   String
+  exampleTr String
+  emoji     String?
+  image     String?
+  note      String?
+  topic     String
+  source    String      @default("core")
+  users     UserItem[]
+  logs      ReviewLog[]
+
+  @@unique([type, en])
+  @@index([level, order])
+}
+
+// card = ts-fsrs Card as JSON; due/state/stability copied out for querying
+model UserItem {
+  userId    String
+  itemId    Int
+  card      Json
+  due       DateTime
+  state     Int
+  stability Float
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  item      Item     @relation(fields: [itemId], references: [id], onDelete: Cascade)
+
+  @@id([userId, itemId])
+  @@index([userId, due])
+}
+
+model ReviewLog {
+  id          String          @id @default(cuid())
+  userId      String
+  itemId      Int
+  correct     Boolean
+  ms          Int
+  points      Int
+  mode        String
+  challengeId String?
+  createdAt   DateTime        @default(now())
+  user        User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  item        Item            @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  challenge   DailyChallenge? @relation(fields: [challengeId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, challengeId, itemId])
+  @@index([userId, createdAt])
+}
+
+model DailyChallenge {
+  id      String      @id @default(cuid())
+  teamId  String
+  date    String // YYYY-MM-DD in APP_TZ
+  itemIds Int[]
+  team    Team        @relation(fields: [teamId], references: [id], onDelete: Cascade)
+  logs    ReviewLog[]
+
+  @@unique([teamId, date])
+}

@@ -1,0 +1,28 @@
+{
+  "topic": "Temel fiiller ve cümle kalıpları",
+  "items": [
+    {"type":"WORD","en":"have","tr":"sahip olmak, var","ipa":"/hæv/","pos":"verb","example":"I have a small car.","exampleTr":"Küçük bir arabam var.","emoji":"🤲","imageQuery":null,"note":"Türkçedeki 'var' karşılığıdır: I have = Bende var."},
+    {"type":"WORD","en":"want","tr":"istemek","ipa":"/wɒnt/","pos":"verb","example":"I want some water.","exampleTr":"Biraz su istiyorum.","emoji":"🙋","imageQuery":null,"note":null},
+    {"type":"WORD","en":"like","tr":"sevmek, hoşlanmak","ipa":"/laɪk/","pos":"verb","example":"I like your bag.","exampleTr":"Çantanı beğendim.","emoji":"👍","imageQuery":null,"note":null},
+    {"type":"WORD","en":"need","tr":"ihtiyacı olmak, gerekmek","ipa":"/niːd/","pos":"verb","example":"I need a break.","exampleTr":"Bir molaya ihtiyacım var.","emoji":"🆘","imageQuery":null,"note":null},
+    {"type":"WORD","en":"go","tr":"gitmek","ipa":"/ɡəʊ/","pos":"verb","example":"I go to work by bus.","exampleTr":"İşe otobüsle giderim.","emoji":"🚶","imageQuery":null,"note":null},
+    {"type":"WORD","en":"come","tr":"gelmek","ipa":"/kʌm/","pos":"verb","example":"Come here, please.","exampleTr":"Buraya gel lütfen.","emoji":"👋","imageQuery":null,"note":null},
+    {"type":"SENTENCE","en":"I'd like a coffee, please.","tr":"Bir kahve istiyorum lütfen.","ipa":null,"pos":null,"example":"I'd like a coffee, please.","exampleTr":"Bir kahve istiyorum lütfen.","emoji":"☕","imageQuery":null,"note":"'I want' sert kaçabilir; sipariş ve isteklerde 'I'd like' kullan."},
+    {"type":"WORD","en":"know","tr":"bilmek, tanımak","ipa":"/nəʊ/","pos":"verb","example":"I don't know his name.","exampleTr":"Adını bilmiyorum.","emoji":"💡","imageQuery":null,"note":null},
+    {"type":"CHUNK","en":"I don't know.","tr":"Bilmiyorum.","ipa":null,"pos":null,"example":"I don't know. Let me ask.","exampleTr":"Bilmiyorum. Bir sorayım.","emoji":"🤷","imageQuery":null,"note":null},
+    {"type":"WORD","en":"can","tr":"-ebilmek, yapabilmek","ipa":"/kæn/","pos":"verb","example":"I can swim.","exampleTr":"Yüzebilirim.","emoji":"💪","imageQuery":null,"note":"Olumsuzu: can't (/kɑːnt/). Fiilin başına 'to' gelmez."},
+    {"type":"SENTENCE","en":"Can I sit here?","tr":"Buraya oturabilir miyim?","ipa":null,"pos":null,"example":"Can I sit here?","exampleTr":"Buraya oturabilir miyim?","emoji":"🪑","imageQuery":null,"note":"Can I...? = izin isteme kalıbı."},
+    {"type":"SENTENCE","en":"Can you help me?","tr":"Bana yardım edebilir misin?","ipa":null,"pos":null,"example":"Can you help me with this?","exampleTr":"Bu konuda bana yardım edebilir misin?","emoji":"🙏","imageQuery":null,"note":"Can you...? = rica kalıbı."},
+    {"type":"WORD","en":"see","tr":"görmek","ipa":"/siː/","pos":"verb","example":"I can see the sea.","exampleTr":"Denizi görebiliyorum.","emoji":"👀","imageQuery":null,"note":null},
+    {"type":"PHRASAL","en":"look at","tr":"bakmak","ipa":"/lʊk æt/","pos":null,"example":"Look at this photo!","exampleTr":"Şu fotoğrafa bak!","emoji":"👀","imageQuery":null,"note":null},
+    {"type":"SENTENCE","en":"There is a shop near here.","tr":"Buraya yakın bir dükkan var.","ipa":null,"pos":null,"example":"There is a shop near here.","exampleTr":"Buraya yakın bir dükkan var.","emoji":"📍","imageQuery":null,"note":"Tek şey için 'There is', birden fazlası için 'There are'."},
+    {"type":"SENTENCE","en":"There are two chairs.","tr":"İki tane sandalye var.","ipa":null,"pos":null,"example":"There are two chairs in the room.","exampleTr":"Odada iki sandalye var.","emoji":"🪑","imageQuery":null,"note":null},
+    {"type":"SENTENCE","en":"Is there a bank near here?","tr":"Buralarda banka var mı?","ipa":null,"pos":null,"example":"Is there a bank near here?","exampleTr":"Buralarda banka var mı?","emoji":"🏦","imageQuery":null,"note":null},
+    {"type":"SENTENCE","en":"I'm going to call him.","tr":"Onu arayacağım.","ipa":null,"pos":null,"example":"I'm going to call him later.","exampleTr":"Onu sonra arayacağım.","emoji":"📞","imageQuery":null,"note":"am/is/are going to + fiil = yakın plan, niyet."},
+    {"type":"SENTENCE","en":"I'm going to have lunch.","tr":"Öğle yemeği yiyeceğim.","ipa":null,"pos":null,"example":"I'm going to have lunch now.","exampleTr":"Şimdi öğle yemeği yiyeceğim.","emoji":"🍽️","imageQuery":null,"note":null},
+    {"type":"SENTENCE","en":"Do you like coffee?","tr":"Kahveyi sever misin?","ipa":null,"pos":null,"example":"Do you like coffee?","exampleTr":"Kahveyi sever misin?","emoji":"☕","imageQuery":null,"note":"Soru: Do/Does + özne + fiil. Cevap: Yes, I do. / No, I don't."},
+    {"type":"SENTENCE","en":"Do you have a pen?","tr":"Kalemin var mı?","ipa":null,"pos":null,"example":"Do you have a pen?","exampleTr":"Kalemin var mı?","emoji":"🖊️","imageQuery":null,"note":null},
+    {"type":"CHUNK","en":"I don't understand.","tr":"Anlamıyorum.","ipa":null,"pos":null,"example":"Sorry, I don't understand.","exampleTr":"Pardon, anlamıyorum.","emoji":"😕","imageQuery":null,"note":null},
+    {"type":"CHUNK","en":"I think so.","tr":"Sanırım öyle.","ipa":null,"pos":null,"example":"Is it open? I think so.","exampleTr":"Açık mı? Sanırım öyle.","emoji":"🤔","imageQuery":null,"note":null}
+  ]
+}

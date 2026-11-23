@@ -1,0 +1,26 @@
+{
+  "topic": "Hobiler ve boş zaman",
+  "items": [
+    {"type":"WORD","en":"hobby","tr":"hobi","ipa":"/ˈhɒbi/","pos":"noun","example":"My hobby is cooking.","exampleTr":"Hobim yemek yapmak.","emoji":"🎨","imageQuery":null,"note":null},
+    {"type":"CHUNK","en":"What do you do in your free time?","tr":"Boş zamanlarında ne yaparsın?","ipa":null,"pos":null,"example":"What do you do in your free time?","exampleTr":"Boş zamanlarında ne yaparsın?","emoji":"❓","imageQuery":null,"note":null},
+    {"type":"WORD","en":"music","tr":"müzik","ipa":"/ˈmjuːzɪk/","pos":"noun","example":"I listen to music on the bus.","exampleTr":"Otobüste müzik dinlerim.","emoji":"🎵","imageQuery":"music","note":null},
+    {"type":"WORD","en":"movie","tr":"film","ipa":"/ˈmuːvi/","pos":"noun","example":"Let's watch a movie tonight.","exampleTr":"Bu akşam bir film izleyelim.","emoji":"🎬","imageQuery":"movie","note":"İngiliz İngilizcesinde daha çok 'film' denir."},
+    {"type":"WORD","en":"watch","tr":"izlemek","ipa":"/wɒtʃ/","pos":"verb","example":"I watch TV after dinner.","exampleTr":"Akşam yemeğinden sonra televizyon izlerim.","emoji":"📺","imageQuery":null,"note":null},
+    {"type":"WORD","en":"listen","tr":"dinlemek","ipa":"/ˈlɪsn/","pos":"verb","example":"I listen to the radio.","exampleTr":"Radyo dinlerim.","emoji":"🎧","imageQuery":null,"note":"'listen to' + şey şeklinde kullanılır."},
+    {"type":"WORD","en":"read","tr":"okumak","ipa":"/riːd/","pos":"verb","example":"I read a book every week.","exampleTr":"Her hafta bir kitap okurum.","emoji":"📖","imageQuery":"reading book","note":null},
+    {"type":"WORD","en":"book","tr":"kitap","ipa":"/bʊk/","pos":"noun","example":"This book is very good.","exampleTr":"Bu kitap çok iyi.","emoji":"📚","imageQuery":"book","note":null},
+    {"type":"WORD","en":"game","tr":"oyun, maç","ipa":"/ɡeɪm/","pos":"noun","example":"I play games on my phone.","exampleTr":"Telefonumda oyun oynarım.","emoji":"🎮","imageQuery":"video game","note":null},
+    {"type":"WORD","en":"play","tr":"oynamak, çalmak","ipa":"/pleɪ/","pos":"verb","example":"We play football on Sundays.","exampleTr":"Pazar günleri futbol oynarız.","emoji":"⚽","imageQuery":null,"note":"Spor ve oyun için 'play', enstrüman için de 'play the guitar'."},
+    {"type":"WORD","en":"football","tr":"futbol","ipa":"/ˈfʊtbɔːl/","pos":"noun","example":"I love football.","exampleTr":"Futbolu çok severim.","emoji":"⚽","imageQuery":"football","note":null},
+    {"type":"WORD","en":"swim","tr":"yüzmek","ipa":"/swɪm/","pos":"verb","example":"I swim on Saturdays.","exampleTr":"Cumartesi günleri yüzerim.","emoji":"🏊","imageQuery":"swimming","note":null},
+    {"type":"WORD","en":"run","tr":"koşmak","ipa":"/rʌn/","pos":"verb","example":"I run in the park.","exampleTr":"Parkta koşarım.","emoji":"🏃","imageQuery":"running","note":null},
+    {"type":"WORD","en":"cook","tr":"yemek yapmak","ipa":"/kʊk/","pos":"verb","example":"I like to cook on weekends.","exampleTr":"Hafta sonları yemek yapmayı severim.","emoji":"🍳","imageQuery":"cooking","note":null},
+    {"type":"WORD","en":"dance","tr":"dans etmek","ipa":"/dɑːns/","pos":"verb","example":"She loves to dance.","exampleTr":"Dans etmeyi çok sever.","emoji":"💃","imageQuery":"dancing","note":null},
+    {"type":"WORD","en":"photo","tr":"fotoğraf","ipa":"/ˈfəʊtəʊ/","pos":"noun","example":"I take a lot of photos.","exampleTr":"Çok fotoğraf çekerim.","emoji":"📷","imageQuery":"photo camera","note":null},
+    {"type":"CHUNK","en":"I like playing games.","tr":"Oyun oynamayı severim.","ipa":null,"pos":null,"example":"I like playing games with my friends.","exampleTr":"Arkadaşlarımla oyun oynamayı severim.","emoji":"🎮","imageQuery":null,"note":"like + fiil-ing kalıbı."},
+    {"type":"CHUNK","en":"Do you want to come?","tr":"Gelmek ister misin?","ipa":null,"pos":null,"example":"We're going to the cinema. Do you want to come?","exampleTr":"Sinemaya gidiyoruz. Gelmek ister misin?","emoji":"🎟️","imageQuery":null,"note":null},
+    {"type":"CHUNK","en":"Let's go to the cinema.","tr":"Hadi sinemaya gidelim.","ipa":null,"pos":null,"example":"Let's go to the cinema tonight.","exampleTr":"Hadi bu akşam sinemaya gidelim.","emoji":"🍿","imageQuery":null,"note":"Let's + fiil = ...-elim, öneri kalıbı."},
+    {"type":"CHUNK","en":"I'm into music.","tr":"Müziğe meraklıyım.","ipa":null,"pos":null,"example":"I'm really into music.","exampleTr":"Müziğe gerçekten meraklıyım.","emoji":"🎶","imageQuery":null,"note":"Günlük konuşmada 'be into' = ilgi duymak."},
+    {"type":"SENTENCE","en":"I like swimming, but I don't like running.","tr":"Yüzmeyi severim ama koşmayı sevmem.","ipa":null,"pos":null,"example":"I like swimming, but I don't like running.","exampleTr":"Yüzmeyi severim ama koşmayı sevmem.","emoji":"👍","imageQuery":null,"note":null}
+  ]
+}

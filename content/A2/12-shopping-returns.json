@@ -1,0 +1,28 @@
+{
+  "topic": "Alışverişte sorunlar ve iade",
+  "items": [
+    {"type":"WORD","en":"receipt","tr":"fiş, makbuz","ipa":"/rɪˈsiːt/","pos":"noun","example":"Keep the receipt in case you need it.","exampleTr":"Gerekirse diye fişi sakla.","emoji":"🧾","imageQuery":"receipt","note":null},
+    {"type":"WORD","en":"refund","tr":"para iadesi","ipa":"/ˈriːfʌnd/","pos":"noun","example":"I'd like a refund, please.","exampleTr":"Para iadesi istiyorum lütfen.","emoji":"💵","imageQuery":null,"note":null},
+    {"type":"CHUNK","en":"I'd like a refund, please.","tr":"Para iadesi istiyorum, lütfen.","ipa":null,"pos":null,"example":"It's broken. I'd like a refund, please.","exampleTr":"Bozuk. Para iadesi istiyorum, lütfen.","emoji":"🙋","imageQuery":null,"note":null},
+    {"type":"WORD","en":"return","tr":"iade etmek","ipa":"/rɪˈtɜːn/","pos":"verb","example":"Can I return this jacket?","exampleTr":"Bu ceketi iade edebilir miyim?","emoji":"↩️","imageQuery":null,"note":null},
+    {"type":"WORD","en":"exchange","tr":"değiştirmek","ipa":"/ɪksˈtʃeɪndʒ/","pos":"verb","example":"Can I exchange this for a bigger size?","exampleTr":"Bunu daha büyük bir bedenle değiştirebilir miyim?","emoji":"🔄","imageQuery":null,"note":null},
+    {"type":"CHUNK","en":"Do you have the receipt?","tr":"Fişiniz var mı?","ipa":null,"pos":null,"example":"Sorry, do you have the receipt?","exampleTr":"Kusura bakmayın, fişiniz var mı?","emoji":"❓","imageQuery":null,"note":"İade sırasında kasada en çok duyacağın soru."},
+    {"type":"WORD","en":"faulty","tr":"arızalı, kusurlu","ipa":"/ˈfɔːlti/","pos":"adjective","example":"The hairdryer is faulty.","exampleTr":"Saç kurutma makinesi arızalı.","emoji":"⚠️","imageQuery":null,"note":null},
+    {"type":"WORD","en":"damaged","tr":"hasarlı, zarar görmüş","ipa":"/ˈdæmɪdʒd/","pos":"adjective","example":"The box was damaged when it arrived.","exampleTr":"Kutu geldiğinde hasarlıydı.","emoji":"📦","imageQuery":"damaged box","note":null},
+    {"type":"CHUNK","en":"It doesn't work.","tr":"Çalışmıyor.","ipa":null,"pos":null,"example":"I bought this yesterday, but it doesn't work.","exampleTr":"Bunu dün aldım ama çalışmıyor.","emoji":"🔌","imageQuery":null,"note":null},
+    {"type":"CHUNK","en":"There's a problem with this.","tr":"Bununla ilgili bir sorun var.","ipa":null,"pos":null,"example":"Excuse me, there's a problem with this.","exampleTr":"Affedersiniz, bununla ilgili bir sorun var.","emoji":"🙁","imageQuery":null,"note":null},
+    {"type":"WORD","en":"fit","tr":"üstüne oturmak, beden uymak","ipa":"/fɪt/","pos":"verb","example":"These trousers don't fit me.","exampleTr":"Bu pantolon bana olmadı.","emoji":"📏","imageQuery":null,"note":null},
+    {"type":"CHUNK","en":"It doesn't fit.","tr":"Olmadı, üstüme olmuyor.","ipa":null,"pos":null,"example":"I love it, but it doesn't fit.","exampleTr":"Bayıldım ama üstüme olmadı.","emoji":"👖","imageQuery":null,"note":null},
+    {"type":"PHRASAL","en":"try on","tr":"denemek (giysi)","ipa":"/traɪ ɒn/","pos":null,"example":"Can I try this on?","exampleTr":"Bunu deneyebilir miyim?","emoji":"👗","imageQuery":"trying on clothes","note":null},
+    {"type":"PHRASAL","en":"take back","tr":"geri götürmek, iade etmek","ipa":"/teɪk bæk/","pos":null,"example":"I'm going to take this back to the shop.","exampleTr":"Bunu mağazaya geri götüreceğim.","emoji":"🛍️","imageQuery":null,"note":null},
+    {"type":"CHUNK","en":"Do you have a smaller size?","tr":"Daha küçük bir bedeni var mı?","ipa":null,"pos":null,"example":"Do you have a smaller size in blue?","exampleTr":"Mavide daha küçük bir beden var mı?","emoji":"📐","imageQuery":null,"note":null},
+    {"type":"CHUNK","en":"It's out of stock.","tr":"Stokta yok.","ipa":null,"pos":null,"example":"Sorry, that colour is out of stock.","exampleTr":"Üzgünüm, o renk stokta yok.","emoji":"📭","imageQuery":null,"note":null},
+    {"type":"WORD","en":"discount","tr":"indirim","ipa":"/ˈdɪskaʊnt/","pos":"noun","example":"Is there a discount for students?","exampleTr":"Öğrencilere indirim var mı?","emoji":"🏷️","imageQuery":null,"note":null},
+    {"type":"CHUNK","en":"Is it on sale?","tr":"İndirimde mi?","ipa":null,"pos":null,"example":"Is this jacket on sale?","exampleTr":"Bu ceket indirimde mi?","emoji":"🛒","imageQuery":null,"note":null},
+    {"type":"WORD","en":"bargain","tr":"kelepir, ucuz fırsat","ipa":"/ˈbɑːɡɪn/","pos":"noun","example":"These shoes were a real bargain.","exampleTr":"Bu ayakkabılar tam bir kelepirdi.","emoji":"🤑","imageQuery":null,"note":null},
+    {"type":"WORD","en":"warranty","tr":"garanti","ipa":"/ˈwɒrənti/","pos":"noun","example":"It still has a two-year warranty.","exampleTr":"İki yıllık garantisi hâlâ var.","emoji":"📃","imageQuery":null,"note":"Günlük konuşmada 'guarantee' de kullanılır."},
+    {"type":"WORD","en":"missing","tr":"eksik, kayıp","ipa":"/ˈmɪsɪŋ/","pos":"adjective","example":"One of the buttons is missing.","exampleTr":"Düğmelerden biri eksik.","emoji":"🔍","imageQuery":null,"note":null},
+    {"type":"WORD","en":"complain","tr":"şikayet etmek","ipa":"/kəmˈpleɪn/","pos":"verb","example":"I want to complain about the service.","exampleTr":"Hizmetle ilgili şikayette bulunmak istiyorum.","emoji":"😠","imageQuery":null,"note":null},
+    {"type":"CHUNK","en":"I'd like to speak to the manager.","tr":"Müdürle görüşmek istiyorum.","ipa":null,"pos":null,"example":"Excuse me, I'd like to speak to the manager.","exampleTr":"Affedersiniz, müdürle görüşmek istiyorum.","emoji":"🧑‍💼","imageQuery":null,"note":"Kibar ama kararlı bir ifade."}
+  ]
+}

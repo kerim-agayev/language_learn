@@ -1,0 +1,28 @@
+{
+  "topic": "Sayılar, saat ve günler",
+  "items": [
+    {"type":"WORD","en":"one","tr":"bir","ipa":"/wʌn/","pos":"determiner","example":"I have one brother.","exampleTr":"Bir erkek kardeşim var.","emoji":"1️⃣","imageQuery":null,"note":null},
+    {"type":"WORD","en":"two","tr":"iki","ipa":"/tuː/","pos":"determiner","example":"Two coffees, please.","exampleTr":"İki kahve, lütfen.","emoji":"2️⃣","imageQuery":null,"note":null},
+    {"type":"WORD","en":"three","tr":"üç","ipa":"/θriː/","pos":"determiner","example":"I'll be there in three minutes.","exampleTr":"Üç dakikaya orada olurum.","emoji":"3️⃣","imageQuery":null,"note":"'th' sesi için dilini dişlerin arasına koy."},
+    {"type":"WORD","en":"four","tr":"dört","ipa":"/fɔː/","pos":"determiner","example":"We are four people.","exampleTr":"Biz dört kişiyiz.","emoji":"4️⃣","imageQuery":null,"note":null},
+    {"type":"WORD","en":"five","tr":"beş","ipa":"/faɪv/","pos":"determiner","example":"Wait five minutes, please.","exampleTr":"Lütfen beş dakika bekle.","emoji":"5️⃣","imageQuery":null,"note":null},
+    {"type":"WORD","en":"six","tr":"altı","ipa":"/sɪks/","pos":"determiner","example":"It's six o'clock.","exampleTr":"Saat altı.","emoji":"6️⃣","imageQuery":null,"note":null},
+    {"type":"WORD","en":"seven","tr":"yedi","ipa":"/ˈsevn/","pos":"determiner","example":"I get up at seven.","exampleTr":"Yedide kalkarım.","emoji":"7️⃣","imageQuery":null,"note":null},
+    {"type":"WORD","en":"eight","tr":"sekiz","ipa":"/eɪt/","pos":"determiner","example":"The film starts at eight.","exampleTr":"Film sekizde başlıyor.","emoji":"8️⃣","imageQuery":null,"note":null},
+    {"type":"WORD","en":"nine","tr":"dokuz","ipa":"/naɪn/","pos":"determiner","example":"I have nine messages.","exampleTr":"Dokuz mesajım var.","emoji":"9️⃣","imageQuery":null,"note":null},
+    {"type":"WORD","en":"ten","tr":"on","ipa":"/ten/","pos":"determiner","example":"It's ten minutes from here.","exampleTr":"Buradan on dakika.","emoji":"🔟","imageQuery":null,"note":null},
+    {"type":"WORD","en":"twenty","tr":"yirmi","ipa":"/ˈtwenti/","pos":"determiner","example":"I'm twenty years old.","exampleTr":"Yirmi yaşındayım.","emoji":"2️⃣0️⃣","imageQuery":null,"note":null},
+    {"type":"WORD","en":"hundred","tr":"yüz","ipa":"/ˈhʌndrəd/","pos":"determiner","example":"There are a hundred people here.","exampleTr":"Burada yüz kişi var.","emoji":"💯","imageQuery":null,"note":null},
+    {"type":"WORD","en":"time","tr":"saat, zaman","ipa":"/taɪm/","pos":"noun","example":"I don't have time now.","exampleTr":"Şu an vaktim yok.","emoji":"⏰","imageQuery":"clock","note":null},
+    {"type":"CHUNK","en":"What time is it?","tr":"Saat kaç?","ipa":null,"pos":null,"example":"Excuse me, what time is it?","exampleTr":"Affedersiniz, saat kaç?","emoji":"🕒","imageQuery":null,"note":null},
+    {"type":"SENTENCE","en":"It's five o'clock.","tr":"Saat beş.","ipa":null,"pos":null,"example":"It's five o'clock. Let's go home.","exampleTr":"Saat beş. Hadi eve gidelim.","emoji":"🕔","imageQuery":null,"note":"Tam saatlerde 'o'clock' kullanılır."},
+    {"type":"WORD","en":"now","tr":"şimdi","ipa":"/naʊ/","pos":"adverb","example":"I'm busy now.","exampleTr":"Şu an meşgulüm.","emoji":"⏱️","imageQuery":null,"note":null},
+    {"type":"WORD","en":"today","tr":"bugün","ipa":"/təˈdeɪ/","pos":"adverb","example":"Today is a good day.","exampleTr":"Bugün güzel bir gün.","emoji":"📅","imageQuery":null,"note":null},
+    {"type":"WORD","en":"tomorrow","tr":"yarın","ipa":"/təˈmɒrəʊ/","pos":"adverb","example":"See you tomorrow!","exampleTr":"Yarın görüşürüz!","emoji":"➡️","imageQuery":null,"note":null},
+    {"type":"WORD","en":"yesterday","tr":"dün","ipa":"/ˈjestədeɪ/","pos":"adverb","example":"I called you yesterday.","exampleTr":"Seni dün aradım.","emoji":"⬅️","imageQuery":null,"note":null},
+    {"type":"WORD","en":"day","tr":"gün","ipa":"/deɪ/","pos":"noun","example":"Have a nice day!","exampleTr":"İyi günler!","emoji":"☀️","imageQuery":null,"note":null},
+    {"type":"WORD","en":"week","tr":"hafta","ipa":"/wiːk/","pos":"noun","example":"See you next week.","exampleTr":"Haftaya görüşürüz.","emoji":"🗓️","imageQuery":"calendar","note":null},
+    {"type":"WORD","en":"Monday","tr":"pazartesi","ipa":"/ˈmʌndeɪ/","pos":"noun","example":"I'm free on Monday.","exampleTr":"Pazartesi boşum.","emoji":"📆","imageQuery":null,"note":"Gün adları İngilizce'de her zaman büyük harfle yazılır."},
+    {"type":"WORD","en":"weekend","tr":"hafta sonu","ipa":"/ˌwiːkˈend/","pos":"noun","example":"What are you doing this weekend?","exampleTr":"Bu hafta sonu ne yapıyorsun?","emoji":"🎉","imageQuery":null,"note":null}
+  ]
+}

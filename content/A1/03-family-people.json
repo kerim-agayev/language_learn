@@ -1,0 +1,27 @@
+{
+  "topic": "Aile ve insanlar",
+  "items": [
+    {"type":"WORD","en":"family","tr":"aile","ipa":"/ˈfæməli/","pos":"noun","example":"I have a small family.","exampleTr":"Küçük bir ailem var.","emoji":"👨‍👩‍👧‍👦","imageQuery":"family","note":null},
+    {"type":"WORD","en":"mother","tr":"anne","ipa":"/ˈmʌðə/","pos":"noun","example":"My mother is a teacher.","exampleTr":"Annem öğretmen.","emoji":"👩","imageQuery":null,"note":"Günlük konuşmada 'mum' denir."},
+    {"type":"WORD","en":"father","tr":"baba","ipa":"/ˈfɑːðə/","pos":"noun","example":"My father is at home.","exampleTr":"Babam evde.","emoji":"👨","imageQuery":null,"note":"Günlük konuşmada 'dad' denir."},
+    {"type":"WORD","en":"mum","tr":"anne (günlük)","ipa":"/mʌm/","pos":"noun","example":"Mum, I'm home!","exampleTr":"Anne, ben geldim!","emoji":"👩","imageQuery":null,"note":"İngiltere'de 'mum', ABD'de 'mom'."},
+    {"type":"WORD","en":"dad","tr":"baba (günlük)","ipa":"/dæd/","pos":"noun","example":"My dad likes football.","exampleTr":"Babam futbolu sever.","emoji":"👨","imageQuery":null,"note":null},
+    {"type":"WORD","en":"brother","tr":"erkek kardeş, abi","ipa":"/ˈbrʌðə/","pos":"noun","example":"My brother lives in Izmir.","exampleTr":"Kardeşim İzmir'de yaşıyor.","emoji":"👦","imageQuery":null,"note":"İngilizce'de abi/kardeş ayrımı yok; ikisi de 'brother'."},
+    {"type":"WORD","en":"sister","tr":"kız kardeş, abla","ipa":"/ˈsɪstə/","pos":"noun","example":"My sister is very kind.","exampleTr":"Ablam çok nazik.","emoji":"👧","imageQuery":null,"note":"Abla/kız kardeş ayrımı yok; ikisi de 'sister'."},
+    {"type":"SENTENCE","en":"I have a brother.","tr":"Bir erkek kardeşim var.","ipa":null,"pos":null,"example":"I have a brother and a sister.","exampleTr":"Bir erkek kardeşim ve bir kız kardeşim var.","emoji":"👫","imageQuery":null,"note":"'I have + isim' ile sahip olduğun şeyi söylersin."},
+    {"type":"WORD","en":"son","tr":"oğul, oğlum","ipa":"/sʌn/","pos":"noun","example":"My son is five years old.","exampleTr":"Oğlum beş yaşında.","emoji":"👦","imageQuery":null,"note":null},
+    {"type":"WORD","en":"daughter","tr":"kız evlat, kızım","ipa":"/ˈdɔːtə/","pos":"noun","example":"My daughter loves music.","exampleTr":"Kızım müziği çok sever.","emoji":"👧","imageQuery":null,"note":"'gh' okunmaz."},
+    {"type":"WORD","en":"wife","tr":"eş (kadın), karım","ipa":"/waɪf/","pos":"noun","example":"This is my wife, Elif.","exampleTr":"Bu eşim, Elif.","emoji":"👰","imageQuery":null,"note":null},
+    {"type":"WORD","en":"husband","tr":"eş (erkek), kocam","ipa":"/ˈhʌzbənd/","pos":"noun","example":"My husband cooks well.","exampleTr":"Eşim iyi yemek yapar.","emoji":"🤵","imageQuery":null,"note":null},
+    {"type":"WORD","en":"baby","tr":"bebek","ipa":"/ˈbeɪbi/","pos":"noun","example":"The baby is sleeping.","exampleTr":"Bebek uyuyor.","emoji":"👶","imageQuery":"baby","note":null},
+    {"type":"WORD","en":"child","tr":"çocuk","ipa":"/tʃaɪld/","pos":"noun","example":"She has one child.","exampleTr":"Bir çocuğu var.","emoji":"🧒","imageQuery":"child","note":"Çoğulu düzensiz: children."},
+    {"type":"WORD","en":"man","tr":"adam, erkek","ipa":"/mæn/","pos":"noun","example":"That man is my teacher.","exampleTr":"O adam benim öğretmenim.","emoji":"👨","imageQuery":"man","note":"Çoğulu: men."},
+    {"type":"WORD","en":"woman","tr":"kadın","ipa":"/ˈwʊmən/","pos":"noun","example":"The woman is my neighbour.","exampleTr":"O kadın komşum.","emoji":"👩","imageQuery":"woman","note":"Çoğulu: women (/ˈwɪmɪn/)."},
+    {"type":"WORD","en":"boy","tr":"erkek çocuk","ipa":"/bɔɪ/","pos":"noun","example":"The boy is playing outside.","exampleTr":"Erkek çocuk dışarıda oynuyor.","emoji":"👦","imageQuery":"boy","note":null},
+    {"type":"WORD","en":"girl","tr":"kız çocuğu, kız","ipa":"/ɡɜːl/","pos":"noun","example":"The girl is reading a book.","exampleTr":"Kız çocuğu kitap okuyor.","emoji":"👧","imageQuery":"girl","note":null},
+    {"type":"WORD","en":"people","tr":"insanlar, kişiler","ipa":"/ˈpiːpl/","pos":"noun","example":"There are many people here.","exampleTr":"Burada çok insan var.","emoji":"👥","imageQuery":"people","note":"'People' çoğul kabul edilir: people are, people have."},
+    {"type":"CHUNK","en":"How old are you?","tr":"Kaç yaşındasın?","ipa":null,"pos":null,"example":"How old are you, Emma?","exampleTr":"Kaç yaşındasın, Emma?","emoji":"🎂","imageQuery":null,"note":"Cevap: 'I'm thirty.' ('years old' demek şart değil)."},
+    {"type":"SENTENCE","en":"This is my sister.","tr":"Bu benim kız kardeşim.","ipa":null,"pos":null,"example":"This is my sister, Zeynep.","exampleTr":"Bu kız kardeşim, Zeynep.","emoji":"🤝","imageQuery":null,"note":"Biri ile tanıştırırken 'This is...' denir."},
+    {"type":"WORD","en":"parents","tr":"anne baba, ebeveynler","ipa":"/ˈpeərənts/","pos":"noun","example":"My parents live in Bursa.","exampleTr":"Annem babam Bursa'da yaşıyor.","emoji":"👫","imageQuery":null,"note":"Türkçedeki 'anne baba' karşılığı tek kelime: parents."}
+  ]
+}

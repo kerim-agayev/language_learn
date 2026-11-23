@@ -1,0 +1,25 @@
+{
+  "topic": "Günlük rutin",
+  "items": [
+    {"type":"PHRASAL","en":"wake up","tr":"uyanmak","ipa":"/weɪk ʌp/","pos":null,"example":"I wake up at six.","exampleTr":"Altıda uyanırım.","emoji":"⏰","imageQuery":null,"note":null},
+    {"type":"PHRASAL","en":"get up","tr":"kalkmak (yataktan)","ipa":"/ɡet ʌp/","pos":null,"example":"I get up at seven.","exampleTr":"Yedide kalkarım.","emoji":"🛏️","imageQuery":null,"note":"'wake up' uyanmak, 'get up' yataktan kalkmaktır."},
+    {"type":"SENTENCE","en":"I get up at seven.","tr":"Saat yedide kalkarım.","ipa":null,"pos":null,"example":"On Mondays I get up at six.","exampleTr":"Pazartesileri altıda kalkarım.","emoji":"🌄","imageQuery":null,"note":"Saat için 'at' kullanılır."},
+    {"type":"CHUNK","en":"take a shower","tr":"duş almak","ipa":null,"pos":null,"example":"I take a shower every morning.","exampleTr":"Her sabah duş alırım.","emoji":"🚿","imageQuery":null,"note":null},
+    {"type":"CHUNK","en":"brush my teeth","tr":"dişlerimi fırçalamak","ipa":null,"pos":null,"example":"I brush my teeth twice a day.","exampleTr":"Günde iki kez dişlerimi fırçalarım.","emoji":"🪥","imageQuery":"toothbrush","note":null},
+    {"type":"WORD","en":"wash","tr":"yıkamak","ipa":"/wɒʃ/","pos":"verb","example":"Wash your hands before lunch.","exampleTr":"Öğle yemeğinden önce ellerini yıka.","emoji":"🧼","imageQuery":"washing hands","note":null},
+    {"type":"CHUNK","en":"get dressed","tr":"giyinmek","ipa":null,"pos":null,"example":"I get dressed and have breakfast.","exampleTr":"Giyinirim ve kahvaltı ederim.","emoji":"👕","imageQuery":null,"note":null},
+    {"type":"CHUNK","en":"have breakfast","tr":"kahvaltı etmek","ipa":null,"pos":null,"example":"I have breakfast at home.","exampleTr":"Kahvaltıyı evde ederim.","emoji":"🍳","imageQuery":null,"note":"'eat breakfast' de denir ama 'have' daha doğal."},
+    {"type":"WORD","en":"morning","tr":"sabah","ipa":"/ˈmɔːnɪŋ/","pos":"noun","example":"I'm busy in the morning.","exampleTr":"Sabahları meşgulüm.","emoji":"🌅","imageQuery":null,"note":"'in the morning' kalıbı kullanılır."},
+    {"type":"WORD","en":"afternoon","tr":"öğleden sonra","ipa":"/ˌɑːftəˈnuːn/","pos":"noun","example":"I'm free in the afternoon.","exampleTr":"Öğleden sonra boşum.","emoji":"🌤️","imageQuery":null,"note":null},
+    {"type":"WORD","en":"evening","tr":"akşam","ipa":"/ˈiːvnɪŋ/","pos":"noun","example":"I watch TV in the evening.","exampleTr":"Akşamları televizyon izlerim.","emoji":"🌆","imageQuery":"evening","note":null},
+    {"type":"WORD","en":"night","tr":"gece","ipa":"/naɪt/","pos":"noun","example":"I sleep eight hours at night.","exampleTr":"Geceleri sekiz saat uyurum.","emoji":"🌙","imageQuery":"night","note":null},
+    {"type":"CHUNK","en":"every day","tr":"her gün","ipa":null,"pos":null,"example":"I drink coffee every day.","exampleTr":"Her gün kahve içerim.","emoji":"🔁","imageQuery":null,"note":null},
+    {"type":"WORD","en":"always","tr":"her zaman","ipa":"/ˈɔːlweɪz/","pos":"adverb","example":"I always have tea in the morning.","exampleTr":"Sabahları her zaman çay içerim.","emoji":"♾️","imageQuery":null,"note":"Ana fiilden önce gelir."},
+    {"type":"WORD","en":"usually","tr":"genellikle","ipa":"/ˈjuːʒuəli/","pos":"adverb","example":"I usually go to bed at eleven.","exampleTr":"Genellikle on birde yatarım.","emoji":"📊","imageQuery":null,"note":null},
+    {"type":"WORD","en":"early","tr":"erken","ipa":"/ˈɜːli/","pos":"adverb","example":"I get up early.","exampleTr":"Erken kalkarım.","emoji":"🐓","imageQuery":null,"note":null},
+    {"type":"WORD","en":"late","tr":"geç","ipa":"/leɪt/","pos":"adverb","example":"Sorry, I'm late!","exampleTr":"Özür dilerim, geç kaldım!","emoji":"🏃","imageQuery":null,"note":"'I'm late' = geç kaldım."},
+    {"type":"CHUNK","en":"go home","tr":"eve gitmek","ipa":null,"pos":null,"example":"I go home at six.","exampleTr":"Altıda eve giderim.","emoji":"🚶","imageQuery":null,"note":"'to' kullanılmaz: go home (go to home yanlış)."},
+    {"type":"CHUNK","en":"go to bed","tr":"yatmak","ipa":null,"pos":null,"example":"I go to bed at eleven.","exampleTr":"On birde yatarım.","emoji":"😴","imageQuery":null,"note":null},
+    {"type":"WORD","en":"sleep","tr":"uyumak","ipa":"/sliːp/","pos":"verb","example":"I sleep eight hours a night.","exampleTr":"Geceleri sekiz saat uyurum.","emoji":"💤","imageQuery":"sleeping","note":null}
+  ]
+}

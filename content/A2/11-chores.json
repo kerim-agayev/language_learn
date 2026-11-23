@@ -1,0 +1,27 @@
+{
+  "topic": "Ev işleri",
+  "items": [
+    {"type":"WORD","en":"chore","tr":"ev işi, angarya iş","ipa":"/tʃɔː/","pos":"noun","example":"I hate doing chores on Sunday.","exampleTr":"Pazar günü ev işi yapmaktan nefret ediyorum.","emoji":"🧹","imageQuery":null,"note":null},
+    {"type":"WORD","en":"housework","tr":"ev işleri","ipa":"/ˈhaʊswɜːk/","pos":"noun","example":"We share the housework.","exampleTr":"Ev işlerini paylaşıyoruz.","emoji":"🏠","imageQuery":null,"note":"Sayılamaz isim: 'a housework' denmez."},
+    {"type":"WORD","en":"laundry","tr":"çamaşır","ipa":"/ˈlɔːndri/","pos":"noun","example":"I have a lot of laundry to do.","exampleTr":"Yıkanacak bir sürü çamaşırım var.","emoji":"🧺","imageQuery":"laundry","note":null},
+    {"type":"CHUNK","en":"do the laundry","tr":"çamaşır yıkamak","ipa":null,"pos":null,"example":"I do the laundry every Saturday.","exampleTr":"Her cumartesi çamaşır yıkarım.","emoji":"👕","imageQuery":null,"note":"'wash the clothes' da denir ama 'do the laundry' daha doğal."},
+    {"type":"WORD","en":"rubbish","tr":"çöp","ipa":"/ˈrʌbɪʃ/","pos":"noun","example":"There's too much rubbish in the kitchen.","exampleTr":"Mutfakta çok fazla çöp var.","emoji":"🗑️","imageQuery":"rubbish bin","note":"Amerikan İngilizcesi: trash / garbage."},
+    {"type":"CHUNK","en":"take out the rubbish","tr":"çöpü çıkarmak","ipa":null,"pos":null,"example":"Can you take out the rubbish, please?","exampleTr":"Çöpü çıkarır mısın lütfen?","emoji":"🚮","imageQuery":null,"note":null},
+    {"type":"WORD","en":"bin","tr":"çöp kutusu","ipa":"/bɪn/","pos":"noun","example":"Put it in the bin.","exampleTr":"Onu çöp kutusuna at.","emoji":"🗑️","imageQuery":"bin","note":null},
+    {"type":"WORD","en":"tidy","tr":"derli toplu, düzenli","ipa":"/ˈtaɪdi/","pos":"adjective","example":"My room is always tidy.","exampleTr":"Odam hep derli toplu olur.","emoji":"✨","imageQuery":null,"note":null},
+    {"type":"PHRASAL","en":"tidy up","tr":"toparlamak, ortalığı düzeltmek","ipa":"/ˈtaɪdi ʌp/","pos":null,"example":"Let's tidy up before the guests arrive.","exampleTr":"Misafirler gelmeden önce toparlayalım.","emoji":"🧼","imageQuery":null,"note":null},
+    {"type":"WORD","en":"vacuum","tr":"elektrikli süpürgeyle temizlemek","ipa":"/ˈvækjuːm/","pos":"verb","example":"I vacuum the living room twice a week.","exampleTr":"Salonu haftada iki kez süpürürüm.","emoji":"🧹","imageQuery":"vacuum cleaner","note":"İsim hâli: vacuum cleaner."},
+    {"type":"WORD","en":"sweep","tr":"süpürmek (çalı süpürgesiyle)","ipa":"/swiːp/","pos":"verb","example":"Can you sweep the floor?","exampleTr":"Yeri süpürür müsün?","emoji":"🧹","imageQuery":"sweeping floor","note":null},
+    {"type":"WORD","en":"mop","tr":"paspas yapmak; paspas","ipa":"/mɒp/","pos":"verb","example":"I need to mop the kitchen floor.","exampleTr":"Mutfak zeminini paspaslamam lazım.","emoji":"🪣","imageQuery":"mop","note":null},
+    {"type":"WORD","en":"dust","tr":"toz almak; toz","ipa":"/dʌst/","pos":"verb","example":"I dust the shelves every week.","exampleTr":"Rafların tozunu her hafta alırım.","emoji":"🌫️","imageQuery":null,"note":null},
+    {"type":"WORD","en":"iron","tr":"ütülemek; ütü","ipa":"/ˈaɪən/","pos":"verb","example":"I have to iron my shirt for tomorrow.","exampleTr":"Yarın için gömleğimi ütülemem lazım.","emoji":"👔","imageQuery":"iron clothes","note":null},
+    {"type":"WORD","en":"fold","tr":"katlamak","ipa":"/fəʊld/","pos":"verb","example":"Could you fold the clean clothes?","exampleTr":"Temiz çamaşırları katlar mısın?","emoji":"👚","imageQuery":"folding clothes","note":null},
+    {"type":"CHUNK","en":"do the washing-up","tr":"bulaşık yıkamak","ipa":null,"pos":null,"example":"I'll do the washing-up after dinner.","exampleTr":"Akşam yemeğinden sonra bulaşıkları yıkarım.","emoji":"🍽️","imageQuery":null,"note":"İngiltere'de 'do the dishes' da denir."},
+    {"type":"WORD","en":"dishwasher","tr":"bulaşık makinesi","ipa":"/ˈdɪʃwɒʃə/","pos":"noun","example":"Put the plates in the dishwasher.","exampleTr":"Tabakları bulaşık makinesine koy.","emoji":"🫧","imageQuery":"dishwasher","note":null},
+    {"type":"CHUNK","en":"make the bed","tr":"yatağı toplamak","ipa":null,"pos":null,"example":"I make the bed every morning.","exampleTr":"Her sabah yatağımı toplarım.","emoji":"🛏️","imageQuery":"made bed","note":"'do the bed' denmez."},
+    {"type":"CHUNK","en":"It's your turn.","tr":"Sıra sende.","ipa":null,"pos":null,"example":"I did it yesterday. It's your turn today.","exampleTr":"Dün ben yaptım. Bugün sıra sende.","emoji":"👉","imageQuery":null,"note":null},
+    {"type":"CHUNK","en":"Can you give me a hand?","tr":"Bana yardım edebilir misin?","ipa":null,"pos":null,"example":"Can you give me a hand with the shopping bags?","exampleTr":"Alışveriş poşetlerinde bana yardım eder misin?","emoji":"🤲","imageQuery":null,"note":"'hand' = yardım, gündelik ve samimi."},
+    {"type":"PHRASAL","en":"wash up","tr":"bulaşık yıkamak (İngiltere)","ipa":"/wɒʃ ʌp/","pos":null,"example":"I cooked, so you can wash up.","exampleTr":"Ben yemek yaptım, bulaşığı sen yıka.","emoji":"🧽","imageQuery":null,"note":"Amerika'da 'wash up' el yüz yıkamak demektir."},
+    {"type":"SENTENCE","en":"I need to + verb: I need to clean the bathroom.","tr":"...yapmam lazım","ipa":null,"pos":null,"example":"I need to clean the bathroom today.","exampleTr":"Bugün banyoyu temizlemem lazım.","emoji":"🚿","imageQuery":null,"note":null}
+  ]
+}

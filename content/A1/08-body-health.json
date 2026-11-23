@@ -1,0 +1,27 @@
+{
+  "topic": "Vücut ve sağlık",
+  "items": [
+    {"type":"WORD","en":"head","tr":"baş, kafa","ipa":"/hed/","pos":"noun","example":"My head is cold.","exampleTr":"Başım üşüyor.","emoji":"🗣️","imageQuery":null,"note":null},
+    {"type":"WORD","en":"face","tr":"yüz","ipa":"/feɪs/","pos":"noun","example":"Wash your face.","exampleTr":"Yüzünü yıka.","emoji":"🙂","imageQuery":"face","note":null},
+    {"type":"WORD","en":"eye","tr":"göz","ipa":"/aɪ/","pos":"noun","example":"She has blue eyes.","exampleTr":"Mavi gözleri var.","emoji":"👁️","imageQuery":"eye","note":null},
+    {"type":"WORD","en":"ear","tr":"kulak","ipa":"/ɪə/","pos":"noun","example":"My ear hurts.","exampleTr":"Kulağım ağrıyor.","emoji":"👂","imageQuery":"ear","note":null},
+    {"type":"WORD","en":"nose","tr":"burun","ipa":"/nəʊz/","pos":"noun","example":"I have a cold nose.","exampleTr":"Burnum soğuk.","emoji":"👃","imageQuery":"nose","note":null},
+    {"type":"WORD","en":"mouth","tr":"ağız","ipa":"/maʊθ/","pos":"noun","example":"Open your mouth, please.","exampleTr":"Ağzını aç, lütfen.","emoji":"👄","imageQuery":"mouth","note":null},
+    {"type":"WORD","en":"hand","tr":"el","ipa":"/hænd/","pos":"noun","example":"Wash your hands first.","exampleTr":"Önce ellerini yıka.","emoji":"✋","imageQuery":"hand","note":null},
+    {"type":"WORD","en":"arm","tr":"kol","ipa":"/ɑːm/","pos":"noun","example":"My arm is tired.","exampleTr":"Kolum yoruldu.","emoji":"💪","imageQuery":"arm","note":null},
+    {"type":"WORD","en":"leg","tr":"bacak","ipa":"/leɡ/","pos":"noun","example":"My leg hurts.","exampleTr":"Bacağım ağrıyor.","emoji":"🦵","imageQuery":"leg","note":null},
+    {"type":"WORD","en":"foot","tr":"ayak","ipa":"/fʊt/","pos":"noun","example":"My left foot hurts.","exampleTr":"Sol ayağım ağrıyor.","emoji":"🦶","imageQuery":"foot","note":"Çoğulu düzensiz: feet."},
+    {"type":"WORD","en":"back","tr":"sırt, bel","ipa":"/bæk/","pos":"noun","example":"I have a bad back.","exampleTr":"Belim kötü.","emoji":"🔙","imageQuery":null,"note":null},
+    {"type":"WORD","en":"stomach","tr":"mide, karın","ipa":"/ˈstʌmək/","pos":"noun","example":"My stomach hurts.","exampleTr":"Karnım ağrıyor.","emoji":"🤢","imageQuery":null,"note":"'ch' burada /k/ okunur."},
+    {"type":"WORD","en":"hurt","tr":"ağrımak, acıtmak","ipa":"/hɜːt/","pos":"verb","example":"My back hurts.","exampleTr":"Sırtım ağrıyor.","emoji":"🤕","imageQuery":null,"note":"Türkçedeki 'ağrıyor' için 'hurts' kullanılır."},
+    {"type":"SENTENCE","en":"My head hurts.","tr":"Başım ağrıyor.","ipa":null,"pos":null,"example":"I'm going home. My head hurts.","exampleTr":"Eve gidiyorum. Başım ağrıyor.","emoji":"🤕","imageQuery":null,"note":"My + vücut bölümü + hurts."},
+    {"type":"CHUNK","en":"I have a headache","tr":"başım ağrıyor","ipa":null,"pos":null,"example":"Sorry, I have a headache.","exampleTr":"Kusura bakma, başım ağrıyor.","emoji":"😣","imageQuery":null,"note":"Aynı şekilde: stomachache, toothache."},
+    {"type":"WORD","en":"sick","tr":"hasta, midesi bulanan","ipa":"/sɪk/","pos":"adjective","example":"I'm sick today.","exampleTr":"Bugün hastayım.","emoji":"🤒","imageQuery":null,"note":"Britanya'da 'ill' de çok kullanılır."},
+    {"type":"CHUNK","en":"Are you OK?","tr":"İyi misin? Sorun yok mu?","ipa":null,"pos":null,"example":"You look pale. Are you OK?","exampleTr":"Rengin solgun. İyi misin?","emoji":"🤔","imageQuery":null,"note":null},
+    {"type":"CHUNK","en":"I don't feel well","tr":"kendimi iyi hissetmiyorum","ipa":null,"pos":null,"example":"I don't feel well. I'm going home.","exampleTr":"Kendimi iyi hissetmiyorum. Eve gidiyorum.","emoji":"🤧","imageQuery":null,"note":null},
+    {"type":"WORD","en":"doctor","tr":"doktor","ipa":"/ˈdɒktə/","pos":"noun","example":"I need to see a doctor.","exampleTr":"Doktora görünmem lazım.","emoji":"👩‍⚕️","imageQuery":"doctor","note":null},
+    {"type":"WORD","en":"medicine","tr":"ilaç","ipa":"/ˈmedsn/","pos":"noun","example":"Take this medicine twice a day.","exampleTr":"Bu ilacı günde iki kez al.","emoji":"💊","imageQuery":"medicine","note":"Okunuşu: 'med-sin' (ortadaki 'i' neredeyse okunmaz)."},
+    {"type":"WORD","en":"tooth","tr":"diş","ipa":"/tuːθ/","pos":"noun","example":"I have a bad tooth.","exampleTr":"Bir dişim kötü.","emoji":"🦷","imageQuery":"tooth","note":"Çoğulu düzensiz: teeth."},
+    {"type":"WORD","en":"healthy","tr":"sağlıklı","ipa":"/ˈhelθi/","pos":"adjective","example":"Fruit is healthy.","exampleTr":"Meyve sağlıklıdır.","emoji":"🥗","imageQuery":"healthy food","note":null}
+  ]
+}

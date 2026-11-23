@@ -1,0 +1,29 @@
+{
+  "topic": "Sık kullanılan phrasal verb'ler",
+  "items": [
+    {"type":"PHRASAL","en":"look for","tr":"aramak","ipa":"/lʊk fɔː/","pos":null,"example":"I'm looking for my keys.","exampleTr":"Anahtarlarımı arıyorum.","emoji":"🔎","imageQuery":null,"note":null},
+    {"type":"PHRASAL","en":"find out","tr":"öğrenmek, keşfetmek","ipa":"/faɪnd aʊt/","pos":null,"example":"I need to find out what time it starts.","exampleTr":"Kaçta başladığını öğrenmem lazım.","emoji":"💡","imageQuery":null,"note":"Bir bilgiyi araştırıp öğrenmek; 'learn' değil."},
+    {"type":"PHRASAL","en":"pick up","tr":"almak, kaldırmak; (birini) almak","ipa":"/pɪk ʌp/","pos":null,"example":"Can you pick me up at six?","exampleTr":"Beni altıda alabilir misin?","emoji":"🚗","imageQuery":null,"note":null},
+    {"type":"PHRASAL","en":"give up","tr":"vazgeçmek, pes etmek","ipa":"/ɡɪv ʌp/","pos":null,"example":"Don't give up. You're almost there!","exampleTr":"Pes etme. Neredeyse geldin!","emoji":"🏳️","imageQuery":null,"note":null},
+    {"type":"PHRASAL","en":"turn up","tr":"sesi açmak; ortaya çıkmak","ipa":"/tɜːn ʌp/","pos":null,"example":"Can you turn up the volume a bit?","exampleTr":"Sesi biraz açar mısın?","emoji":"🔊","imageQuery":null,"note":"'He didn't turn up' = gelmedi, ortada yoktu."},
+    {"type":"PHRASAL","en":"turn down","tr":"sesi kısmak; reddetmek","ipa":"/tɜːn daʊn/","pos":null,"example":"Please turn down the music.","exampleTr":"Lütfen müziği kıs.","emoji":"🔉","imageQuery":null,"note":"Teklifi reddetmek için de: turn down an offer."},
+    {"type":"PHRASAL","en":"put away","tr":"yerine kaldırmak","ipa":"/pʊt əˈweɪ/","pos":null,"example":"Please put your toys away.","exampleTr":"Lütfen oyuncaklarını yerine kaldır.","emoji":"📦","imageQuery":null,"note":null},
+    {"type":"PHRASAL","en":"run out of","tr":"...i bitirmek, ...i kalmamak","ipa":"/rʌn aʊt əv/","pos":null,"example":"We've run out of milk.","exampleTr":"Sütümüz bitti.","emoji":"🥛","imageQuery":null,"note":"'We ran out of time' = zamanımız kalmadı."},
+    {"type":"PHRASAL","en":"look after","tr":"bakmak, ilgilenmek","ipa":"/lʊk ˈɑːftə/","pos":null,"example":"Can you look after my dog this weekend?","exampleTr":"Bu hafta sonu köpeğime bakabilir misin?","emoji":"🐶","imageQuery":null,"note":null},
+    {"type":"PHRASAL","en":"fill in","tr":"doldurmak (form)","ipa":"/fɪl ɪn/","pos":null,"example":"Please fill in this form.","exampleTr":"Lütfen bu formu doldurun.","emoji":"📋","imageQuery":null,"note":"Amerikan İngilizcesinde 'fill out' da denir."},
+    {"type":"PHRASAL","en":"go out","tr":"dışarı çıkmak","ipa":"/ɡəʊ aʊt/","pos":null,"example":"Do you want to go out tonight?","exampleTr":"Bu akşam dışarı çıkmak ister misin?","emoji":"🌃","imageQuery":null,"note":null},
+    {"type":"PHRASAL","en":"get along","tr":"iyi anlaşmak, geçinmek","ipa":"/ɡet əˈlɒŋ/","pos":null,"example":"I get along well with my neighbours.","exampleTr":"Komşularımla iyi anlaşırım.","emoji":"🤗","imageQuery":null,"note":"'get on' de aynı anlamda (İngiltere)."},
+    {"type":"PHRASAL","en":"throw away","tr":"atmak, çöpe atmak","ipa":"/θrəʊ əˈweɪ/","pos":null,"example":"Don't throw that away. I still need it.","exampleTr":"Onu atma. Hâlâ ihtiyacım var.","emoji":"🗑️","imageQuery":null,"note":null},
+    {"type":"PHRASAL","en":"sit down","tr":"oturmak","ipa":"/sɪt daʊn/","pos":null,"example":"Please sit down. I'll be right back.","exampleTr":"Lütfen otur. Hemen dönerim.","emoji":"🪑","imageQuery":null,"note":null},
+    {"type":"PHRASAL","en":"show up","tr":"ortaya çıkmak, gelmek","ipa":"/ʃəʊ ʌp/","pos":null,"example":"He didn't show up for the meeting.","exampleTr":"Toplantıya gelmedi.","emoji":"🚪","imageQuery":null,"note":null},
+    {"type":"PHRASAL","en":"carry on","tr":"devam etmek","ipa":"/ˈkæri ɒn/","pos":null,"example":"Sorry to interrupt. Please carry on.","exampleTr":"Bölmek istemezdim. Lütfen devam edin.","emoji":"▶️","imageQuery":null,"note":null},
+    {"type":"CHUNK","en":"Hang on a second.","tr":"Bir saniye bekle.","ipa":null,"pos":null,"example":"Hang on a second. I'll be right there.","exampleTr":"Bir saniye bekle. Hemen geliyorum.","emoji":"✋","imageQuery":null,"note":"'hang on' = bekle, çok gündelik."},
+    {"type":"PHRASAL","en":"come over","tr":"uğramak, (eve) gelmek","ipa":"/kʌm ˈəʊvə/","pos":null,"example":"Why don't you come over after work?","exampleTr":"İşten sonra neden bize uğramıyorsun?","emoji":"🏠","imageQuery":null,"note":null},
+    {"type":"PHRASAL","en":"hurry up","tr":"acele etmek","ipa":"/ˈhʌri ʌp/","pos":null,"example":"Hurry up! We're going to be late.","exampleTr":"Acele et! Geç kalacağız.","emoji":"⏩","imageQuery":null,"note":null},
+    {"type":"PHRASAL","en":"calm down","tr":"sakinleşmek","ipa":"/kɑːm daʊn/","pos":null,"example":"Calm down. It's not a big problem.","exampleTr":"Sakin ol. Büyük bir sorun değil.","emoji":"😮‍💨","imageQuery":null,"note":null},
+    {"type":"PHRASAL","en":"grow up","tr":"büyümek (yetişkin olmak)","ipa":"/ɡrəʊ ʌp/","pos":null,"example":"I grew up in a small town.","exampleTr":"Küçük bir kasabada büyüdüm.","emoji":"🧒","imageQuery":null,"note":null},
+    {"type":"PHRASAL","en":"cheer up","tr":"neşelenmek; moral vermek","ipa":"/tʃɪər ʌp/","pos":null,"example":"Cheer up! Tomorrow will be better.","exampleTr":"Neşelen! Yarın daha iyi olacak.","emoji":"😊","imageQuery":null,"note":null},
+    {"type":"PHRASAL","en":"look forward to","tr":"sabırsızlıkla beklemek","ipa":"/lʊk ˈfɔːwəd tuː/","pos":null,"example":"I'm looking forward to the holiday.","exampleTr":"Tatili sabırsızlıkla bekliyorum.","emoji":"🤩","imageQuery":null,"note":"Ardından isim veya -ing gelir: looking forward to seeing you."},
+    {"type":"PHRASAL","en":"drop off","tr":"bırakmak (birini/bir şeyi)","ipa":"/drɒp ɒf/","pos":null,"example":"Can you drop me off at the station?","exampleTr":"Beni istasyonda bırakabilir misin?","emoji":"🚏","imageQuery":null,"note":null}
+  ]
+}

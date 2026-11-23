@@ -1,0 +1,26 @@
+{
+  "topic": "İş ve ofis",
+  "items": [
+    {"type":"WORD","en":"work","tr":"iş, çalışmak","ipa":"/wɜːk/","pos":"noun","example":"I'm at work now.","exampleTr":"Şu an işteyim.","emoji":"💼","imageQuery":"office work","note":"Hem isim (iş) hem fiil (çalışmak) olarak kullanılır."},
+    {"type":"WORD","en":"job","tr":"iş, meslek","ipa":"/dʒɒb/","pos":"noun","example":"I like my job.","exampleTr":"İşimi seviyorum.","emoji":"👔","imageQuery":null,"note":null},
+    {"type":"WORD","en":"office","tr":"ofis","ipa":"/ˈɒfɪs/","pos":"noun","example":"I'm in the office today.","exampleTr":"Bugün ofisteyim.","emoji":"🏢","imageQuery":"office","note":null},
+    {"type":"WORD","en":"boss","tr":"patron, müdür","ipa":"/bɒs/","pos":"noun","example":"My boss is very nice.","exampleTr":"Patronum çok iyi biri.","emoji":"🧑‍💼","imageQuery":"boss","note":null},
+    {"type":"WORD","en":"colleague","tr":"iş arkadaşı","ipa":"/ˈkɒliːɡ/","pos":"noun","example":"My colleagues are friendly.","exampleTr":"İş arkadaşlarım cana yakın.","emoji":"🧑‍🤝‍🧑","imageQuery":"colleagues","note":null},
+    {"type":"WORD","en":"meeting","tr":"toplantı","ipa":"/ˈmiːtɪŋ/","pos":"noun","example":"I have a meeting at ten.","exampleTr":"Saat onda toplantım var.","emoji":"🗓️","imageQuery":"meeting","note":null},
+    {"type":"WORD","en":"desk","tr":"masa (çalışma masası)","ipa":"/desk/","pos":"noun","example":"My phone is on my desk.","exampleTr":"Telefonum masamın üstünde.","emoji":"🖥️","imageQuery":"office desk","note":null},
+    {"type":"WORD","en":"computer","tr":"bilgisayar","ipa":"/kəmˈpjuːtə/","pos":"noun","example":"My computer is very slow.","exampleTr":"Bilgisayarım çok yavaş.","emoji":"💻","imageQuery":"computer","note":null},
+    {"type":"WORD","en":"phone","tr":"telefon","ipa":"/fəʊn/","pos":"noun","example":"Where is my phone?","exampleTr":"Telefonum nerede?","emoji":"📱","imageQuery":"phone","note":null},
+    {"type":"WORD","en":"email","tr":"e-posta","ipa":"/ˈiːmeɪl/","pos":"noun","example":"I'll send you an email.","exampleTr":"Sana bir e-posta göndereceğim.","emoji":"📧","imageQuery":"email","note":null},
+    {"type":"CHUNK","en":"I'm at work.","tr":"İşteyim.","ipa":null,"pos":null,"example":"I'm at work. I'll call you later.","exampleTr":"İşteyim. Seni sonra ararım.","emoji":"💼","imageQuery":null,"note":"'at work' denir; 'in work' denmez."},
+    {"type":"WORD","en":"busy","tr":"meşgul, yoğun","ipa":"/ˈbɪzi/","pos":"adjective","example":"Sorry, I'm busy right now.","exampleTr":"Kusura bakma, şu an meşgulüm.","emoji":"😓","imageQuery":null,"note":null},
+    {"type":"WORD","en":"help","tr":"yardım etmek, yardım","ipa":"/help/","pos":"verb","example":"Can you help me, please?","exampleTr":"Bana yardım eder misin lütfen?","emoji":"🙋","imageQuery":null,"note":null},
+    {"type":"CHUNK","en":"Can you help me?","tr":"Bana yardım edebilir misin?","ipa":null,"pos":null,"example":"Can you help me with this email?","exampleTr":"Bu e-postada bana yardım edebilir misin?","emoji":"🙏","imageQuery":null,"note":null},
+    {"type":"WORD","en":"call","tr":"aramak, telefon görüşmesi","ipa":"/kɔːl/","pos":"verb","example":"I'll call you after the meeting.","exampleTr":"Toplantıdan sonra seni ararım.","emoji":"📞","imageQuery":null,"note":null},
+    {"type":"WORD","en":"start","tr":"başlamak","ipa":"/stɑːt/","pos":"verb","example":"Work starts at nine.","exampleTr":"İş dokuzda başlıyor.","emoji":"▶️","imageQuery":null,"note":null},
+    {"type":"WORD","en":"finish","tr":"bitirmek, bitmek","ipa":"/ˈfɪnɪʃ/","pos":"verb","example":"I finish work at six.","exampleTr":"İşi altıda bitiririm.","emoji":"🏁","imageQuery":null,"note":null},
+    {"type":"CHUNK","en":"I'm working from home today.","tr":"Bugün evden çalışıyorum.","ipa":null,"pos":null,"example":"I'm working from home today.","exampleTr":"Bugün evden çalışıyorum.","emoji":"🏠","imageQuery":null,"note":null},
+    {"type":"CHUNK","en":"See you at the meeting.","tr":"Toplantıda görüşürüz.","ipa":null,"pos":null,"example":"OK, see you at the meeting.","exampleTr":"Tamam, toplantıda görüşürüz.","emoji":"👋","imageQuery":null,"note":null},
+    {"type":"CHUNK","en":"I'm on a break.","tr":"Moladayım.","ipa":null,"pos":null,"example":"I'm on a break. Let's have a coffee.","exampleTr":"Moladayım. Hadi kahve içelim.","emoji":"☕","imageQuery":null,"note":null},
+    {"type":"SENTENCE","en":"I work in a bank.","tr":"Bankada çalışıyorum.","ipa":null,"pos":null,"example":"I work in a bank. What about you?","exampleTr":"Bankada çalışıyorum. Peki sen?","emoji":"🏦","imageQuery":null,"note":"Kalıp: I work in/at + yer."}
+  ]
+}
