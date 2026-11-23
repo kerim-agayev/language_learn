@@ -28,6 +28,10 @@ Coworkers form a team and race daily on the same 10 items. UI text in Turkish; c
   sometimes get `produce`: write/say your own sentence (Web Speech recognition), checked by `usesItem`.
 - **Dialogue quiz** (`dialog` mode): a 2–4 line "A:/B:" chat with the item blanked (`blankDialogue`), pick what fits.
   Only items with a `dialogue` field get it (currently the ~300 sitcom items). Revealed cards show the whole chat.
+- **"Bir daha gösterme" (Anki suspend):** on the new card and after an answer the learner can hide a too-easy card
+  (`markKnown`): `UserItem.known=true`, parked 100 years out with huge stability → never served, counts as mastered
+  for the gate, excluded from sidebar counters, no log/points. Ayarlar lists hidden cards with "Geri getir" (`unmarkKnown`
+  deletes the UserItem so it comes back as new). Not offered in the team challenge.
 - **Anki route:** after each answer the learner grades Again/Hard/Good/Easy; each button shows its next interval
   (`previews` + `formatInterval`). Nothing is saved until graded (`check` -> `commit`). Wrong answer = Again only.
   "Again" cards come back once more in the same session. Sidebar shows New / Learning / Review as TOTALS with "N şimdi" or "next in X" underneath (due-only counts sat at 0 and the user read that as broken).

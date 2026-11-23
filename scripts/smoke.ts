@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { db } from "../lib/db";
 import { hashPassword, verifyPassword } from "../lib/auth";
 import { blankDialogue } from "../lib/srs";
-import { pickMode, nextBatch, check, commit, challengeAnswer, stats, todaysChallenge, challengeQuizzes, leaderboard } from "../lib/learn";
+import { markKnown, unmarkKnown, knownItems, levelProgress, pickMode, nextBatch, check, commit, challengeAnswer, stats, todaysChallenge, challengeQuizzes, leaderboard } from "../lib/learn";
 
 async function main() {
   const pw = await hashPassword("secret123");
@@ -69,6 +69,18 @@ async function main() {
     assert.equal(board[0].pts, 15);
     assert.equal(board.find((r) => r.name === "smoke-b")!.pts, 15);
     await db.team.delete({ where: { id: team.id } });
+    // "never show again": hidden card never comes back, counts as mastered, isn't a learning/review card, gives no points
+    const logsBefore = await db.reviewLog.count({ where: { userId: a.id } });
+    await markKnown(a.id, q.itemId);
+    for (let i = 0; i < 3; i++) assert.ok(!(await nextBatch(a.id, "A1")).some((x) => x.itemId === q.itemId), "hidden card never served");
+    assert.equal((await levelProgress(a.id, "A1")).mastered, 1, "hidden card counts as mastered for the gate");
+    const sh = await stats(a.id, "A1");
+    assert.equal(sh.queue.learning.total + sh.queue.review.total, 0, "hidden card not in learning/review counters");
+    assert.equal(await db.reviewLog.count({ where: { userId: a.id } }), logsBefore, "hiding logs nothing (no points)");
+    assert.deepEqual((await knownItems(a.id)).map((i) => i.id), [q.itemId]);
+    await unmarkKnown(a.id, q.itemId);
+    assert.equal(await db.userItem.count({ where: { userId: a.id, itemId: q.itemId } }), 0, "restore makes it new again");
+
     // sound off (silent office PC): never a listening quiz
     const it2 = { image: "/x.webp", simple: "x", type: "WORD" as const };
     for (let i = 0; i < 300; i++) {

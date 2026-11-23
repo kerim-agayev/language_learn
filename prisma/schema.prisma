@@ -101,6 +101,7 @@ model UserItem {
   due       DateTime
   state     Int
   stability Float
+  known     Boolean  @default(false) // "too easy, never show again": scheduled 100y out, counts as mastered
   user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
   item      Item     @relation(fields: [itemId], references: [id], onDelete: Cascade)
 

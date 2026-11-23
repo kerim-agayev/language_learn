@@ -1,4 +1,4 @@
-import { State } from "ts-fsrs";
+import { State, createEmptyCard } from "ts-fsrs";
 import { db, todayKey, TZ } from "./db";
 import { LEVELS, MASTERED_STABILITY, levelComplete, grade, previews, formatInterval, fromJson, points, normalize, streak, usesItem, blankDialogue, type Grade, type LevelName } from "./srs";
 import type { Item } from "./generated/prisma/client";
@@ -212,6 +212,32 @@ export async function commit(userId: string, itemId: number, mode: Mode, choice:
   return { points: pts, due: card.due };
 }
 
+/**
+ * "Too easy, never show it again" (Anki's suspend). The card is parked 100 years out with huge stability, so no query
+ * picks it up again and the level gate counts it as mastered. No points, no log: it can't be used to farm the leaderboard.
+ */
+export async function markKnown(userId: string, itemId: number) {
+  const now = new Date();
+  const due = new Date(now.getTime() + 100 * 365 * 864e5);
+  const card = { ...createEmptyCard(now), state: State.Review, stability: 36500, difficulty: 1, reps: 1, due, last_review: now };
+  const data = { card: JSON.parse(JSON.stringify(card)), due, state: State.Review, stability: 36500, known: true };
+  await db.userItem.upsert({ where: { userId_itemId: { userId, itemId } }, create: { userId, itemId, ...data }, update: data });
+}
+
+/** Undo: the item becomes new again and comes back in curriculum order. */
+export async function unmarkKnown(userId: string, itemId: number) {
+  await db.userItem.deleteMany({ where: { userId, itemId, known: true } });
+}
+
+export async function knownItems(userId: string) {
+  const rows = await db.userItem.findMany({
+    where: { userId, known: true },
+    include: { item: { select: { id: true, en: true, tr: true, level: true } } },
+    orderBy: { item: { level: "asc" } },
+  });
+  return rows.map((r) => r.item);
+}
+
 /** Team challenge: one shot per item, no self-grading, doesn't touch your own schedule. */
 export async function challengeAnswer(userId: string, challengeId: string, itemId: number, mode: Mode, choice: string, ms: number): Promise<AnswerResult> {
   const ch = await db.dailyChallenge.findFirst({
@@ -240,8 +266,8 @@ export async function stats(userId: string, level: string) {
       FROM "ReviewLog" WHERE "userId" = ${userId} ORDER BY d DESC LIMIT 400`,
     levelProgress(userId, level as LevelName),
     // per state: how many cards, how many due now, and when the next one comes back
-    db.userItem.groupBy({ by: ["state"], where: { userId }, _count: true, _min: { due: true } }),
-    db.userItem.groupBy({ by: ["state"], where: { userId, due: { lte: now } }, _count: true }),
+    db.userItem.groupBy({ by: ["state"], where: { userId, known: false }, _count: true, _min: { due: true } }),
+    db.userItem.groupBy({ by: ["state"], where: { userId, known: false, due: { lte: now } }, _count: true }),
   ]);
   const learningStates: number[] = [State.Learning, State.Relearning];
   const bucket = (states: number[]) => {

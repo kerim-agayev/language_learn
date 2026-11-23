@@ -22,7 +22,7 @@ export function Challenge({ teamId, done, total }: { teamId: string; done: numbe
           quiz={q}
           challengeId={run.id}
           onDone={(r) => {
-            setScore((s) => s + r.points);
+            setScore((s) => s + (r?.points ?? 0));
             const rest = run.quizzes.slice(1);
             setRun({ ...run, quizzes: rest });
             if (!rest.length) router.refresh();

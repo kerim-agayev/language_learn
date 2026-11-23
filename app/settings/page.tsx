@@ -1,10 +1,12 @@
 import { requireUser } from "@/lib/auth";
-import { saveSettings } from "@/app/actions";
+import { restoreItem, saveSettings } from "@/app/actions";
+import { knownItems } from "@/lib/learn";
 import { Nav } from "@/components/Nav";
 import { ActionForm, Field, inputCls } from "@/components/Forms";
 
 export default async function SettingsPage() {
   const u = await requireUser();
+  const hidden = await knownItems(u.id);
   return (
     <>
       <Nav name={u.name} level={u.level} />
@@ -33,6 +35,33 @@ export default async function SettingsPage() {
           </label>
           <p className="text-sm text-muted">Mesai dışında kart gelmez. İstediğin an &ldquo;Şimdi öğren&rdquo; ile yine çalışabilirsin.</p>
         </ActionForm>
+
+        <section className="mt-10">
+          <h2 className="font-display text-xl font-bold">Gizlediğin kartlar ({hidden.length})</h2>
+          <p className="mt-1 text-sm text-muted">
+            &ldquo;Bir daha gösterme&rdquo; dediğin kartlar burada. Seviye geçişinde öğrenilmiş sayılırlar. Geri getirirsen
+            yeni kart olarak sırası gelince tekrar çıkar.
+          </p>
+          {hidden.length === 0 ? (
+            <p className="mt-4 text-sm text-muted">Henüz gizlediğin kart yok.</p>
+          ) : (
+            <ul className="mt-4 flex flex-col gap-1.5">
+              {hidden.map((it) => (
+                <li key={it.id} className="flex items-center gap-3 rounded-xl bg-paper px-3 py-2">
+                  <span className="lv-chip rounded-full px-2 py-0.5 text-xs font-bold" style={{ "--lv": `var(--${it.level})` } as React.CSSProperties}>
+                    {it.level}
+                  </span>
+                  <span className="min-w-0 flex-1 truncate">
+                    <span className="font-bold">{it.en}</span> <span className="text-muted">{it.tr}</span>
+                  </span>
+                  <form action={restoreItem.bind(null, it.id)}>
+                    <button className="shrink-0 rounded-lg px-2.5 py-1 text-sm text-pen hover:bg-desk">Geri getir</button>
+                  </form>
+                </li>
+              ))}
+            </ul>
+          )}
+        </section>
       </main>
     </>
   );

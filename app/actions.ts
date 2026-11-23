@@ -5,7 +5,7 @@ import { revalidatePath } from "next/cache";
 import { randomBytes } from "node:crypto";
 import { db } from "@/lib/db";
 import { createSession, destroySession, hashPassword, requireUser, verifyPassword } from "@/lib/auth";
-import { challengeAnswer, challengeQuizzes, check, commit, nextBatch, type Mode } from "@/lib/learn";
+import { challengeAnswer, challengeQuizzes, check, commit, markKnown, nextBatch, unmarkKnown, type Mode } from "@/lib/learn";
 import type { Grade } from "@/lib/srs";
 
 export type FormState = { error?: string; ok?: string } | undefined;
@@ -55,6 +55,17 @@ export async function commitAnswer(itemId: number, mode: Mode, choice: string, m
 export async function answerChallenge(challengeId: string, itemId: number, mode: Mode, choice: string, ms: number) {
   const u = await requireUser();
   return challengeAnswer(u.id, challengeId, itemId, mode, choice, ms);
+}
+
+export async function hideItem(itemId: number) {
+  const u = await requireUser();
+  await markKnown(u.id, itemId);
+}
+
+export async function restoreItem(itemId: number) {
+  const u = await requireUser();
+  await unmarkKnown(u.id, itemId);
+  revalidatePath("/settings");
 }
 
 export async function saveSettings(_: FormState, f: FormData): Promise<FormState> {

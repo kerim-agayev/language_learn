@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { answerChallenge, checkAnswer, commitAnswer } from "@/app/actions";
+import { answerChallenge, checkAnswer, commitAnswer, hideItem } from "@/app/actions";
 import type { Grade } from "@/lib/srs";
 import type { AnswerResult, ItemView, Quiz } from "@/lib/learn";
 
@@ -223,7 +223,8 @@ export function QuizCard({
   challengeId?: string;
   /** off when the user disabled sound (silent office PC) */
   autoSpeak?: boolean;
-  onDone: (r: AnswerResult, g?: Grade) => void;
+  /** r is null when the card was hidden ("never show again") */
+  onDone: (r: AnswerResult | null, g?: Grade) => void;
 }) {
   const [stage, setStage] = useState<Stage>(quiz.learn ? "learn" : "ask");
   const [picked, setPicked] = useState<string | null>(null);
@@ -279,6 +280,33 @@ export function QuizCard({
     }
   }
 
+  // "Too easy": never show this card again (undo in Ayarlar). Personal study only, never in the team challenge.
+  async function hide() {
+    if (lock.current || challengeId) return;
+    lock.current = true;
+    setBusy(true);
+    try {
+      await hideItem(quiz.itemId);
+      onDone(null);
+    } catch (e) {
+      lock.current = false;
+      setBusy(false);
+      throw e;
+    }
+  }
+
+  const hideButton = (label: string) =>
+    challengeId ? null : (
+      <button
+        type="button"
+        onClick={hide}
+        disabled={busy}
+        className="mt-3 w-full rounded-xl py-2 text-sm text-muted hover:bg-desk hover:text-ink disabled:opacity-50"
+      >
+        {label}
+      </button>
+    );
+
   // Keyboard: 1-4 answer (or grade after reveal), Space/Enter continue. Bound to the card's own window so it also works in the PiP window.
   useEffect(() => {
     const win = root.current?.ownerDocument.defaultView;
@@ -307,6 +335,7 @@ export function QuizCard({
           <button onClick={() => setStage("ask")} className="mt-6 w-full rounded-xl bg-pen py-3 font-bold text-pen-ink">
             Got it
           </button>
+          {hideButton("Bunu zaten biliyorum, bir daha gösterme")}
         </>
       )}
 
@@ -372,7 +401,10 @@ export function QuizCard({
           </p>
           <ItemFace item={result.item} />
           {result.intervals ? (
-            <GradeButtons intervals={result.intervals} suggested={result.suggested ?? 3} correct={result.correct} busy={busy} onGrade={rateCard} />
+            <>
+              <GradeButtons intervals={result.intervals} suggested={result.suggested ?? 3} correct={result.correct} busy={busy} onGrade={rateCard} />
+              {hideButton("Çok kolay, bir daha gösterme")}
+            </>
           ) : (
             <button autoFocus onClick={() => onDone(result)} className="mt-6 w-full rounded-xl bg-pen py-3 font-bold text-pen-ink">
               Devam
