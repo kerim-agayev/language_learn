@@ -1,0 +1,473 @@
+{
+  "topic": "Dizilerden: phrasal verb ve collocation'lar",
+  "items": [
+    {
+      "type": "PHRASAL",
+      "en": "blow off",
+      "tr": "(görüşmeyi/işi) umursamayıp geçmek, ekmek",
+      "ipa": "/bləʊ ɒf/",
+      "pos": null,
+      "example": "She blew off my birthday dinner.",
+      "exampleTr": "Doğum günü yemeğimi umursamadı.",
+      "simple": "You do not go or do something, and you do not care.",
+      "dialogue": [
+        "A: Why didn't you come?",
+        "B: I wanted to blow off the meeting.",
+        "A: Bad idea. The boss was there."
+      ],
+      "emoji": "💨",
+      "imageQuery": null,
+      "note": "The Office ve Seinfeld'te umursamaz karakterler."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "fall for",
+      "tr": "âşık olmak; (oyuna) gelmek",
+      "ipa": "/fɔːl fɔː/",
+      "pos": null,
+      "example": "I can't believe I fell for that trick.",
+      "exampleTr": "O numaraya kanmama inanamıyorum.",
+      "simple": "You love someone, or you believe a trick by mistake.",
+      "dialogue": [
+        "A: He sent me a prize email.",
+        "B: Please tell me you didn't fall for it.",
+        "A: Of course not. Well, almost."
+      ],
+      "emoji": "🎣",
+      "imageQuery": null,
+      "note": "İkili anlamı vardır: aşk ve kandırılma."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "goof off",
+      "tr": "oyalanmak, işten kaçıp vakit öldürmek",
+      "ipa": "/ɡuːf ɒf/",
+      "pos": null,
+      "example": "They goof off at work all afternoon.",
+      "exampleTr": "Bütün öğleden sonra işte oyalanıyorlar.",
+      "simple": "You play around when you should work.",
+      "dialogue": [
+        "A: Where's the report?",
+        "B: Sorry, I was busy trying to goof off.",
+        "A: You have an hour. Go."
+      ],
+      "emoji": "🤪",
+      "imageQuery": null,
+      "note": "The Office'te Jim ve Dwight'ın tembellikleri."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "hit on",
+      "tr": "(birine) asılmak, yürümek",
+      "ipa": "/hɪt ɒn/",
+      "pos": null,
+      "example": "A guy hit on me at the gym.",
+      "exampleTr": "Spor salonunda biri bana asıldı.",
+      "simple": "You try to start a love talk with someone, often in a pushy way.",
+      "dialogue": [
+        "A: Was that man trying to hit on you?",
+        "B: Yes, with a terrible joke.",
+        "A: What did he say?"
+      ],
+      "emoji": "😬",
+      "imageQuery": null,
+      "note": "HIMYM ve Brooklyn Nine-Nine'da flört komedisi."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "kick out",
+      "tr": "kapı dışarı etmek, kovmak",
+      "ipa": "/kɪk aʊt/",
+      "pos": null,
+      "example": "My roommate kicked me out of the apartment.",
+      "exampleTr": "Ev arkadaşım beni evden kovdu.",
+      "simple": "You make someone leave a place.",
+      "dialogue": [
+        "A: Why are you on my couch?",
+        "B: She wants to kick out the guy upstairs.",
+        "A: Ha. That's not what I asked."
+      ],
+      "emoji": "🦵",
+      "imageQuery": null,
+      "note": "Roommate sahnelerinde çok geçer."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "fool around",
+      "tr": "vakit öldürmek; şakalaşmak",
+      "ipa": "/fuːl əˈraʊnd/",
+      "pos": null,
+      "example": "Stop fooling around and help me clean.",
+      "exampleTr": "Oyalanmayı bırak da temizliğe yardım et.",
+      "simple": "You do silly things and do not do real work.",
+      "dialogue": [
+        "A: Boys, don't fool around in the kitchen!",
+        "B: Sorry, Mom.",
+        "A: Dinner is in five minutes."
+      ],
+      "emoji": "🤡",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle'da kardeşler arasında."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "make an excuse",
+      "tr": "bahane uydurmak",
+      "ipa": "/meɪk ən ɪkˈskjuːs/",
+      "pos": null,
+      "example": "He always makes an excuse to leave early.",
+      "exampleTr": "Hep erken çıkmak için bahane uyduruyor.",
+      "simple": "You say a reason that is not true, so you can avoid something.",
+      "dialogue": [
+        "A: Why is Dave leaving already?",
+        "B: He'll make an excuse. He hates parties.",
+        "A: Then why did he come?"
+      ],
+      "emoji": "🙄",
+      "imageQuery": null,
+      "note": "Seinfeld ve Malcolm in the Middle'da klasik."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "tell a white lie",
+      "tr": "zararsız bir yalan söylemek",
+      "ipa": "/tel ə waɪt laɪ/",
+      "pos": null,
+      "example": "I told a white lie about the gift.",
+      "exampleTr": "Hediye hakkında zararsız bir yalan söyledim.",
+      "simple": "A small lie that is told to be kind.",
+      "dialogue": [
+        "A: Did you love my cooking?",
+        "B: I had to tell a white lie.",
+        "A: Rude! I worked hard."
+      ],
+      "emoji": "🤥",
+      "imageQuery": null,
+      "note": "Seinfeld'de yalan komedisinin temeli."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "make a fool of yourself",
+      "tr": "rezil olmak, kendini gülünç duruma düşürmek",
+      "ipa": "/meɪk ə fuːl əv jɔːˈself/",
+      "pos": null,
+      "example": "I made a fool of myself at the party.",
+      "exampleTr": "Partide rezil oldum.",
+      "simple": "You do something silly and people laugh at you.",
+      "dialogue": [
+        "A: Don't make a fool of yourself tonight.",
+        "B: I never do.",
+        "A: You danced on a table once."
+      ],
+      "emoji": "🤡",
+      "imageQuery": null,
+      "note": "The Office'te Michael Scott'ın uzmanlık alanı."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "take a rain check",
+      "tr": "(daveti) sonraya ertelemek",
+      "ipa": "/teɪk ə reɪn tʃek/",
+      "pos": null,
+      "example": "Can I take a rain check on dinner?",
+      "exampleTr": "Yemeği başka bir zamana erteleyebilir miyim?",
+      "simple": "You say no now, but maybe yes another day.",
+      "dialogue": [
+        "A: Are you coming tonight?",
+        "B: Can I take a rain check?",
+        "A: Sure. Next week then."
+      ],
+      "emoji": "🌧️",
+      "imageQuery": null,
+      "note": "Davet reddederken nazik yol."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "act up",
+      "tr": "yaramazlık yapmak; (makine) arıza çıkarmak",
+      "ipa": "/ækt ʌp/",
+      "pos": null,
+      "example": "My computer is acting up again.",
+      "exampleTr": "Bilgisayarım yine arıza çıkarıyor.",
+      "simple": "Something that should work well starts to do bad things.",
+      "dialogue": [
+        "A: Why is the car so loud?",
+        "B: It likes to act up when it's cold.",
+        "A: Let's call a mechanic."
+      ],
+      "emoji": "💻",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle'da çocukların davranışı için."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "butt in",
+      "tr": "lafa karışmak, araya girmek",
+      "ipa": "/bʌt ɪn/",
+      "pos": null,
+      "example": "Sorry to butt in, but dinner is ready.",
+      "exampleTr": "Araya girdiğim için üzgünüm ama yemek hazır.",
+      "simple": "You speak when two other people are talking, and nobody asked you.",
+      "dialogue": [
+        "A: Please don't butt in again.",
+        "B: I only wanted to help.",
+        "A: Then help by being quiet."
+      ],
+      "emoji": "🙊",
+      "imageQuery": null,
+      "note": "Modern Family ve Seinfeld'te komşu/akraba sahneleri."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "clam up",
+      "tr": "bir anda susmak, ağzını açmamak",
+      "ipa": "/klæm ʌp/",
+      "pos": null,
+      "example": "He clammed up when the police asked questions.",
+      "exampleTr": "Polis soru sorunca bir anda sustu.",
+      "simple": "You stop talking because you are scared or shy.",
+      "dialogue": [
+        "A: Why did he suddenly clam up?",
+        "B: He saw his boss walk in.",
+        "A: Awkward."
+      ],
+      "emoji": "🤐",
+      "imageQuery": null,
+      "note": "Breaking Bad ve Brooklyn Nine-Nine'da sorgu sahneleri."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "cool down",
+      "tr": "sakinleşmek",
+      "ipa": "/kuːl daʊn/",
+      "pos": null,
+      "example": "Go for a walk and cool down first.",
+      "exampleTr": "Önce biraz yürü ve sakinleş.",
+      "simple": "You get less angry after some time.",
+      "dialogue": [
+        "A: I'm so angry right now.",
+        "B: Take a minute to cool down.",
+        "A: Okay. Deep breath."
+      ],
+      "emoji": "🧊",
+      "imageQuery": null,
+      "note": "Aile kavgalarında öneri olarak."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "fill in for",
+      "tr": "(birinin) yerine bakmak",
+      "ipa": "/fɪl ɪn fɔː/",
+      "pos": null,
+      "example": "Can you fill in for me on Friday?",
+      "exampleTr": "Cuma günü benim yerime bakabilir misin?",
+      "simple": "You do someone's work because they are not there.",
+      "dialogue": [
+        "A: I'm sick. Can someone fill in for me?",
+        "B: I'll do it.",
+        "A: You're a lifesaver."
+      ],
+      "emoji": "🔄",
+      "imageQuery": null,
+      "note": "The Office'te vardiya/ofis değişimleri."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "flake out",
+      "tr": "(son anda) sözünden cayıp gelmemek",
+      "ipa": "/fleɪk aʊt/",
+      "pos": null,
+      "example": "He flaked out on us again.",
+      "exampleTr": "Yine bizi son anda yüzüstü bıraktı.",
+      "simple": "You do not do what you promised, without a good reason.",
+      "dialogue": [
+        "A: Will Ben come tonight?",
+        "B: He might flake out.",
+        "A: He always does."
+      ],
+      "emoji": "🍂",
+      "imageQuery": null,
+      "note": "HIMYM ve Friends'te plan bozan arkadaşlar."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "get back at",
+      "tr": "(birinden) öç almak, intikam almak",
+      "ipa": "/ɡet bæk æt/",
+      "pos": null,
+      "example": "I'll get back at him for the prank.",
+      "exampleTr": "Şaka için ondan öcümü alacağım.",
+      "simple": "You do something bad to a person because they did something bad to you.",
+      "dialogue": [
+        "A: How will you get back at Jim?",
+        "B: With a very big prank.",
+        "A: Please be gentle."
+      ],
+      "emoji": "😈",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle ve The Office'te şaka savaşları."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "hold out",
+      "tr": "dayanmak, direnmek; elinde tutmak",
+      "ipa": "/həʊld aʊt/",
+      "pos": null,
+      "example": "How long can you hold out without sugar?",
+      "exampleTr": "Şekersiz ne kadar dayanabilirsin?",
+      "simple": "You do not give up for a long time.",
+      "dialogue": [
+        "A: The boss won't hold out much longer.",
+        "B: Then we win.",
+        "A: Don't say it out loud."
+      ],
+      "emoji": "🧱",
+      "imageQuery": null,
+      "note": "Pazarlık ve diyet sahnelerinde."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "hook up",
+      "tr": "tanışıp yakınlaşmak; bağlamak",
+      "ipa": "/hʊk ʌp/",
+      "pos": null,
+      "example": "They hooked up at the wedding.",
+      "exampleTr": "Düğünde yakınlaştılar.",
+      "simple": "Two people start a short love time; or you connect two things.",
+      "dialogue": [
+        "A: Did Tom hook up with Julie?",
+        "B: I think so.",
+        "A: I didn't see that coming."
+      ],
+      "emoji": "🔌",
+      "imageQuery": null,
+      "note": "HIMYM'de Barney'nin günlük kelimesi."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "jump in",
+      "tr": "atlamak; lafa girmek",
+      "ipa": "/dʒʌmp ɪn/",
+      "pos": null,
+      "example": "Feel free to jump in at any time.",
+      "exampleTr": "İstediğin zaman söze girebilirsin.",
+      "simple": "You join a talk or a job quickly.",
+      "dialogue": [
+        "A: Can I jump in here?",
+        "B: Please do.",
+        "A: I think we're wrong."
+      ],
+      "emoji": "🏊",
+      "imageQuery": null,
+      "note": "Toplantı sahnelerinde."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "mix up",
+      "tr": "karıştırmak",
+      "ipa": "/mɪks ʌp/",
+      "pos": null,
+      "example": "I mixed up the dates. I'm sorry.",
+      "exampleTr": "Tarihleri karıştırdım. Üzgünüm.",
+      "simple": "You think one thing is another thing by mistake.",
+      "dialogue": [
+        "A: These two bags look the same.",
+        "B: I always mix up the keys.",
+        "A: Check the tag."
+      ],
+      "emoji": "🔀",
+      "imageQuery": null,
+      "note": "Komedinin en sık nedeni: yanlış anlama."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "mouth off",
+      "tr": "küstahça konuşmak",
+      "ipa": "/maʊθ ɒf/",
+      "pos": null,
+      "example": "Don't mouth off to your teacher.",
+      "exampleTr": "Öğretmenine küstahça cevap verme.",
+      "simple": "You say rude things to someone in charge.",
+      "dialogue": [
+        "A: Did you mouth off to Dad?",
+        "B: Maybe a little.",
+        "A: You're grounded."
+      ],
+      "emoji": "👄",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle'da Malcolm ve annesi."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "mope around",
+      "tr": "somurtup dolaşmak",
+      "ipa": "/məʊp əˈraʊnd/",
+      "pos": null,
+      "example": "He's been moping around all week.",
+      "exampleTr": "Bütün hafta somurtup dolaştı.",
+      "simple": "You walk around and look sad, and you do not do much.",
+      "dialogue": [
+        "A: Don't mope around the house all day.",
+        "B: I'm sad, okay?",
+        "A: Then eat ice cream."
+      ],
+      "emoji": "😞",
+      "imageQuery": null,
+      "note": "Ayrılık sonrası karakterlerde."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "cheat on",
+      "tr": "(birini) aldatmak",
+      "ipa": "/tʃiːt ɒn/",
+      "pos": null,
+      "example": "She found out he cheated on her.",
+      "exampleTr": "Onun kendisini aldattığını öğrendi.",
+      "simple": "You are with a new person while you have a partner.",
+      "dialogue": [
+        "A: I think he might cheat on me.",
+        "B: Why do you think that?",
+        "A: He hides his phone."
+      ],
+      "emoji": "💔",
+      "imageQuery": null,
+      "note": "Dram sahnelerinde."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "cut in",
+      "tr": "lafı kesmek, araya girmek",
+      "ipa": "/kʌt ɪn/",
+      "pos": null,
+      "example": "Sorry to cut in, but your taxi is here.",
+      "exampleTr": "Lafını kesiyorum ama taksin geldi.",
+      "simple": "You start to talk when another person is still talking.",
+      "dialogue": [
+        "A: May I cut in?",
+        "B: Of course. She's all yours.",
+        "A: Thanks, buddy."
+      ],
+      "emoji": "✂️",
+      "imageQuery": null,
+      "note": "Konuşma ve dans sahnelerinde."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "hold it together",
+      "tr": "kendini toplamak, dağılmamak",
+      "ipa": "/həʊld ɪt təˈɡeð.ə/",
+      "pos": null,
+      "example": "I'm trying to hold it together at work.",
+      "exampleTr": "İşte kendimi toplamaya çalışıyorum.",
+      "simple": "You stay calm even when you feel very bad.",
+      "dialogue": [
+        "A: Are you okay?",
+        "B: I'm trying to hold it together.",
+        "A: You can cry later."
+      ],
+      "emoji": "🧩",
+      "imageQuery": null,
+      "note": "Friends ve Modern Family'de stresli anlar."
+    }
+  ]
+}

@@ -1,0 +1,473 @@
+{
+  "topic": "Dizilerden: arkadaşlık ve flört",
+  "items": [
+    {
+      "type": "CHUNK",
+      "en": "I'm so over it",
+      "tr": "Bundan tamamen soğudum, artık umurumda değil",
+      "ipa": null,
+      "pos": null,
+      "example": "I'm so over it. Please stop talking about my ex.",
+      "exampleTr": "Artık umurumda değil. Lütfen eski sevgilimden bahsetmeyi bırak.",
+      "simple": "You used to care a lot, but now you do not care at all.",
+      "dialogue": [
+        "A: Are you still sad about Mark?",
+        "B: Honestly, I'm so over it.",
+        "A: Good. He was never nice to you."
+      ],
+      "emoji": "😒",
+      "imageQuery": null,
+      "note": "Friends ve HIMYM'de ayrılık sonrası sık duyulur."
+    },
+    {
+      "type": "CHUNK",
+      "en": "make a move",
+      "tr": "ilk adımı atmak, açılmak",
+      "ipa": null,
+      "pos": null,
+      "example": "He finally made a move at the party.",
+      "exampleTr": "Sonunda partide ilk adımı attı.",
+      "simple": "To show a person you like them by doing something brave.",
+      "dialogue": [
+        "A: She keeps smiling at you.",
+        "B: Should I make a move?",
+        "A: Yes! Before somebody else does."
+      ],
+      "emoji": "😏",
+      "imageQuery": null,
+      "note": "HIMYM'de Barney tarzı flört konuşmalarında geçer."
+    },
+    {
+      "type": "CHUNK",
+      "en": "the friend zone",
+      "tr": "arkadaş kalma durumu (aşk olmayan bölge)",
+      "ipa": null,
+      "pos": null,
+      "example": "He got stuck in the friend zone again.",
+      "exampleTr": "Yine arkadaş bölgesinde sıkıştı.",
+      "simple": "When a person likes you only as a friend, not as a love.",
+      "dialogue": [
+        "A: She called me her best buddy.",
+        "B: Oh no, the friend zone.",
+        "A: Is there any way out?"
+      ],
+      "emoji": "🚧",
+      "imageQuery": null,
+      "note": "HIMYM ve Big Bang Theory'de espri konusudur."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "blind date",
+      "tr": "tanımadığın biriyle ayarlanmış randevu",
+      "ipa": "/blaɪnd deɪt/",
+      "pos": null,
+      "example": "My sister sent me on a blind date last night.",
+      "exampleTr": "Kız kardeşim dün gece beni kör randevuya gönderdi.",
+      "simple": "A date with someone you have never met before.",
+      "dialogue": [
+        "A: I have a blind date tonight.",
+        "B: How will you know him?",
+        "A: He'll be holding a red book."
+      ],
+      "emoji": "🙈",
+      "imageQuery": null,
+      "note": "Friends'te sık işlenen bir durum."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Way to go!",
+      "tr": "Aferin! Helal olsun! (bazen alaycı)",
+      "ipa": null,
+      "pos": null,
+      "example": "You fixed it already? Way to go!",
+      "exampleTr": "Zaten tamir ettin mi? Aferin sana!",
+      "simple": "You say it when someone does something good. Sometimes it is a joke.",
+      "dialogue": [
+        "A: I got the job!",
+        "B: Way to go!",
+        "A: Dinner is on me tonight."
+      ],
+      "emoji": "👏",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine'da hem samimi hem alaycı."
+    },
+    {
+      "type": "CHUNK",
+      "en": "You've got to be kidding me",
+      "tr": "Dalga geçiyorsun herhalde!",
+      "ipa": null,
+      "pos": null,
+      "example": "You've got to be kidding me. The store is closed again?",
+      "exampleTr": "Dalga geçiyorsun herhalde. Mağaza yine mi kapalı?",
+      "simple": "You cannot believe it is true, and you are a bit angry.",
+      "dialogue": [
+        "A: The flight is cancelled again.",
+        "B: You've got to be kidding me.",
+        "A: I wish I were."
+      ],
+      "emoji": "🤨",
+      "imageQuery": null,
+      "note": "Seinfeld ve Malcolm in the Middle'da şaşkınlık/öfke."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I'm just saying",
+      "tr": "Sadece söylüyorum; kötü niyetim yok",
+      "ipa": null,
+      "pos": null,
+      "example": "I'm just saying, she never texts you back.",
+      "exampleTr": "Sadece söylüyorum, sana hiç mesaj atmıyor.",
+      "simple": "You say something a little hard, but you do not want a fight.",
+      "dialogue": [
+        "A: Your new boyfriend is always late.",
+        "B: Why are you angry?",
+        "A: I'm just saying, be careful."
+      ],
+      "emoji": "🤷",
+      "imageQuery": null,
+      "note": "Friends'te arkadaşlar arası dürüst yorum."
+    },
+    {
+      "type": "CHUNK",
+      "en": "It's not you, it's me",
+      "tr": "Sorun sende değil bende (ayrılık klişesi)",
+      "ipa": null,
+      "pos": null,
+      "example": "He said, 'It's not you, it's me,' and left.",
+      "exampleTr": "'Sorun sen değilsin, benim,' dedi ve gitti.",
+      "simple": "A kind thing people say when they end a love, even if it is not true.",
+      "dialogue": [
+        "A: I ended it with Paul.",
+        "B: What did you say?",
+        "A: The classic: It's not you, it's me."
+      ],
+      "emoji": "💔",
+      "imageQuery": null,
+      "note": "Ayrılık klişesi; Seinfeld ve Friends'te alay konusu."
+    },
+    {
+      "type": "CHUNK",
+      "en": "play it cool",
+      "tr": "soğukkanlı davranmak, belli etmemek",
+      "ipa": null,
+      "pos": null,
+      "example": "Play it cool. Don't call him three times today.",
+      "exampleTr": "Soğukkanlı ol. Bugün ona üç kere arama.",
+      "simple": "Act calm so nobody sees you are excited or worried.",
+      "dialogue": [
+        "A: She's walking over here!",
+        "B: Just play it cool.",
+        "A: I'm trying. My hands are shaking."
+      ],
+      "emoji": "😎",
+      "imageQuery": null,
+      "note": "HIMYM'de flört taktiği anlatırken geçer."
+    },
+    {
+      "type": "CHUNK",
+      "en": "get cold feet",
+      "tr": "son anda korkup vazgeçmek",
+      "ipa": null,
+      "pos": null,
+      "example": "He got cold feet a week before the wedding.",
+      "exampleTr": "Düğünden bir hafta önce son anda korktu.",
+      "simple": "You feel scared at the last moment about a big plan.",
+      "dialogue": [
+        "A: Is Dan still marrying her?",
+        "B: He might get cold feet.",
+        "A: He has the ring in his pocket!"
+      ],
+      "emoji": "🥶",
+      "imageQuery": null,
+      "note": "Friends'te düğün bölümlerinde sık geçer."
+    },
+    {
+      "type": "CHUNK",
+      "en": "the third wheel",
+      "tr": "fazlalık, çiftin yanındaki üçüncü kişi",
+      "ipa": null,
+      "pos": null,
+      "example": "I don't want to be the third wheel tonight.",
+      "exampleTr": "Bu gece fazlalık olmak istemiyorum.",
+      "simple": "Two people are a couple, and you are the extra person with them.",
+      "dialogue": [
+        "A: Come to dinner with us!",
+        "B: No way, I'll be the third wheel.",
+        "A: Then bring a friend."
+      ],
+      "emoji": "🛞",
+      "imageQuery": null,
+      "note": "Roommate ve çift ortamı sahnelerinde duyulur."
+    },
+    {
+      "type": "CHUNK",
+      "en": "be into",
+      "tr": "(birinden/bir şeyden) hoşlanmak, ilgisi olmak",
+      "ipa": null,
+      "pos": null,
+      "example": "I don't think she'd be into you, buddy.",
+      "exampleTr": "Bence senden hoşlanmaz, dostum.",
+      "simple": "You like a person or a thing very much.",
+      "dialogue": [
+        "A: Would she be into a guy like me?",
+        "B: Why do you ask?",
+        "A: She laughed at all my jokes."
+      ],
+      "emoji": "💘",
+      "imageQuery": null,
+      "note": "Günlük konuşmada ve Friends'te çok yaygın."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "run into your ex",
+      "tr": "eski sevgiliyle karşılaşmak",
+      "ipa": "/rʌn ˈɪn.tuː jɔːr eks/",
+      "pos": null,
+      "example": "I ran into my ex at the supermarket.",
+      "exampleTr": "Markette eski sevgilimle karşılaştım.",
+      "simple": "You meet your old love by chance, and it is awkward.",
+      "dialogue": [
+        "A: Guess who I saw today.",
+        "B: Did you run into your ex?",
+        "A: Yes, and I was wearing pajamas."
+      ],
+      "emoji": "😬",
+      "imageQuery": null,
+      "note": "Dizilerde klasik bir komik an."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Can we talk?",
+      "tr": "Konuşabilir miyiz? (kötü haber habercisi)",
+      "ipa": null,
+      "pos": null,
+      "example": "Can we talk? It's about last night.",
+      "exampleTr": "Konuşabilir miyiz? Dün geceyle ilgili.",
+      "simple": "You ask this when you have something serious to say.",
+      "dialogue": [
+        "A: Can we talk?",
+        "B: Uh-oh. That sounds bad.",
+        "A: It's nothing terrible. Sit down."
+      ],
+      "emoji": "🗣️",
+      "imageQuery": null,
+      "note": "Dizilerde genelde tatsız bir konuşmanın girişidir."
+    },
+    {
+      "type": "CHUNK",
+      "en": "grab a coffee",
+      "tr": "bir kahve içmek (hızlıca)",
+      "ipa": null,
+      "pos": null,
+      "example": "Let's grab a coffee after work.",
+      "exampleTr": "İşten sonra bir kahve içelim.",
+      "simple": "You go and get a coffee quickly, often with a friend.",
+      "dialogue": [
+        "A: Do you have a minute?",
+        "B: Let's grab a coffee downstairs.",
+        "A: Perfect. I need the caffeine."
+      ],
+      "emoji": "☕",
+      "imageQuery": null,
+      "note": "Central Perk sahnelerinin vazgeçilmezi."
+    },
+    {
+      "type": "CHUNK",
+      "en": "my treat",
+      "tr": "benden (ısmarlıyorum)",
+      "ipa": null,
+      "pos": null,
+      "example": "Dinner is my treat tonight.",
+      "exampleTr": "Bu akşamki yemek benden.",
+      "simple": "You pay for the other person.",
+      "dialogue": [
+        "A: Let me pay for my part.",
+        "B: No, no. My treat.",
+        "A: Thanks! I'll get the next one."
+      ],
+      "emoji": "💸",
+      "imageQuery": null,
+      "note": "Arkadaş ortamında hesabı üstlenirken."
+    },
+    {
+      "type": "CHUNK",
+      "en": "seeing someone",
+      "tr": "biriyle çıkıyor olmak",
+      "ipa": null,
+      "pos": null,
+      "example": "I'm kind of seeing someone right now, so, no.",
+      "exampleTr": "Şu an biriyle görüşüyorum, o yüzden hayır.",
+      "simple": "You go on dates with one person, but it is not very serious yet.",
+      "dialogue": [
+        "A: Want to go out Friday?",
+        "B: I'm kind of seeing someone.",
+        "A: Oh. Sorry, I didn't know."
+      ],
+      "emoji": "👀",
+      "imageQuery": null,
+      "note": "Resmi olmayan ilişkiyi anlatır; Friends tarzı."
+    },
+    {
+      "type": "CHUNK",
+      "en": "set up",
+      "tr": "(iki kişiyi) çıkması için tanıştırmak",
+      "ipa": null,
+      "pos": null,
+      "example": "My aunt keeps trying to set me up with her neighbour.",
+      "exampleTr": "Teyzem beni komşusuyla tanıştırmaya çalışıp duruyor.",
+      "simple": "You help two people meet so they can go on a date.",
+      "dialogue": [
+        "A: Mom wants to set up another date.",
+        "B: With whom this time?",
+        "A: Her dentist's son."
+      ],
+      "emoji": "🧑‍🤝‍🧑",
+      "imageQuery": null,
+      "note": "Modern Family ve HIMYM'de çöpçatanlık sahneleri."
+    },
+    {
+      "type": "CHUNK",
+      "en": "How you doing?",
+      "tr": "Nasılsın? (Joey tarzı flört selamı)",
+      "ipa": null,
+      "pos": null,
+      "example": "He walked up to her and said, 'How you doing?'",
+      "exampleTr": "Yanına gitti ve 'Nasılsın bakalım?' dedi.",
+      "simple": "A friendly, flirty way to say hello to someone you like.",
+      "dialogue": [
+        "A: Try a simple line.",
+        "B: How you doing?",
+        "A: Stop. That only works for Joey."
+      ],
+      "emoji": "😉",
+      "imageQuery": null,
+      "note": "Friends'te Joey'nin ikonik flört repliği."
+    },
+    {
+      "type": "CHUNK",
+      "en": "on a roll",
+      "tr": "iyi bir seri yakalamış, şansı yaver gitmiş",
+      "ipa": null,
+      "pos": null,
+      "example": "Wow, you're on a roll this week!",
+      "exampleTr": "Vay, bu hafta şansın yaver gidiyor!",
+      "simple": "Many good things happen to you, one after another.",
+      "dialogue": [
+        "A: I won again!",
+        "B: You're on a roll tonight.",
+        "A: Don't jinx it."
+      ],
+      "emoji": "🎲",
+      "imageQuery": null,
+      "note": "Barney ve Jake Peralta'nın kendini över tarzında."
+    },
+    {
+      "type": "CHUNK",
+      "en": "keep it between us",
+      "tr": "aramızda kalsın",
+      "ipa": null,
+      "pos": null,
+      "example": "Keep it between us, but I kissed him.",
+      "exampleTr": "Aramızda kalsın ama onu öptüm.",
+      "simple": "A secret that only two people know.",
+      "dialogue": [
+        "A: I have big news.",
+        "B: Tell me!",
+        "A: Keep it between us. I'm engaged."
+      ],
+      "emoji": "🤫",
+      "imageQuery": null,
+      "note": "Arkadaş dedikodusu sahnelerinde çok duyulur."
+    },
+    {
+      "type": "CHUNK",
+      "en": "get back together",
+      "tr": "(ayrılınca) tekrar barışıp birlikte olmak",
+      "ipa": null,
+      "pos": null,
+      "example": "They broke up, but they got back together last week.",
+      "exampleTr": "Ayrıldılar ama geçen hafta tekrar birlikte oldular.",
+      "simple": "Two people who stopped loving each other start to be a couple again.",
+      "dialogue": [
+        "A: Did Sam and Lily get back together?",
+        "B: Yes, and they are happy.",
+        "A: I give it a month."
+      ],
+      "emoji": "🔁",
+      "imageQuery": null,
+      "note": "Friends'te Ross ve Rachel'ın bitmeyen hikâyesi."
+    },
+    {
+      "type": "CHUNK",
+      "en": "on a break",
+      "tr": "(ilişkide) mola vermiş durumda",
+      "ipa": null,
+      "pos": null,
+      "example": "We're on a break, so don't ask me about him.",
+      "exampleTr": "Mola veriyoruz, o yüzden bana onu sorma.",
+      "simple": "You stop being a couple for a short time, but you are not sure about the end.",
+      "dialogue": [
+        "A: Are you two still together?",
+        "B: We're on a break.",
+        "A: That never ends well."
+      ],
+      "emoji": "⏸️",
+      "imageQuery": null,
+      "note": "Friends'te Ross ve Rachel tartışmasının kaynağı."
+    },
+    {
+      "type": "CHUNK",
+      "en": "you two",
+      "tr": "siz ikiniz",
+      "ipa": null,
+      "pos": null,
+      "example": "You two are perfect for each other.",
+      "exampleTr": "Siz ikiniz birbiriniz için biçilmiş kaftansınız.",
+      "simple": "You talk to two people together.",
+      "dialogue": [
+        "A: Why are you two whispering?",
+        "B: Nothing. Just planning a surprise.",
+        "A: I don't believe you."
+      ],
+      "emoji": "👫",
+      "imageQuery": null,
+      "note": "Friends ve HIMYM'de çiftlere seslenirken."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I have a thing",
+      "tr": "(belirsiz bir bahaneyle) bir işim var",
+      "ipa": null,
+      "pos": null,
+      "example": "Sorry, I have a thing tonight, so I can't come.",
+      "exampleTr": "Üzgünüm, bu akşam bir işim var, gelemem.",
+      "simple": "You say you are busy, but you do not say why.",
+      "dialogue": [
+        "A: Are you free on Saturday?",
+        "B: I have a thing.",
+        "A: What kind of thing?"
+      ],
+      "emoji": "📅",
+      "imageQuery": null,
+      "note": "Seinfeld ve HIMYM'de klasik kaçamak cevap."
+    },
+    {
+      "type": "CHUNK",
+      "en": "hang in there",
+      "tr": "dayan, pes etme",
+      "ipa": null,
+      "pos": null,
+      "example": "Hang in there. It gets better.",
+      "exampleTr": "Dayan. Düzelecek.",
+      "simple": "You tell a person not to give up when things are hard.",
+      "dialogue": [
+        "A: I don't think I can finish.",
+        "B: Hang in there. Almost done.",
+        "A: Thanks for being here."
+      ],
+      "emoji": "💪",
+      "imageQuery": null,
+      "note": "Friends'te teselli sahnelerinde."
+    }
+  ]
+}

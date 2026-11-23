@@ -86,6 +86,22 @@ export function usesItem(sentence: string, item: string) {
   });
 }
 
+/**
+ * Fill-the-gap: replace `phrase` inside `text` with a blank, matching whole words only
+ * (works for phrases that start/end with punctuation, e.g. "No way!"). null if it isn't there.
+ */
+export function blankIn(text: string, phrase: string, blank = "_____") {
+  const p = phrase.trim().replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const re = new RegExp(`(?<![A-Za-z'])${p}(?![A-Za-z])`, "i");
+  return re.test(text) ? text.replace(re, blank) : null;
+}
+
+/** Dialogue quiz: the lines with the item blanked in the first line that contains it. */
+export function blankDialogue(lines: string[], phrase: string) {
+  const i = lines.findIndex((l) => blankIn(l, phrase) !== null);
+  return i < 0 ? null : lines.map((l, j) => (j === i ? blankIn(l, phrase)! : l));
+}
+
 /** Lenient compare for typed/selected answers. */
 export const normalize = (s: string) =>
   // i/ı/İ folded together so neither English nor Turkish casing breaks a match

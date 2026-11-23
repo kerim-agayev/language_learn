@@ -1,0 +1,473 @@
+{
+  "topic": "Dizilerden: ileri phrasal verb ve collocation'lar",
+  "items": [
+    {
+      "type": "PHRASAL",
+      "en": "sneak up on",
+      "tr": "(birinin) arkasından sessizce yaklaşmak",
+      "ipa": "/sniːk ʌp ɒn/",
+      "pos": null,
+      "example": "Don't sneak up on me like that!",
+      "exampleTr": "Bana öyle sessizce yaklaşma!",
+      "simple": "You walk very quietly so someone does not hear you.",
+      "dialogue": [
+        "A: You scared me!",
+        "B: Sorry, I didn't mean to sneak up on you.",
+        "A: My heart is racing."
+      ],
+      "emoji": "🥷",
+      "imageQuery": null,
+      "note": "Friends ve Brooklyn Nine-Nine'da korkutma şakaları."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "snap out of it",
+      "tr": "kendine gelmek, kötü ruh halinden çıkmak",
+      "ipa": "/snæp aʊt əv ɪt/",
+      "pos": null,
+      "example": "Snap out of it! She's not worth it.",
+      "exampleTr": "Kendine gel! Buna değmez.",
+      "simple": "You stop feeling sad or silly and think clearly again.",
+      "dialogue": [
+        "A: I'll be sad forever.",
+        "B: Snap out of it. Let's get pizza.",
+        "A: Okay, with extra cheese."
+      ],
+      "emoji": "🫰",
+      "imageQuery": null,
+      "note": "Friends'te dertli arkadaşa söylenen klasik cümle."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "wimp out",
+      "tr": "korkup geri çekilmek (konuşma dili)",
+      "ipa": "/wɪmp aʊt/",
+      "pos": null,
+      "example": "Don't wimp out on me now.",
+      "exampleTr": "Şimdi korkup beni yarı yolda bırakma.",
+      "simple": "You are too scared to do something, so you stop.",
+      "dialogue": [
+        "A: Are you coming on the ride?",
+        "B: I think I'll wimp out.",
+        "A: Come on! It's only a small drop."
+      ],
+      "emoji": "🐥",
+      "imageQuery": null,
+      "note": "Big Bang Theory'de korkak karakter Howard/Raj."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "stick around",
+      "tr": "ortalıkta kalmak, gitmemek",
+      "ipa": "/stɪk əˈraʊnd/",
+      "pos": null,
+      "example": "Why don't you stick around for dinner?",
+      "exampleTr": "Neden akşam yemeğine kalmıyorsun?",
+      "simple": "You stay in a place a little longer.",
+      "dialogue": [
+        "A: Do you have to go?",
+        "B: I can stick around for a bit.",
+        "A: Cool, the movie starts soon."
+      ],
+      "emoji": "⏳",
+      "imageQuery": null,
+      "note": "Friends'te misafir/arkadaş sahnelerinde."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "pull a fast one",
+      "tr": "kazık atmak, numara çevirmek",
+      "ipa": "/pʊl ə fɑːst wʌn/",
+      "pos": null,
+      "example": "He pulled a fast one on us.",
+      "exampleTr": "Bize kazık attı.",
+      "simple": "You trick someone, and they do not see it coming.",
+      "dialogue": [
+        "A: This price is wrong.",
+        "B: I think the seller tried to pull a fast one.",
+        "A: Let's check again."
+      ],
+      "emoji": "🃏",
+      "imageQuery": null,
+      "note": "Seinfeld ve Brooklyn Nine-Nine'da kandırma konularında."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "get caught red-handed",
+      "tr": "suçüstü yakalanmak",
+      "ipa": "/ɡet kɔːt red ˈhæn.dɪd/",
+      "pos": null,
+      "example": "He got caught red-handed with the cookies.",
+      "exampleTr": "Kurabiyelerle suçüstü yakalandı.",
+      "simple": "Someone sees you right when you do something wrong.",
+      "dialogue": [
+        "A: Did Reese get caught red-handed?",
+        "B: Yes, with chocolate on his face.",
+        "A: Classic."
+      ],
+      "emoji": "🍪",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle ve Seinfeld'te yakalanma sahneleri."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "play hooky",
+      "tr": "okulu/işi kırmak",
+      "ipa": "/pleɪ ˈhʊk.i/",
+      "pos": null,
+      "example": "Let's play hooky and go to the beach.",
+      "exampleTr": "Hadi okulu kıralım, plaja gidelim.",
+      "simple": "You do not go to school or work, and you do not tell anyone.",
+      "dialogue": [
+        "A: Want to play hooky today?",
+        "B: And lie to the boss?",
+        "A: Just say you're sick."
+      ],
+      "emoji": "🏖️",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle ve Modern Family'de."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "nose around",
+      "tr": "(izin almadan) kurcalamak, bakınmak",
+      "ipa": "/nəʊz əˈraʊnd/",
+      "pos": null,
+      "example": "Someone was nosing around my desk.",
+      "exampleTr": "Biri masamı kurcalıyordu.",
+      "simple": "You look at private things that are not yours.",
+      "dialogue": [
+        "A: Why were you in my room?",
+        "B: I like to nose around, sorry.",
+        "A: Stop it."
+      ],
+      "emoji": "🔎",
+      "imageQuery": null,
+      "note": "The Office ve Brooklyn Nine-Nine'da merak."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "pig out",
+      "tr": "tıkınmak, aşırı yemek",
+      "ipa": "/pɪɡ aʊt/",
+      "pos": null,
+      "example": "We pigged out on pizza last night.",
+      "exampleTr": "Dün gece pizzaya daldık.",
+      "simple": "You eat a very large amount of food.",
+      "dialogue": [
+        "A: Let's pig out at the buffet.",
+        "B: I skipped lunch for this.",
+        "A: Me too."
+      ],
+      "emoji": "🍕",
+      "imageQuery": null,
+      "note": "Friends'te Joey ve yemek sahnelerinde."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "pipe down",
+      "tr": "sessiz olmak, sus",
+      "ipa": "/paɪp daʊn/",
+      "pos": null,
+      "example": "Pipe down! I'm on the phone.",
+      "exampleTr": "Sessiz olun! Telefondayım.",
+      "simple": "You tell people to be quiet.",
+      "dialogue": [
+        "A: Pipe down, you two!",
+        "B: He started it!",
+        "A: I don't care."
+      ],
+      "emoji": "🔇",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle'da ebeveynlerin sık cümlesi."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "psych out",
+      "tr": "(rakibi) korkutup yıldırmak",
+      "ipa": "/saɪk aʊt/",
+      "pos": null,
+      "example": "Don't let him psych you out.",
+      "exampleTr": "Seni korkutup yıldırmasına izin verme.",
+      "simple": "You make a person scared so they play badly.",
+      "dialogue": [
+        "A: He's trying to psych out the team.",
+        "B: Ignore him.",
+        "A: Easy for you to say."
+      ],
+      "emoji": "😈",
+      "imageQuery": null,
+      "note": "Spor ve rekabet sahnelerinde."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "rip off",
+      "tr": "(fiyatla) kazıklamak, çalmak",
+      "ipa": "/rɪp ɒf/",
+      "pos": null,
+      "example": "That restaurant totally ripped us off.",
+      "exampleTr": "O restoran bizi tam kazıkladı.",
+      "simple": "Someone sells you something for too much money.",
+      "dialogue": [
+        "A: Twenty dollars for a sandwich?",
+        "B: They rip off every tourist.",
+        "A: Let's find another place."
+      ],
+      "emoji": "💸",
+      "imageQuery": null,
+      "note": "Seinfeld ve Modern Family'de fiyat şikâyetleri."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "run out on",
+      "tr": "(birini) yüzüstü bırakıp kaçmak",
+      "ipa": "/rʌn aʊt ɒn/",
+      "pos": null,
+      "example": "He ran out on his family.",
+      "exampleTr": "Ailesini yüzüstü bırakıp kaçtı.",
+      "simple": "You leave a person when they need you.",
+      "dialogue": [
+        "A: Did he run out on you?",
+        "B: Yes, with my car.",
+        "A: I'm so sorry."
+      ],
+      "emoji": "🏃",
+      "imageQuery": null,
+      "note": "Breaking Bad ve Modern Family'de ağır sahneler."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "scope out",
+      "tr": "(bir yeri) gözlemleyip incelemek",
+      "ipa": "/skəʊp aʊt/",
+      "pos": null,
+      "example": "Let's scope out the bar before we go in.",
+      "exampleTr": "İçeri girmeden önce barı bir kolaçan edelim.",
+      "simple": "You look carefully at a place before you do something.",
+      "dialogue": [
+        "A: Let's scope out the party first.",
+        "B: Who's there?",
+        "A: Just the usual people."
+      ],
+      "emoji": "🔭",
+      "imageQuery": null,
+      "note": "HIMYM ve Brooklyn Nine-Nine'da."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "screw up",
+      "tr": "ortalığı batırmak, berbat etmek",
+      "ipa": "/skruː ʌp/",
+      "pos": null,
+      "example": "I really screwed up this time.",
+      "exampleTr": "Bu sefer gerçekten batırdım.",
+      "simple": "You make a big mistake.",
+      "dialogue": [
+        "A: I think I screw up everything.",
+        "B: Not everything.",
+        "A: Name one thing."
+      ],
+      "emoji": "🤦",
+      "imageQuery": null,
+      "note": "Her dizide en çok duyulan fiillerden; samimi dil."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "shoot down",
+      "tr": "(fikri) reddetmek, çürütmek",
+      "ipa": "/ʃuːt daʊn/",
+      "pos": null,
+      "example": "She shot down every idea I had.",
+      "exampleTr": "Her fikrimi reddetti.",
+      "simple": "You say no to someone's idea very fast.",
+      "dialogue": [
+        "A: They shoot down all my ideas.",
+        "B: Bring a better one.",
+        "A: You're not helping."
+      ],
+      "emoji": "🎯",
+      "imageQuery": null,
+      "note": "Toplantı ve ofis sahnelerinde."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "slip up",
+      "tr": "hata yapmak, ağzından kaçırmak",
+      "ipa": "/slɪp ʌp/",
+      "pos": null,
+      "example": "One slip up and the secret is out.",
+      "exampleTr": "Tek bir hata ve sır ortaya çıkar.",
+      "simple": "You make a small mistake by accident.",
+      "dialogue": [
+        "A: Don't slip up tonight.",
+        "B: I'll be careful.",
+        "A: One mistake and we're done."
+      ],
+      "emoji": "🍌",
+      "imageQuery": null,
+      "note": "Breaking Bad'de küçük hata büyük sonuç."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "snoop around",
+      "tr": "(gizlice) burnunu sokmak, karıştırmak",
+      "ipa": "/snuːp əˈraʊnd/",
+      "pos": null,
+      "example": "I caught him snooping around my room.",
+      "exampleTr": "Odamı karıştırırken yakaladım.",
+      "simple": "You look for private things when nobody is watching.",
+      "dialogue": [
+        "A: Why do you snoop around here?",
+        "B: I lost my keys.",
+        "A: Check your pocket."
+      ],
+      "emoji": "🕵️",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle ve Seinfeld'te."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "storm out",
+      "tr": "öfkeyle çıkıp gitmek",
+      "ipa": "/stɔːm aʊt/",
+      "pos": null,
+      "example": "She stormed out of the meeting.",
+      "exampleTr": "Toplantıdan öfkeyle çıkıp gitti.",
+      "simple": "You leave a room angrily and fast.",
+      "dialogue": [
+        "A: Why did she storm out?",
+        "B: Nobody listened to her.",
+        "A: Let's go talk to her."
+      ],
+      "emoji": "🌪️",
+      "imageQuery": null,
+      "note": "The Office ve Friends'te dramatik çıkışlar."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "swing by",
+      "tr": "(yol üstü) uğramak",
+      "ipa": "/swɪŋ baɪ/",
+      "pos": null,
+      "example": "I'll swing by your place later.",
+      "exampleTr": "Sonra senin yerine uğrarım.",
+      "simple": "You visit a place quickly on your way somewhere.",
+      "dialogue": [
+        "A: Can you swing by the store?",
+        "B: Sure. What do you need?",
+        "A: Milk and eggs."
+      ],
+      "emoji": "🚗",
+      "imageQuery": null,
+      "note": "Friends ve The Office'te günlük konuşma."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "tune out",
+      "tr": "dinlemeyi bırakmak, kafayı kapatmak",
+      "ipa": "/tjuːn aʊt/",
+      "pos": null,
+      "example": "I tuned out after the first ten minutes.",
+      "exampleTr": "İlk on dakikadan sonra dinlemeyi bıraktım.",
+      "simple": "You stop listening, even if someone is talking.",
+      "dialogue": [
+        "A: You tune out when I talk.",
+        "B: That's not true.",
+        "A: What did I just say?"
+      ],
+      "emoji": "🔇",
+      "imageQuery": null,
+      "note": "Big Bang Theory'de uzun lafların sonu."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "wise up",
+      "tr": "aklını başına almak",
+      "ipa": "/waɪz ʌp/",
+      "pos": null,
+      "example": "You need to wise up before it's too late.",
+      "exampleTr": "Çok geç olmadan aklını başına almalısın.",
+      "simple": "You start to see things more clearly and stop being silly.",
+      "dialogue": [
+        "A: She'll never change.",
+        "B: You need to wise up.",
+        "A: I know. I know."
+      ],
+      "emoji": "🦉",
+      "imageQuery": null,
+      "note": "Dizilerde tavsiye cümlesi."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "wrap up",
+      "tr": "bitirmek, toparlamak",
+      "ipa": "/ræp ʌp/",
+      "pos": null,
+      "example": "Let's wrap up this meeting quickly.",
+      "exampleTr": "Şu toplantıyı çabucak bitirelim.",
+      "simple": "You finish something that is almost done.",
+      "dialogue": [
+        "A: Can we wrap up by five?",
+        "B: If you stop talking.",
+        "A: Ha ha. Very funny."
+      ],
+      "emoji": "🎁",
+      "imageQuery": null,
+      "note": "The Office'te toplantı bitişi."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "stay up",
+      "tr": "geç saate kadar uyanık kalmak",
+      "ipa": "/steɪ ʌp/",
+      "pos": null,
+      "example": "We stayed up all night talking.",
+      "exampleTr": "Bütün gece konuşarak uyanık kaldık.",
+      "simple": "You do not go to bed, and you are awake late.",
+      "dialogue": [
+        "A: Don't stay up too late.",
+        "B: Just one more episode.",
+        "A: You always say that."
+      ],
+      "emoji": "🌃",
+      "imageQuery": null,
+      "note": "Friends'te gece sohbetleri."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "sit through",
+      "tr": "(sıkıcı bir şeye) sonuna kadar katlanmak",
+      "ipa": "/sɪt θruː/",
+      "pos": null,
+      "example": "I had to sit through a three-hour speech.",
+      "exampleTr": "Üç saatlik bir konuşmayı sonuna kadar dinlemek zorunda kaldım.",
+      "simple": "You stay until the end, even if it is boring.",
+      "dialogue": [
+        "A: Can't believe we have to sit through this.",
+        "B: At least there's free food.",
+        "A: True."
+      ],
+      "emoji": "😴",
+      "imageQuery": null,
+      "note": "Big Bang Theory ve The Office'te."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "spice up",
+      "tr": "renklendirmek, tadını artırmak",
+      "ipa": "/spaɪs ʌp/",
+      "pos": null,
+      "example": "We should spice up our date nights.",
+      "exampleTr": "Çıkma gecelerimizi renklendirmeliyiz.",
+      "simple": "You make something more fun or more exciting.",
+      "dialogue": [
+        "A: Let's spice up the party.",
+        "B: With a karaoke machine?",
+        "A: Yes!"
+      ],
+      "emoji": "🌶️",
+      "imageQuery": null,
+      "note": "HIMYM ve Modern Family'de."
+    }
+  ]
+}

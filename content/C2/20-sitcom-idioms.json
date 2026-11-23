@@ -1,0 +1,396 @@
+{
+  "topic": "Dizilerden: ileri deyimler",
+  "items": [
+    {
+      "type": "CHUNK",
+      "en": "jump the shark",
+      "tr": "(bir şey) kalitesini yitirip saçmalamak",
+      "ipa": null,
+      "pos": null,
+      "example": "That show jumped the shark in season five.",
+      "exampleTr": "O dizi beşinci sezonda sınırı aştı, saçmaladı.",
+      "simple": "Something that was good gets silly and bad.",
+      "dialogue": [
+        "A: Do you still watch it?",
+        "B: Honestly, it's about to jump the shark."
+      ],
+      "emoji": "🦈",
+      "imageQuery": null,
+      "note": "Friends ve HIMYM hayranlarının dizi eleştirilerinde."
+    },
+    {
+      "type": "CHUNK",
+      "en": "come out of left field",
+      "tr": "tamamen beklenmedik biçimde gelmek",
+      "ipa": null,
+      "pos": null,
+      "example": "His question came out of left field.",
+      "exampleTr": "Sorusu hiç beklenmedik bir yerden geldi.",
+      "simple": "Something surprising that no one thought about.",
+      "dialogue": [
+        "A: Did you see that twist coming?",
+        "B: No, it had to come out of left field."
+      ],
+      "emoji": "⚾",
+      "imageQuery": null,
+      "note": "The Big Bang Theory ve Seinfeld'de."
+    },
+    {
+      "type": "CHUNK",
+      "en": "fly off the handle",
+      "tr": "birden öfkelenmek, tepesi atmak",
+      "ipa": null,
+      "pos": null,
+      "example": "He flew off the handle over a parking ticket.",
+      "exampleTr": "Bir otopark cezası yüzünden tepesi attı.",
+      "simple": "Get very angry very fast.",
+      "dialogue": [
+        "A: Why is Dad yelling?",
+        "B: He'll fly off the handle over small things."
+      ],
+      "emoji": "🪓",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle'da baba karakterinde."
+    },
+    {
+      "type": "CHUNK",
+      "en": "pull a fast one",
+      "tr": "kazık atmak, kıvırtmak",
+      "ipa": null,
+      "pos": null,
+      "example": "Don't try to pull a fast one on me.",
+      "exampleTr": "Bana kazık atmaya kalkma.",
+      "simple": "Trick someone in a sneaky way.",
+      "dialogue": [
+        "A: The price changed after I signed.",
+        "B: He tried to pull a fast one on you."
+      ],
+      "emoji": "🎩",
+      "imageQuery": null,
+      "note": "Seinfeld ve Breaking Bad'de."
+    },
+    {
+      "type": "CHUNK",
+      "en": "bark up the wrong tree",
+      "tr": "yanlış kapıyı çalmak",
+      "ipa": null,
+      "pos": null,
+      "example": "If you think I took it, you're barking up the wrong tree.",
+      "exampleTr": "Aldığımı düşünüyorsan yanlış kapıdasın.",
+      "simple": "You blame the wrong person or choose the wrong way.",
+      "dialogue": [
+        "A: I know you stole my sandwich.",
+        "B: You always bark up the wrong tree, Sam."
+      ],
+      "emoji": "🐕",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine'da şüpheli sorgularında."
+    },
+    {
+      "type": "CHUNK",
+      "en": "grasp at straws",
+      "tr": "çaresizce umut aramak, saman çöpüne sarılmak",
+      "ipa": null,
+      "pos": null,
+      "example": "He's grasping at straws to save the deal.",
+      "exampleTr": "Anlaşmayı kurtarmak için çaresizce çırpınıyor.",
+      "simple": "Try any weak idea when you are in a bad spot.",
+      "dialogue": [
+        "A: He says maybe it's a mistake.",
+        "B: He'll grasp at straws until the end."
+      ],
+      "emoji": "🌾",
+      "imageQuery": null,
+      "note": "Breaking Bad'de kıskaca alınmış karakterlerde."
+    },
+    {
+      "type": "CHUNK",
+      "en": "a red herring",
+      "tr": "yanıltıcı ipucu",
+      "ipa": null,
+      "pos": null,
+      "example": "The letter was a red herring, not a real clue.",
+      "exampleTr": "Mektup gerçek ipucu değil, yanıltıcı bir şeydi.",
+      "simple": "Something that sends you the wrong way.",
+      "dialogue": [
+        "A: So the man in the hat did it?",
+        "B: No, he was a red herring."
+      ],
+      "emoji": "🐟",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine'da dedektif bölümlerinde."
+    },
+    {
+      "type": "CHUNK",
+      "en": "get a taste of your own medicine",
+      "tr": "kendi ilacını tatmak",
+      "ipa": null,
+      "pos": null,
+      "example": "Now he'll get a taste of his own medicine.",
+      "exampleTr": "Şimdi kendi ilacını tatacak.",
+      "simple": "Feel the bad thing you did to others.",
+      "dialogue": [
+        "A: Dave pranked me back!",
+        "B: About time you get a taste of your own medicine."
+      ],
+      "emoji": "💊",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle'da kardeş intikamlarında."
+    },
+    {
+      "type": "CHUNK",
+      "en": "rub salt in the wound",
+      "tr": "yarasına tuz basmak",
+      "ipa": null,
+      "pos": null,
+      "example": "Don't rub salt in the wound, I already feel awful.",
+      "exampleTr": "Yarama tuz basma, zaten kötüyüm.",
+      "simple": "Make a sad person feel worse.",
+      "dialogue": [
+        "A: I told her you lost the bet.",
+        "B: Please don't rub salt in the wound."
+      ],
+      "emoji": "🧂",
+      "imageQuery": null,
+      "note": "Friends'te moral bozma sahnelerinde."
+    },
+    {
+      "type": "CHUNK",
+      "en": "add insult to injury",
+      "tr": "üstüne üstlük, dert üstüne dert",
+      "ipa": null,
+      "pos": null,
+      "example": "They lost my bag and, to add insult to injury, the hotel was full.",
+      "exampleTr": "Çantamı kaybettiler, üstüne otel de doluydu.",
+      "simple": "Something bad happens, then something worse too.",
+      "dialogue": [
+        "A: The car broke down, and then it rained.",
+        "B: Add insult to injury: I had no umbrella."
+      ],
+      "emoji": "🩹",
+      "imageQuery": null,
+      "note": "Seinfeld'de şanssızlık anlatılarında."
+    },
+    {
+      "type": "CHUNK",
+      "en": "hang by a thread",
+      "tr": "kıl payı kalmak, ucu ucuna",
+      "ipa": null,
+      "pos": null,
+      "example": "Our whole plan is hanging by a thread.",
+      "exampleTr": "Bütün planımız bir ipe bağlı.",
+      "simple": "Something could stop or fall very easily.",
+      "dialogue": [
+        "A: Is the deal still on?",
+        "B: Barely. It could hang by a thread for days."
+      ],
+      "emoji": "🧵",
+      "imageQuery": null,
+      "note": "Breaking Bad'de gerilim anlarında."
+    },
+    {
+      "type": "CHUNK",
+      "en": "cut to the chase",
+      "tr": "lafı uzatmadan asıl konuya gelmek",
+      "ipa": null,
+      "pos": null,
+      "example": "Let's cut to the chase. How much do you want?",
+      "exampleTr": "Lafı uzatmayalım. Ne kadar istiyorsun?",
+      "simple": "Skip the extra talk and say the main thing.",
+      "dialogue": [
+        "A: Before we begin, let me tell you about my day.",
+        "B: Let's cut to the chase, please."
+      ],
+      "emoji": "🏃",
+      "imageQuery": null,
+      "note": "Breaking Bad ve The Office'te."
+    },
+    {
+      "type": "CHUNK",
+      "en": "like herding cats",
+      "tr": "kedi sürüsü gütmek gibi (yönetilmesi imkansız)",
+      "ipa": null,
+      "pos": null,
+      "example": "Organising this family dinner is like herding cats.",
+      "exampleTr": "Bu aile yemeğini organize etmek kedi gütmek gibi.",
+      "simple": "A job that is very hard because nobody listens.",
+      "dialogue": [
+        "A: How's the wedding planning?",
+        "B: It's like herding cats."
+      ],
+      "emoji": "🐈",
+      "imageQuery": null,
+      "note": "Modern Family'de kalabalık aile planlarında."
+    },
+    {
+      "type": "CHUNK",
+      "en": "the pot calling the kettle black",
+      "tr": "kendi kusurunu görmeyip başkasını eleştirmek",
+      "ipa": null,
+      "pos": null,
+      "example": "You calling me messy? That's the pot calling the kettle black.",
+      "exampleTr": "Bana dağınık mı diyorsun? Kendi kusurunu görmüyorsun.",
+      "simple": "You blame someone for a fault you also have.",
+      "dialogue": [
+        "A: You never clean up!",
+        "B: That's the pot calling the kettle black."
+      ],
+      "emoji": "🍳",
+      "imageQuery": null,
+      "note": "Friends ve Seinfeld'de ikili atışmalarda."
+    },
+    {
+      "type": "CHUNK",
+      "en": "kick the can down the road",
+      "tr": "sorunu ertelemek, başka zamana bırakmak",
+      "ipa": null,
+      "pos": null,
+      "example": "We keep kicking the can down the road on this.",
+      "exampleTr": "Bu konuyu hep sonraya atıyoruz.",
+      "simple": "Wait to fix a problem instead of fixing it now.",
+      "dialogue": [
+        "A: Are we choosing a date?",
+        "B: No, we'll just kick the can down the road."
+      ],
+      "emoji": "🥫",
+      "imageQuery": null,
+      "note": "The Office'te yönetim kararlarında."
+    },
+    {
+      "type": "CHUNK",
+      "en": "wouldn't touch it with a ten-foot pole",
+      "tr": "ona yanaşmam, dokunmam bile",
+      "ipa": null,
+      "pos": null,
+      "example": "That deal? I wouldn't touch it with a ten-foot pole.",
+      "exampleTr": "O anlaşma mı? Yanına bile yanaşmam.",
+      "simple": "You want to stay far away from something bad.",
+      "dialogue": [
+        "A: Want to buy his old van?",
+        "B: I wouldn't touch it with a ten-foot pole."
+      ],
+      "emoji": "🪵",
+      "imageQuery": null,
+      "note": "Seinfeld'de kaçınma anlarında."
+    },
+    {
+      "type": "CHUNK",
+      "en": "go down in flames",
+      "tr": "büyük bir başarısızlıkla bitmek",
+      "ipa": null,
+      "pos": null,
+      "example": "Their big plan went down in flames.",
+      "exampleTr": "Büyük planları büyük bir fiyaskoyla bitti.",
+      "simple": "Fail in a very big, loud way.",
+      "dialogue": [
+        "A: How will the date go?",
+        "B: I'm afraid it will go down in flames."
+      ],
+      "emoji": "🔥",
+      "imageQuery": null,
+      "note": "The Office ve Seinfeld'de fiyasko anlatımında."
+    },
+    {
+      "type": "CHUNK",
+      "en": "burn the candle at both ends",
+      "tr": "kendini yıpratana kadar çalışmak",
+      "ipa": null,
+      "pos": null,
+      "example": "He's burning the candle at both ends this month.",
+      "exampleTr": "Bu ay kendini yıpratana kadar çalışıyor.",
+      "simple": "Do too much and sleep too little.",
+      "dialogue": [
+        "A: You look so tired.",
+        "B: Don't burn the candle at both ends, Sam."
+      ],
+      "emoji": "🕯️",
+      "imageQuery": null,
+      "note": "The Big Bang Theory'de bilim insanlarının çalışma temposunda."
+    },
+    {
+      "type": "CHUNK",
+      "en": "go back to the drawing board",
+      "tr": "baştan planlamak, sıfırdan başlamak",
+      "ipa": null,
+      "pos": null,
+      "example": "The test failed, so it's back to the drawing board.",
+      "exampleTr": "Test başarısız oldu, baştan başlıyoruz.",
+      "simple": "Start again with new ideas after failing.",
+      "dialogue": [
+        "A: The client hated our idea.",
+        "B: Then we go back to the drawing board."
+      ],
+      "emoji": "📐",
+      "imageQuery": null,
+      "note": "The Big Bang Theory ve The Office'te."
+    },
+    {
+      "type": "CHUNK",
+      "en": "have a bone to pick",
+      "tr": "hesaplaşacak hesabı olmak",
+      "ipa": null,
+      "pos": null,
+      "example": "I have a bone to pick with you about last night.",
+      "exampleTr": "Dün gece yüzünden seninle konuşacaklarım var.",
+      "simple": "You are upset with someone and want to talk about it.",
+      "dialogue": [
+        "A: Why is Mom so cold today?",
+        "B: I have a bone to pick with her, that's why."
+      ],
+      "emoji": "🦴",
+      "imageQuery": null,
+      "note": "Seinfeld ve Friends'te."
+    },
+    {
+      "type": "CHUNK",
+      "en": "the writing is on the wall",
+      "tr": "işin sonu göründü, belli oldu",
+      "ipa": null,
+      "pos": null,
+      "example": "The writing is on the wall for this company.",
+      "exampleTr": "Bu şirketin sonu gözüküyor.",
+      "simple": "You can already see something will end badly.",
+      "dialogue": [
+        "A: Will they close the branch?",
+        "B: The writing is on the wall."
+      ],
+      "emoji": "🧱",
+      "imageQuery": null,
+      "note": "The Office'te şirket küçülme bölümlerinde."
+    },
+    {
+      "type": "CHUNK",
+      "en": "push the envelope",
+      "tr": "sınırları zorlamak",
+      "ipa": null,
+      "pos": null,
+      "example": "This show loves to push the envelope.",
+      "exampleTr": "Bu dizi sınırları zorlamayı sever.",
+      "simple": "Try something new that goes past the usual limit.",
+      "dialogue": [
+        "A: Why try such a wild idea?",
+        "B: I like to push the envelope."
+      ],
+      "emoji": "✉️",
+      "imageQuery": null,
+      "note": "The Big Bang Theory'de bilim ve Brooklyn Nine-Nine'da."
+    },
+    {
+      "type": "CHUNK",
+      "en": "face the music",
+      "tr": "sonuçlarına katlanmak",
+      "ipa": null,
+      "pos": null,
+      "example": "You broke it, so now face the music.",
+      "exampleTr": "Sen kırdın, şimdi sonuçlarına katlan.",
+      "simple": "Take the punishment for what you did.",
+      "dialogue": [
+        "A: Dad's home and he saw the car.",
+        "B: Time to face the music."
+      ],
+      "emoji": "🎺",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle'da ceza anlarında."
+    }
+  ]
+}

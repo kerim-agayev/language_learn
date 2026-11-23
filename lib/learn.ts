@@ -1,13 +1,13 @@
 import { State } from "ts-fsrs";
 import { db, todayKey, TZ } from "./db";
-import { LEVELS, MASTERED_STABILITY, levelComplete, grade, previews, formatInterval, fromJson, points, normalize, streak, usesItem, type Grade, type LevelName } from "./srs";
+import { LEVELS, MASTERED_STABILITY, levelComplete, grade, previews, formatInterval, fromJson, points, normalize, streak, usesItem, blankDialogue, type Grade, type LevelName } from "./srs";
 import type { Item } from "./generated/prisma/client";
 
 /**
  * Immersion first (Rosetta Stone): pic_en / simple_en / listen_en / blank never show Turkish.
  * Feynman: produce = use the item in your own sentence. en_tr / tr_en are the translation backups.
  */
-export type Mode = "pic_en" | "simple_en" | "listen_en" | "blank" | "produce" | "en_tr" | "tr_en";
+export type Mode = "pic_en" | "simple_en" | "listen_en" | "blank" | "dialog" | "produce" | "en_tr" | "tr_en";
 export type ItemView = Omit<Item, "order" | "source">;
 /** What the client gets. For reviews the answer is NOT included; it comes back from answer(). */
 export type Quiz = {
@@ -19,6 +19,7 @@ export type Quiz = {
   image?: string | null;
   emoji?: string | null;
   options: string[]; // empty for "produce"
+  lines?: string[]; // "dialog": the conversation with the item blanked
   learn?: ItemView; // only for brand-new items: show the card first
 };
 
@@ -52,11 +53,16 @@ function view(it: Item): ItemView {
 }
 
 /** Which quiz to give. New items: immersion check (picture or simple English). Reviews: mostly English-only. */
-export function pickMode(it: Pick<Item, "image" | "simple" | "type">, opts: { isNew: boolean; canBlank: boolean; strong: boolean; sound: boolean }, rnd = Math.random): Mode {
+export function pickMode(
+  it: Pick<Item, "image" | "simple" | "type">,
+  opts: { isNew: boolean; canBlank: boolean; strong: boolean; sound: boolean; canDialog?: boolean },
+  rnd = Math.random,
+): Mode {
   const english: Mode[] = opts.sound ? ["listen_en"] : []; // no listening quizzes on a silent desk
   if (it.image) english.push("pic_en", "pic_en");
   if (it.simple) english.push("simple_en", "simple_en");
   if (opts.canBlank) english.push("blank");
+  if (opts.canDialog) english.push("dialog", "dialog", "dialog"); // real conversation context: favour it
   if (opts.isNew) return it.image ? "pic_en" : it.simple ? "simple_en" : "en_tr";
   if (opts.strong && rnd() < 0.3) return "produce"; // Feynman: once you know it, use it yourself
   const all: Mode[] = [...english, ...english, "en_tr", "tr_en"]; // ~80% immersion, ~20% translation
@@ -65,7 +71,8 @@ export function pickMode(it: Pick<Item, "image" | "simple" | "type">, opts: { is
 
 async function buildQuiz(it: Item, isNew: boolean, forced?: Mode, strong = false, sound = true): Promise<Quiz> {
   const canBlank = it.type !== "SENTENCE" && it.type !== "CHUNK" && !!blankOut(it);
-  const mode: Mode = forced ?? pickMode(it, { isNew, canBlank, strong, sound });
+  const lines = blankDialogue(it.dialogue, it.en);
+  const mode: Mode = forced ?? pickMode(it, { isNew, canBlank, strong, sound, canDialog: !!lines });
   const base = { itemId: it.id, level: it.level, mode, learn: isNew ? view(it) : undefined };
 
   if (mode === "produce")
@@ -98,6 +105,7 @@ async function buildQuiz(it: Item, isNew: boolean, forced?: Mode, strong = false
     image: mode === "pic_en" ? it.image : undefined,
     emoji: mode === "pic_en" ? it.emoji : undefined,
     options: shuffle([answer, ...distractors]),
+    lines: mode === "dialog" ? lines! : undefined,
   };
 }
 

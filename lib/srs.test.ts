@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { State } from "ts-fsrs";
-import { levelComplete, isMastered, points, normalize, fromJson, streak, usesItem, grade, previews, formatInterval } from "./srs";
+import { levelComplete, isMastered, points, normalize, fromJson, streak, usesItem, grade, previews, formatInterval, blankIn, blankDialogue } from "./srs";
 
 test("level gate is strict", () => {
   assert.equal(levelComplete(100, 99, 99), false); // one item never seen
@@ -65,6 +65,15 @@ test("formatInterval", () => {
   assert.equal(formatInterval(4 * 864e5), "4 gün");
   assert.equal(formatInterval(65 * 864e5), "2 ay");
   assert.equal(formatInterval(400 * 864e5), "1.1 yıl");
+});
+
+test("dialogue blanks: whole words, punctuation-safe, first matching line", () => {
+  assert.equal(blankIn("B: No way! Seriously?", "No way!"), "B: _____ Seriously?");
+  assert.equal(blankIn("A: I'll pick up the kids.", "pick up"), "A: I'll _____ the kids.");
+  assert.equal(blankIn("A: She picked up the kids.", "pick up"), null); // inflected: not verbatim
+  assert.equal(blankIn("A: The cat sat.", "at"), null); // not inside other words
+  assert.deepEqual(blankDialogue(["A: Are you coming?", "B: Sorry, I can't make it."], "I can't make it"), ["A: Are you coming?", "B: Sorry, _____."]);
+  assert.equal(blankDialogue(["A: Hi", "B: Hello"], "bye"), null);
 });
 
 test("points and normalize", () => {

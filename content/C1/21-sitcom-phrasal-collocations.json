@@ -1,0 +1,396 @@
+{
+  "topic": "Dizilerden: C1 phrasal verb ve collocation'lar",
+  "items": [
+    {
+      "type": "PHRASAL",
+      "en": "come clean",
+      "tr": "itiraf etmek, gerçeği söylemek",
+      "ipa": "/kʌm kliːn/",
+      "pos": null,
+      "example": "Just come clean about the missing money.",
+      "exampleTr": "Kayıp para hakkında dürüst ol da söyle.",
+      "simple": "Tell the whole truth after hiding it.",
+      "dialogue": [
+        "A: Where did the cash go?",
+        "B: You should come clean before she finds out."
+      ],
+      "emoji": "🧼",
+      "imageQuery": null,
+      "note": "Breaking Bad ve The Office'te itiraf sahnelerinde."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "brush off",
+      "tr": "savuşturmak, aldırmamak",
+      "ipa": "/brʌʃ ɒf/",
+      "pos": null,
+      "example": "She brushed me off when I asked her out.",
+      "exampleTr": "Ona çıkma teklif edince beni savuşturdu.",
+      "simple": "Not take someone seriously. Send them away fast.",
+      "dialogue": [
+        "A: Did she say yes?",
+        "B: No, she'll just brush off my question."
+      ],
+      "emoji": "🧹",
+      "imageQuery": null,
+      "note": "How I Met Your Mother'da flört sahnelerinde."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "weasel out of",
+      "tr": "kıvırıp kaçmak (sorumluluktan)",
+      "ipa": "/ˈwiː.zəl aʊt əv/",
+      "pos": null,
+      "example": "He always weasels out of doing the dishes.",
+      "exampleTr": "Bulaşık yıkamaktan hep kıvırıp kurtulur.",
+      "simple": "Find a sneaky way to not do your job.",
+      "dialogue": [
+        "A: Why is it my turn again?",
+        "B: Don't weasel out of it. It's your turn."
+      ],
+      "emoji": "🦡",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle'da kardeş kavgalarında."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "fess up",
+      "tr": "itiraf etmek (günlük)",
+      "ipa": "/fes ʌp/",
+      "pos": null,
+      "example": "Come on, fess up. Who ate my leftovers?",
+      "exampleTr": "Hadi itiraf et. Artıklarımı kim yedi?",
+      "simple": "Say you did the bad thing. Be honest.",
+      "dialogue": [
+        "A: Somebody broke the lamp.",
+        "B: Okay, fess up. Who did it?"
+      ],
+      "emoji": "🙋",
+      "imageQuery": null,
+      "note": "Modern Family'de aile içi suçlamalarda."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "cave in",
+      "tr": "pes etmek, boyun eğmek",
+      "ipa": "/keɪv ɪn/",
+      "pos": null,
+      "example": "After an hour of nagging, I caved in.",
+      "exampleTr": "Bir saatlik dırdırdan sonra pes ettim.",
+      "simple": "Give up and say yes after a long push.",
+      "dialogue": [
+        "A: Did you buy him the toy?",
+        "B: Yes, I had to cave in."
+      ],
+      "emoji": "🪨",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle'da ısrarcı çocuklar karşısında."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "luck out",
+      "tr": "şans eseri iyi çıkmak",
+      "ipa": "/lʌk aʊt/",
+      "pos": null,
+      "example": "We really lucked out with the weather.",
+      "exampleTr": "Havadan gerçekten şanslı çıktık.",
+      "simple": "Good things happen to you by chance.",
+      "dialogue": [
+        "A: How was the beach?",
+        "B: I think we'll luck out with sunny weather."
+      ],
+      "emoji": "🍀",
+      "imageQuery": null,
+      "note": "Friends'te Amerikan konuşmasına özgü."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "dial back",
+      "tr": "kısmak, yumuşatmak",
+      "ipa": "/ˈdaɪəl bæk/",
+      "pos": null,
+      "example": "Can you dial back the drama a little?",
+      "exampleTr": "Dramayı biraz kısabilir misin?",
+      "simple": "Do less of something. Make it smaller.",
+      "dialogue": [
+        "A: I'm just being friendly!",
+        "B: You need to dial back the hugging."
+      ],
+      "emoji": "🎚️",
+      "imageQuery": null,
+      "note": "The Office'te Michael'ın abartılarına karşı."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "double down",
+      "tr": "üstüne gitmek, ısrarla savunmak",
+      "ipa": "/ˈdʌb.əl daʊn/",
+      "pos": null,
+      "example": "Instead of apologising, he doubled down.",
+      "exampleTr": "Özür dilemek yerine daha da üstüne gitti.",
+      "simple": "Say it again, even stronger, when people disagree.",
+      "dialogue": [
+        "A: Did he admit he was wrong?",
+        "B: No, he'll double down on his story."
+      ],
+      "emoji": "🃏",
+      "imageQuery": null,
+      "note": "Modern Family ve The Office'te inatçı karakterlerde."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "ease off",
+      "tr": "hafifletmek, yavaşlamak",
+      "ipa": "/iːz ɒf/",
+      "pos": null,
+      "example": "Ease off, man. She said she's sorry.",
+      "exampleTr": "Biraz yavaş ol. Özür diledi ya.",
+      "simple": "Be less strong or less pushy.",
+      "dialogue": [
+        "A: I'll ask her ten more questions.",
+        "B: Ease off. She's had a long day."
+      ],
+      "emoji": "🧘",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine'da baskıyı azaltma isteğinde."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "suck up to",
+      "tr": "dalkavukluk yapmak",
+      "ipa": "/sʌk ʌp tə/",
+      "pos": null,
+      "example": "He's always sucking up to the boss.",
+      "exampleTr": "Hep patrona yaltaklanıyor.",
+      "simple": "Be extra nice to someone to get something.",
+      "dialogue": [
+        "A: Why did he bring her coffee?",
+        "B: He wants to suck up to her for a raise."
+      ],
+      "emoji": "🍭",
+      "imageQuery": null,
+      "note": "The Office'te Dwight tipi karakterlerde."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "rope someone into",
+      "tr": "(zorla) bulaştırmak, işe karıştırmak",
+      "ipa": "/rəʊp ˈɪn.tuː/",
+      "pos": null,
+      "example": "Don't let him rope someone into his crazy scheme.",
+      "exampleTr": "Çılgın planına birini bulaştırmasına izin verme.",
+      "simple": "Get someone to join, even if they don't want to.",
+      "dialogue": [
+        "A: How did you end up at the school fair?",
+        "B: My sister will rope someone into helping, always."
+      ],
+      "emoji": "🪢",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine'da arkadaşı plana çekerken."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "tiptoe around",
+      "tr": "(konunun) etrafından dolanmak",
+      "ipa": "/ˈtɪp.təʊ əˈraʊnd/",
+      "pos": null,
+      "example": "Stop tiptoeing around it and tell me.",
+      "exampleTr": "Lafı dolandırma, söyle bana.",
+      "simple": "Be careful not to say the hard thing directly.",
+      "dialogue": [
+        "A: Why is everyone so quiet?",
+        "B: We have to tiptoe around the divorce topic."
+      ],
+      "emoji": "🩰",
+      "imageQuery": null,
+      "note": "Modern Family'de hassas konularda."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "stand up to",
+      "tr": "karşı durmak, kafa tutmak",
+      "ipa": "/stænd ʌp tuː/",
+      "pos": null,
+      "example": "It's time you stood up to your brother.",
+      "exampleTr": "Abinin karşısında durma zamanı geldi.",
+      "simple": "Not be afraid of someone strong. Say no.",
+      "dialogue": [
+        "A: He always takes my stuff.",
+        "B: You have to stand up to him."
+      ],
+      "emoji": "🛡️",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle'da anne ve abilere karşı."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "raise a red flag",
+      "tr": "alarm zili çaldırmak",
+      "ipa": "/reɪz ə red flæɡ/",
+      "pos": null,
+      "example": "His story raised a red flag for the team.",
+      "exampleTr": "Hikayesi ekipte alarm zili çaldırdı.",
+      "simple": "Something makes you think: be careful, maybe a problem.",
+      "dialogue": [
+        "A: He paid in cash and wore sunglasses indoors.",
+        "B: That would raise a red flag for anyone."
+      ],
+      "emoji": "🚩",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine'da dedektif sahnelerinde."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "pull strings",
+      "tr": "torpil kullanmak",
+      "ipa": "/pʊl strɪŋz/",
+      "pos": null,
+      "example": "She pulled strings to get us a table.",
+      "exampleTr": "Masa bulmak için torpil kullandı.",
+      "simple": "Use friends in high places to get what you want.",
+      "dialogue": [
+        "A: How can we get tickets?",
+        "B: My uncle can pull strings for us."
+      ],
+      "emoji": "🎻",
+      "imageQuery": null,
+      "note": "Seinfeld ve Modern Family'de."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "take the fall",
+      "tr": "suçu üstlenmek",
+      "ipa": "/teɪk ðə fɔːl/",
+      "pos": null,
+      "example": "Somebody has to take the fall for this.",
+      "exampleTr": "Birinin bunun suçunu üstlenmesi lazım.",
+      "simple": "Get the blame, even if it was not just you.",
+      "dialogue": [
+        "A: The report was a disaster.",
+        "B: And Gary had to take the fall."
+      ],
+      "emoji": "🍂",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine ve Breaking Bad'de."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "bail on",
+      "tr": "ortada bırakmak, sözünden dönüp gelmemek",
+      "ipa": "/beɪl ɒn/",
+      "pos": null,
+      "example": "He bailed on us an hour before the party.",
+      "exampleTr": "Partiden bir saat önce bizi ortada bıraktı.",
+      "simple": "Say you will come, then not come.",
+      "dialogue": [
+        "A: Where's Josh?",
+        "B: He'll bail on us again, I bet."
+      ],
+      "emoji": "🏃",
+      "imageQuery": null,
+      "note": "Friends ve HIMYM'de plan bozan arkadaşlarda."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "chime in",
+      "tr": "lafa karışmak, söze girmek",
+      "ipa": "/tʃaɪm ɪn/",
+      "pos": null,
+      "example": "Feel free to chime in if you disagree.",
+      "exampleTr": "Katılmıyorsan çekinmeden söze gir.",
+      "simple": "Add your words to a talk that others started.",
+      "dialogue": [
+        "A: Does anyone have ideas?",
+        "B: Sure, let me chime in here."
+      ],
+      "emoji": "🔔",
+      "imageQuery": null,
+      "note": "The Office ve Modern Family'de aile sohbetlerinde."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "call someone out",
+      "tr": "birinin yüzüne vurmak, açıkça eleştirmek",
+      "ipa": "/kɔːl ˈsʌm.wʌn aʊt/",
+      "pos": null,
+      "example": "She called him out for lying in front of everyone.",
+      "exampleTr": "Herkesin önünde yalan söylediğini yüzüne vurdu.",
+      "simple": "Say in public that someone did something wrong.",
+      "dialogue": [
+        "A: Why is he so quiet now?",
+        "B: I had to call someone out, and it was him."
+      ],
+      "emoji": "📢",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine'da ve Modern Family'de."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "laugh off",
+      "tr": "gülüp geçmek",
+      "ipa": "/lɑːf ɒf/",
+      "pos": null,
+      "example": "He tried to laugh off the embarrassing mistake.",
+      "exampleTr": "Utanç verici hatayı gülüp geçmeye çalıştı.",
+      "simple": "Pretend something bad is not a big deal.",
+      "dialogue": [
+        "A: Weren't you upset by the joke?",
+        "B: No, I can laugh off things like that."
+      ],
+      "emoji": "😅",
+      "imageQuery": null,
+      "note": "Friends'te utanç anlarında."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "walk someone through",
+      "tr": "adım adım anlatmak",
+      "ipa": "/wɔːk ˈsʌm.wʌn θruː/",
+      "pos": null,
+      "example": "Can you walk me through what happened?",
+      "exampleTr": "Ne olduğunu bana adım adım anlatır mısın?",
+      "simple": "Explain slowly, one step at a time.",
+      "dialogue": [
+        "A: I don't get the new software.",
+        "B: I can walk someone through it, like you."
+      ],
+      "emoji": "🚶",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine'da vaka anlatımlarında."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "own up to",
+      "tr": "(hatayı) kabul etmek",
+      "ipa": "/əʊn ʌp tuː/",
+      "pos": null,
+      "example": "Just own up to your mistake and move on.",
+      "exampleTr": "Hatanı kabul et ve devam et.",
+      "simple": "Say honestly that you did it.",
+      "dialogue": [
+        "A: Will he say sorry?",
+        "B: He should own up to it."
+      ],
+      "emoji": "🙋",
+      "imageQuery": null,
+      "note": "Modern Family'de baba-çocuk konuşmalarında."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "hash out",
+      "tr": "uzun uzun tartışıp çözmek",
+      "ipa": "/hæʃ aʊt/",
+      "pos": null,
+      "example": "Let's hash out the details over dinner.",
+      "exampleTr": "Ayrıntıları yemekte uzun uzun konuşalım.",
+      "simple": "Talk a long time until you agree.",
+      "dialogue": [
+        "A: We can't agree on chores.",
+        "B: Let's hash out a deal tonight."
+      ],
+      "emoji": "🗣️",
+      "imageQuery": null,
+      "note": "The Big Bang Theory'de oda arkadaşı anlaşmalarında."
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "topic": "Dizilerden: phrasal verb ve collocation'lar",
+  "items": [
+    {
+      "type": "PHRASAL",
+      "en": "chill out",
+      "tr": "sakinleşmek, rahatlamak",
+      "ipa": "/tʃɪl aʊt/",
+      "pos": null,
+      "example": "Just chill out and watch TV.",
+      "exampleTr": "Sadece rahatla ve televizyon izle.",
+      "simple": "To rest and not be worried.",
+      "dialogue": [
+        "A: I am so nervous about Monday.",
+        "B: Just chill out and watch TV."
+      ],
+      "emoji": "🧊",
+      "imageQuery": null,
+      "note": "Friends ve Brooklyn Nine-Nine'da çok sık."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "kick back",
+      "tr": "gevşemek, rahatlamak",
+      "ipa": "/kɪk bæk/",
+      "pos": null,
+      "example": "Let's kick back and watch TV.",
+      "exampleTr": "Gevşeyelim ve televizyon izleyelim.",
+      "simple": "To sit and rest. You do nothing hard.",
+      "dialogue": [
+        "A: You look tired. Sit down.",
+        "B: Let's kick back and watch TV."
+      ],
+      "emoji": "🛋️",
+      "imageQuery": null,
+      "note": "Friends ve The Big Bang Theory'de sık."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "back off",
+      "tr": "geri çekilmek, bulaşmamak",
+      "ipa": "/bæk ɒf/",
+      "pos": null,
+      "example": "Back off! It's my turn.",
+      "exampleTr": "Geri çekil! Sıra bende.",
+      "simple": "To move away or stop pushing someone.",
+      "dialogue": [
+        "A: Let me use the game now!",
+        "B: Back off! It's my turn."
+      ],
+      "emoji": "✋",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine ve Malcolm in the Middle'da."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "shut up",
+      "tr": "susmak",
+      "ipa": "/ʃʌt ʌp/",
+      "pos": null,
+      "example": "Please shut up and listen.",
+      "exampleTr": "Lütfen sus ve dinle.",
+      "simple": "To stop talking. It can sound rude.",
+      "dialogue": [
+        "A: But I have so much to say!",
+        "B: Please shut up and listen."
+      ],
+      "emoji": "🤐",
+      "imageQuery": null,
+      "note": "Kaba; arkadaşlar arası şakada çok sık."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "bump into",
+      "tr": "tesadüfen karşılaşmak",
+      "ipa": "/bʌmp ˈɪn.tuː/",
+      "pos": null,
+      "example": "I might bump into your ex today.",
+      "exampleTr": "Bugün eski sevgiline rastlayabilirim.",
+      "simple": "To meet someone when you did not plan to.",
+      "dialogue": [
+        "A: Guess who I saw at the shop?",
+        "B: I might bump into your ex today."
+      ],
+      "emoji": "🚶",
+      "imageQuery": null,
+      "note": "Friends ve HIMYM'de; \"run into\" ile aynı."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "sleep over",
+      "tr": "arkadaşta kalmak",
+      "ipa": "/sliːp ˈəʊ.və/",
+      "pos": null,
+      "example": "Can Ben sleep over tonight?",
+      "exampleTr": "Ben bu gece bizde kalabilir mi?",
+      "simple": "To sleep at a friend's house for one night.",
+      "dialogue": [
+        "A: Mum, can I ask something?",
+        "B: Can Ben sleep over tonight?"
+      ],
+      "emoji": "🛏️",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle ve Modern Family'de çocuklar için."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "crack up",
+      "tr": "kahkahaya boğulmak",
+      "ipa": "/kræk ʌp/",
+      "pos": null,
+      "example": "We always crack up at his jokes.",
+      "exampleTr": "Onun şakalarına hep kahkahayı basarız.",
+      "simple": "To laugh a lot and not stop.",
+      "dialogue": [
+        "A: Why is everybody so red in the face?",
+        "B: We always crack up at his jokes."
+      ],
+      "emoji": "😂",
+      "imageQuery": null,
+      "note": "Friends ve The Office'te sık."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "dress up",
+      "tr": "şık giyinmek, kostüm giymek",
+      "ipa": "/dres ʌp/",
+      "pos": null,
+      "example": "We have to dress up for dinner.",
+      "exampleTr": "Akşam yemeği için şık giyinmeliyiz.",
+      "simple": "To wear nice or special clothes.",
+      "dialogue": [
+        "A: Is the restaurant fancy?",
+        "B: We have to dress up for dinner."
+      ],
+      "emoji": "👗",
+      "imageQuery": null,
+      "note": "Modern Family'de parti sahneleri."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "sneak out",
+      "tr": "gizlice çıkmak",
+      "ipa": "/sniːk aʊt/",
+      "pos": null,
+      "example": "He wants to sneak out at night.",
+      "exampleTr": "Geceleri gizlice çıkmak istiyor.",
+      "simple": "To leave a place quietly so nobody sees you.",
+      "dialogue": [
+        "A: Why is Tom so tired this morning?",
+        "B: He wants to sneak out at night."
+      ],
+      "emoji": "🤫",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle'da çok sık."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "storm off",
+      "tr": "öfkeyle çekip gitmek",
+      "ipa": "/stɔːm ɒf/",
+      "pos": null,
+      "example": "Don't storm off when you're angry.",
+      "exampleTr": "Kızınca öfkeyle çekip gitme.",
+      "simple": "To go away fast because you are very angry.",
+      "dialogue": [
+        "A: Where is Anna? She was here a minute ago.",
+        "B: Don't storm off when you're angry."
+      ],
+      "emoji": "😤",
+      "imageQuery": null,
+      "note": "Friends ve Modern Family'de tartışma sonrası."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "stand someone up",
+      "tr": "birine kazık atmak",
+      "ipa": "/stænd ˈsʌm.wʌn ʌp/",
+      "pos": null,
+      "example": "He would never stand someone up.",
+      "exampleTr": "O asla birine kazık atmaz.",
+      "simple": "To not come when you said you would meet someone.",
+      "dialogue": [
+        "A: Why are you home so early?",
+        "B: He would never stand someone up."
+      ],
+      "emoji": "💔",
+      "imageQuery": null,
+      "note": "HIMYM ve Friends'te randevu hikayeleri."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "mess with",
+      "tr": "bulaşmak, kurcalamak",
+      "ipa": "/mes wɪð/",
+      "pos": null,
+      "example": "Don't mess with my sandwich.",
+      "exampleTr": "Sandviçime bulaşma.",
+      "simple": "To touch or bother something that is not yours.",
+      "dialogue": [
+        "A: I am just so hungry!",
+        "B: Don't mess with my sandwich."
+      ],
+      "emoji": "😠",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine ve Malcolm in the Middle'da."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "pick on",
+      "tr": "sataşmak, uğraşmak",
+      "ipa": "/pɪk ɒn/",
+      "pos": null,
+      "example": "Stop trying to pick on your brother.",
+      "exampleTr": "Kardeşine sataşmayı bırak.",
+      "simple": "To be mean to one person again and again.",
+      "dialogue": [
+        "A: He called me names again, Dad!",
+        "B: Stop trying to pick on your brother."
+      ],
+      "emoji": "😈",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle'ın kardeş kavgalarında."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "crash at",
+      "tr": "(birinin evinde) kalmak",
+      "ipa": "/kræʃ æt/",
+      "pos": null,
+      "example": "Can I crash at your place?",
+      "exampleTr": "Senin evinde kalabilir miyim?",
+      "simple": "To sleep at someone's home for a short time.",
+      "dialogue": [
+        "A: I lost my keys, and it is late.",
+        "B: Can I crash at your place?"
+      ],
+      "emoji": "🛋️",
+      "imageQuery": null,
+      "note": "Friends ve The Big Bang Theory'de; günlük konuşma."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "head out",
+      "tr": "yola çıkmak, gitmek",
+      "ipa": "/hed aʊt/",
+      "pos": null,
+      "example": "I'm going to head out. See you later.",
+      "exampleTr": "Ben çıkacağım. Sonra görüşürüz.",
+      "simple": "To leave a place and go somewhere.",
+      "dialogue": [
+        "A: Are you leaving already?",
+        "B: I'm going to head out. See you later."
+      ],
+      "emoji": "🚪",
+      "imageQuery": null,
+      "note": "The Office ve Brooklyn Nine-Nine'da."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "go on a date",
+      "tr": "randevuya çıkmak",
+      "ipa": "/ɡəʊ ɒn ə deɪt/",
+      "pos": null,
+      "example": "I'm going to go on a date tonight.",
+      "exampleTr": "Bu gece bir randevuya çıkıyorum.",
+      "simple": "To go out with a person you like.",
+      "dialogue": [
+        "A: Why are you wearing a nice shirt?",
+        "B: I'm going to go on a date tonight."
+      ],
+      "emoji": "💑",
+      "imageQuery": null,
+      "note": "HIMYM ve Friends'in ana konusu."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "throw a party",
+      "tr": "parti vermek",
+      "ipa": "/θrəʊ ə ˈpɑː.ti/",
+      "pos": null,
+      "example": "Let's throw a party on Saturday.",
+      "exampleTr": "Cumartesi parti verelim.",
+      "simple": "To make a party at your home.",
+      "dialogue": [
+        "A: The flat is big and we have no plans.",
+        "B: Let's throw a party on Saturday."
+      ],
+      "emoji": "🎉",
+      "imageQuery": null,
+      "note": "Modern Family ve HIMYM'de."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "make plans",
+      "tr": "plan yapmak",
+      "ipa": "/meɪk plænz/",
+      "pos": null,
+      "example": "Let's make plans for Friday night.",
+      "exampleTr": "Cuma akşamı için plan yapalım.",
+      "simple": "To decide with others what you will do.",
+      "dialogue": [
+        "A: Are you free on Friday night?",
+        "B: Let's make plans for Friday night."
+      ],
+      "emoji": "🗓️",
+      "imageQuery": null,
+      "note": "Her dizide; \"Do you have plans?\" çok sık."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "make a scene",
+      "tr": "olay çıkarmak",
+      "ipa": "/meɪk ə siːn/",
+      "pos": null,
+      "example": "Please don't make a scene here.",
+      "exampleTr": "Lütfen burada olay çıkarma.",
+      "simple": "To shout or act badly so everybody looks at you.",
+      "dialogue": [
+        "A: This soup is cold! I will tell the waiter!",
+        "B: Please don't make a scene here."
+      ],
+      "emoji": "📢",
+      "imageQuery": null,
+      "note": "Modern Family ve Seinfeld'de."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "give it a shot",
+      "tr": "bir şans vermek, denemek",
+      "ipa": "/ɡɪv ɪt ə ʃɒt/",
+      "pos": null,
+      "example": "Come on, give it a shot.",
+      "exampleTr": "Hadi, bir dene.",
+      "simple": "To try something, even if it is hard.",
+      "dialogue": [
+        "A: I can not dance at all.",
+        "B: Come on, give it a shot."
+      ],
+      "emoji": "🎯",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine'da; \"give it a try\" gibi."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "get a life",
+      "tr": "kendine bir hayat edin (alaycı)",
+      "ipa": "/ɡet ə laɪf/",
+      "pos": null,
+      "example": "Oh, get a life!",
+      "exampleTr": "Oh, kendine bir hayat edin!",
+      "simple": "A rude joke to tell someone to find more fun things to do.",
+      "dialogue": [
+        "A: I watched the same show nine times.",
+        "B: Oh, get a life!"
+      ],
+      "emoji": "🙃",
+      "imageQuery": null,
+      "note": "Friends ve Seinfeld'de alaycı; kaba olabilir."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "pick up the bill",
+      "tr": "hesabı ödemek",
+      "ipa": "/pɪk ʌp ðə bɪl/",
+      "pos": null,
+      "example": "Don't worry, I'll pick up the bill.",
+      "exampleTr": "Merak etme, hesabı ben öderim.",
+      "simple": "To pay for the food when you eat out.",
+      "dialogue": [
+        "A: The waiter is coming. Who pays?",
+        "B: Don't worry, I'll pick up the bill."
+      ],
+      "emoji": "🧾",
+      "imageQuery": null,
+      "note": "How I Met Your Mother ve Friends'te restoran sahneleri."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "have a crush",
+      "tr": "birine abayı yakmak",
+      "ipa": "/hæv ə krʌʃ/",
+      "pos": null,
+      "example": "I used to have a crush on my teacher.",
+      "exampleTr": "Öğretmenime abayı yakmıştım.",
+      "simple": "To like someone a lot but not tell them.",
+      "dialogue": [
+        "A: Did you like anyone at school?",
+        "B: I used to have a crush on my teacher."
+      ],
+      "emoji": "😍",
+      "imageQuery": null,
+      "note": "Friends ve Modern Family'de; genelde \"crush on\"."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "have a blast",
+      "tr": "çok eğlenmek",
+      "ipa": "/hæv ə blɑːst/",
+      "pos": null,
+      "example": "We always have a blast at the beach.",
+      "exampleTr": "Plajda hep çok eğleniriz.",
+      "simple": "To have a lot of fun.",
+      "dialogue": [
+        "A: How was your holiday?",
+        "B: We always have a blast at the beach."
+      ],
+      "emoji": "🥳",
+      "imageQuery": null,
+      "note": "The Big Bang Theory ve HIMYM'de."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "a bad day",
+      "tr": "kötü bir gün",
+      "ipa": "/ə bæd deɪ/",
+      "pos": null,
+      "example": "I'm having a bad day.",
+      "exampleTr": "Gerçekten kötü bir gün geçiriyorum.",
+      "simple": "A day when many things go wrong.",
+      "dialogue": [
+        "A: You look upset. What happened?",
+        "B: I'm having a bad day."
+      ],
+      "emoji": "🌧️",
+      "imageQuery": null,
+      "note": "Her dizide; dert yanma."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "take the hint",
+      "tr": "ima anlamak",
+      "ipa": "/teɪk ðə hɪnt/",
+      "pos": null,
+      "example": "He didn't take the hint and stayed.",
+      "exampleTr": "İmayı anlamadı ve kaldı.",
+      "simple": "To understand what someone means without clear words.",
+      "dialogue": [
+        "A: I yawned ten times, but he stayed.",
+        "B: He didn't take the hint and stayed."
+      ],
+      "emoji": "💡",
+      "imageQuery": null,
+      "note": "The Big Bang Theory ve The Office'te."
+    }
+  ]
+}

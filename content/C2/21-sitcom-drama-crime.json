@@ -1,0 +1,447 @@
+{
+  "topic": "Dizilerden: drama ve suç dizisi dili (günlük kullanımda)",
+  "items": [
+    {
+      "type": "COLLOCATION",
+      "en": "lay low",
+      "tr": "ortalıkta görünmemek, sessiz kalmak",
+      "ipa": "/leɪ ləʊ/",
+      "pos": null,
+      "example": "You should lay low until this blows over.",
+      "exampleTr": "Bu iş geçene kadar ortalarda görünme.",
+      "simple": "Hide and keep quiet so nobody notices you.",
+      "dialogue": [
+        "A: The police are asking about you.",
+        "B: Then lay low for a few weeks."
+      ],
+      "emoji": "🫥",
+      "imageQuery": null,
+      "note": "Breaking Bad'de kaçak ve gizlenme konuşmalarında."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "cut someone in",
+      "tr": "birini ortaklığa/paya almak",
+      "ipa": "/kʌt ˈsʌm.wʌn ɪn/",
+      "pos": null,
+      "example": "I promise we will cut someone in if it works.",
+      "exampleTr": "İş yürürse birini ortak edeceğiz, söz.",
+      "simple": "Give someone a share of the money.",
+      "dialogue": [
+        "A: What do I get from this?",
+        "B: Maybe we'll cut someone in, but not Lenny."
+      ],
+      "emoji": "💵",
+      "imageQuery": null,
+      "note": "Breaking Bad ve Seinfeld'de iş ortaklığı pazarlıklarında."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "go off the rails",
+      "tr": "çığrından çıkmak",
+      "ipa": "/ɡəʊ ɒf ðə reɪlz/",
+      "pos": null,
+      "example": "I knew the meeting would go off the rails.",
+      "exampleTr": "Toplantının çığrından çıkacağını biliyordum.",
+      "simple": "Things stop going the right way and get wild.",
+      "dialogue": [
+        "A: Will the party be calm?",
+        "B: I knew it would go off the rails."
+      ],
+      "emoji": "🚂",
+      "imageQuery": null,
+      "note": "Breaking Bad ve The Office'te kontrolün kaybedildiği sahnelerde."
+    },
+    {
+      "type": "CHUNK",
+      "en": "a loose cannon",
+      "tr": "kontrolsüz, ne yapacağı belli olmayan kişi",
+      "ipa": null,
+      "pos": null,
+      "example": "Be careful with Mike. He's a loose cannon.",
+      "exampleTr": "Mike'a dikkat et. Ne yapacağı belli olmaz.",
+      "simple": "A person who might do something crazy at any time.",
+      "dialogue": [
+        "A: Why doesn't the boss trust him?",
+        "B: He's a loose cannon."
+      ],
+      "emoji": "💣",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine ve Breaking Bad'de."
+    },
+    {
+      "type": "CHUNK",
+      "en": "throw someone under the bus",
+      "tr": "birini harcamak, suçu başkasına atmak",
+      "ipa": null,
+      "pos": null,
+      "example": "Don't throw someone under the bus to save yourself.",
+      "exampleTr": "Kendini kurtarmak için birini harcama.",
+      "simple": "Blame a friend so you don't get in trouble.",
+      "dialogue": [
+        "A: Should I blame Anna?",
+        "B: Never throw someone under the bus, Sam."
+      ],
+      "emoji": "🚌",
+      "imageQuery": null,
+      "note": "The Office ve Modern Family'de ofis/aile ihanetlerinde."
+    },
+    {
+      "type": "CHUNK",
+      "en": "you're on thin ice",
+      "tr": "ince buz üzerindesin, sınırdasın",
+      "ipa": null,
+      "pos": null,
+      "example": "One more mistake and you're on thin ice.",
+      "exampleTr": "Bir hata daha yaparsan ipin ucunda olursun.",
+      "simple": "You are close to big trouble.",
+      "dialogue": [
+        "A: Am I in trouble?",
+        "B: You're on thin ice, my friend."
+      ],
+      "emoji": "🧊",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine'da kaptanın uyarılarında."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "watch your back",
+      "tr": "arkana dikkat et",
+      "ipa": "/wɒtʃ jɔː bæk/",
+      "pos": null,
+      "example": "Watch your back around him. He's sneaky.",
+      "exampleTr": "Onun yanında arkanı kolla. Sinsidir.",
+      "simple": "Be careful because someone may hurt you.",
+      "dialogue": [
+        "A: I'm starting a business with Rick.",
+        "B: Watch your back with him."
+      ],
+      "emoji": "👀",
+      "imageQuery": null,
+      "note": "Breaking Bad'de tehdit sahnelerinde."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "cover your tracks",
+      "tr": "izlerini kapatmak",
+      "ipa": "/ˈkʌv.ə jɔː træks/",
+      "pos": null,
+      "example": "Learn to cover your tracks, kid.",
+      "exampleTr": "İzlerini kapatmayı öğren evlat.",
+      "simple": "Hide what you did so nobody finds out.",
+      "dialogue": [
+        "A: Why did he wipe his laptop?",
+        "B: He had to cover your tracks... I mean, his tracks."
+      ],
+      "emoji": "👣",
+      "imageQuery": null,
+      "note": "Breaking Bad ve Brooklyn Nine-Nine'da."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "rat out",
+      "tr": "ihbar etmek, ele vermek",
+      "ipa": "/ræt aʊt/",
+      "pos": null,
+      "example": "He'd rat out his own brother for money.",
+      "exampleTr": "Para için kardeşini bile ele verir.",
+      "simple": "Tell on someone to the police or boss.",
+      "dialogue": [
+        "A: Who told the police?",
+        "B: I bet someone will rat out the whole gang."
+      ],
+      "emoji": "🐀",
+      "imageQuery": null,
+      "note": "Breaking Bad ve Brooklyn Nine-Nine'da ihbarcı konuşmalarında."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "call the shots",
+      "tr": "son sözü söylemek, yöneten olmak",
+      "ipa": "/kɔːl ðə ʃɒts/",
+      "pos": null,
+      "example": "Around here, my mother calls the shots.",
+      "exampleTr": "Burada son sözü annem söyler.",
+      "simple": "Be the one who decides what happens.",
+      "dialogue": [
+        "A: Who decides in this house?",
+        "B: Mom likes to call the shots."
+      ],
+      "emoji": "🎬",
+      "imageQuery": null,
+      "note": "Modern Family ve Breaking Bad'de güç mücadelelerinde."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "get away with murder",
+      "tr": "yaptığı yanına kâr kalmak",
+      "ipa": "/ɡet əˈweɪ wɪð ˈmɜː.də/",
+      "pos": null,
+      "example": "He gets away with murder because he's charming.",
+      "exampleTr": "Çekici olduğu için yaptığı yanına kalıyor.",
+      "simple": "Do bad things and not get punished.",
+      "dialogue": [
+        "A: Why does the baby never get in trouble?",
+        "B: She can get away with murder."
+      ],
+      "emoji": "😇",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle ve Seinfeld'de ayrıcalıklı karakterlerde."
+    },
+    {
+      "type": "CHUNK",
+      "en": "a dead end",
+      "tr": "çıkmaz sokak, sonuçsuz yol",
+      "ipa": null,
+      "pos": null,
+      "example": "The investigation hit a dead end.",
+      "exampleTr": "Soruşturma çıkmaza girdi.",
+      "simple": "A road or plan that goes nowhere.",
+      "dialogue": [
+        "A: Did the clue lead anywhere?",
+        "B: No, it was a dead end."
+      ],
+      "emoji": "🚧",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine'da vaka çözümlerinde."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "cook the books",
+      "tr": "hesaplarla oynamak, defter şişirmek",
+      "ipa": "/kʊk ðə bʊks/",
+      "pos": null,
+      "example": "Somebody had to cook the books to hide the cash.",
+      "exampleTr": "Parayı gizlemek için birinin hesaplarla oynaması gerekti.",
+      "simple": "Change money records to fool people.",
+      "dialogue": [
+        "A: Why don't the numbers match?",
+        "B: Somebody decided to cook the books."
+      ],
+      "emoji": "📒",
+      "imageQuery": null,
+      "note": "The Office'te Oscar/muhasebe olaylarında, Breaking Bad'de."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "tie up loose ends",
+      "tr": "açık kalan işleri bitirmek",
+      "ipa": "/taɪ ʌp luːs endz/",
+      "pos": null,
+      "example": "Let me tie up a few loose ends before I go.",
+      "exampleTr": "Gitmeden bazı açık işleri bitireyim.",
+      "simple": "Finish the small jobs that are still not done.",
+      "dialogue": [
+        "A: Are you leaving the case?",
+        "B: Soon, once I tie up loose ends."
+      ],
+      "emoji": "🎀",
+      "imageQuery": null,
+      "note": "Breaking Bad ve Brooklyn Nine-Nine'da."
+    },
+    {
+      "type": "CHUNK",
+      "en": "take the heat",
+      "tr": "sorumluluğu üstlenmek, kızgınlığa dayanmak",
+      "ipa": null,
+      "pos": null,
+      "example": "I'll take the heat if the plan fails.",
+      "exampleTr": "Plan başarısız olursa sorumluluğu ben alırım.",
+      "simple": "Get the anger or blame so others are safe.",
+      "dialogue": [
+        "A: The boss will be furious.",
+        "B: I'll take the heat for this one."
+      ],
+      "emoji": "🌡️",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine'da takım içinde."
+    },
+    {
+      "type": "CHUNK",
+      "en": "in over your head",
+      "tr": "altından kalkamayacağın işe girmiş",
+      "ipa": null,
+      "pos": null,
+      "example": "I think you're in over your head with this loan.",
+      "exampleTr": "Bence bu krediyle altından kalkamayacağın işe girdin.",
+      "simple": "The problem is too big for you.",
+      "dialogue": [
+        "A: I started three businesses.",
+        "B: You're in over your head."
+      ],
+      "emoji": "🌊",
+      "imageQuery": null,
+      "note": "Breaking Bad ve The Big Bang Theory'de."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "set someone up",
+      "tr": "birini tuzağa düşürmek, suçlu çıkarmak",
+      "ipa": "/set ˈsʌm.wʌn ʌp/",
+      "pos": null,
+      "example": "Someone wanted to set someone up as the thief.",
+      "exampleTr": "Biri hırsız gibi göstermek için birini tuzağa düşürmek istedi.",
+      "simple": "Trick someone so they get blamed.",
+      "dialogue": [
+        "A: The evidence was in his bag.",
+        "B: Maybe they wanted to set someone up."
+      ],
+      "emoji": "🪤",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine ve Breaking Bad'de komplo sahnelerinde."
+    },
+    {
+      "type": "WORD",
+      "en": "double-cross",
+      "tr": "(ortağı) arkadan vurmak, ihanet etmek",
+      "ipa": "/ˌdʌb.əl ˈkrɒs/",
+      "pos": "verb",
+      "example": "I'd never double-cross a friend.",
+      "exampleTr": "Bir arkadaşımı asla arkadan vurmam.",
+      "simple": "Be false to a person who trusts you.",
+      "dialogue": [
+        "A: Can I trust him?",
+        "B: Not if he decides to double-cross you."
+      ],
+      "emoji": "🗡️",
+      "imageQuery": null,
+      "note": "Breaking Bad'de ortaklık ihanetlerinde."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "off the grid",
+      "tr": "ortadan kaybolmuş, izlenemez",
+      "ipa": "/ɒf ðə ɡrɪd/",
+      "pos": null,
+      "example": "He's been living off the grid for years.",
+      "exampleTr": "Yıllardır iz bırakmadan yaşıyor.",
+      "simple": "Living where nobody can find or follow you.",
+      "dialogue": [
+        "A: Where's your cousin these days?",
+        "B: Off the grid, in a cabin."
+      ],
+      "emoji": "🏕️",
+      "imageQuery": null,
+      "note": "Breaking Bad'de kaçış ve saklanma sahnelerinde."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "a paper trail",
+      "tr": "yazılı/kayıt izi",
+      "ipa": "/ə ˈpeɪ.pə treɪl/",
+      "pos": null,
+      "example": "Don't sign anything. We don't want a paper trail.",
+      "exampleTr": "Hiçbir şey imzalama. Yazılı iz bırakmayalım.",
+      "simple": "Papers that show what someone did.",
+      "dialogue": [
+        "A: Should we email the details?",
+        "B: No, it leaves a paper trail."
+      ],
+      "emoji": "📄",
+      "imageQuery": null,
+      "note": "Breaking Bad ve The Office'te."
+    },
+    {
+      "type": "CHUNK",
+      "en": "play both sides",
+      "tr": "iki tarafı da oynamak, ikili oynamak",
+      "ipa": null,
+      "pos": null,
+      "example": "He's playing both sides, so trust nobody.",
+      "exampleTr": "İki tarafa da oynuyor, kimseye güvenme.",
+      "simple": "Pretend to help two groups who fight each other.",
+      "dialogue": [
+        "A: Is he with us or them?",
+        "B: He likes to play both sides."
+      ],
+      "emoji": "♟️",
+      "imageQuery": null,
+      "note": "Breaking Bad'de çifte oyun oynayan karakterlerde."
+    },
+    {
+      "type": "CHUNK",
+      "en": "pay the price",
+      "tr": "bedelini ödemek",
+      "ipa": null,
+      "pos": null,
+      "example": "Sooner or later, you'll pay the price for lying.",
+      "exampleTr": "Er geç yalanın bedelini ödersin.",
+      "simple": "Get a bad result because of your actions.",
+      "dialogue": [
+        "A: Nobody saw me do it.",
+        "B: You'll pay the price eventually."
+      ],
+      "emoji": "💸",
+      "imageQuery": null,
+      "note": "Breaking Bad'de sonuçlar ve cezalarda."
+    },
+    {
+      "type": "CHUNK",
+      "en": "a clean slate",
+      "tr": "temiz sayfa",
+      "ipa": null,
+      "pos": null,
+      "example": "After the move, he wanted a clean slate.",
+      "exampleTr": "Taşındıktan sonra temiz bir sayfa istiyordu.",
+      "simple": "A fresh start with old mistakes forgotten.",
+      "dialogue": [
+        "A: Why did you change cities?",
+        "B: I needed a clean slate."
+      ],
+      "emoji": "🧽",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine ve Friends'te yeni başlangıçlarda."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "turn a blind eye",
+      "tr": "görmezden gelmek, göz yummak",
+      "ipa": "/tɜːn ə blaɪnd aɪ/",
+      "pos": null,
+      "example": "The boss turned a blind eye to the cheating.",
+      "exampleTr": "Patron hileye göz yumdu.",
+      "simple": "Know about something wrong and not stop it.",
+      "dialogue": [
+        "A: Why didn't he report it?",
+        "B: He'd rather turn a blind eye."
+      ],
+      "emoji": "🙈",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine ve Breaking Bad'de."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "hush money",
+      "tr": "sus payı",
+      "ipa": "/ˈhʌʃ ˌmʌn.i/",
+      "pos": null,
+      "example": "She paid hush money to keep it secret.",
+      "exampleTr": "Sır kalsın diye sus payı verdi.",
+      "simple": "Money you give so someone stays quiet.",
+      "dialogue": [
+        "A: Why is he so quiet about it?",
+        "B: I think he got hush money."
+      ],
+      "emoji": "🤫",
+      "imageQuery": null,
+      "note": "Breaking Bad ve Seinfeld'de."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "burn bridges",
+      "tr": "köprüleri atmak, ilişkileri bitirmek",
+      "ipa": "/bɜːn ˈbrɪdʒ.ɪz/",
+      "pos": null,
+      "example": "Don't burn bridges when you quit your job.",
+      "exampleTr": "İşten ayrılırken köprüleri atma.",
+      "simple": "Make people so angry they won't help you again.",
+      "dialogue": [
+        "A: Should I tell my boss what I think?",
+        "B: Don't burn bridges, you may need him."
+      ],
+      "emoji": "🌉",
+      "imageQuery": null,
+      "note": "The Office'te istifa bölümlerinde."
+    }
+  ]
+}

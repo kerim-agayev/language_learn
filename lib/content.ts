@@ -14,6 +14,7 @@ export type RawItem = {
   imageQuery?: string | null;
   note?: string | null;
   simple?: string | null;
+  dialogue?: string[];
   level?: string; // anki only
   image?: string | null; // anki only: original media filename
   source?: string;

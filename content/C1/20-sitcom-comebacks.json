@@ -1,0 +1,447 @@
+{
+  "topic": "Dizilerden: laf sokma ve hazırcevaplık",
+  "items": [
+    {
+      "type": "CHUNK",
+      "en": "Look who's talking",
+      "tr": "Bir de sen söylüyorsun, sana mı kaldı",
+      "ipa": null,
+      "pos": null,
+      "example": "Look who's talking! You were late three times this week.",
+      "exampleTr": "Bir de sen söylüyorsun! Bu hafta üç kez geç kaldın.",
+      "simple": "You say this to someone who does the same bad thing.",
+      "dialogue": [
+        "A: You're always so messy, Tom.",
+        "B: Look who's talking. Your room is a jungle."
+      ],
+      "emoji": "😏",
+      "imageQuery": null,
+      "note": "Friends ve The Office'te kardeş/iş arkadaşı atışmalarında sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Knock yourself out",
+      "tr": "Buyur, istediğin kadar yap",
+      "ipa": null,
+      "pos": null,
+      "example": "You want to rearrange my desk? Knock yourself out.",
+      "exampleTr": "Masamı yeniden mi düzenlemek istiyorsun? Buyur, yap bakalım.",
+      "simple": "You let someone try something, but you think it won't work.",
+      "dialogue": [
+        "A: May I try fixing your computer?",
+        "B: Knock yourself out. It's already broken."
+      ],
+      "emoji": "🥊",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine ve The Big Bang Theory'de ironik izin verirken."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Don't push your luck",
+      "tr": "Şansını zorlama",
+      "ipa": null,
+      "pos": null,
+      "example": "I said you could stay up late, so don't push your luck.",
+      "exampleTr": "Geç yatabilirsin dedim, şansını zorlama.",
+      "simple": "Be happy with what you got. Do not ask for more.",
+      "dialogue": [
+        "A: Can I also have ice cream and a movie?",
+        "B: Don't push your luck, young man."
+      ],
+      "emoji": "🍀",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle'da anne-çocuk tartışmalarında sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I rest my case",
+      "tr": "Başka diyecek bir şeyim yok (haklı olduğum ortada)",
+      "ipa": null,
+      "pos": null,
+      "example": "He just ate the whole cake alone. I rest my case.",
+      "exampleTr": "Pastanın hepsini tek başına yedi. Daha ne diyeyim.",
+      "simple": "You say this when what just happened shows you were right.",
+      "dialogue": [
+        "A: See? He forgot our anniversary again.",
+        "B: I rest my case. He's hopeless."
+      ],
+      "emoji": "⚖️",
+      "imageQuery": null,
+      "note": "The Big Bang Theory ve How I Met Your Mother'da zafer ilan ederken."
+    },
+    {
+      "type": "CHUNK",
+      "en": "That's a stretch",
+      "tr": "Bu biraz zorlama",
+      "ipa": null,
+      "pos": null,
+      "example": "Calling that a date is a stretch, don't you think?",
+      "exampleTr": "Buna randevu demek biraz zorlama, sence de öyle değil mi?",
+      "simple": "Something is hard to believe because it is pushing the truth too far.",
+      "dialogue": [
+        "A: So the cat stole the money?",
+        "B: That's a stretch. Cats don't use cash."
+      ],
+      "emoji": "🤸",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine'da şüpheli teorilere verilen cevap olarak sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Nice try",
+      "tr": "Güzel denemeydi, olmadı",
+      "ipa": null,
+      "pos": null,
+      "example": "Nice try, but I'm not lending you my car again.",
+      "exampleTr": "Güzel denemeydi ama arabamı yine ödünç vermiyorum.",
+      "simple": "You tried to trick me, but it did not work.",
+      "dialogue": [
+        "A: I'll do the dishes if you give me twenty dollars.",
+        "B: Nice try. Start washing."
+      ],
+      "emoji": "😜",
+      "imageQuery": null,
+      "note": "Hemen her sitcom'da kurnazlık yakalandığında."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Dream on",
+      "tr": "Hayal edersin, rüyanda görürsün",
+      "ipa": null,
+      "pos": null,
+      "example": "You think she'll say yes? Dream on.",
+      "exampleTr": "Evet diyeceğini mi sanıyorsun? Rüyanda görürsün.",
+      "simple": "You want something that will never happen.",
+      "dialogue": [
+        "A: One day she'll date me.",
+        "B: Dream on, buddy."
+      ],
+      "emoji": "💭",
+      "imageQuery": null,
+      "note": "Seinfeld ve Friends tarzı laf sokmalarda."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Don't flatter yourself",
+      "tr": "Kendini fazla önemseme",
+      "ipa": null,
+      "pos": null,
+      "example": "I wasn't looking at you. Don't flatter yourself.",
+      "exampleTr": "Sana bakmıyordum. Kendini fazla önemseme.",
+      "simple": "Don't think you are so special. It was not about you.",
+      "dialogue": [
+        "A: I bet you stayed up thinking about me.",
+        "B: Don't flatter yourself. I slept great."
+      ],
+      "emoji": "🙄",
+      "imageQuery": null,
+      "note": "The Office'te iğneleyici cevaplarda."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Cry me a river",
+      "tr": "Ağlama, yazık değil mi sana (alaycı)",
+      "ipa": null,
+      "pos": null,
+      "example": "You have to work till six? Cry me a river.",
+      "exampleTr": "Altıya kadar mı çalışacaksın? Yuh, çok yazık.",
+      "simple": "You do not feel sorry for someone who complains.",
+      "dialogue": [
+        "A: My coffee is too hot and my chair is hard.",
+        "B: Cry me a river. I'm on the night shift."
+      ],
+      "emoji": "😢",
+      "imageQuery": null,
+      "note": "Modern Family ve Seinfeld'de alaycı cevap."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Be my guest",
+      "tr": "Buyur, çekinme",
+      "ipa": null,
+      "pos": null,
+      "example": "You want the last slice? Be my guest.",
+      "exampleTr": "Son dilimi mi istiyorsun? Buyur, al.",
+      "simple": "You say yes in a polite, open way. You let them do it.",
+      "dialogue": [
+        "A: Do you mind if I use your phone?",
+        "B: Be my guest. It's on the table."
+      ],
+      "emoji": "🙌",
+      "imageQuery": null,
+      "note": "Friends'te kibar ya da ironik izin verirken."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Give me a break",
+      "tr": "Yapma ya, hadi canım",
+      "ipa": null,
+      "pos": null,
+      "example": "Give me a break, nobody believes that story.",
+      "exampleTr": "Yapma ya, o hikayeye kimse inanmaz.",
+      "simple": "You can't believe what someone said. You want them to stop.",
+      "dialogue": [
+        "A: I walked ten miles to school every day.",
+        "B: Give me a break. You live next door."
+      ],
+      "emoji": "🤦",
+      "imageQuery": null,
+      "note": "The Office ve Malcolm in the Middle'da sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "You wish",
+      "tr": "Hadi oradan, hayal et",
+      "ipa": null,
+      "pos": null,
+      "example": "You think you'd win? You wish.",
+      "exampleTr": "Kazanacağını mı sanıyorsun? Hadi oradan.",
+      "simple": "You say they want it, but it will never be true.",
+      "dialogue": [
+        "A: I'm sure I'd beat you at chess.",
+        "B: You wish. I've never lost."
+      ],
+      "emoji": "😏",
+      "imageQuery": null,
+      "note": "Friends ve How I Met Your Mother'da kısa laf sokma."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Easy for you to say",
+      "tr": "Sana ne, söylemesi kolay",
+      "ipa": null,
+      "pos": null,
+      "example": "Just relax, he said. Easy for you to say.",
+      "exampleTr": "Sakin ol dedi. Söylemesi kolay.",
+      "simple": "It is not hard for you, but it is hard for me.",
+      "dialogue": [
+        "A: Just stand up and give the speech.",
+        "B: Easy for you to say. You're not nervous."
+      ],
+      "emoji": "😤",
+      "imageQuery": null,
+      "note": "Modern Family'de baba-kız tartışmalarında."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Spare me",
+      "tr": "Beni bununla yorma, ver şunu geç",
+      "ipa": null,
+      "pos": null,
+      "example": "Spare me the speech, I've heard it all before.",
+      "exampleTr": "Konuşmayı bırak, hepsini daha önce duydum.",
+      "simple": "Please don't say it. I don't want to hear it.",
+      "dialogue": [
+        "A: Let me explain why I was late.",
+        "B: Spare me. I've heard every excuse."
+      ],
+      "emoji": "✋",
+      "imageQuery": null,
+      "note": "Seinfeld ve Breaking Bad'de sıkılmış karakterlerde."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Tell it to someone who cares",
+      "tr": "Git başkasına anlat, beni ilgilendirmez",
+      "ipa": null,
+      "pos": null,
+      "example": "You're tired? Tell it to someone who cares.",
+      "exampleTr": "Yorgun musun? Git başkasına anlat.",
+      "simple": "I do not care about your problem. Tell someone else.",
+      "dialogue": [
+        "A: I had to wake up at seven today.",
+        "B: Tell it to someone who cares."
+      ],
+      "emoji": "🗣️",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine ve The Office'te sert espri."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Where did that come from?",
+      "tr": "Bu da nereden çıktı?",
+      "ipa": null,
+      "pos": null,
+      "example": "Where did that come from? You never talk like that.",
+      "exampleTr": "Bu da nereden çıktı? Hiç böyle konuşmazdın.",
+      "simple": "You are surprised. You did not expect it.",
+      "dialogue": [
+        "A: I think we should move to Alaska.",
+        "B: Where did that come from? You hate snow."
+      ],
+      "emoji": "❓",
+      "imageQuery": null,
+      "note": "The Big Bang Theory'de beklenmedik cümlelerden sonra."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Nice save",
+      "tr": "İyi toparladın",
+      "ipa": null,
+      "pos": null,
+      "example": "Nice save! She almost found out about the party.",
+      "exampleTr": "İyi toparladın! Neredeyse partiyi öğrenecekti.",
+      "simple": "You fixed a mistake just in time.",
+      "dialogue": [
+        "A: I said it's a surprise gift for, um, the neighbour.",
+        "B: Nice save. She believed you."
+      ],
+      "emoji": "🧤",
+      "imageQuery": null,
+      "note": "Friends ve HIMYM'de yalanı son anda kurtarırken."
+    },
+    {
+      "type": "WORD",
+      "en": "touché",
+      "tr": "Haklısın, bunu kabul (iyi laf attın)",
+      "ipa": "/tuːˈʃeɪ/",
+      "pos": "interjection",
+      "example": "Touché. I guess I did start the argument.",
+      "exampleTr": "Haklısın. Tartışmayı ben başlattım galiba.",
+      "simple": "You say it when someone makes a smart point against you.",
+      "dialogue": [
+        "A: You complain about noise, but you play drums.",
+        "B: Touché. Fair point."
+      ],
+      "emoji": "🤺",
+      "imageQuery": null,
+      "note": "The Big Bang Theory ve Modern Family'de nükteli itiraf."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Big deal",
+      "tr": "Ne var yani, önemli mi sanki",
+      "ipa": null,
+      "pos": null,
+      "example": "I'm late. Big deal, the show hasn't started.",
+      "exampleTr": "Geciktim. Ne var yani, gösteri başlamadı.",
+      "simple": "You say it is not important at all.",
+      "dialogue": [
+        "A: You got a B on the test.",
+        "B: Big deal. It's only one test."
+      ],
+      "emoji": "🤷",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle'da ergen tepkisi olarak sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Zip it",
+      "tr": "Çeneni kapa",
+      "ipa": null,
+      "pos": null,
+      "example": "Zip it, Dave, I'm trying to hear this.",
+      "exampleTr": "Çeneni kapa Dave, bunu dinlemeye çalışıyorum.",
+      "simple": "Be quiet right now. Close your mouth like a zip.",
+      "dialogue": [
+        "A: But I just wanted to say one thing.",
+        "B: Zip it. The movie's starting."
+      ],
+      "emoji": "🤐",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine ve Malcolm in the Middle'da."
+    },
+    {
+      "type": "CHUNK",
+      "en": "What's your point?",
+      "tr": "Ne demek istiyorsun?",
+      "ipa": null,
+      "pos": null,
+      "example": "You've talked for ten minutes. What's your point?",
+      "exampleTr": "On dakikadır konuşuyorsun. Ne demek istiyorsun?",
+      "simple": "You want them to say the main thing they mean.",
+      "dialogue": [
+        "A: Pizza is round, the box is square, and...",
+        "B: What's your point? I'm hungry."
+      ],
+      "emoji": "🎯",
+      "imageQuery": null,
+      "note": "The Office toplantılarında sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Not on your life",
+      "tr": "Asla, ölsem olmaz",
+      "ipa": null,
+      "pos": null,
+      "example": "Me, sing in public? Not on your life.",
+      "exampleTr": "Ben, herkesin içinde şarkı mı söyleyeyim? Asla.",
+      "simple": "You say a strong no. It will never happen.",
+      "dialogue": [
+        "A: Will you wear the chicken costume?",
+        "B: Not on your life."
+      ],
+      "emoji": "🚫",
+      "imageQuery": null,
+      "note": "Seinfeld'de kesin ret."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Says who?",
+      "tr": "Kim demiş?",
+      "ipa": null,
+      "pos": null,
+      "example": "Says who? I never agreed to that.",
+      "exampleTr": "Kim demiş? Ben buna hiç evet demedim.",
+      "simple": "You ask who said so. You think they are wrong.",
+      "dialogue": [
+        "A: You have to go to bed at nine.",
+        "B: Says who? It's a Saturday."
+      ],
+      "emoji": "🤨",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle'da inatlaşırken."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Right back at you",
+      "tr": "Sana da (aynısı)",
+      "ipa": null,
+      "pos": null,
+      "example": "You're a pain. Right back at you.",
+      "exampleTr": "Baş belasısın. Sana da.",
+      "simple": "You say the same thing to the other person.",
+      "dialogue": [
+        "A: You're the worst roommate ever.",
+        "B: Right back at you."
+      ],
+      "emoji": "🔁",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine'da iğneleme-karşı iğneleme."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Let's not get ahead of ourselves",
+      "tr": "Hızlı gitmeyelim, işleri acele etmeyelim",
+      "ipa": null,
+      "pos": null,
+      "example": "We've met twice. Let's not get ahead of ourselves.",
+      "exampleTr": "İki kere görüştük. Acele etmeyelim.",
+      "simple": "Slow down. We have not done the first steps yet.",
+      "dialogue": [
+        "A: Should we name our future kids now?",
+        "B: Let's not get ahead of ourselves."
+      ],
+      "emoji": "🐢",
+      "imageQuery": null,
+      "note": "The Big Bang Theory'de fazla heyecanlanan karaktere."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Thanks for nothing",
+      "tr": "Yardımın için sağ ol (hiçbir işe yaramadın)",
+      "ipa": null,
+      "pos": null,
+      "example": "You left me alone with him? Thanks for nothing.",
+      "exampleTr": "Beni onunla yalnız mı bıraktın? Sağ ol, çok yardım ettin.",
+      "simple": "You say this when someone did not help at all.",
+      "dialogue": [
+        "A: I stayed quiet like you asked.",
+        "B: Thanks for nothing. They caught me anyway."
+      ],
+      "emoji": "😒",
+      "imageQuery": null,
+      "note": "Friends ve Seinfeld'de alaycı teşekkür."
+    }
+  ]
+}

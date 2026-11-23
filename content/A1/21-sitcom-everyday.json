@@ -1,0 +1,430 @@
+{
+  "topic": "Dizilerden: gündelik kalıplar",
+  "items": [
+    {
+      "type": "CHUNK",
+      "en": "Hey, guys!",
+      "tr": "Selam, çocuklar!",
+      "ipa": null,
+      "pos": null,
+      "example": "Hey, guys! Who wants pizza?",
+      "exampleTr": "Selam çocuklar! Kim pizza ister?",
+      "simple": "A friendly hello to two or more people.",
+      "dialogue": [
+        "A: Everyone is here at the flat.",
+        "B: Hey, guys! Who wants pizza?"
+      ],
+      "emoji": "👋",
+      "imageQuery": null,
+      "note": "Friends ve HIMYM'de grup selamı."
+    },
+    {
+      "type": "WORD",
+      "en": "dude",
+      "tr": "ahbap, abi, kanka",
+      "ipa": "/djuːd/",
+      "pos": "noun",
+      "example": "Dude, check out my new shoes.",
+      "exampleTr": "Abi, yeni ayakkabılarıma bak.",
+      "simple": "A friendly word for a man or a friend.",
+      "dialogue": [
+        "A: What is it, Tom?",
+        "B: Dude, check out my new shoes."
+      ],
+      "emoji": "🧑",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine ve Malcolm in the Middle'da çok sık."
+    },
+    {
+      "type": "WORD",
+      "en": "buddy",
+      "tr": "arkadaş, dostum",
+      "ipa": "/ˈbʌd.i/",
+      "pos": "noun",
+      "example": "Come here, buddy. I need help.",
+      "exampleTr": "Gel buraya dostum. Yardıma ihtiyacım var.",
+      "simple": "A very good friend. You can also use it to call someone nicely.",
+      "dialogue": [
+        "A: Dad, what do you want?",
+        "B: Come here, buddy. I need help."
+      ],
+      "emoji": "🫂",
+      "imageQuery": null,
+      "note": "Friends'te sık; erkekler arasında samimi hitap."
+    },
+    {
+      "type": "WORD",
+      "en": "stuff",
+      "tr": "şeyler, eşya",
+      "ipa": "/stʌf/",
+      "pos": "noun",
+      "example": "I have a lot of stuff in my bag.",
+      "exampleTr": "Çantamda bir sürü şey var.",
+      "simple": "Things that you do not name. Many things together.",
+      "dialogue": [
+        "A: Why is your bag so heavy?",
+        "B: I have a lot of stuff in my bag."
+      ],
+      "emoji": "🎒",
+      "imageQuery": null,
+      "note": "Her dizide; \"things\" yerine günlük."
+    },
+    {
+      "type": "CHUNK",
+      "en": "You know what?",
+      "tr": "Biliyor musun?",
+      "ipa": null,
+      "pos": null,
+      "example": "You know what? Let's just go.",
+      "exampleTr": "Biliyor musun? Hadi gidelim.",
+      "simple": "You say this before you say something new or big.",
+      "dialogue": [
+        "A: The queue is so long.",
+        "B: You know what? Let's just go."
+      ],
+      "emoji": "☝️",
+      "imageQuery": null,
+      "note": "The Office ve HIMYM'de konuşmayı başlatır."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I mean",
+      "tr": "Yani…, Demek istediğim…",
+      "ipa": null,
+      "pos": null,
+      "example": "I mean, it's okay, but not great.",
+      "exampleTr": "Yani, fena değil ama harika da değil.",
+      "simple": "You say this when you want to say your idea better.",
+      "dialogue": [
+        "A: So, do you like the soup?",
+        "B: I mean, it's okay, but not great."
+      ],
+      "emoji": "💭",
+      "imageQuery": null,
+      "note": "Friends'te dolgu kalıbı; çok sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "you know",
+      "tr": "Şey…, Bilirsin…",
+      "ipa": null,
+      "pos": null,
+      "example": "It's just, you know, a long day.",
+      "exampleTr": "Sadece, bilirsin, uzun bir gün.",
+      "simple": "A small filler. You say it while you think of words.",
+      "dialogue": [
+        "A: Why are you so quiet today?",
+        "B: It's just, you know, a long day."
+      ],
+      "emoji": "🤔",
+      "imageQuery": null,
+      "note": "Her dizide dolgu sözcük."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I guess",
+      "tr": "Sanırım., Herhalde.",
+      "ipa": null,
+      "pos": null,
+      "example": "Yeah, I guess he's nice.",
+      "exampleTr": "Evet, sanırım iyi biri.",
+      "simple": "You say this when you are not completely sure.",
+      "dialogue": [
+        "A: Is your new boss a nice man?",
+        "B: Yeah, I guess he's nice."
+      ],
+      "emoji": "🤷‍♂️",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle ve Friends'te sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "kind of",
+      "tr": "biraz, bir nevi",
+      "ipa": null,
+      "pos": null,
+      "example": "I'm kind of hungry. You?",
+      "exampleTr": "Biraz acıktım. Sen?",
+      "simple": "A little. Not completely.",
+      "dialogue": [
+        "A: Do you want to eat something?",
+        "B: I'm kind of hungry. You?"
+      ],
+      "emoji": "🤏",
+      "imageQuery": null,
+      "note": "\"Kinda\" şeklinde de duyulur; The Big Bang Theory'de sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I don't care.",
+      "tr": "Umurumda değil.",
+      "ipa": null,
+      "pos": null,
+      "example": "I don't care. Pick any movie.",
+      "exampleTr": "Umurumda değil. İstediğin filmi seç.",
+      "simple": "You say this when it is not important to you.",
+      "dialogue": [
+        "A: Which movie do you want to see?",
+        "B: I don't care. Pick any movie."
+      ],
+      "emoji": "🙅",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle'da gençler çok söyler."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Good luck!",
+      "tr": "İyi şanslar!",
+      "ipa": null,
+      "pos": null,
+      "example": "Good luck! Call me after the test.",
+      "exampleTr": "İyi şanslar! Sınavdan sonra ara beni.",
+      "simple": "You say this to wish someone a good result.",
+      "dialogue": [
+        "A: I have a big test tomorrow.",
+        "B: Good luck! Call me after the test."
+      ],
+      "emoji": "🍀",
+      "imageQuery": null,
+      "note": "Her dizide; sınav, randevu öncesi."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Check this out.",
+      "tr": "Şuna bak.",
+      "ipa": null,
+      "pos": null,
+      "example": "Check this out. I made a cake.",
+      "exampleTr": "Şuna bak. Pasta yaptım.",
+      "simple": "You say this to show something to someone.",
+      "dialogue": [
+        "A: Wait, Amy, come to the kitchen.",
+        "B: Check this out. I made a cake."
+      ],
+      "emoji": "👀",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine ve Friends'te sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Give me a second.",
+      "tr": "Bir saniye ver.",
+      "ipa": null,
+      "pos": null,
+      "example": "Give me a second. I'm almost ready.",
+      "exampleTr": "Bir saniye ver. Neredeyse hazırım.",
+      "simple": "You say this when you need a very short time.",
+      "dialogue": [
+        "A: Are you ready to go?",
+        "B: Give me a second. I'm almost ready."
+      ],
+      "emoji": "⏱️",
+      "imageQuery": null,
+      "note": "Her dizide; \"Give me a minute\" da olur."
+    },
+    {
+      "type": "CHUNK",
+      "en": "You okay?",
+      "tr": "İyi misin?",
+      "ipa": null,
+      "pos": null,
+      "example": "You okay? You look sad.",
+      "exampleTr": "İyi misin? Üzgün görünüyorsun.",
+      "simple": "A short way to ask if someone is fine.",
+      "dialogue": [
+        "A: Hmm.",
+        "B: You okay? You look sad."
+      ],
+      "emoji": "🤨",
+      "imageQuery": null,
+      "note": "\"Are you\" düşer; The Office ve Friends'te günlük."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I'm home!",
+      "tr": "Ben geldim!",
+      "ipa": null,
+      "pos": null,
+      "example": "I'm home! What's for dinner?",
+      "exampleTr": "Ben geldim! Akşam yemeği ne?",
+      "simple": "You say this when you come into your house.",
+      "dialogue": [
+        "A: Is that you, Jake?",
+        "B: I'm home! What's for dinner?"
+      ],
+      "emoji": "🏠",
+      "imageQuery": null,
+      "note": "Modern Family ve Malcolm in the Middle'da kapıdan girerken."
+    },
+    {
+      "type": "CHUNK",
+      "en": "What's going on?",
+      "tr": "Ne oluyor?, Neler oluyor?",
+      "ipa": null,
+      "pos": null,
+      "example": "What's going on? Why is everyone here?",
+      "exampleTr": "Ne oluyor? Neden herkes burada?",
+      "simple": "You ask this when you see something strange.",
+      "dialogue": [
+        "A: The room is full of people.",
+        "B: What's going on? Why is everyone here?"
+      ],
+      "emoji": "❓",
+      "imageQuery": null,
+      "note": "Her dizide; şaşkın giriş."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Who's there?",
+      "tr": "Kim o?",
+      "ipa": null,
+      "pos": null,
+      "example": "Who's there? Hello?",
+      "exampleTr": "Kim o? Alo?",
+      "simple": "You ask this when someone is at the door or in the dark.",
+      "dialogue": [
+        "A: Knock, knock, knock.",
+        "B: Who's there? Hello?"
+      ],
+      "emoji": "🚪",
+      "imageQuery": null,
+      "note": "Kapı çalınca; sitcom şakalarında sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Let me see.",
+      "tr": "Bakayım.",
+      "ipa": null,
+      "pos": null,
+      "example": "Let me see. Oh, that looks bad.",
+      "exampleTr": "Bakayım. Ah, bu kötü görünüyor.",
+      "simple": "You say this when you want to look at something.",
+      "dialogue": [
+        "A: I cut my finger on the box.",
+        "B: Let me see. Oh, that looks bad."
+      ],
+      "emoji": "🔍",
+      "imageQuery": null,
+      "note": "Friends ve Modern Family'de."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Be right back.",
+      "tr": "Hemen dönerim.",
+      "ipa": null,
+      "pos": null,
+      "example": "Be right back. I need water.",
+      "exampleTr": "Hemen dönerim. Su almam lazım.",
+      "simple": "You say this when you leave for a very short time.",
+      "dialogue": [
+        "A: Where are you going?",
+        "B: Be right back. I need water."
+      ],
+      "emoji": "🔙",
+      "imageQuery": null,
+      "note": "Friends'te çok kısa ayrılırken."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Here you go.",
+      "tr": "Buyur, al.",
+      "ipa": null,
+      "pos": null,
+      "example": "Here you go. Your coffee.",
+      "exampleTr": "Buyur. Kahven.",
+      "simple": "You say this when you give something to someone.",
+      "dialogue": [
+        "A: Thanks! I really need a coffee.",
+        "B: Here you go. Your coffee."
+      ],
+      "emoji": "☕",
+      "imageQuery": null,
+      "note": "Kafe sahnelerinde Friends'te sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Sit tight.",
+      "tr": "Sabret., Olduğun yerde bekle.",
+      "ipa": null,
+      "pos": null,
+      "example": "Sit tight. I'll be there soon.",
+      "exampleTr": "Sabret. Birazdan orada olurum.",
+      "simple": "You say this to tell someone to wait and stay.",
+      "dialogue": [
+        "A: My car broke down on the road!",
+        "B: Sit tight. I'll be there soon."
+      ],
+      "emoji": "🪑",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine'da sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Any news?",
+      "tr": "Yeni bir şey var mı?",
+      "ipa": null,
+      "pos": null,
+      "example": "Any news? Did he call?",
+      "exampleTr": "Yeni bir şey var mı? Aradı mı?",
+      "simple": "You ask this to find out if something new happened.",
+      "dialogue": [
+        "A: I am waiting for Mark.",
+        "B: Any news? Did he call?"
+      ],
+      "emoji": "📰",
+      "imageQuery": null,
+      "note": "The Office ve Modern Family'de."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Take it easy.",
+      "tr": "Kendine iyi bak., Sakin ol.",
+      "ipa": null,
+      "pos": null,
+      "example": "Take it easy. See you on Monday.",
+      "exampleTr": "Kendine iyi bak. Pazartesi görüşürüz.",
+      "simple": "You say this when you say goodbye, or to say \"relax\".",
+      "dialogue": [
+        "A: Okay, I am going home now.",
+        "B: Take it easy. See you on Monday."
+      ],
+      "emoji": "😌",
+      "imageQuery": null,
+      "note": "Friends'te vedalaşırken sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Long day.",
+      "tr": "Uzun bir gündü.",
+      "ipa": null,
+      "pos": null,
+      "example": "Long day. Sit down and rest.",
+      "exampleTr": "Uzun bir gün. Otur, dinlen.",
+      "simple": "You say this when the day was hard or tiring.",
+      "dialogue": [
+        "A: Ugh, I just got in. Wow, I am tired.",
+        "B: Long day. Sit down and rest."
+      ],
+      "emoji": "😮‍💨",
+      "imageQuery": null,
+      "note": "The Office'te iş çıkışı sohbetleri."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "grab a coffee",
+      "tr": "bir kahve içmek (hızlıca)",
+      "ipa": "/ɡræb ə ˈkɒf.i/",
+      "pos": null,
+      "example": "Let's grab a coffee after work.",
+      "exampleTr": "İş çıkışı bir kahve içelim.",
+      "simple": "To go and get a coffee quickly, often with a friend.",
+      "dialogue": [
+        "A: Do you have time later?",
+        "B: Let's grab a coffee after work."
+      ],
+      "emoji": "☕",
+      "imageQuery": null,
+      "note": "Friends'te \"Central Perk\" sahnelerinin klasiği."
+    }
+  ]
+}

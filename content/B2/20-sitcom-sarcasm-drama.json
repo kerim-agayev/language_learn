@@ -1,0 +1,473 @@
+{
+  "topic": "Dizilerden: iğneleme, drama, bahaneler",
+  "items": [
+    {
+      "type": "CHUNK",
+      "en": "Real mature",
+      "tr": "Çok olgunca (alaycı)",
+      "ipa": null,
+      "pos": null,
+      "example": "You hid my keys? Real mature.",
+      "exampleTr": "Anahtarlarımı mı sakladın? Çok olgunca.",
+      "simple": "You say it when someone acts like a child.",
+      "dialogue": [
+        "A: I put your lunch in the freezer.",
+        "B: Real mature.",
+        "A: It's just a joke!"
+      ],
+      "emoji": "😒",
+      "imageQuery": null,
+      "note": "The Office ve Brooklyn Nine-Nine'da iğneleme."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I'm not buying it",
+      "tr": "Buna inanmıyorum, yemiyorum",
+      "ipa": null,
+      "pos": null,
+      "example": "He says he was sick, but I'm not buying it.",
+      "exampleTr": "Hasta olduğunu söylüyor ama inanmıyorum.",
+      "simple": "You do not believe what someone says.",
+      "dialogue": [
+        "A: I was stuck in a lift.",
+        "B: I'm not buying it.",
+        "A: Ask the building manager."
+      ],
+      "emoji": "🤔",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine'da şüpheli sorgularında."
+    },
+    {
+      "type": "CHUNK",
+      "en": "get a grip",
+      "tr": "kendine gel, sakinleş",
+      "ipa": null,
+      "pos": null,
+      "example": "Get a grip. It's only a haircut.",
+      "exampleTr": "Kendine gel. Sadece bir saç kesimi.",
+      "simple": "You tell someone to calm down and think clearly.",
+      "dialogue": [
+        "A: My life is over!",
+        "B: Get a grip. It's just a cold.",
+        "A: But I have a meeting!"
+      ],
+      "emoji": "😤",
+      "imageQuery": null,
+      "note": "Friends'te panik anlarında arkadaşların tepkisi."
+    },
+    {
+      "type": "CHUNK",
+      "en": "make a big deal out of",
+      "tr": "(bir şeyi) büyütmek",
+      "ipa": null,
+      "pos": null,
+      "example": "Why do you always make a big deal out of everything?",
+      "exampleTr": "Neden her şeyi hep büyütüyorsun?",
+      "simple": "You act like a small thing is very, very important.",
+      "dialogue": [
+        "A: You forgot my birthday!",
+        "B: Don't make a big deal out of it.",
+        "A: It IS a big deal!"
+      ],
+      "emoji": "🔍",
+      "imageQuery": null,
+      "note": "Aile kavgalarında (Modern Family) sık geçer."
+    },
+    {
+      "type": "CHUNK",
+      "en": "blow things out of proportion",
+      "tr": "olayı abartmak, büyütmek",
+      "ipa": null,
+      "pos": null,
+      "example": "You're blowing things out of proportion again.",
+      "exampleTr": "Yine olayı abartıyorsun.",
+      "simple": "You make a small problem seem much bigger than it is.",
+      "dialogue": [
+        "A: He didn't say hi. He hates me.",
+        "B: You always blow things out of proportion.",
+        "A: Maybe he was busy."
+      ],
+      "emoji": "🎈",
+      "imageQuery": null,
+      "note": "Dramatik karakterlere (Ross, Sheldon) söylenir."
+    },
+    {
+      "type": "CHUNK",
+      "en": "It's not what it looks like",
+      "tr": "Göründüğü gibi değil",
+      "ipa": null,
+      "pos": null,
+      "example": "It's not what it looks like. I can explain.",
+      "exampleTr": "Göründüğü gibi değil. Açıklayabilirim.",
+      "simple": "You say this when people think you did something bad, but you did not.",
+      "dialogue": [
+        "A: Why are you in her room?",
+        "B: It's not what it looks like.",
+        "A: Then what is it?"
+      ],
+      "emoji": "😰",
+      "imageQuery": null,
+      "note": "Friends ve Seinfeld'te klasik yanlış anlaşılma sahnesi."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I can explain",
+      "tr": "Açıklayabilirim",
+      "ipa": null,
+      "pos": null,
+      "example": "Before you shout, I can explain.",
+      "exampleTr": "Bağırmadan önce, açıklayabilirim.",
+      "simple": "You say you have a reason for what people see.",
+      "dialogue": [
+        "A: Why is the oven on fire?",
+        "B: I can explain.",
+        "A: You have ten seconds."
+      ],
+      "emoji": "🙋",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle'da yakalanma anlarında."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "come up with an excuse",
+      "tr": "bahane bulmak",
+      "ipa": "/kʌm ʌp wɪð ən ɪkˈskjuːs/",
+      "pos": null,
+      "example": "I need to come up with an excuse fast.",
+      "exampleTr": "Hızlıca bir bahane bulmam lazım.",
+      "simple": "You think of a reason that is not true, very quickly.",
+      "dialogue": [
+        "A: Mom's calling. What do I say?",
+        "B: Come up with an excuse.",
+        "A: Say the Wi-Fi is down."
+      ],
+      "emoji": "💡",
+      "imageQuery": null,
+      "note": "Seinfeld'te George'un en bilindik uğraşı."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I totally forgot",
+      "tr": "Tamamen unutmuşum",
+      "ipa": null,
+      "pos": null,
+      "example": "I totally forgot about our meeting. I'm so sorry.",
+      "exampleTr": "Toplantımızı tamamen unutmuşum. Çok üzgünüm.",
+      "simple": "You did not remember at all.",
+      "dialogue": [
+        "A: You were supposed to call me.",
+        "B: I totally forgot.",
+        "A: That's the third time."
+      ],
+      "emoji": "🤦",
+      "imageQuery": null,
+      "note": "Bahane sahnelerinin vazgeçilmezi."
+    },
+    {
+      "type": "CHUNK",
+      "en": "stay out of it",
+      "tr": "karışma, işe burnunu sokma",
+      "ipa": null,
+      "pos": null,
+      "example": "This is between us. Stay out of it.",
+      "exampleTr": "Bu bizim aramızda. Karışma.",
+      "simple": "You tell a person not to get into a problem that is not theirs.",
+      "dialogue": [
+        "A: Mom, tell him to stop!",
+        "B: Stay out of it, both of you.",
+        "A: But he started it!"
+      ],
+      "emoji": "✋",
+      "imageQuery": null,
+      "note": "Modern Family'de kardeş kavgalarında."
+    },
+    {
+      "type": "CHUNK",
+      "en": "mind your own business",
+      "tr": "kendi işine bak",
+      "ipa": null,
+      "pos": null,
+      "example": "Mind your own business, please.",
+      "exampleTr": "Kendi işine bak lütfen.",
+      "simple": "You tell someone not to ask about private things.",
+      "dialogue": [
+        "A: Who was that on the phone?",
+        "B: Mind your own business.",
+        "A: It was your girlfriend!"
+      ],
+      "emoji": "🙅",
+      "imageQuery": null,
+      "note": "Seinfeld ve Malcolm in the Middle'da komşu/aile."
+    },
+    {
+      "type": "CHUNK",
+      "en": "rub it in",
+      "tr": "(üzerine gidip) tadını çıkarmak, yüzüne vurmak",
+      "ipa": null,
+      "pos": null,
+      "example": "I lost. You don't have to rub it in.",
+      "exampleTr": "Kaybettim. Yüzüme vurmana gerek yok.",
+      "simple": "You keep talking about someone's mistake, so they feel bad.",
+      "dialogue": [
+        "A: I told you it would rain.",
+        "B: Don't rub it in.",
+        "A: I'm only smiling."
+      ],
+      "emoji": "😜",
+      "imageQuery": null,
+      "note": "Friends'te Ross ve Chandler tarzı kavgalarda."
+    },
+    {
+      "type": "CHUNK",
+      "en": "for the record",
+      "tr": "kayıtlara geçsin, açık söyleyeyim",
+      "ipa": null,
+      "pos": null,
+      "example": "For the record, I never said that.",
+      "exampleTr": "Kayıtlara geçsin, ben bunu hiç söylemedim.",
+      "simple": "You say it so people know the true story.",
+      "dialogue": [
+        "A: You ate all the cookies.",
+        "B: For the record, it was three.",
+        "A: Out of twelve!"
+      ],
+      "emoji": "📝",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine ve The Office'te savunma cümlesi."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Don't get me started",
+      "tr": "Açtırma bana! (uzun şikâyet geliyor)",
+      "ipa": null,
+      "pos": null,
+      "example": "The boss's new rules? Don't get me started.",
+      "exampleTr": "Patronun yeni kuralları mı? Açtırma bana.",
+      "simple": "You have a lot of angry things to say about it.",
+      "dialogue": [
+        "A: How was the airline?",
+        "B: Don't get me started.",
+        "A: That bad?"
+      ],
+      "emoji": "😤",
+      "imageQuery": null,
+      "note": "The Office'te çalışanların şikâyet tarzı."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I told you so",
+      "tr": "Ben demiştim",
+      "ipa": null,
+      "pos": null,
+      "example": "I told you so! That plan was never going to work.",
+      "exampleTr": "Ben demiştim! O plan hiç işe yaramayacaktı.",
+      "simple": "You said it before, and you were right.",
+      "dialogue": [
+        "A: The picnic is ruined by rain.",
+        "B: I told you so.",
+        "A: Please, stop smiling."
+      ],
+      "emoji": "☝️",
+      "imageQuery": null,
+      "note": "Aile komedilerinde (Modern Family, Malcolm) çok duyulur."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "walk on eggshells",
+      "tr": "çok dikkatli davranmak, tetikte olmak",
+      "ipa": "/wɔːk ɒn ˈeɡ.ʃelz/",
+      "pos": null,
+      "example": "I walk on eggshells around my boss.",
+      "exampleTr": "Patronumun yanında çok dikkatli davranıyorum.",
+      "simple": "You are very careful so someone does not get angry.",
+      "dialogue": [
+        "A: Why is everyone so quiet?",
+        "B: We walk on eggshells when Dad is angry.",
+        "A: I'll go to my room."
+      ],
+      "emoji": "🥚",
+      "imageQuery": null,
+      "note": "The Office ve Malcolm in the Middle'da gergin ortam."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "have a meltdown",
+      "tr": "sinir krizi geçirmek, dağılmak",
+      "ipa": "/hæv ə ˈmelt.daʊn/",
+      "pos": null,
+      "example": "She had a meltdown when her cake fell.",
+      "exampleTr": "Pastası düşünce sinir krizi geçirdi.",
+      "simple": "You get so upset that you cry or shout a lot.",
+      "dialogue": [
+        "A: Is she okay?",
+        "B: She might have a meltdown.",
+        "A: Hide the dishes."
+      ],
+      "emoji": "🫠",
+      "imageQuery": null,
+      "note": "Big Bang Theory'de Sheldon ve Friends'te Monica."
+    },
+    {
+      "type": "CHUNK",
+      "en": "cut me some slack",
+      "tr": "bana biraz anlayış göster, üstüme gitme",
+      "ipa": null,
+      "pos": null,
+      "example": "Cut me some slack. It's my first day.",
+      "exampleTr": "Bana biraz anlayış göster. İlk günüm.",
+      "simple": "You ask someone to be less strict with you.",
+      "dialogue": [
+        "A: You're late again.",
+        "B: Cut me some slack. The train broke.",
+        "A: Fine, but only today."
+      ],
+      "emoji": "🙏",
+      "imageQuery": null,
+      "note": "The Office ve Brooklyn Nine-Nine'da sık duyulur."
+    },
+    {
+      "type": "CHUNK",
+      "en": "sleep on it",
+      "tr": "bir gece düşünüp karar vermek",
+      "ipa": null,
+      "pos": null,
+      "example": "I'll sleep on it and tell you tomorrow.",
+      "exampleTr": "Bir gece düşünüp yarın söylerim.",
+      "simple": "You wait until the next day before you decide.",
+      "dialogue": [
+        "A: Do you want the job?",
+        "B: Let me sleep on it.",
+        "A: Okay, call me tomorrow."
+      ],
+      "emoji": "😴",
+      "imageQuery": null,
+      "note": "Karar anlarında sık geçen kalıp."
+    },
+    {
+      "type": "CHUNK",
+      "en": "That's what she said",
+      "tr": "Ben de onu diyorum (çift anlamlı espri)",
+      "ipa": null,
+      "pos": null,
+      "example": "That was hard to get in. That's what she said.",
+      "exampleTr": "İçeri girmesi zordu. Ben de onu diyorum.",
+      "simple": "A joke people make when a sentence can sound rude.",
+      "dialogue": [
+        "A: It's too big. It won't fit.",
+        "B: That's what she said.",
+        "A: Michael, please stop."
+      ],
+      "emoji": "😂",
+      "imageQuery": null,
+      "note": "The Office'te Michael Scott'ın ikonik esprisi."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Wow, thanks a lot",
+      "tr": "Çok sağ ol (alaycı)",
+      "ipa": null,
+      "pos": null,
+      "example": "Wow, thanks a lot. You ate my dinner.",
+      "exampleTr": "Çok sağ ol. Yemeğimi yemişsin.",
+      "simple": "You say thank you, but you really feel angry.",
+      "dialogue": [
+        "A: I told your boss about the mistake.",
+        "B: Wow, thanks a lot.",
+        "A: He would have found out."
+      ],
+      "emoji": "😒",
+      "imageQuery": null,
+      "note": "Seinfeld ve Modern Family'de alaycı teşekkür."
+    },
+    {
+      "type": "CHUNK",
+      "en": "You're being dramatic",
+      "tr": "Abartıyorsun, dram yapıyorsun",
+      "ipa": null,
+      "pos": null,
+      "example": "Come on, you're being dramatic. It's just a scratch.",
+      "exampleTr": "Hadi ama abartıyorsun. Sadece bir çizik.",
+      "simple": "You act like a small thing is a very big problem.",
+      "dialogue": [
+        "A: My whole life is ruined!",
+        "B: You're being dramatic.",
+        "A: I broke a nail!"
+      ],
+      "emoji": "🎭",
+      "imageQuery": null,
+      "note": "Modern Family'de aile içi laf."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Whatever you say",
+      "tr": "Sen nasıl istersen (umursamıyorum)",
+      "ipa": null,
+      "pos": null,
+      "example": "Whatever you say, boss.",
+      "exampleTr": "Nasıl istersen patron.",
+      "simple": "You agree, but you do not really care or you are annoyed.",
+      "dialogue": [
+        "A: We do it my way.",
+        "B: Whatever you say.",
+        "A: Why do you sound upset?"
+      ],
+      "emoji": "🤷",
+      "imageQuery": null,
+      "note": "The Office ve Brooklyn Nine-Nine'da tavır cümlesi."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Oh, come on",
+      "tr": "Hadi ya! Yapma!",
+      "ipa": null,
+      "pos": null,
+      "example": "Oh, come on! That's not fair.",
+      "exampleTr": "Hadi ya! Bu adil değil.",
+      "simple": "You do not agree, or you ask for help.",
+      "dialogue": [
+        "A: You can't come with us.",
+        "B: Oh, come on!",
+        "A: Rules are rules."
+      ],
+      "emoji": "😩",
+      "imageQuery": null,
+      "note": "Her dizide en çok duyulanlardan."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Are you serious right now?",
+      "tr": "Şimdi ciddi misin?",
+      "ipa": null,
+      "pos": null,
+      "example": "Are you serious right now? You lost the tickets?",
+      "exampleTr": "Şimdi ciddi misin? Biletleri kaybettin mi?",
+      "simple": "You are shocked and a little angry about what you hear.",
+      "dialogue": [
+        "A: I forgot the keys inside.",
+        "B: Are you serious right now?",
+        "A: I'll call a locksmith."
+      ],
+      "emoji": "😳",
+      "imageQuery": null,
+      "note": "Modern Family'de öfke/şaşkınlık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Not my problem",
+      "tr": "Benim sorunum değil",
+      "ipa": null,
+      "pos": null,
+      "example": "If you're late, not my problem.",
+      "exampleTr": "Geç kalırsan benim sorunum değil.",
+      "simple": "You do not want to help or care about a trouble.",
+      "dialogue": [
+        "A: I can't find my homework.",
+        "B: Not my problem.",
+        "A: You hid it!"
+      ],
+      "emoji": "🤷",
+      "imageQuery": null,
+      "note": "Seinfeld ve Malcolm in the Middle'da."
+    }
+  ]
+}

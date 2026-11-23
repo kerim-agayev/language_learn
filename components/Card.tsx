@@ -18,6 +18,7 @@ const QUESTION: Record<Quiz["mode"], string> = {
   simple_en: "Which one is it?",
   listen_en: "What did you hear?",
   blank: "Fill the gap.",
+  dialog: "Which one fits?",
   produce: "Use it in your own sentence.",
   en_tr: "Türkçesi ne?",
   tr_en: "İngilizcesi ne?",
@@ -45,6 +46,27 @@ function SpeakButton({ text, big }: { text: string; big?: boolean }) {
     >
       <svg viewBox="0 0 24 24" className={big ? "size-9" : "size-4"} fill="currentColor"><path d="M4 9v6h4l5 4V5L8 9H4zm12.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6z" /></svg>
     </button>
+  );
+}
+
+/** Two-person chat: "A: …" on the left, "B: …" on the right. */
+function Dialogue({ lines }: { lines: string[] }) {
+  return (
+    <div className="flex w-full flex-col gap-1.5 text-left">
+      {lines.map((l, i) => {
+        const b = l.startsWith("B:");
+        return (
+          <p
+            key={i}
+            className={`max-w-[85%] rounded-2xl px-3.5 py-2 leading-snug ${
+              b ? "self-end rounded-br-sm bg-pen text-pen-ink" : "self-start rounded-bl-sm bg-desk"
+            }`}
+          >
+            {l.replace(/^[AB]:\s*/, "")}
+          </p>
+        );
+      })}
+    </div>
   );
 }
 
@@ -76,6 +98,7 @@ export function ItemFace({ item, immersive }: { item: ItemView; immersive?: bool
         <SpeakButton text={item.en} />
       </div>
       {item.simple && <p className="text-lg leading-snug">{item.simple}</p>}
+      {item.dialogue.length > 0 && <Dialogue lines={item.dialogue} />}
       <div className="rounded-xl bg-desk px-4 py-3">
         <div className="flex items-start gap-2">
           <p className="flex-1 leading-relaxed">{item.example}</p>
@@ -208,6 +231,9 @@ export function QuizCard({
   const [busy, setBusy] = useState(false);
   const askedAt = useRef(0);
   const tookMs = useRef(0);
+  // Synchronous lock: Enter on a focused button fires both its click and our keydown handler in the same tick,
+  // before `busy` state updates. Without this the answer/grade would be sent twice (double points).
+  const lock = useRef(false);
   const root = useRef<HTMLDivElement>(null);
 
   // Hear it first: like a child, sound before spelling.
@@ -219,7 +245,8 @@ export function QuizCard({
   }, [stage, quiz, autoSpeak]);
 
   async function choose(opt: string) {
-    if (busy || stage !== "ask") return;
+    if (lock.current || stage !== "ask") return;
+    lock.current = true;
     setBusy(true);
     setPicked(opt);
     try {
@@ -231,20 +258,24 @@ export function QuizCard({
       setResult(r);
       setStage("reveal");
     } finally {
+      lock.current = false;
       setBusy(false);
     }
   }
 
   // Anki step: the learner grades the card; the schedule is saved only now.
   async function rateCard(g: Grade) {
-    if (!result || busy) return;
+    if (!result || lock.current) return;
     if (!result.correct && g !== 1) return;
+    lock.current = true; // stays locked: this card is finished once graded
     setBusy(true);
     try {
       const c = await commitAnswer(quiz.itemId, quiz.mode, picked ?? "", tookMs.current, g);
       onDone({ ...result, points: c.points }, g);
-    } finally {
+    } catch (e) {
+      lock.current = false;
       setBusy(false);
+      throw e;
     }
   }
 
@@ -293,6 +324,7 @@ export function QuizCard({
                 </>
               )}
               {quiz.mode === "simple_en" && <p className="text-xl leading-snug">&ldquo;{quiz.prompt}&rdquo;</p>}
+              {quiz.mode === "dialog" && quiz.lines && <Dialogue lines={quiz.lines} />}
               {(quiz.mode === "en_tr" || quiz.mode === "tr_en" || quiz.mode === "blank") && (
                 <p className={`font-display font-bold break-words ${quiz.mode === "blank" ? "text-2xl leading-snug" : "text-4xl"}`}>
                   {quiz.prompt}

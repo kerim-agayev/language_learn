@@ -29,6 +29,7 @@ async function main() {
           image: fs.existsSync(file) ? "/" + file.replace(/\\/g, "/").replace(/^public\//, "") : null,
           note: it.note ?? null,
           simple: it.simple ?? null,
+          dialogue: it.dialogue ?? [],
           topic: it.topic,
           source: it.source,
         };

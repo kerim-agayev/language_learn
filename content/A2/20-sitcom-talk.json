@@ -1,0 +1,430 @@
+{
+  "topic": "Dizilerden: arkadaş sohbeti",
+  "items": [
+    {
+      "type": "CHUNK",
+      "en": "I have no idea.",
+      "tr": "Hiçbir fikrim yok.",
+      "ipa": null,
+      "pos": null,
+      "example": "I have no idea. He just disappeared.",
+      "exampleTr": "Hiçbir fikrim yok. Birden ortadan kayboldu.",
+      "simple": "You say this when you do not know the answer at all.",
+      "dialogue": [
+        "A: Where is Dan? His desk is empty.",
+        "B: I have no idea. He just disappeared."
+      ],
+      "emoji": "🤷",
+      "imageQuery": null,
+      "note": "Her dizide; \"No idea.\" diye kısalır."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I can't believe it.",
+      "tr": "İnanamıyorum.",
+      "ipa": null,
+      "pos": null,
+      "example": "I can't believe it. We won!",
+      "exampleTr": "İnanamıyorum. Kazandık!",
+      "simple": "You say this when something is so big you think it is not real.",
+      "dialogue": [
+        "A: Look at the score on the screen!",
+        "B: I can't believe it. We won!"
+      ],
+      "emoji": "😲",
+      "imageQuery": null,
+      "note": "Friends ve HIMYM'de çok sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Give me a break.",
+      "tr": "Bırak ya!, Yeter ama!",
+      "ipa": null,
+      "pos": null,
+      "example": "Give me a break. I only came late once.",
+      "exampleTr": "Bırak ya. Sadece bir kez geç kaldım.",
+      "simple": "You say this when someone is too hard on you.",
+      "dialogue": [
+        "A: You are always late, Ben.",
+        "B: Give me a break. I only came late once."
+      ],
+      "emoji": "🙄",
+      "imageQuery": null,
+      "note": "Seinfeld ve The Office'te sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Cut it out.",
+      "tr": "Kes şunu!, Yapma artık!",
+      "ipa": null,
+      "pos": null,
+      "example": "Cut it out. That's my sandwich.",
+      "exampleTr": "Kes şunu. O benim sandviçim.",
+      "simple": "You say this to tell someone to stop doing something that annoys you.",
+      "dialogue": [
+        "A: Mmm, I am just taking a little bite.",
+        "B: Cut it out. That's my sandwich."
+      ],
+      "emoji": "✋",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle'da kardeşler arası."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Knock it off.",
+      "tr": "Bırak şunu!",
+      "ipa": null,
+      "pos": null,
+      "example": "Knock it off. Both of you, stop.",
+      "exampleTr": "Bırakın şunu. İkiniz de durun.",
+      "simple": "Another way to say \"stop it\".",
+      "dialogue": [
+        "A: He is pulling my hair, Mum!",
+        "B: Knock it off. Both of you, stop."
+      ],
+      "emoji": "🛑",
+      "imageQuery": null,
+      "note": "Modern Family'de anne baba söyler."
+    },
+    {
+      "type": "CHUNK",
+      "en": "What's your problem?",
+      "tr": "Derdin ne?",
+      "ipa": null,
+      "pos": null,
+      "example": "What's your problem? I said sorry!",
+      "exampleTr": "Derdin ne? Özür diledim!",
+      "simple": "You ask this when someone is rude or angry with you.",
+      "dialogue": [
+        "A: You are such a clumsy person.",
+        "B: What's your problem? I said sorry!"
+      ],
+      "emoji": "😡",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine ve Malcolm in the Middle'da kavgada."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Who cares?",
+      "tr": "Kimin umurunda?",
+      "ipa": null,
+      "pos": null,
+      "example": "Who cares? It's only a game.",
+      "exampleTr": "Kimin umurunda? Sadece bir oyun.",
+      "simple": "You say this when you think something is not important.",
+      "dialogue": [
+        "A: But we lost the match!",
+        "B: Who cares? It's only a game."
+      ],
+      "emoji": "🤷‍♀️",
+      "imageQuery": null,
+      "note": "Seinfeld ve Malcolm in the Middle'da."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Big deal.",
+      "tr": "Ne var yani?",
+      "ipa": null,
+      "pos": null,
+      "example": "Big deal. I'll buy another one.",
+      "exampleTr": "Ne var yani? Bir tane daha alırım.",
+      "simple": "You say this when you think something is not a problem. It can sound rude.",
+      "dialogue": [
+        "A: You broke my favourite cup!",
+        "B: Big deal. I'll buy another one."
+      ],
+      "emoji": "😏",
+      "imageQuery": null,
+      "note": "Alaycı tonda sık; ciddi \"big deal\" de var."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I told you so.",
+      "tr": "Demiştim sana.",
+      "ipa": null,
+      "pos": null,
+      "example": "I told you so. It was too hot.",
+      "exampleTr": "Demiştim sana. Çok sıcaktı.",
+      "simple": "You say this when you warned someone and it happened.",
+      "dialogue": [
+        "A: Ow! I burned my tongue on the soup.",
+        "B: I told you so. It was too hot."
+      ],
+      "emoji": "☝️",
+      "imageQuery": null,
+      "note": "Friends ve Modern Family'de."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Since when",
+      "tr": "Ne zamandan beri…?",
+      "ipa": null,
+      "pos": null,
+      "example": "Since when do you like jazz?",
+      "exampleTr": "Ne zamandan beri cazı seviyorsun?",
+      "simple": "You ask this when you are surprised about a new thing.",
+      "dialogue": [
+        "A: I bought two tickets for the jazz night.",
+        "B: Since when do you like jazz?"
+      ],
+      "emoji": "📅",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine ve HIMYM'de şaşkın soru."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Let it go.",
+      "tr": "Bırak gitsin.",
+      "ipa": null,
+      "pos": null,
+      "example": "Let it go. It was a long time ago.",
+      "exampleTr": "Bırak gitsin. Çok önceydi.",
+      "simple": "You say this to tell someone to forget a bad thing.",
+      "dialogue": [
+        "A: He still has not said sorry to me.",
+        "B: Let it go. It was a long time ago."
+      ],
+      "emoji": "🕊️",
+      "imageQuery": null,
+      "note": "Modern Family'de sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Don't be like that.",
+      "tr": "Öyle yapma.",
+      "ipa": null,
+      "pos": null,
+      "example": "Don't be like that. I said sorry.",
+      "exampleTr": "Öyle yapma. Özür diledim.",
+      "simple": "You say this when someone is cold or angry with you.",
+      "dialogue": [
+        "A: I do not want to talk to you.",
+        "B: Don't be like that. I said sorry."
+      ],
+      "emoji": "🥺",
+      "imageQuery": null,
+      "note": "Friends'te arkadaşlar arası."
+    },
+    {
+      "type": "CHUNK",
+      "en": "You owe me.",
+      "tr": "Bana borçlusun.",
+      "ipa": null,
+      "pos": null,
+      "example": "I drove you home. You owe me.",
+      "exampleTr": "Seni eve bıraktım. Bana borçlusun.",
+      "simple": "You say this when you did a favour and want one back.",
+      "dialogue": [
+        "A: Thanks for the lift last night!",
+        "B: I drove you home. You owe me."
+      ],
+      "emoji": "🤑",
+      "imageQuery": null,
+      "note": "The Office ve HIMYM'de."
+    },
+    {
+      "type": "CHUNK",
+      "en": "That's what I'm saying",
+      "tr": "Ben de bunu söylüyorum.",
+      "ipa": null,
+      "pos": null,
+      "example": "That's what I'm saying. It's too loud.",
+      "exampleTr": "Ben de bunu söylüyorum! Çok gürültülü.",
+      "simple": "You say this when someone says the same thing as you.",
+      "dialogue": [
+        "A: This music is too loud for a meeting.",
+        "B: That's what I'm saying. It's too loud."
+      ],
+      "emoji": "👆",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine'da; vurgulu katılma."
+    },
+    {
+      "type": "CHUNK",
+      "en": "What was that about?",
+      "tr": "Bu neydi şimdi?",
+      "ipa": null,
+      "pos": null,
+      "example": "What was that about? She looked angry.",
+      "exampleTr": "Bu neydi şimdi? Kızgın görünüyordu.",
+      "simple": "You ask this after something strange happened.",
+      "dialogue": [
+        "A: Lisa just walked out of the room.",
+        "B: What was that about? She looked angry."
+      ],
+      "emoji": "🧐",
+      "imageQuery": null,
+      "note": "HIMYM'de; garip bir sahneden sonra."
+    },
+    {
+      "type": "CHUNK",
+      "en": "You're being weird.",
+      "tr": "Tuhaf davranıyorsun.",
+      "ipa": null,
+      "pos": null,
+      "example": "You're being weird. What's wrong?",
+      "exampleTr": "Tuhaf davranıyorsun. Sorun ne?",
+      "simple": "You say this when a person acts strangely.",
+      "dialogue": [
+        "A: Why are you hiding behind the door?",
+        "B: You're being weird. What's wrong?"
+      ],
+      "emoji": "😶",
+      "imageQuery": null,
+      "note": "Friends ve The Big Bang Theory'de."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Hang in there.",
+      "tr": "Dayan., Pes etme.",
+      "ipa": null,
+      "pos": null,
+      "example": "Hang in there. It gets better.",
+      "exampleTr": "Dayan. İşler düzelir.",
+      "simple": "You say this to help someone who has a hard time.",
+      "dialogue": [
+        "A: Work is so hard this month.",
+        "B: Hang in there. It gets better."
+      ],
+      "emoji": "💪",
+      "imageQuery": null,
+      "note": "Friends'te teselli; sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I'm not kidding.",
+      "tr": "Şaka yapmıyorum.",
+      "ipa": null,
+      "pos": null,
+      "example": "I'm not kidding. He's really here.",
+      "exampleTr": "Şaka yapmıyorum. Gerçekten burada.",
+      "simple": "You say this when you are serious and want to be believed.",
+      "dialogue": [
+        "A: Your old teacher is here? Come on!",
+        "B: I'm not kidding. He's really here."
+      ],
+      "emoji": "😐",
+      "imageQuery": null,
+      "note": "Her dizide."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Long story.",
+      "tr": "Uzun hikaye.",
+      "ipa": null,
+      "pos": null,
+      "example": "Long story. I'll tell you later.",
+      "exampleTr": "Uzun hikaye. Sonra anlatırım.",
+      "simple": "You say this when you do not want to explain now.",
+      "dialogue": [
+        "A: Why is there a goat in your garden?",
+        "B: Long story. I'll tell you later."
+      ],
+      "emoji": "📖",
+      "imageQuery": null,
+      "note": "HIMYM'de anlatıcı tarzı; çok sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Not a chance.",
+      "tr": "Asla., İmkanı yok.",
+      "ipa": null,
+      "pos": null,
+      "example": "Not a chance. I'm not singing.",
+      "exampleTr": "Asla. Şarkı söylemeyeceğim.",
+      "simple": "You say this when you will never do it.",
+      "dialogue": [
+        "A: Will you sing at my wedding?",
+        "B: Not a chance. I'm not singing."
+      ],
+      "emoji": "🚫",
+      "imageQuery": null,
+      "note": "Seinfeld ve Modern Family'de."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I'm so over it.",
+      "tr": "Bıktım artık., Geçti artık.",
+      "ipa": null,
+      "pos": null,
+      "example": "I'm so over it. Let's move on.",
+      "exampleTr": "Artık bıktım. Devam edelim.",
+      "simple": "You say this when you do not feel anything about it any more.",
+      "dialogue": [
+        "A: Are you still upset about your ex?",
+        "B: I'm so over it. Let's move on."
+      ],
+      "emoji": "😮‍💨",
+      "imageQuery": null,
+      "note": "Friends'te; ayrılık konuşmalarında."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Not my problem.",
+      "tr": "Beni ilgilendirmez.",
+      "ipa": null,
+      "pos": null,
+      "example": "Not my problem. Ask Dave.",
+      "exampleTr": "Beni ilgilendirmez. Dave'e sor.",
+      "simple": "You say this when it is not your job to fix it.",
+      "dialogue": [
+        "A: The printer is broken again.",
+        "B: Not my problem. Ask Dave."
+      ],
+      "emoji": "🙅‍♂️",
+      "imageQuery": null,
+      "note": "The Office ve Seinfeld'de."
+    },
+    {
+      "type": "CHUNK",
+      "en": "What are you doing here?",
+      "tr": "Burada ne arıyorsun?",
+      "ipa": null,
+      "pos": null,
+      "example": "What are you doing here? It's midnight!",
+      "exampleTr": "Burada ne arıyorsun? Gece yarısı!",
+      "simple": "You ask this when you are surprised to see someone.",
+      "dialogue": [
+        "A: Surprise! I came to see you.",
+        "B: What are you doing here? It's midnight!"
+      ],
+      "emoji": "😳",
+      "imageQuery": null,
+      "note": "Her dizide kapı sahnelerinde."
+    },
+    {
+      "type": "CHUNK",
+      "en": "You look great.",
+      "tr": "Harika görünüyorsun.",
+      "ipa": null,
+      "pos": null,
+      "example": "You look great. New haircut?",
+      "exampleTr": "Harika görünüyorsun. Yeni saç mı?",
+      "simple": "A nice thing to say about how someone looks.",
+      "dialogue": [
+        "A: Hi, it is so good to see you!",
+        "B: You look great. New haircut?"
+      ],
+      "emoji": "✨",
+      "imageQuery": null,
+      "note": "Modern Family ve Friends'te iltifat."
+    },
+    {
+      "type": "WORD",
+      "en": "awkward",
+      "tr": "garip, utandırıcı",
+      "ipa": "/ˈɔː.kwəd/",
+      "pos": "adjective",
+      "example": "It was so awkward at dinner.",
+      "exampleTr": "Akşam yemeğinde çok garipti.",
+      "simple": "Not comfortable. You do not know what to say or do.",
+      "dialogue": [
+        "A: How was dinner with his parents?",
+        "B: It was so awkward at dinner."
+      ],
+      "emoji": "😅",
+      "imageQuery": null,
+      "note": "The Office'in imzası; \"awkward silence\" çok sık."
+    }
+  ]
+}

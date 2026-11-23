@@ -83,6 +83,7 @@ model Item {
   image     String?
   note      String?
   simple    String? // Feynman: explained in simple English, like to a 5-year-old
+  dialogue  String[] // "A: …" / "B: …" lines; one contains `en` verbatim (fill-the-gap quiz)
   topic     String
   source    String      @default("core")
   users     UserItem[]

@@ -2,6 +2,7 @@
 import assert from "node:assert/strict";
 import { db } from "../lib/db";
 import { hashPassword, verifyPassword } from "../lib/auth";
+import { blankDialogue } from "../lib/srs";
 import { pickMode, nextBatch, check, commit, challengeAnswer, stats, todaysChallenge, challengeQuizzes, leaderboard } from "../lib/learn";
 
 async function main() {
@@ -71,6 +72,10 @@ async function main() {
       assert.notEqual(pickMode(it2, { isNew: false, canBlank: true, strong: true, sound: false }), "listen_en");
     }
     assert.ok([...Array(300)].some(() => pickMode(it2, { isNew: false, canBlank: true, strong: false, sound: true }) === "listen_en"));
+    // dialogue quiz: stored arrays survive the DB round trip and are blankable
+    const dlg = await db.item.findFirst({ where: { dialogue: { isEmpty: false } } });
+    assert.ok(dlg && blankDialogue(dlg.dialogue, dlg.en), "a seeded dialogue can be blanked");
+    assert.ok([...Array(100)].some(() => pickMode(dlg!, { isNew: false, canBlank: false, strong: false, sound: true, canDialog: true }) === "dialog"));
     console.log("smoke OK");
   } finally {
     await db.user.deleteMany({ where: { id: { in: [a.id, b.id] } } });

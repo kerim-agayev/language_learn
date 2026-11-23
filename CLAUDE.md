@@ -26,6 +26,8 @@ Coworkers form a team and race daily on the same 10 items. UI text in Turkish; c
   "Türkçesini göster". ~80% of quizzes are English-only (`pic_en`, `simple_en`, `listen_en`, `blank`).
 - **Feynman:** every item has `simple` (explained like to a 5-year-old). Graduated items (FSRS Review state)
   sometimes get `produce`: write/say your own sentence (Web Speech recognition), checked by `usesItem`.
+- **Dialogue quiz** (`dialog` mode): a 2–4 line "A:/B:" chat with the item blanked (`blankDialogue`), pick what fits.
+  Only items with a `dialogue` field get it (currently the ~300 sitcom items). Revealed cards show the whole chat.
 - **Anki route:** after each answer the learner grades Again/Hard/Good/Easy; each button shows its next interval
   (`previews` + `formatInterval`). Nothing is saved until graded (`check` -> `commit`). Wrong answer = Again only.
   "Again" cards come back once more in the same session. Sidebar shows Anki's New / Learning / Review counters.
@@ -50,6 +52,10 @@ Coworkers form a team and race daily on the same 10 items. UI text in Turkish; c
 ## Content pipeline
 - `content/<LEVEL>/<NN>-<topic>.json` (format: `content/SCHEMA.md`), `content/anki.json` = user's imported Anki deck.
 - Currently in DB: A1 446, A2 360, B1 379, B2 417, C1 464 (incl. Anki words); C2 only the Anki words. **Next content job: C2.**
+- **Sitcom English**: `<LEVEL>/20-sitcom-*.json` and `21-sitcom-*.json` (A1–C2) — everyday dialogue typical of Friends,
+  HIMYM, Malcolm in the Middle, The Office, Seinfeld, Big Bang Theory, B99, Modern Family, Breaking Bad. Based on model
+  knowledge of the shows (no transcripts, no frequency counts); original examples, ≤3 short catchphrases in total;
+  `note` names the show. Every sitcom item has `dialogue`.
 - When 2 agents write one level in parallel, split phrasal verbs by first letter (A–L / M–Z) and collocations by kind
   (verb+noun / adj+adv) — that cut overlaps from 26 (B2) to 2 (C1).
   (same schema incl. `simple`, ~16 topic files per level, written to sound like real spoken English).
@@ -68,6 +74,14 @@ Coworkers form a team and race daily on the same 10 items. UI text in Turkish; c
 - Dev server caches the Prisma client on globalThis: restart `next dev` after `prisma generate`.
 - `npx tsx -e` hangs in this environment; write a script file instead (e.g. `scripts/cleanup-smoke.ts`).
 - Avoid "·" joined meta strings and all-caps labels.
+
+## TODO — agreed with the user, deferred for cost
+- **Add `dialogue` to ALL remaining items (~2180, every level + anki.json)** so every card can get the dialogue quiz.
+  The user asked for it (2026-11-23) but postponed it because it needs ~11 parallel agents. Plan: one agent per half
+  level (A1 00a–07 / 08–16, A2 01–08 / 09–17, B1/B2/C1 01–08 / 09–16) + one for anki.json; each edits only its own
+  files with a scratchpad script prefixed by its group name; rule: one line contains `en` verbatim; then run
+  `scripts/check-content.ts` (reports unblankable dialogues) and re-seed.
+- C2 core content (C2 currently = sitcom files + Anki words).
 
 ## Later (only when asked)
 Placement test, badges, weekly summary, Google login, PWA/offline, nicer TTS voices, C2 core content, de-duplicate B2 phrasal/collocation files (two writers overlapped ~26 items).

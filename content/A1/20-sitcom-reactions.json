@@ -1,0 +1,430 @@
+{
+  "topic": "Dizilerden: tepkiler ve kısa cevaplar",
+  "items": [
+    {
+      "type": "CHUNK",
+      "en": "Oh my God!",
+      "tr": "Aman Tanrım!, Vay canına!",
+      "ipa": null,
+      "pos": null,
+      "example": "Oh my God! You got the job!",
+      "exampleTr": "Aman Tanrım! İşi aldın!",
+      "simple": "A thing you say when you are very surprised.",
+      "dialogue": [
+        "A: I just got a call from the office.",
+        "B: Oh my God! You got the job!"
+      ],
+      "emoji": "😱",
+      "imageQuery": null,
+      "note": "Friends ve The Big Bang Theory'de her bölümde duyulur."
+    },
+    {
+      "type": "CHUNK",
+      "en": "What's up?",
+      "tr": "Naber?, Ne var ne yok?",
+      "ipa": null,
+      "pos": null,
+      "example": "Hey, what's up? You look happy.",
+      "exampleTr": "Hey, naber? Mutlu görünüyorsun.",
+      "simple": "A friendly hello. You ask how someone is or what is new.",
+      "dialogue": [
+        "A: Oh, hi Sam!",
+        "B: Hey, what's up? You look happy."
+      ],
+      "emoji": "🤙",
+      "imageQuery": null,
+      "note": "Dizilerde selam yerine çok sık; cevap: \"Not much.\""
+    },
+    {
+      "type": "CHUNK",
+      "en": "No way!",
+      "tr": "Yok artık!, Olamaz!",
+      "ipa": null,
+      "pos": null,
+      "example": "No way! You met him?",
+      "exampleTr": "Yok artık! Onunla mı tanıştın?",
+      "simple": "You say this when you cannot believe something.",
+      "dialogue": [
+        "A: I met the singer at the shop today.",
+        "B: No way! You met him?"
+      ],
+      "emoji": "🤯",
+      "imageQuery": null,
+      "note": "How I Met Your Mother ve Friends'te çok sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Are you serious?",
+      "tr": "Ciddi misin?",
+      "ipa": null,
+      "pos": null,
+      "example": "Are you serious? It's only eight o'clock!",
+      "exampleTr": "Ciddi misin? Daha saat sekiz!",
+      "simple": "You ask this when you think the other person is joking.",
+      "dialogue": [
+        "A: We have to leave the party now.",
+        "B: Are you serious? It's only eight o'clock!"
+      ],
+      "emoji": "🧐",
+      "imageQuery": null,
+      "note": "Hemen her dizide; şaşkınlık veya kızgınlık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I'm kidding.",
+      "tr": "Şaka yapıyorum.",
+      "ipa": null,
+      "pos": null,
+      "example": "I'm kidding. Your hair looks great.",
+      "exampleTr": "Şaka yapıyorum. Saçların harika görünüyor.",
+      "simple": "You say this when your words were a joke, not true.",
+      "dialogue": [
+        "A: Your hair looks terrible!",
+        "B: I'm kidding. Your hair looks great."
+      ],
+      "emoji": "😜",
+      "imageQuery": null,
+      "note": "The Office ve Brooklyn Nine-Nine'da sık; \"Just kidding\" da denir."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Seriously?",
+      "tr": "Cidden mi?",
+      "ipa": null,
+      "pos": null,
+      "example": "Seriously? Again?",
+      "exampleTr": "Cidden mi? Yine mi?",
+      "simple": "A short way to say you are surprised or annoyed.",
+      "dialogue": [
+        "A: The bus is late today too.",
+        "B: Seriously? Again?"
+      ],
+      "emoji": "😒",
+      "imageQuery": null,
+      "note": "Modern Family'de sinirli/alaycı tonda sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Really?",
+      "tr": "Gerçekten mi?",
+      "ipa": null,
+      "pos": null,
+      "example": "Really? I didn't know that.",
+      "exampleTr": "Gerçekten mi? Bunu bilmiyordum.",
+      "simple": "You say this to ask if something is true.",
+      "dialogue": [
+        "A: Pizza was invented in Italy, you know.",
+        "B: Really? I didn't know that."
+      ],
+      "emoji": "😮",
+      "imageQuery": null,
+      "note": "Ton değişince alaycı da olur; her dizide."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Whatever.",
+      "tr": "Neyse, boş ver, nasıl istersen.",
+      "ipa": null,
+      "pos": null,
+      "example": "Whatever. Do what you want.",
+      "exampleTr": "Neyse. Ne istersen yap.",
+      "simple": "You say this when you do not care or you give up.",
+      "dialogue": [
+        "A: Should we watch a movie or play a game?",
+        "B: Whatever. Do what you want."
+      ],
+      "emoji": "🤷",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle'da gençler çok kullanır; biraz kaba."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Gross!",
+      "tr": "İğrenç!, Öğk!",
+      "ipa": null,
+      "pos": null,
+      "example": "Gross! There's hair in my soup.",
+      "exampleTr": "İğrenç! Çorbamda saç var.",
+      "simple": "You say this about something dirty or yucky.",
+      "dialogue": [
+        "A: What is wrong with your dinner?",
+        "B: Gross! There's hair in my soup."
+      ],
+      "emoji": "🤢",
+      "imageQuery": null,
+      "note": "Friends ve Malcolm in the Middle'da çok sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Awesome!",
+      "tr": "Harika!, Süper!",
+      "ipa": null,
+      "pos": null,
+      "example": "Awesome! We're going to the beach.",
+      "exampleTr": "Harika! Plaja gidiyoruz.",
+      "simple": "A big word for something very good.",
+      "dialogue": [
+        "A: Guess what? The trip is on for Saturday.",
+        "B: Awesome! We're going to the beach."
+      ],
+      "emoji": "🤩",
+      "imageQuery": null,
+      "note": "The Big Bang Theory ve HIMYM'de çok sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Cool.",
+      "tr": "Güzel., Tamam, süper.",
+      "ipa": null,
+      "pos": null,
+      "example": "Cool. See you at seven.",
+      "exampleTr": "Güzel. Yedide görüşürüz.",
+      "simple": "A short way to say OK or good.",
+      "dialogue": [
+        "A: Dinner is at seven, okay?",
+        "B: Cool. See you at seven."
+      ],
+      "emoji": "😎",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine'da sık; kısa onay."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Duh.",
+      "tr": "Haliyle!, Belli ya!",
+      "ipa": null,
+      "pos": null,
+      "example": "Do I like pizza? Duh.",
+      "exampleTr": "Pizzayı sever miyim? Belli ya.",
+      "simple": "You say this when the answer is very easy to see.",
+      "dialogue": [
+        "A: Do you like pizza?",
+        "B: Do I like pizza? Duh."
+      ],
+      "emoji": "🙄",
+      "imageQuery": null,
+      "note": "Friends ve Malcolm in the Middle'da; biraz alaycı."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Oops!",
+      "tr": "Eyvah!, Pardon!",
+      "ipa": null,
+      "pos": null,
+      "example": "Oops! I dropped your phone.",
+      "exampleTr": "Eyvah! Telefonunu düşürdüm.",
+      "simple": "You say this when you make a small mistake.",
+      "dialogue": [
+        "A: What was that noise?",
+        "B: Oops! I dropped your phone."
+      ],
+      "emoji": "😬",
+      "imageQuery": null,
+      "note": "Her dizide; küçük kazalar için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Ouch!",
+      "tr": "Ay!, Of!",
+      "ipa": null,
+      "pos": null,
+      "example": "Ouch! That hurt my foot.",
+      "exampleTr": "Ay! Ayağımı acıttı.",
+      "simple": "You say this when something hurts you.",
+      "dialogue": [
+        "A: Sorry, I stepped on your shoe.",
+        "B: Ouch! That hurt my foot."
+      ],
+      "emoji": "🤕",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle'da kardeş kavgalarında sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Yikes!",
+      "tr": "Eyvah!, Ayy!",
+      "ipa": null,
+      "pos": null,
+      "example": "Yikes! That is a big spider.",
+      "exampleTr": "Eyvah! Bu büyük bir örümcek.",
+      "simple": "A short word when something looks bad or scary.",
+      "dialogue": [
+        "A: Look at the wall behind you.",
+        "B: Yikes! That is a big spider."
+      ],
+      "emoji": "😨",
+      "imageQuery": null,
+      "note": "Modern Family ve Friends'te sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Jeez!",
+      "tr": "Yahu!, Of be!",
+      "ipa": null,
+      "pos": null,
+      "example": "Jeez! Do you have to shout?",
+      "exampleTr": "Yahu! Bağırmak zorunda mısın?",
+      "simple": "You say this when you are annoyed or surprised.",
+      "dialogue": [
+        "A: WHERE ARE MY KEYS?",
+        "B: Jeez! Do you have to shout?"
+      ],
+      "emoji": "😤",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle ve The Office'te sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Bummer.",
+      "tr": "Yazık., Çok kötü oldu.",
+      "ipa": null,
+      "pos": null,
+      "example": "Bummer. The party is cancelled.",
+      "exampleTr": "Yazık. Parti iptal oldu.",
+      "simple": "You say this when something is sad but not very big.",
+      "dialogue": [
+        "A: I have bad news about tonight.",
+        "B: Bummer. The party is cancelled."
+      ],
+      "emoji": "😕",
+      "imageQuery": null,
+      "note": "The Big Bang Theory ve HIMYM'de gündelik."
+    },
+    {
+      "type": "CHUNK",
+      "en": "My bad.",
+      "tr": "Benim hatam., Pardon.",
+      "ipa": null,
+      "pos": null,
+      "example": "My bad. I forgot your name.",
+      "exampleTr": "Benim hatam. Adını unuttum.",
+      "simple": "A quick way to say you made a mistake.",
+      "dialogue": [
+        "A: Hey, my name is Kate, not Katie.",
+        "B: My bad. I forgot your name."
+      ],
+      "emoji": "🙋",
+      "imageQuery": null,
+      "note": "Brooklyn Nine-Nine'da çok sık; samimi özür."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Same here.",
+      "tr": "Ben de., Aynen.",
+      "ipa": null,
+      "pos": null,
+      "example": "Same here. I'm tired too.",
+      "exampleTr": "Ben de. Ben de yorgunum.",
+      "simple": "You say this when you feel the same as the other person.",
+      "dialogue": [
+        "A: I need a long sleep.",
+        "B: Same here. I'm tired too."
+      ],
+      "emoji": "🤝",
+      "imageQuery": null,
+      "note": "Her dizide; kısa katılma."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Totally.",
+      "tr": "Kesinlikle., Aynen öyle.",
+      "ipa": null,
+      "pos": null,
+      "example": "Totally. That movie was great.",
+      "exampleTr": "Kesinlikle. O film harikaydı.",
+      "simple": "You say this to agree strongly.",
+      "dialogue": [
+        "A: Did you love that movie too?",
+        "B: Totally. That movie was great."
+      ],
+      "emoji": "💯",
+      "imageQuery": null,
+      "note": "Friends ve Brooklyn Nine-Nine'da sık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Nice one!",
+      "tr": "Aferin!, Güzel hamle!",
+      "ipa": null,
+      "pos": null,
+      "example": "Nice one! You found my keys.",
+      "exampleTr": "Aferin! Anahtarlarımı buldun.",
+      "simple": "You say this when someone does something good or funny.",
+      "dialogue": [
+        "A: Here are your keys. They were in the sofa.",
+        "B: Nice one! You found my keys."
+      ],
+      "emoji": "👏",
+      "imageQuery": null,
+      "note": "Britanya'da daha yaygın; HIMYM'de de duyulur."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Not funny.",
+      "tr": "Komik değil.",
+      "ipa": null,
+      "pos": null,
+      "example": "Not funny. You scared me.",
+      "exampleTr": "Komik değil. Beni korkuttun.",
+      "simple": "You say this when a joke is not nice.",
+      "dialogue": [
+        "A: Boo! Ha ha, you jumped!",
+        "B: Not funny. You scared me."
+      ],
+      "emoji": "😠",
+      "imageQuery": null,
+      "note": "Friends ve Modern Family'de kardeş/arkadaş arasında."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Good for you!",
+      "tr": "Aferin sana!, Ne güzel!",
+      "ipa": null,
+      "pos": null,
+      "example": "Good for you! You passed the test.",
+      "exampleTr": "Aferin sana! Sınavı geçtin.",
+      "simple": "You say this when you are happy that something good happened to someone.",
+      "dialogue": [
+        "A: I passed my driving test today.",
+        "B: Good for you! You passed the test."
+      ],
+      "emoji": "🎉",
+      "imageQuery": null,
+      "note": "Bazen alaycı söylenir; ton önemli."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Lame.",
+      "tr": "Sıkıcı., Saçma.",
+      "ipa": null,
+      "pos": null,
+      "example": "That party was lame.",
+      "exampleTr": "O parti sıkıcıydı.",
+      "simple": "A word for something boring or not cool.",
+      "dialogue": [
+        "A: How was the party last night?",
+        "B: That party was lame."
+      ],
+      "emoji": "🥱",
+      "imageQuery": null,
+      "note": "Malcolm in the Middle ve The Big Bang Theory'de."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Shut up!",
+      "tr": "Hadi ya!, Sus!",
+      "ipa": null,
+      "pos": null,
+      "example": "Shut up! You won a car?",
+      "exampleTr": "Hadi ya! Araba mı kazandın?",
+      "simple": "Friends say this to show big surprise. It can also mean \"be quiet\".",
+      "dialogue": [
+        "A: I have big news for you.",
+        "B: Shut up! You won a car?"
+      ],
+      "emoji": "🤭",
+      "imageQuery": null,
+      "note": "Friends'te şaşkınlık; kaba da olabilir, dikkat."
+    }
+  ]
+}
