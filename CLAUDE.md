@@ -49,7 +49,9 @@ Coworkers form a team and race daily on the same 10 items. UI text in Turkish; c
 
 ## Content pipeline
 - `content/<LEVEL>/<NN>-<topic>.json` (format: `content/SCHEMA.md`), `content/anki.json` = user's imported Anki deck.
-- Currently in DB: A1 446, A2 360, B1 379, B2 417 (incl. Anki words); C1–C2 only the Anki words. **Next content job: C1…**
+- Currently in DB: A1 446, A2 360, B1 379, B2 417, C1 464 (incl. Anki words); C2 only the Anki words. **Next content job: C2.**
+- When 2 agents write one level in parallel, split phrasal verbs by first letter (A–L / M–Z) and collocations by kind
+  (verb+noun / adj+adv) — that cut overlaps from 26 (B2) to 2 (C1).
   (same schema incl. `simple`, ~16 topic files per level, written to sound like real spoken English).
 - Parallel content agents must not share scratchpad script names or clear a level folder (B1 09–16 once got
   lost that way). After parallel writes always run `check-content` and count files.
@@ -68,4 +70,4 @@ Coworkers form a team and race daily on the same 10 items. UI text in Turkish; c
 - Avoid "·" joined meta strings and all-caps labels.
 
 ## Later (only when asked)
-Placement test, badges, weekly summary, Google login, PWA/offline, nicer TTS voices, C1+ core content, de-duplicate B2 phrasal/collocation files (two writers overlapped ~26 items).
+Placement test, badges, weekly summary, Google login, PWA/offline, nicer TTS voices, C2 core content, de-duplicate B2 phrasal/collocation files (two writers overlapped ~26 items).
