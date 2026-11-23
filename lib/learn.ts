@@ -52,8 +52,8 @@ function view(it: Item): ItemView {
 }
 
 /** Which quiz to give. New items: immersion check (picture or simple English). Reviews: mostly English-only. */
-export function pickMode(it: Pick<Item, "image" | "simple" | "type">, opts: { isNew: boolean; canBlank: boolean; strong: boolean }, rnd = Math.random): Mode {
-  const english: Mode[] = ["listen_en"];
+export function pickMode(it: Pick<Item, "image" | "simple" | "type">, opts: { isNew: boolean; canBlank: boolean; strong: boolean; sound: boolean }, rnd = Math.random): Mode {
+  const english: Mode[] = opts.sound ? ["listen_en"] : []; // no listening quizzes on a silent desk
   if (it.image) english.push("pic_en", "pic_en");
   if (it.simple) english.push("simple_en", "simple_en");
   if (opts.canBlank) english.push("blank");
@@ -63,9 +63,9 @@ export function pickMode(it: Pick<Item, "image" | "simple" | "type">, opts: { is
   return all[Math.floor(rnd() * all.length)];
 }
 
-async function buildQuiz(it: Item, isNew: boolean, forced?: Mode, strong = false): Promise<Quiz> {
+async function buildQuiz(it: Item, isNew: boolean, forced?: Mode, strong = false, sound = true): Promise<Quiz> {
   const canBlank = it.type !== "SENTENCE" && it.type !== "CHUNK" && !!blankOut(it);
-  const mode: Mode = forced ?? pickMode(it, { isNew, canBlank, strong });
+  const mode: Mode = forced ?? pickMode(it, { isNew, canBlank, strong, sound });
   const base = { itemId: it.id, level: it.level, mode, learn: isNew ? view(it) : undefined };
 
   if (mode === "produce")
@@ -125,7 +125,7 @@ export async function levelProgress(userId: string, level: LevelName) {
 }
 
 /** One micro-session: up to 3 due reviews, then at most 1 new item from the current level. */
-export async function nextBatch(userId: string, level: string): Promise<Quiz[]> {
+export async function nextBatch(userId: string, level: string, sound = true): Promise<Quiz[]> {
   const lv = await syncLevel(userId, level);
   const now = new Date();
   const due = await db.userItem.findMany({
@@ -153,7 +153,7 @@ export async function nextBatch(userId: string, level: string): Promise<Quiz[]> 
     });
     picks.push(...early.map((d) => ({ item: d.item, isNew: false })));
   }
-  return Promise.all(picks.map((p) => buildQuiz(p.item, p.isNew, undefined, p.strong)));
+  return Promise.all(picks.map((p) => buildQuiz(p.item, p.isNew, undefined, p.strong, sound)));
 }
 
 export type AnswerResult = {

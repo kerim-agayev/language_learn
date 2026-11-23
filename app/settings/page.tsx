@@ -22,6 +22,15 @@ export default async function SettingsPage() {
             <Field label="Mesai bitişi" name="workEnd" type="time" defaultValue={u.workEnd} required />
           </div>
           <Field label="Günlük hedef (kart)" name="dailyGoal" type="number" min={5} max={200} defaultValue={u.dailyGoal} required />
+          <label className="flex items-start gap-3 rounded-xl border-2 border-line bg-paper px-4 py-3 text-sm">
+            <input type="checkbox" name="sound" defaultChecked={u.sound} className="mt-0.5 size-5 accent-[var(--pen)]" />
+            <span>
+              <span className="font-bold">Sesler otomatik çalsın</span>
+              <span className="block text-muted">
+                Kapalıyken kartlar kendiliğinden okunmaz ve dinleme soruları gelmez. 🔊 düğmeleri yine çalışır.
+              </span>
+            </span>
+          </label>
           <p className="text-sm text-muted">Mesai dışında kart gelmez. İstediğin an &ldquo;Şimdi öğren&rdquo; ile yine çalışabilirsin.</p>
         </ActionForm>
       </main>

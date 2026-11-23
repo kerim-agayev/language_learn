@@ -16,7 +16,7 @@ export default async function LearnPage() {
       <Nav name={user.name} level={level} />
       <main className="mx-auto grid max-w-5xl gap-6 px-4 pb-16 md:grid-cols-[minmax(0,1fr)_280px]">
         <section className="mx-auto w-full max-w-xl pt-4">
-          <Learner settings={{ intervalMin: user.intervalMin, workStart: user.workStart, workEnd: user.workEnd }} />
+          <Learner settings={{ intervalMin: user.intervalMin, workStart: user.workStart, workEnd: user.workEnd, sound: user.sound }} />
         </section>
 
         <aside className="flex flex-col gap-5 pt-4 text-sm">

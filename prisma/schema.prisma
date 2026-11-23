@@ -33,6 +33,7 @@ model User {
   workStart    String       @default("09:00")
   workEnd      String       @default("18:00")
   dailyGoal    Int          @default(20)
+  sound        Boolean      @default(true) // off = no auto-play, no listening quizzes
   level        Level        @default(A1)
   createdAt    DateTime     @default(now())
   sessions     Session[]

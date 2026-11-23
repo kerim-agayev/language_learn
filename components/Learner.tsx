@@ -8,7 +8,7 @@ import type { Quiz } from "@/lib/learn";
 import type { Grade } from "@/lib/srs";
 import { QuizCard } from "./Card";
 
-type Settings = { intervalMin: number; workStart: string; workEnd: string };
+type Settings = { intervalMin: number; workStart: string; workEnd: string; sound: boolean };
 
 const inWorkHours = (s: Settings, d = new Date()) => {
   const now = d.getHours() * 60 + d.getMinutes();
@@ -148,7 +148,7 @@ export function Learner({ settings }: { settings: Settings }) {
   const panel = (
     <div className="flex flex-col gap-4">
       {queue ? (
-        <QuizCard key={shown} quiz={queue[0]} onDone={finishOne} />
+        <QuizCard key={shown} quiz={queue[0]} autoSpeak={settings.sound} onDone={finishOne} />
       ) : (
         <div className="note flex flex-col items-center gap-4 px-6 py-10 text-center" style={{ "--lv": "var(--line)" } as React.CSSProperties}>
           <p className="text-sm text-muted">{paused ? "Duraklatıldı" : inWorkHours(settings, new Date(now)) ? "Sonraki kart" : "Mesai dışı"}</p>

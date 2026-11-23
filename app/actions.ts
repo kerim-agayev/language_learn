@@ -38,7 +38,7 @@ export async function logout() {
 
 export async function getBatch() {
   const u = await requireUser();
-  return nextBatch(u.id, u.level);
+  return nextBatch(u.id, u.level, u.sound);
 }
 
 export async function checkAnswer(itemId: number, mode: Mode, choice: string, ms: number) {
@@ -65,7 +65,8 @@ export async function saveSettings(_: FormState, f: FormData): Promise<FormState
   if (![1, 3, 5, 10, 15, 20, 30].includes(intervalMin)) return { error: "Aralık geçersiz." };
   if (!hhmm.test(workStart) || !hhmm.test(workEnd)) return { error: "Saatleri SS:DD biçiminde gir." };
   if (!(dailyGoal >= 5 && dailyGoal <= 200)) return { error: "Günlük hedef 5 ile 200 arasında olmalı." };
-  await db.user.update({ where: { id: u.id }, data: { intervalMin, workStart, workEnd, dailyGoal } });
+  const sound = f.get("sound") === "on";
+  await db.user.update({ where: { id: u.id }, data: { intervalMin, workStart, workEnd, dailyGoal, sound } });
   revalidatePath("/learn");
   return { ok: "Kaydedildi." };
 }

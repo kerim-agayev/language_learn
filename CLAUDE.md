@@ -13,7 +13,7 @@ Coworkers form a team and race daily on the same 10 items. UI text in Turkish; c
   Migrations use `DIRECT_URL` (non-pooled host); runtime uses pooled `DATABASE_URL`.
 - Auth: own minimal auth in `lib/auth.ts` (node:crypto scrypt + DB `Session` table, httpOnly cookie, token stored as sha256).
   No auth library. Add OAuth only when asked.
-- `ts-fsrs` for spaced repetition. Browser-native: speechSynthesis (pronunciation), Notification API,
+- `ts-fsrs` for spaced repetition. `User.sound` off = no auto-play and no `listen_en` quizzes (silent office PCs). Browser-native: speechSynthesis (pronunciation), Notification API,
   Document Picture-in-Picture (always-on-top mini window, Chrome/Edge).
 - Hosting: Vercel Hobby + Neon Free. Env: `DATABASE_URL`, `DIRECT_URL`, `APP_TZ` (default Europe/Istanbul),
   `PIXABAY_API_KEY` (local, image script only). `npm run build` runs `prisma migrate deploy` first.
@@ -49,7 +49,7 @@ Coworkers form a team and race daily on the same 10 items. UI text in Turkish; c
 
 ## Content pipeline
 - `content/<LEVEL>/<NN>-<topic>.json` (format: `content/SCHEMA.md`), `content/anki.json` = user's imported Anki deck.
-- Currently in DB: A1 446, A2 360, B1 379 (incl. Anki words); B2–C2 only the Anki words. **Next content job: B2…**
+- Currently in DB: A1 446, A2 360, B1 379, B2 417 (incl. Anki words); C1–C2 only the Anki words. **Next content job: C1…**
   (same schema incl. `simple`, ~16 topic files per level, written to sound like real spoken English).
 - Parallel content agents must not share scratchpad script names or clear a level folder (B1 09–16 once got
   lost that way). After parallel writes always run `check-content` and count files.
@@ -68,4 +68,4 @@ Coworkers form a team and race daily on the same 10 items. UI text in Turkish; c
 - Avoid "·" joined meta strings and all-caps labels.
 
 ## Later (only when asked)
-Placement test, badges, weekly summary, Google login, PWA/offline, nicer TTS voices, B2+ core content.
+Placement test, badges, weekly summary, Google login, PWA/offline, nicer TTS voices, C1+ core content, de-duplicate B2 phrasal/collocation files (two writers overlapped ~26 items).

@@ -2,7 +2,7 @@
 import assert from "node:assert/strict";
 import { db } from "../lib/db";
 import { hashPassword, verifyPassword } from "../lib/auth";
-import { nextBatch, check, commit, challengeAnswer, stats, todaysChallenge, challengeQuizzes, leaderboard } from "../lib/learn";
+import { pickMode, nextBatch, check, commit, challengeAnswer, stats, todaysChallenge, challengeQuizzes, leaderboard } from "../lib/learn";
 
 async function main() {
   const pw = await hashPassword("secret123");
@@ -65,6 +65,12 @@ async function main() {
     assert.equal(board[0].pts, 15);
     assert.equal(board.find((r) => r.name === "smoke-b")!.pts, 15);
     await db.team.delete({ where: { id: team.id } });
+    // sound off (silent office PC): never a listening quiz
+    const it2 = { image: "/x.webp", simple: "x", type: "WORD" as const };
+    for (let i = 0; i < 300; i++) {
+      assert.notEqual(pickMode(it2, { isNew: false, canBlank: true, strong: true, sound: false }), "listen_en");
+    }
+    assert.ok([...Array(300)].some(() => pickMode(it2, { isNew: false, canBlank: true, strong: false, sound: true }) === "listen_en"));
     console.log("smoke OK");
   } finally {
     await db.user.deleteMany({ where: { id: { in: [a.id, b.id] } } });

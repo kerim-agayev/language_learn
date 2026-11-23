@@ -193,10 +193,13 @@ function ProduceInput({ onSubmit, busy }: { onSubmit: (s: string) => void; busy:
 export function QuizCard({
   quiz,
   challengeId,
+  autoSpeak = false,
   onDone,
 }: {
   quiz: Quiz;
   challengeId?: string;
+  /** off when the user disabled sound (silent office PC) */
+  autoSpeak?: boolean;
   onDone: (r: AnswerResult, g?: Grade) => void;
 }) {
   const [stage, setStage] = useState<Stage>(quiz.learn ? "learn" : "ask");
@@ -209,11 +212,11 @@ export function QuizCard({
 
   // Hear it first: like a child, sound before spelling.
   useEffect(() => {
-    if (stage === "learn" && quiz.learn) speak(quiz.learn.en);
+    if (stage === "learn" && quiz.learn && autoSpeak) speak(quiz.learn.en);
     if (stage !== "ask") return;
     askedAt.current = performance.now();
-    if (quiz.mode === "listen_en" && quiz.speak) speak(quiz.speak);
-  }, [stage, quiz]);
+    if (quiz.mode === "listen_en" && quiz.speak && autoSpeak) speak(quiz.speak);
+  }, [stage, quiz, autoSpeak]);
 
   async function choose(opt: string) {
     if (busy || stage !== "ask") return;
