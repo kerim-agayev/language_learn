@@ -5,6 +5,7 @@ import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
 import { getBatch } from "@/app/actions";
 import type { Quiz } from "@/lib/learn";
+import type { Grade } from "@/lib/srs";
 import { QuizCard } from "./Card";
 
 type Settings = { intervalMin: number; workStart: string; workEnd: string };
@@ -36,6 +37,8 @@ export function Learner({ settings }: { settings: Settings }) {
   const [pip, setPip] = useState<Window | null>(null);
   const [, rerender] = useState(0);
   const sessionOpen = useRef(false);
+  const requeued = useRef(new Set<number>());
+  const [shown, setShown] = useState(0); // remount key: same item may come back after "Again"
   // browser-only capabilities; false/unsupported during SSR so hydration matches
   const mounted = useSyncExternalStore(noop, () => true, () => false);
   const notif = !mounted || typeof Notification === "undefined" ? "unsupported" : Notification.permission;
@@ -54,10 +57,13 @@ export function Learner({ settings }: { settings: Settings }) {
         return;
       }
       setEmpty(false);
+      requeued.current.clear();
       setQueue(batch);
       if (fromTimer && document.visibilityState === "hidden" && !pip && Notification?.permission === "granted") {
-        const n = new Notification("Yeni kart hazır", { body: "1 dakikanı ayır, sonra işine dön.", tag: "damla" });
-        n.onclick = () => { window.focus(); n.close(); };
+        try {
+          const n = new Notification("Yeni kart hazır", { body: "1 dakikanı ayır, sonra işine dön.", tag: "damla" });
+          n.onclick = () => { window.focus(); n.close(); };
+        } catch {} // Android Chrome only allows notifications via a service worker; the tab title still blinks
       }
     } finally {
       setLoading(false);
@@ -80,9 +86,16 @@ export function Learner({ settings }: { settings: Settings }) {
     document.title = queue ? "● Kart seni bekliyor · damla" : "damla";
   }, [queue]);
 
-  function finishOne() {
+  // Anki learning step: a card graded "Again" comes back once more at the end of this session.
+  function finishOne(_r: unknown, g?: Grade) {
     if (!queue) return;
-    if (queue.length > 1) return setQueue(queue.slice(1));
+    const [cur, ...rest] = queue;
+    setShown((n) => n + 1);
+    if (g === 1 && !requeued.current.has(cur.itemId)) {
+      requeued.current.add(cur.itemId);
+      rest.push({ ...cur, learn: undefined });
+    }
+    if (rest.length) return setQueue(rest);
     setQueue(null);
     sessionOpen.current = false;
     setNextAt(Date.now() + interval);
@@ -135,7 +148,7 @@ export function Learner({ settings }: { settings: Settings }) {
   const panel = (
     <div className="flex flex-col gap-4">
       {queue ? (
-        <QuizCard key={queue[0].itemId + queue[0].mode + queue.length} quiz={queue[0]} onDone={finishOne} />
+        <QuizCard key={shown} quiz={queue[0]} onDone={finishOne} />
       ) : (
         <div className="note flex flex-col items-center gap-4 px-6 py-10 text-center" style={{ "--lv": "var(--line)" } as React.CSSProperties}>
           <p className="text-sm text-muted">{paused ? "Duraklatıldı" : inWorkHours(settings, new Date(now)) ? "Sonraki kart" : "Mesai dışı"}</p>

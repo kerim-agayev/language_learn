@@ -10,7 +10,7 @@ const links = [
 
 export function Nav({ name, level }: { name: string; level: string }) {
   return (
-    <header className="mx-auto flex max-w-5xl items-center gap-2 px-4 py-4 sm:gap-4">
+    <header className="mx-auto flex max-w-5xl items-center gap-1 px-4 py-3 sm:gap-4 sm:py-4">
       <Link href="/learn" className="font-display text-xl font-bold tracking-tight">
         damla
       </Link>
@@ -19,14 +19,14 @@ export function Nav({ name, level }: { name: string; level: string }) {
       </span>
       <nav className="ml-auto flex items-center gap-1 text-sm">
         {links.map((l) => (
-          <Link key={l.href} href={l.href} className="rounded-full px-3 py-1.5 text-muted hover:bg-paper hover:text-ink">
+          <Link key={l.href} href={l.href} className="rounded-full px-2 py-1.5 text-muted hover:bg-paper hover:text-ink sm:px-3">
             {l.label}
           </Link>
         ))}
       </nav>
       <ThemeToggle />
       <form action={logout}>
-        <button className="hidden rounded-full px-3 py-1.5 text-sm text-muted hover:bg-paper hover:text-ink sm:block" title={name}>
+        <button className="rounded-full px-2 py-1.5 text-sm text-muted hover:bg-paper hover:text-ink sm:px-3" title={name}>
           Çıkış
         </button>
       </form>

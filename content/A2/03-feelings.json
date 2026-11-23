@@ -9,6 +9,7 @@
       "pos": "adjective",
       "example": "I’m so excited about the trip!",
       "exampleTr": "Gezi için çok heyecanlıyım!",
+      "simple": "You are very happy about something good that will come soon.",
       "emoji": "🤩",
       "imageQuery": null,
       "note": "Güzel heyecan. Kaygılı heyecan için \"nervous\"."
@@ -21,6 +22,7 @@
       "pos": "adjective",
       "example": "I’m worried about my exam.",
       "exampleTr": "Sınavım için endişeliyim.",
+      "simple": "You keep thinking that something bad may happen.",
       "emoji": "😟",
       "imageQuery": null,
       "note": null
@@ -33,6 +35,7 @@
       "pos": "adjective",
       "example": "I always feel nervous before interviews.",
       "exampleTr": "Mülakattan önce hep gergin olurum.",
+      "simple": "You feel a little scared and your tummy feels funny before something big.",
       "emoji": "😬",
       "imageQuery": null,
       "note": null
@@ -45,6 +48,7 @@
       "pos": "adjective",
       "example": "I’m bored. There’s nothing to do.",
       "exampleTr": "Sıkıldım. Yapacak bir şey yok.",
+      "simple": "You have nothing fun to do, and you want to do something new.",
       "emoji": "🥱",
       "imageQuery": null,
       "note": "\"Boring\" = sıkıcı, \"bored\" = sıkılmış."
@@ -57,6 +61,7 @@
       "pos": "adjective",
       "example": "I feel stressed at work these days.",
       "exampleTr": "Bu günlerde işte stresliyim.",
+      "simple": "You have too many things to do and your body feels tight.",
       "emoji": "😫",
       "imageQuery": null,
       "note": null
@@ -69,6 +74,7 @@
       "pos": "adjective",
       "example": "She was upset about the news.",
       "exampleTr": "Habere üzülmüştü.",
+      "simple": "You feel sad and a little angry because of something bad.",
       "emoji": "😢",
       "imageQuery": null,
       "note": null
@@ -81,6 +87,7 @@
       "pos": "adjective",
       "example": "I’m proud of you.",
       "exampleTr": "Seninle gurur duyuyorum.",
+      "simple": "You feel good and big because you did a very good thing.",
       "emoji": "🥹",
       "imageQuery": null,
       "note": "\"proud of\" ile kullanılır."
@@ -93,6 +100,7 @@
       "pos": "adjective",
       "example": "He felt lonely in the new city.",
       "exampleTr": "Yeni şehirde kendini yalnız hissetti.",
+      "simple": "You are sad because you have no one near you.",
       "emoji": "🫥",
       "imageQuery": null,
       "note": null
@@ -105,6 +113,7 @@
       "pos": "adjective",
       "example": "I was surprised to see him there.",
       "exampleTr": "Onu orada görünce şaşırdım.",
+      "simple": "Something happens that you did not think would happen, and you say 'Wow!'",
       "emoji": "😲",
       "imageQuery": null,
       "note": null
@@ -117,6 +126,7 @@
       "pos": "adjective",
       "example": "I was disappointed with the food.",
       "exampleTr": "Yemekten hayal kırıklığına uğradım.",
+      "simple": "You wanted a good thing, but it was not good, and you feel sad.",
       "emoji": "😞",
       "imageQuery": null,
       "note": null
@@ -129,6 +139,7 @@
       "pos": null,
       "example": "I'm in a good mood today.",
       "exampleTr": "Bugün keyfim yerinde.",
+      "simple": "You feel happy today.",
       "emoji": "😄",
       "imageQuery": null,
       "note": "Tersi: \"I’m in a bad mood.\""
@@ -141,6 +152,7 @@
       "pos": null,
       "example": "Please calm down and tell me.",
       "exampleTr": "Lütfen sakin ol ve bana anlat.",
+      "simple": "You stop being angry or scared. You breathe slowly and feel quiet again.",
       "emoji": "😮‍💨",
       "imageQuery": null,
       "note": null
@@ -153,6 +165,7 @@
       "pos": null,
       "example": "Cheer up! It’s Friday.",
       "exampleTr": "Neşelen! Bugün cuma.",
+      "simple": "You stop being sad and start to feel happy again.",
       "emoji": "🙂",
       "imageQuery": null,
       "note": "Birine \"Neşelen!\" derken tek başına da söylenir."
@@ -165,6 +178,7 @@
       "pos": "adjective",
       "example": "I felt embarrassed in front of everyone.",
       "exampleTr": "Herkesin önünde utandım.",
+      "simple": "You did something silly and people saw. Your face gets red.",
       "emoji": "😳",
       "imageQuery": null,
       "note": null
@@ -177,6 +191,7 @@
       "pos": "adjective",
       "example": "I’m annoyed with my neighbour.",
       "exampleTr": "Komşuma kızgınım.",
+      "simple": "Something small keeps going on, and it makes you a bit angry.",
       "emoji": "😒",
       "imageQuery": null,
       "note": null
@@ -189,6 +204,7 @@
       "pos": null,
       "example": "I'm fed up with this weather.",
       "exampleTr": "Bu havadan bıktım.",
+      "simple": "You do not want this anymore. It is too much for you.",
       "emoji": "😤",
       "imageQuery": null,
       "note": "Günlük konuşmada çok sık duyulur."
@@ -201,6 +217,7 @@
       "pos": "adjective",
       "example": "Sorry, I’m a bit confused.",
       "exampleTr": "Üzgünüm, kafam biraz karıştı.",
+      "simple": "You do not know what is going on, and your head is mixed up.",
       "emoji": "😵‍💫",
       "imageQuery": null,
       "note": null
@@ -213,6 +230,7 @@
       "pos": null,
       "example": "Loud noise makes me feel nervous.",
       "exampleTr": "Yüksek ses beni tedirgin ediyor.",
+      "simple": "You use this to say how a thing changes your feeling, like 'It makes me feel happy.'",
       "emoji": "💭",
       "imageQuery": null,
       "note": null
@@ -225,6 +243,7 @@
       "pos": null,
       "example": "Don't worry about it. It's fine.",
       "exampleTr": "Dert etme. Sorun yok.",
+      "simple": "You say to a person: do not be sad or scared about it.",
       "emoji": "🤗",
       "imageQuery": null,
       "note": null
@@ -237,6 +256,7 @@
       "pos": null,
       "example": "You look sad. What's wrong?",
       "exampleTr": "Üzgün görünüyorsun. Sorun ne?",
+      "simple": "You ask a person why they look sad.",
       "emoji": "🫤",
       "imageQuery": null,
       "note": "Birinin yüzü düşükken sorulur."
@@ -249,6 +269,7 @@
       "pos": "adjective",
       "example": "I feel relaxed after a long walk.",
       "exampleTr": "Uzun bir yürüyüşten sonra rahatlıyorum.",
+      "simple": "Your body and head are soft and quiet. Nothing is hard.",
       "emoji": "😌",
       "imageQuery": null,
       "note": null

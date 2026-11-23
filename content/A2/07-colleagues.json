@@ -9,6 +9,7 @@
       "pos": "noun",
       "example": "I have a meeting at two.",
       "exampleTr": "Saat ikide toplantım var.",
+      "simple": "A time when people come to one room to talk.",
       "emoji": "🧑‍💼",
       "imageQuery": "office meeting",
       "note": null
@@ -21,6 +22,7 @@
       "pos": "noun",
       "example": "She’s a colleague from my team.",
       "exampleTr": "O, ekibimden bir iş arkadaşı.",
+      "simple": "A person who works in the same place as you.",
       "emoji": "🤝",
       "imageQuery": "colleagues office",
       "note": null
@@ -33,6 +35,7 @@
       "pos": "noun",
       "example": "My boss is on holiday.",
       "exampleTr": "Patronum tatilde.",
+      "simple": "The person who tells you what to do at work.",
       "emoji": "👔",
       "imageQuery": null,
       "note": null
@@ -45,6 +48,7 @@
       "pos": "noun",
       "example": "We have a tight deadline.",
       "exampleTr": "Çok sıkışık bir teslim tarihimiz var.",
+      "simple": "The last day you can finish a thing.",
       "emoji": "⏰",
       "imageQuery": null,
       "note": null
@@ -57,6 +61,7 @@
       "pos": null,
       "example": "The deadline is on Friday.",
       "exampleTr": "Teslim tarihi cuma.",
+      "simple": "You say which day you must finish.",
       "emoji": "📆",
       "imageQuery": null,
       "note": "Günlerle \"on\" kullanılır."
@@ -69,6 +74,7 @@
       "pos": "noun",
       "example": "My schedule is full today.",
       "exampleTr": "Bugün programım dolu.",
+      "simple": "A list that says what you do and when.",
       "emoji": "🗓️",
       "imageQuery": null,
       "note": null
@@ -81,6 +87,7 @@
       "pos": "noun",
       "example": "I have three tasks to finish.",
       "exampleTr": "Bitirmem gereken üç işim var.",
+      "simple": "A small job you need to do.",
       "emoji": "✅",
       "imageQuery": null,
       "note": null
@@ -93,6 +100,7 @@
       "pos": "noun",
       "example": "We’re working on a new project.",
       "exampleTr": "Yeni bir proje üzerinde çalışıyoruz.",
+      "simple": "A big job that takes many days.",
       "emoji": "📁",
       "imageQuery": null,
       "note": null
@@ -105,6 +113,7 @@
       "pos": "noun",
       "example": "I’m writing a report for my manager.",
       "exampleTr": "Müdürüm için bir rapor yazıyorum.",
+      "simple": "Papers or words that tell what happened.",
       "emoji": "📄",
       "imageQuery": "business report",
       "note": null
@@ -117,6 +126,7 @@
       "pos": "noun",
       "example": "Her presentation was really good.",
       "exampleTr": "Sunumu gerçekten çok iyiydi.",
+      "simple": "You stand and tell many people about something.",
       "emoji": "📊",
       "imageQuery": "presentation screen",
       "note": null
@@ -129,6 +139,7 @@
       "pos": "noun",
       "example": "We have a call with a client.",
       "exampleTr": "Bir müşteriyle görüşmemiz var.",
+      "simple": "A person who gives money to get your help at work.",
       "emoji": "🧑‍💻",
       "imageQuery": null,
       "note": null
@@ -141,6 +152,7 @@
       "pos": "adjective",
       "example": "Are you available tomorrow?",
       "exampleTr": "Yarın müsait misin?",
+      "simple": "You can come, because you are not busy.",
       "emoji": "🟢",
       "imageQuery": null,
       "note": null
@@ -153,6 +165,7 @@
       "pos": null,
       "example": "Are you free at three for a quick chat?",
       "exampleTr": "Kısa bir sohbet için saat üçte boş musun?",
+      "simple": "You ask if a person is not busy at three o'clock.",
       "emoji": "🕒",
       "imageQuery": null,
       "note": null
@@ -165,6 +178,7 @@
       "pos": null,
       "example": "Everyone's here. Let's get started.",
       "exampleTr": "Herkes burada. Hadi başlayalım.",
+      "simple": "We start now.",
       "emoji": "▶️",
       "imageQuery": null,
       "note": null
@@ -177,6 +191,7 @@
       "pos": null,
       "example": "That's all from me. Any questions?",
       "exampleTr": "Benden bu kadar. Sormak istediğiniz var mı?",
+      "simple": "You ask if people want to ask something.",
       "emoji": "🙋",
       "imageQuery": null,
       "note": null
@@ -189,6 +204,7 @@
       "pos": null,
       "example": "I’m not sure. Let me get back to you.",
       "exampleTr": "Emin değilim. Size sonra döneyim.",
+      "simple": "I will think and tell you after.",
       "emoji": "🔙",
       "imageQuery": null,
       "note": "Hemen cevap veremediğinde çok işe yarar."
@@ -201,6 +217,7 @@
       "pos": null,
       "example": "Sorry, can we reschedule the meeting?",
       "exampleTr": "Üzgünüm, toplantıyı başka bir zamana alabilir miyiz?",
+      "simple": "You ask to change the day or time for later.",
       "emoji": "🔁",
       "imageQuery": null,
       "note": null
@@ -213,6 +230,7 @@
       "pos": null,
       "example": "Can you set up a meeting for Monday?",
       "exampleTr": "Pazartesi için bir toplantı ayarlayabilir misin?",
+      "simple": "You make it ready, so it can begin.",
       "emoji": "🗓️",
       "imageQuery": null,
       "note": "\"set up a meeting\" = toplantı ayarlamak."
@@ -225,6 +243,7 @@
       "pos": null,
       "example": "Let’s go over the report together.",
       "exampleTr": "Raporu birlikte gözden geçirelim.",
+      "simple": "You look at it again, from start to end.",
       "emoji": "🔍",
       "imageQuery": null,
       "note": null
@@ -237,6 +256,7 @@
       "pos": null,
       "example": "Let’s catch up after the meeting.",
       "exampleTr": "Toplantıdan sonra durumu konuşalım.",
+      "simple": "You talk to a person to hear what is new.",
       "emoji": "☕",
       "imageQuery": null,
       "note": null
@@ -249,6 +269,7 @@
       "pos": null,
       "example": "I’ll sort it out this afternoon.",
       "exampleTr": "Bunu öğleden sonra hallederim.",
+      "simple": "You fix a thing that is not good.",
       "emoji": "🛠️",
       "imageQuery": null,
       "note": null
@@ -261,6 +282,7 @@
       "pos": "noun",
       "example": "I did two hours of overtime.",
       "exampleTr": "İki saat fazla mesai yaptım.",
+      "simple": "Work you do after your normal time at work.",
       "emoji": "🌙",
       "imageQuery": null,
       "note": null

@@ -47,7 +47,21 @@ export default async function LearnPage() {
             </p>
           </div>
 
-          {s.dueCount > 0 && <p className="text-muted">{s.dueCount} kart tekrar bekliyor.</p>}
+          <div>
+            <p className="text-muted">Şu an sırada</p>
+            <div className="mt-1 grid grid-cols-3 gap-2 text-center">
+              {[
+                { n: s.queue.fresh, l: "Yeni", c: "text-pen" },
+                { n: s.queue.learning, l: "Öğreniliyor", c: "text-bad" },
+                { n: s.queue.review, l: "Tekrar", c: "text-good" },
+              ].map((x) => (
+                <div key={x.l} className="rounded-xl bg-paper px-2 py-2">
+                  <p className={`font-display text-2xl font-bold ${x.c}`}>{x.n}</p>
+                  <p className="text-xs text-muted">{x.l}</p>
+                </div>
+              ))}
+            </div>
+          </div>
         </aside>
       </main>
     </>

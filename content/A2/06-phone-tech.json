@@ -9,6 +9,7 @@
       "pos": "noun",
       "example": "I got your message this morning.",
       "exampleTr": "Mesajını bu sabah aldım.",
+      "simple": "Words you send to a person on a phone.",
       "emoji": "💬",
       "imageQuery": null,
       "note": null
@@ -21,6 +22,7 @@
       "pos": "verb",
       "example": "Sorry, I forgot to reply.",
       "exampleTr": "Üzgünüm, cevap yazmayı unuttum.",
+      "simple": "You send words back to a person.",
       "emoji": "↩️",
       "imageQuery": null,
       "note": null
@@ -33,6 +35,7 @@
       "pos": null,
       "example": "I'm busy now. I'll text you later.",
       "exampleTr": "Şimdi meşgulüm. Sana sonra mesaj atarım.",
+      "simple": "I will send you words on my phone later.",
       "emoji": "📱",
       "imageQuery": null,
       "note": "\"Text\" fiil olarak SMS/mesaj atmak demektir."
@@ -45,6 +48,7 @@
       "pos": "noun",
       "example": "My battery is almost dead.",
       "exampleTr": "Pilim neredeyse bitti.",
+      "simple": "The thing in your phone that gives it power.",
       "emoji": "🔋",
       "imageQuery": "phone battery",
       "note": null
@@ -57,6 +61,7 @@
       "pos": null,
       "example": "My phone is about to die. Do you have a charger?",
       "exampleTr": "Telefonumun şarjı bitmek üzere. Şarj aletin var mı?",
+      "simple": "My phone will stop soon because it has no power.",
       "emoji": "🪫",
       "imageQuery": null,
       "note": null
@@ -69,6 +74,7 @@
       "pos": "verb",
       "example": "I need to charge my phone.",
       "exampleTr": "Telefonumu şarj etmem lazım.",
+      "simple": "You put power into your phone so it can work.",
       "emoji": "🔌",
       "imageQuery": "phone charger",
       "note": null
@@ -81,6 +87,7 @@
       "pos": "noun",
       "example": "There’s no signal in the lift.",
       "exampleTr": "Asansörde çekmiyor.",
+      "simple": "The thing that lets your phone talk to others.",
       "emoji": "📶",
       "imageQuery": null,
       "note": null
@@ -93,6 +100,7 @@
       "pos": null,
       "example": "Sorry, I've got no signal here.",
       "exampleTr": "Üzgünüm, burada telefonum çekmiyor.",
+      "simple": "My phone cannot talk to others here.",
       "emoji": "📵",
       "imageQuery": null,
       "note": null
@@ -105,6 +113,7 @@
       "pos": "noun",
       "example": "I forgot my password again.",
       "exampleTr": "Şifremi yine unuttum.",
+      "simple": "A secret word only you know, so no one else can come in.",
       "emoji": "🔑",
       "imageQuery": null,
       "note": null
@@ -117,6 +126,7 @@
       "pos": "verb",
       "example": "Can you download the file?",
       "exampleTr": "Dosyayı indirebilir misin?",
+      "simple": "You take a thing from the internet and keep it on your phone.",
       "emoji": "⬇️",
       "imageQuery": null,
       "note": null
@@ -129,6 +139,7 @@
       "pos": "noun",
       "example": "I use this app every day.",
       "exampleTr": "Bu uygulamayı her gün kullanıyorum.",
+      "simple": "A small game or tool on your phone.",
       "emoji": "📲",
       "imageQuery": "phone apps",
       "note": null
@@ -141,6 +152,7 @@
       "pos": "noun",
       "example": "I turned off all notifications.",
       "exampleTr": "Bütün bildirimleri kapattım.",
+      "simple": "A small sound or picture that says something new came.",
       "emoji": "🔔",
       "imageQuery": null,
       "note": null
@@ -153,6 +165,7 @@
       "pos": "verb",
       "example": "I deleted the photo by mistake.",
       "exampleTr": "Fotoğrafı yanlışlıkla sildim.",
+      "simple": "You take it away, so it is gone.",
       "emoji": "🗑️",
       "imageQuery": null,
       "note": null
@@ -165,6 +178,7 @@
       "pos": "verb",
       "example": "My phone needs to update.",
       "exampleTr": "Telefonumun güncellenmesi gerekiyor.",
+      "simple": "You make it new, so it works better.",
       "emoji": "🔄",
       "imageQuery": null,
       "note": null
@@ -177,6 +191,7 @@
       "pos": "noun",
       "example": "Can you send me the link?",
       "exampleTr": "Linki bana gönderebilir misin?",
+      "simple": "A word you touch to go to another place on the phone.",
       "emoji": "🔗",
       "imageQuery": null,
       "note": null
@@ -189,6 +204,7 @@
       "pos": null,
       "example": "Sorry, I missed your call.",
       "exampleTr": "Üzgünüm, aramanı kaçırdım.",
+      "simple": "You say this when someone called or wrote to you, and you did not see or hear it.",
       "emoji": "📞",
       "imageQuery": null,
       "note": "\"miss\" burada \"kaçırmak, yanıtlayamamak\"."
@@ -201,6 +217,7 @@
       "pos": null,
       "example": "I’ll call you back in ten minutes.",
       "exampleTr": "On dakika sonra seni geri ararım.",
+      "simple": "Someone called you before. Now you call them on the phone.",
       "emoji": "☎️",
       "imageQuery": null,
       "note": null
@@ -213,6 +230,7 @@
       "pos": null,
       "example": "He hung up before I could answer.",
       "exampleTr": "Ben cevap veremeden telefonu kapattı.",
+      "simple": "You stop talking on the phone.",
       "emoji": "📴",
       "imageQuery": null,
       "note": null
@@ -225,6 +243,7 @@
       "pos": null,
       "example": "I can’t log in to my account.",
       "exampleTr": "Hesabıma giriş yapamıyorum.",
+      "simple": "You use your secret word to go in.",
       "emoji": "🔐",
       "imageQuery": null,
       "note": "Tersi: log out."
@@ -237,6 +256,7 @@
       "pos": null,
       "example": "Hold on a second. I’ll get my laptop.",
       "exampleTr": "Bir saniye bekle. Laptopumu alayım.",
+      "simple": "Please wait a little bit.",
       "emoji": "✋",
       "imageQuery": null,
       "note": "Telefonda \"Bir dakika, hattan ayrılmayın\" gibi de kullanılır."
@@ -249,6 +269,7 @@
       "pos": null,
       "example": "Sorry, the line is bad. Can you repeat that?",
       "exampleTr": "Üzgünüm, hat kötü. Tekrar eder misin?",
+      "simple": "I cannot hear you well on the phone.",
       "emoji": "📡",
       "imageQuery": null,
       "note": null
@@ -261,6 +282,7 @@
       "pos": "noun",
       "example": "I broke my phone screen.",
       "exampleTr": "Telefonumun ekranını kırdım.",
+      "simple": "The flat part of your phone that you look at.",
       "emoji": "📱",
       "imageQuery": "phone screen",
       "note": null

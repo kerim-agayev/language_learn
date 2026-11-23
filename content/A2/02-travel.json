@@ -9,6 +9,7 @@
       "pos": "noun",
       "example": "We took a trip to the mountains.",
       "exampleTr": "Dağlara bir gezi yaptık.",
+      "simple": "You go to a place far from home and come back.",
       "emoji": "🚐",
       "imageQuery": "road trip",
       "note": null
@@ -21,6 +22,7 @@
       "pos": "noun",
       "example": "I am on holiday next week.",
       "exampleTr": "Önümüzdeki hafta tatildeyim.",
+      "simple": "Days when you do not go to work or school and you rest.",
       "emoji": "🏖️",
       "imageQuery": "holiday beach",
       "note": "İngiltere’de \"holiday\", Amerika’da \"vacation\"."
@@ -33,6 +35,7 @@
       "pos": "noun",
       "example": "Don’t forget your passport.",
       "exampleTr": "Pasaportunu unutma.",
+      "simple": "A small book you show to go to other countries.",
       "emoji": "🛂",
       "imageQuery": "passport",
       "note": null
@@ -45,6 +48,7 @@
       "pos": "noun",
       "example": "My luggage is very heavy.",
       "exampleTr": "Bagajım çok ağır.",
+      "simple": "The bags and boxes you take when you go away.",
       "emoji": "🧳",
       "imageQuery": "luggage",
       "note": "Sayılamaz: \"a luggage\" denmez, \"two bags\" dersin."
@@ -57,6 +61,7 @@
       "pos": "noun",
       "example": "Our flight leaves at six.",
       "exampleTr": "Uçağımız altıda kalkıyor.",
+      "simple": "A ride in a plane from one place to another.",
       "emoji": "✈️",
       "imageQuery": "airplane flight",
       "note": null
@@ -69,6 +74,7 @@
       "pos": "verb",
       "example": "I booked a hotel online.",
       "exampleTr": "Internetten otel rezervasyonu yaptım.",
+      "simple": "You ask for a place or a seat, so it is yours.",
       "emoji": "📲",
       "imageQuery": null,
       "note": null
@@ -81,6 +87,7 @@
       "pos": null,
       "example": "I'd like to book a room for two nights.",
       "exampleTr": "İki gecelik bir oda ayırtmak istiyorum.",
+      "simple": "You ask for a bed in a hotel for two nights.",
       "emoji": "🛏️",
       "imageQuery": null,
       "note": "\"I’d like\" nazik bir istektir."
@@ -93,6 +100,7 @@
       "pos": null,
       "example": "We checked in at noon.",
       "exampleTr": "Öğlen giriş yaptık.",
+      "simple": "You tell the hotel you are here and get your room.",
       "emoji": "🛎️",
       "imageQuery": "hotel reception",
       "note": null
@@ -105,6 +113,7 @@
       "pos": null,
       "example": "We need to check out by eleven.",
       "exampleTr": "Saat on bire kadar çıkış yapmamız gerek.",
+      "simple": "You tell the hotel you are going and give back your room key.",
       "emoji": "🔑",
       "imageQuery": "hotel keys",
       "note": null
@@ -117,6 +126,7 @@
       "pos": "adverb",
       "example": "She works abroad.",
       "exampleTr": "O yurt dışında çalışıyor.",
+      "simple": "In a country that is not your home country.",
       "emoji": "🌍",
       "imageQuery": null,
       "note": "\"to abroad\" denmez: \"go abroad\"."
@@ -129,6 +139,7 @@
       "pos": "noun",
       "example": "The city is full of tourists.",
       "exampleTr": "Şehir turistlerle dolu.",
+      "simple": "A person who comes to see a new place for fun.",
       "emoji": "📸",
       "imageQuery": "tourists",
       "note": null
@@ -141,6 +152,7 @@
       "pos": "noun",
       "example": "There is a delay at the airport.",
       "exampleTr": "Havalimanında bir gecikme var.",
+      "simple": "Something comes late, not on time.",
       "emoji": "⏰",
       "imageQuery": null,
       "note": null
@@ -153,6 +165,7 @@
       "pos": null,
       "example": "Our flight was delayed by two hours.",
       "exampleTr": "Uçağımız iki saat rötar yaptı.",
+      "simple": "The plane did not go at the right time. It went later.",
       "emoji": "😩",
       "imageQuery": null,
       "note": "\"Delayed\" = rötarlı."
@@ -165,6 +178,7 @@
       "pos": "noun",
       "example": "We went sightseeing all day.",
       "exampleTr": "Bütün gün şehri gezdik.",
+      "simple": "You walk around a new place to look at nice things.",
       "emoji": "🗺️",
       "imageQuery": "sightseeing",
       "note": null
@@ -177,6 +191,7 @@
       "pos": "noun",
       "example": "I bought a souvenir for my mum.",
       "exampleTr": "Annem için bir hediyelik eşya aldım.",
+      "simple": "A small thing you buy to remember a place.",
       "emoji": "🎁",
       "imageQuery": "souvenir shop",
       "note": null
@@ -189,6 +204,7 @@
       "pos": null,
       "example": "Have a nice trip! Send me a photo.",
       "exampleTr": "İyi yolculuklar! Bana bir fotoğraf at.",
+      "simple": "You say a kind thing to a person who is going away.",
       "emoji": "👋",
       "imageQuery": null,
       "note": null
@@ -201,6 +217,7 @@
       "pos": null,
       "example": "Is breakfast included in the price?",
       "exampleTr": "Kahvaltı fiyata dahil mi?",
+      "simple": "You ask if the morning food is in the price.",
       "emoji": "🥐",
       "imageQuery": null,
       "note": null
@@ -213,6 +230,7 @@
       "pos": "verb",
       "example": "I haven’t packed yet.",
       "exampleTr": "Daha bavulumu hazırlamadım.",
+      "simple": "You put your things in a bag to go.",
       "emoji": "🎒",
       "imageQuery": "packing suitcase",
       "note": null
@@ -225,6 +243,7 @@
       "pos": null,
       "example": "The plane takes off in ten minutes.",
       "exampleTr": "Uçak on dakika sonra havalanıyor.",
+      "simple": "The plane leaves the ground and goes up in the sky.",
       "emoji": "🛫",
       "imageQuery": "plane takeoff",
       "note": "Başka anlamı: ceketini çıkarmak."
@@ -237,6 +256,7 @@
       "pos": null,
       "example": "We set off at six in the morning.",
       "exampleTr": "Sabah altıda yola çıktık.",
+      "simple": "You start to go on a trip.",
       "emoji": "🚗",
       "imageQuery": "car road trip",
       "note": null
@@ -249,6 +269,7 @@
       "pos": null,
       "example": "How long does it take to get there?",
       "exampleTr": "Oraya gitmek ne kadar sürer?",
+      "simple": "You ask how much time you need to go there.",
       "emoji": "⌛",
       "imageQuery": null,
       "note": null

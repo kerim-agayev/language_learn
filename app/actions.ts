@@ -5,7 +5,8 @@ import { revalidatePath } from "next/cache";
 import { randomBytes } from "node:crypto";
 import { db } from "@/lib/db";
 import { createSession, destroySession, hashPassword, requireUser, verifyPassword } from "@/lib/auth";
-import { answer, challengeQuizzes, nextBatch, type Mode } from "@/lib/learn";
+import { challengeAnswer, challengeQuizzes, check, commit, nextBatch, type Mode } from "@/lib/learn";
+import type { Grade } from "@/lib/srs";
 
 export type FormState = { error?: string; ok?: string } | undefined;
 
@@ -40,9 +41,20 @@ export async function getBatch() {
   return nextBatch(u.id, u.level);
 }
 
-export async function submitAnswer(itemId: number, mode: Mode, choice: string, ms: number, challengeId?: string) {
+export async function checkAnswer(itemId: number, mode: Mode, choice: string, ms: number) {
   const u = await requireUser();
-  return answer(u.id, itemId, mode, choice, ms, challengeId);
+  return check(u.id, itemId, mode, choice, ms);
+}
+
+export async function commitAnswer(itemId: number, mode: Mode, choice: string, ms: number, g: Grade) {
+  const u = await requireUser();
+  if (![1, 2, 3, 4].includes(g)) throw new Error("Geçersiz değerlendirme.");
+  return commit(u.id, itemId, mode, choice, ms, g);
+}
+
+export async function answerChallenge(challengeId: string, itemId: number, mode: Mode, choice: string, ms: number) {
+  const u = await requireUser();
+  return challengeAnswer(u.id, challengeId, itemId, mode, choice, ms);
 }
 
 export async function saveSettings(_: FormState, f: FormData): Promise<FormState> {

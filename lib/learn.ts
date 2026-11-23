@@ -1,9 +1,13 @@
 import { State } from "ts-fsrs";
 import { db, todayKey, TZ } from "./db";
-import { LEVELS, MASTERED_STABILITY, levelComplete, rate, fromJson, points, normalize, streak, type LevelName } from "./srs";
+import { LEVELS, MASTERED_STABILITY, levelComplete, grade, previews, formatInterval, fromJson, points, normalize, streak, usesItem, type Grade, type LevelName } from "./srs";
 import type { Item } from "./generated/prisma/client";
 
-export type Mode = "en_tr" | "tr_en" | "listen" | "blank";
+/**
+ * Immersion first (Rosetta Stone): pic_en / simple_en / listen_en / blank never show Turkish.
+ * Feynman: produce = use the item in your own sentence. en_tr / tr_en are the translation backups.
+ */
+export type Mode = "pic_en" | "simple_en" | "listen_en" | "blank" | "produce" | "en_tr" | "tr_en";
 export type ItemView = Omit<Item, "order" | "source">;
 /** What the client gets. For reviews the answer is NOT included; it comes back from answer(). */
 export type Quiz = {
@@ -12,7 +16,9 @@ export type Quiz = {
   mode: Mode;
   prompt: string;
   speak?: string;
-  options: string[];
+  image?: string | null;
+  emoji?: string | null;
+  options: string[]; // empty for "produce"
   learn?: ItemView; // only for brand-new items: show the card first
 };
 
@@ -35,7 +41,8 @@ const blankOut = (it: Item) => {
   return re.test(it.example) ? it.example.replace(re, "_____") : null;
 };
 
-const expected = (it: Pick<Item, "en" | "tr">, mode: Mode) => (mode === "en_tr" || mode === "listen" ? it.tr : it.en);
+const expected = (it: Pick<Item, "en" | "tr" | "example">, mode: Mode) =>
+  mode === "en_tr" ? it.tr : mode === "produce" ? it.example : it.en;
 
 function view(it: Item): ItemView {
   const v: Partial<Item> = { ...it };
@@ -44,10 +51,25 @@ function view(it: Item): ItemView {
   return v as ItemView;
 }
 
-async function buildQuiz(it: Item, isNew: boolean, forced?: Mode): Promise<Quiz> {
-  const modes: Mode[] = ["en_tr", "tr_en", "listen"];
-  if ((it.type === "WORD" || it.type === "PHRASAL") && blankOut(it)) modes.push("blank");
-  const mode: Mode = forced ?? (isNew ? "en_tr" : modes[Math.floor(Math.random() * modes.length)]);
+/** Which quiz to give. New items: immersion check (picture or simple English). Reviews: mostly English-only. */
+export function pickMode(it: Pick<Item, "image" | "simple" | "type">, opts: { isNew: boolean; canBlank: boolean; strong: boolean }, rnd = Math.random): Mode {
+  const english: Mode[] = ["listen_en"];
+  if (it.image) english.push("pic_en", "pic_en");
+  if (it.simple) english.push("simple_en", "simple_en");
+  if (opts.canBlank) english.push("blank");
+  if (opts.isNew) return it.image ? "pic_en" : it.simple ? "simple_en" : "en_tr";
+  if (opts.strong && rnd() < 0.3) return "produce"; // Feynman: once you know it, use it yourself
+  const all: Mode[] = [...english, ...english, "en_tr", "tr_en"]; // ~80% immersion, ~20% translation
+  return all[Math.floor(rnd() * all.length)];
+}
+
+async function buildQuiz(it: Item, isNew: boolean, forced?: Mode, strong = false): Promise<Quiz> {
+  const canBlank = it.type !== "SENTENCE" && it.type !== "CHUNK" && !!blankOut(it);
+  const mode: Mode = forced ?? pickMode(it, { isNew, canBlank, strong });
+  const base = { itemId: it.id, level: it.level, mode, learn: isNew ? view(it) : undefined };
+
+  if (mode === "produce")
+    return { ...base, prompt: it.en, speak: it.en, image: it.image, emoji: it.emoji, options: [] };
 
   const answer = expected(it, mode);
   const items = await allItems();
@@ -63,15 +85,19 @@ async function buildQuiz(it: Item, isNew: boolean, forced?: Mode): Promise<Quiz>
     if (distractors.length === 3) break;
   }
 
-  const prompt = mode === "en_tr" ? it.en : mode === "tr_en" ? it.tr : mode === "blank" ? blankOut(it)! : "";
+  const prompt =
+    mode === "en_tr" ? it.en
+    : mode === "tr_en" ? it.tr
+    : mode === "blank" ? blankOut(it)!
+    : mode === "simple_en" ? (it.simple ?? it.tr)
+    : "";
   return {
-    itemId: it.id,
-    level: it.level,
-    mode,
+    ...base,
     prompt,
-    speak: mode === "listen" || mode === "en_tr" ? it.en : undefined,
+    speak: mode === "listen_en" || mode === "en_tr" ? it.en : undefined,
+    image: mode === "pic_en" ? it.image : undefined,
+    emoji: mode === "pic_en" ? it.emoji : undefined,
     options: shuffle([answer, ...distractors]),
-    learn: isNew ? view(it) : undefined,
   };
 }
 
@@ -108,7 +134,11 @@ export async function nextBatch(userId: string, level: string): Promise<Quiz[]> 
     take: 3,
     include: { item: true },
   });
-  const picks: { item: Item; isNew: boolean }[] = due.map((d) => ({ item: d.item, isNew: false }));
+  const picks: { item: Item; isNew: boolean; strong?: boolean }[] = due.map((d) => ({
+    item: d.item,
+    isNew: false,
+    strong: d.state === State.Review, // graduated items may get the Feynman "use it yourself" step
+  }));
 
   const fresh = await db.item.findFirst({ where: { level: lv, users: { none: { userId } } }, orderBy: { order: "asc" } });
   if (fresh) picks.push({ item: fresh, isNew: true });
@@ -123,52 +153,76 @@ export async function nextBatch(userId: string, level: string): Promise<Quiz[]> 
     });
     picks.push(...early.map((d) => ({ item: d.item, isNew: false })));
   }
-  return Promise.all(picks.map((p) => buildQuiz(p.item, p.isNew)));
+  return Promise.all(picks.map((p) => buildQuiz(p.item, p.isNew, undefined, p.strong)));
 }
 
-export type AnswerResult = { correct: boolean; expected: string; points: number; item: ItemView };
+export type AnswerResult = {
+  correct: boolean;
+  expected: string;
+  points: number;
+  item: ItemView;
+  /** Anki buttons: next interval per grade, and the grade we'd suggest. Absent for challenge answers. */
+  intervals?: Record<Grade, string>;
+  suggested?: Grade;
+};
 
-export async function answer(
-  userId: string,
-  itemId: number,
-  mode: Mode,
-  choice: string,
-  ms: number,
-  challengeId?: string,
-): Promise<AnswerResult> {
+async function judge(itemId: number, mode: Mode, choice: string) {
   const item = await db.item.findUniqueOrThrow({ where: { id: itemId } });
   const exp = expected(item, mode);
-  const correct = normalize(choice) === normalize(exp);
-  ms = Math.max(0, Math.min(ms, 600_000));
-  let pts = points(correct, ms);
+  const correct = mode === "produce" ? usesItem(choice.slice(0, 300), item.en) : normalize(choice) === normalize(exp);
+  return { item, exp, correct };
+}
 
-  if (challengeId) {
-    const ch = await db.dailyChallenge.findFirst({
-      where: { id: challengeId, date: todayKey(), team: { members: { some: { userId } } } },
-    });
-    if (!ch || !ch.itemIds.includes(itemId)) throw new Error("Bu yarışma sana ait değil.");
-    // unique (userId, challengeId, itemId) blocks answering twice
-    const prev = await db.reviewLog.findFirst({ where: { userId, challengeId, itemId } });
-    if (prev) return { correct: prev.correct, expected: exp, points: 0, item: view(item) };
-    await db.reviewLog.create({ data: { userId, itemId, correct, ms, points: pts, mode, challengeId } });
-    return { correct, expected: exp, points: pts, item: view(item) };
-  }
+// Writing a sentence takes time, so "produce" is rewarded flat instead of by speed.
+const answerPoints = (mode: Mode, correct: boolean, ms: number) =>
+  mode === "produce" ? (correct ? 20 : 0) : points(correct, Math.max(0, Math.min(ms, 600_000)));
 
+/** Step 1 of personal study: check the answer and show Anki buttons. Nothing is saved yet. */
+export async function check(userId: string, itemId: number, mode: Mode, choice: string, ms: number): Promise<AnswerResult> {
+  const { item, exp, correct } = await judge(itemId, mode, choice);
+  const ui = await db.userItem.findUnique({ where: { userId_itemId: { userId, itemId } } });
+  const card = ui ? fromJson(ui.card) : null;
+  const p = previews(card);
+  const intervals = { 1: formatInterval(p[1]), 2: formatInterval(p[2]), 3: formatInterval(p[3]), 4: formatInterval(p[4]) };
+  const suggested: Grade = !correct ? 1 : mode === "produce" || !card ? 3 : ms < 4000 ? 4 : ms < 12000 ? 3 : 2;
+  const early = !!ui && ui.due > new Date();
+  return { correct, expected: exp, points: early ? 0 : answerPoints(mode, correct, ms), item: view(item), intervals, suggested };
+}
+
+/** Step 2: the learner picks Again/Hard/Good/Easy. The answer is re-judged here, so points can't be faked. */
+export async function commit(userId: string, itemId: number, mode: Mode, choice: string, ms: number, g: Grade) {
+  const { correct } = await judge(itemId, mode, choice);
   const now = new Date();
   const ui = await db.userItem.findUnique({ where: { userId_itemId: { userId, itemId } } });
-  if (ui && ui.due > now) pts = 0; // early practice doesn't farm leaderboard points
-  const card = rate(ui ? fromJson(ui.card) : null, correct, ms, now);
+  const pts = ui && ui.due > now ? 0 : answerPoints(mode, correct, ms); // early practice doesn't farm points
+  const card = grade(ui ? fromJson(ui.card) : null, g, correct, now);
   const data = { card: JSON.parse(JSON.stringify(card)), due: card.due, state: card.state, stability: card.stability };
   await db.$transaction([
     db.userItem.upsert({ where: { userId_itemId: { userId, itemId } }, create: { userId, itemId, ...data }, update: data }),
-    db.reviewLog.create({ data: { userId, itemId, correct, ms, points: pts, mode } }),
+    db.reviewLog.create({ data: { userId, itemId, correct, ms: Math.min(ms, 600_000), points: pts, mode } }),
   ]);
+  return { points: pts, due: card.due };
+}
+
+/** Team challenge: one shot per item, no self-grading, doesn't touch your own schedule. */
+export async function challengeAnswer(userId: string, challengeId: string, itemId: number, mode: Mode, choice: string, ms: number): Promise<AnswerResult> {
+  const ch = await db.dailyChallenge.findFirst({
+    where: { id: challengeId, date: todayKey(), team: { members: { some: { userId } } } },
+  });
+  if (!ch || !ch.itemIds.includes(itemId)) throw new Error("Bu yarışma sana ait değil.");
+  const { item, exp, correct } = await judge(itemId, mode, choice);
+  const prev = await db.reviewLog.findFirst({ where: { userId, challengeId, itemId } });
+  if (prev) return { correct: prev.correct, expected: exp, points: 0, item: view(item) };
+  const pts = answerPoints(mode, correct, ms);
+  // unique (userId, challengeId, itemId) also blocks a double submit race
+  await db.reviewLog.create({ data: { userId, itemId, correct, ms: Math.min(ms, 600_000), points: pts, mode, challengeId } });
   return { correct, expected: exp, points: pts, item: view(item) };
 }
 
 export async function stats(userId: string, level: string) {
   const today = todayKey();
-  const [[t], days, progress, dueCount] = await Promise.all([
+  const now = new Date();
+  const [[t], days, progress, due] = await Promise.all([
     db.$queryRaw<{ n: number; ok: number; pts: number }[]>`
       SELECT count(*)::int n, (count(*) FILTER (WHERE correct))::int ok, coalesce(sum(points),0)::int pts
       FROM "ReviewLog" WHERE "userId" = ${userId}
@@ -177,9 +231,12 @@ export async function stats(userId: string, level: string) {
       SELECT DISTINCT to_char(("createdAt" AT TIME ZONE 'UTC' AT TIME ZONE ${TZ})::date, 'YYYY-MM-DD') d
       FROM "ReviewLog" WHERE "userId" = ${userId} ORDER BY d DESC LIMIT 400`,
     levelProgress(userId, level as LevelName),
-    db.userItem.count({ where: { userId, due: { lte: new Date() } } }),
+    db.userItem.groupBy({ by: ["state"], where: { userId, due: { lte: now } }, _count: true }),
   ]);
-  return { today: t, streak: streak(days.map((r) => r.d), today), progress, dueCount };
+  const n = (st: number[]) => due.filter((d) => st.includes(d.state)).reduce((a, d) => a + d._count, 0);
+  // Anki's three counters: new left in this level, learning (incl. relearning) due, reviews due
+  const queue = { fresh: progress.total - progress.introduced, learning: n([State.Learning, State.Relearning]), review: n([State.Review]) };
+  return { today: t, streak: streak(days.map((r) => r.d), today), progress, queue };
 }
 
 // ---------- teams ----------
@@ -201,7 +258,7 @@ export async function todaysChallenge(teamId: string) {
   if (!ch) {
     const members = await db.user.findMany({ where: { teams: { some: { teamId } } }, select: { level: true } });
     const level = LEVELS[Math.min(...members.map((m) => LEVELS.indexOf(m.level as LevelName)))];
-    const ids = (await db.item.findMany({ where: { level, type: { in: ["WORD", "PHRASAL"] } }, select: { id: true } })).map((i) => i.id);
+    const ids = (await db.item.findMany({ where: { level, type: { in: ["WORD", "PHRASAL", "COLLOCATION"] } }, select: { id: true } })).map((i) => i.id);
     ch = await db.dailyChallenge.upsert({
       where: { teamId_date: { teamId, date } },
       create: { teamId, date, itemIds: shuffle(ids).slice(0, 10) },

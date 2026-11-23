@@ -15,15 +15,41 @@ export function fromJson(j: unknown): Card {
   return { ...c, due: new Date(c.due), last_review: c.last_review ? new Date(c.last_review) : undefined };
 }
 
-/** Correctness + answer time -> FSRS rating. A brand-new item can't jump straight to "Easy". */
-export function rate(card: Card | null, correct: boolean, ms: number, now = new Date()): Card {
+export type Grade = 1 | 2 | 3 | 4; // Anki: Again / Hard / Good / Easy
+
+/** Anki-style: the learner rates themselves. A wrong answer can only be "Again". */
+export function grade(card: Card | null, g: Grade, correct: boolean, now = new Date()): Card {
   const c = card ?? createEmptyCard(now);
-  let rating = !correct ? Rating.Again : ms < 4000 ? Rating.Easy : ms < 12000 ? Rating.Good : Rating.Hard;
-  if (c.state === State.New && rating === Rating.Easy) rating = Rating.Good;
+  const rating = (correct ? g : Rating.Again) as Parameters<typeof scheduler.next>[2];
   return scheduler.next(c, now, rating).card;
 }
 
-export const isMastered = (state: number, stability: number) =>
+/** Next due time for each of the 4 buttons (shown under them, like Anki). */
+export function previews(card: Card | null, now = new Date()): Record<Grade, number> {
+  const c = card ?? createEmptyCard(now);
+  const r = scheduler.repeat(c, now);
+  return {
+    1: r[Rating.Again].card.due.getTime() - now.getTime(),
+    2: r[Rating.Hard].card.due.getTime() - now.getTime(),
+    3: r[Rating.Good].card.due.getTime() - now.getTime(),
+    4: r[Rating.Easy].card.due.getTime() - now.getTime(),
+  };
+}
+
+/** 90_000 -> "2 dk", 3 days -> "3 gün" */
+export function formatInterval(ms: number) {
+  const m = Math.max(1, Math.round(ms / 60_000));
+  if (m < 60) return `${m} dk`;
+  const h = Math.round(m / 60);
+  if (h < 24) return `${h} sa`;
+  const d = Math.round(h / 24);
+  if (d < 30) return `${d} gün`;
+  const mo = Math.round(d / 30);
+  if (mo < 12) return `${mo} ay`;
+  return `${(d / 365).toFixed(1).replace(/\.0$/, "")} yıl`;
+}
+
+export const isMastered =(state: number, stability: number) =>
   state === State.Review && stability >= MASTERED_STABILITY;
 
 /** Strict gate: every item seen AND >= 90% mastered. */
@@ -44,6 +70,20 @@ export function streak(daysDesc: string[], today: string) {
     d.setUTCDate(d.getUTCDate() - 1);
   }
   return n;
+}
+
+/**
+ * Feynman "use it yourself" check: is `sentence` a real sentence (3+ words) that uses the item?
+ * Each word of the item must appear, allowing inflections (go -> goes/going, catch -> caught is NOT caught; fine).
+ */
+export function usesItem(sentence: string, item: string) {
+  const s = normalize(sentence).split(" ").filter(Boolean);
+  if (s.length < 3) return false;
+  const words = normalize(item).split(" ").filter((w) => w && !["someone", "something", "sb", "sth", "your", "a", "the"].includes(w));
+  return words.every((w) => {
+    const stem = w.length > 4 ? w.slice(0, w.length - 2) : w;
+    return s.some((t) => t === w || t.startsWith(stem));
+  });
 }
 
 /** Lenient compare for typed/selected answers. */

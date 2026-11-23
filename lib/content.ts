@@ -3,7 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 export type RawItem = {
-  type: "WORD" | "CHUNK" | "PHRASAL" | "SENTENCE";
+  type: "WORD" | "CHUNK" | "PHRASAL" | "SENTENCE" | "COLLOCATION";
   en: string;
   tr: string;
   ipa?: string | null;
@@ -13,6 +13,7 @@ export type RawItem = {
   emoji?: string | null;
   imageQuery?: string | null;
   note?: string | null;
+  simple?: string | null;
   level?: string; // anki only
   image?: string | null; // anki only: original media filename
   source?: string;

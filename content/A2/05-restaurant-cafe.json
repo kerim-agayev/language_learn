@@ -9,6 +9,7 @@
       "pos": "verb",
       "example": "Are you ready to order?",
       "exampleTr": "Sipariş vermeye hazır mısınız?",
+      "simple": "You tell the person which food you want.",
       "emoji": "🧾",
       "imageQuery": null,
       "note": null
@@ -21,6 +22,7 @@
       "pos": null,
       "example": "Can I see the menu, please?",
       "exampleTr": "Menüye bakabilir miyim lütfen?",
+      "simple": "You ask for the paper with the food names.",
       "emoji": "📖",
       "imageQuery": null,
       "note": null
@@ -33,6 +35,7 @@
       "pos": null,
       "example": "Hi, do you have a table for two?",
       "exampleTr": "Merhaba, iki kişilik masanız var mı?",
+      "simple": "You ask if there is a place to sit for two people.",
       "emoji": "🪑",
       "imageQuery": null,
       "note": null
@@ -45,6 +48,7 @@
       "pos": "noun",
       "example": "I have a reservation under Yilmaz.",
       "exampleTr": "Yılmaz adına rezervasyonum var.",
+      "simple": "You ask for a place to sit before you go, so it is yours.",
       "emoji": "📋",
       "imageQuery": null,
       "note": null
@@ -57,6 +61,7 @@
       "pos": "noun",
       "example": "The waiter was very friendly.",
       "exampleTr": "Garson çok güler yüzlüydü.",
+      "simple": "A person who brings food to your table at a place where you pay to eat.",
       "emoji": "🧑‍🍳",
       "imageQuery": "waiter restaurant",
       "note": "Kadın için \"waitress\", ama bugün \"server\" da denir."
@@ -69,6 +74,7 @@
       "pos": "noun",
       "example": "Can we get the bill, please?",
       "exampleTr": "Hesabı alabilir miyiz lütfen?",
+      "simple": "The paper that says how much money you must pay.",
       "emoji": "🧾",
       "imageQuery": "restaurant bill",
       "note": "Amerikan İngilizcesinde \"check\"."
@@ -81,6 +87,7 @@
       "pos": null,
       "example": "Excuse me, could we have the bill, please?",
       "exampleTr": "Pardon, hesabı alabilir miyiz lütfen?",
+      "simple": "You ask for the paper that says how much you must pay for the food.",
       "emoji": "💳",
       "imageQuery": null,
       "note": null
@@ -93,6 +100,7 @@
       "pos": null,
       "example": "I'll have the chicken, please.",
       "exampleTr": "Ben tavuk alayım lütfen.",
+      "simple": "You tell the waiter the food you want.",
       "emoji": "🍗",
       "imageQuery": null,
       "note": "Sipariş verirken en doğal kalıp."
@@ -105,6 +113,7 @@
       "pos": "noun",
       "example": "I’ll have soup as a starter.",
       "exampleTr": "Başlangıç olarak çorba alayım.",
+      "simple": "A small food you eat first, before the big food.",
       "emoji": "🥣",
       "imageQuery": "soup starter",
       "note": null
@@ -117,6 +126,7 @@
       "pos": null,
       "example": "For the main course, I’ll have fish.",
       "exampleTr": "Ana yemek olarak balık alayım.",
+      "simple": "The big food you eat after the first small one.",
       "emoji": "🍽️",
       "imageQuery": null,
       "note": null
@@ -129,6 +139,7 @@
       "pos": "noun",
       "example": "Do you want a dessert?",
       "exampleTr": "Tatlı ister misin?",
+      "simple": "A sweet food you eat at the end.",
       "emoji": "🍰",
       "imageQuery": "dessert cake",
       "note": null
@@ -141,6 +152,7 @@
       "pos": "verb",
       "example": "I recommend the fish.",
       "exampleTr": "Balığı tavsiye ederim.",
+      "simple": "You say what is good, so the person can pick it.",
       "emoji": "👍",
       "imageQuery": null,
       "note": null
@@ -153,6 +165,7 @@
       "pos": null,
       "example": "It’s my first time here. What do you recommend?",
       "exampleTr": "Buraya ilk gelişim. Ne tavsiye edersiniz?",
+      "simple": "You ask the waiter which food is good.",
       "emoji": "🙋",
       "imageQuery": null,
       "note": null
@@ -165,6 +178,7 @@
       "pos": "adjective",
       "example": "Is this dish very spicy?",
       "exampleTr": "Bu yemek çok acı mı?",
+      "simple": "A food that makes your mouth hot.",
       "emoji": "🌶️",
       "imageQuery": "spicy food",
       "note": null
@@ -177,6 +191,7 @@
       "pos": "adjective",
       "example": "The pasta was delicious.",
       "exampleTr": "Makarna çok lezzetliydi.",
+      "simple": "The food tastes very, very good.",
       "emoji": "😋",
       "imageQuery": null,
       "note": null
@@ -189,6 +204,7 @@
       "pos": "adjective",
       "example": "Do you have any vegetarian dishes?",
       "exampleTr": "Vejetaryen yemekleriniz var mı?",
+      "simple": "A person who does not eat animals.",
       "emoji": "🥗",
       "imageQuery": "vegetarian food",
       "note": null
@@ -201,6 +217,7 @@
       "pos": "noun",
       "example": "We left a ten percent tip.",
       "exampleTr": "Yüzde on bahşiş bıraktık.",
+      "simple": "A little extra money you give to the person who helped you.",
       "emoji": "💰",
       "imageQuery": null,
       "note": null
@@ -213,6 +230,7 @@
       "pos": null,
       "example": "Is service included in the bill?",
       "exampleTr": "Servis hesaba dahil mi?",
+      "simple": "You ask if the helper money is already in the price.",
       "emoji": "❓",
       "imageQuery": null,
       "note": null
@@ -225,6 +243,7 @@
       "pos": "noun",
       "example": "Let’s get a takeaway tonight.",
       "exampleTr": "Bu akşam dışarıdan söyleyelim.",
+      "simple": "You buy food and take it home to eat.",
       "emoji": "🥡",
       "imageQuery": "takeaway food",
       "note": "Amerikan İngilizcesinde \"takeout\"."
@@ -237,6 +256,7 @@
       "pos": null,
       "example": "We eat out every Friday.",
       "exampleTr": "Her cuma dışarıda yemek yeriz.",
+      "simple": "You eat at a place where people cook for you, not at home.",
       "emoji": "🍴",
       "imageQuery": null,
       "note": null
@@ -249,6 +269,7 @@
       "pos": null,
       "example": "Sorry, we've run out of fish.",
       "exampleTr": "Üzgünüz, balık kalmadı.",
+      "simple": "We have no more of it. It is all gone.",
       "emoji": "🚫",
       "imageQuery": null,
       "note": "Garsonlar sık söyler. \"Run out of\" = bitmek."
@@ -261,6 +282,7 @@
       "pos": null,
       "example": "Here you are. Enjoy your meal!",
       "exampleTr": "Buyurun. Afiyet olsun!",
+      "simple": "You say a kind thing to a person before they eat.",
       "emoji": "🍽️",
       "imageQuery": null,
       "note": null

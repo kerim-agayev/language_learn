@@ -28,6 +28,7 @@ async function main() {
           emoji: it.emoji ?? null,
           image: fs.existsSync(file) ? "/" + file.replace(/\\/g, "/").replace(/^public\//, "") : null,
           note: it.note ?? null,
+          simple: it.simple ?? null,
           topic: it.topic,
           source: it.source,
         };

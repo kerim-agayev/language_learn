@@ -9,6 +9,7 @@
       "pos": null,
       "example": "Hey, how's it going?",
       "exampleTr": "Selam, nasıl gidiyor?",
+      "simple": "You ask a person how things are for them.",
       "emoji": "👋",
       "imageQuery": null,
       "note": "Samimi bir \"Nasılsın?\" demektir."
@@ -21,6 +22,7 @@
       "pos": null,
       "example": "Not bad, thanks. And you?",
       "exampleTr": "Fena değil, sağ ol. Sen nasılsın?",
+      "simple": "You say this when you feel OK. Not great, but fine.",
       "emoji": "🙂",
       "imageQuery": null,
       "note": null
@@ -33,6 +35,7 @@
       "pos": null,
       "example": "Hey, long time no see!",
       "exampleTr": "Hey, çok uzun zaman oldu görüşmeyeli!",
+      "simple": "You say you did not see a person for many days, and you are happy now.",
       "emoji": "🤗",
       "imageQuery": null,
       "note": null
@@ -45,6 +48,7 @@
       "pos": null,
       "example": "What have you been up to lately?",
       "exampleTr": "Son zamanlarda neler yapıyorsun?",
+      "simple": "You ask what things a person did in the days before.",
       "emoji": "🧐",
       "imageQuery": null,
       "note": null
@@ -57,6 +61,7 @@
       "pos": null,
       "example": "How was your weekend? Did you rest?",
       "exampleTr": "Hafta sonun nasıl geçti? Dinlendin mi?",
+      "simple": "You ask if the last two days off were good.",
       "emoji": "🌤️",
       "imageQuery": null,
       "note": null
@@ -69,6 +74,7 @@
       "pos": "adverb",
       "example": "Actually, I live near here.",
       "exampleTr": "Aslında ben buraya yakın oturuyorum.",
+      "simple": "You use this to say what is really true, when people may think something else.",
       "emoji": "💡",
       "imageQuery": null,
       "note": "\"Şu anda\" demek değildir, \"aslında\" demektir."
@@ -81,6 +87,7 @@
       "pos": null,
       "example": "I'm quite tired, actually.",
       "exampleTr": "Aslında oldukça yorgunum.",
+      "simple": "You say you feel a little like this, and it is true.",
       "emoji": "😅",
       "imageQuery": null,
       "note": null
@@ -93,6 +100,7 @@
       "pos": "adverb",
       "example": "It’s quite cold today.",
       "exampleTr": "Bugün hava epey soğuk.",
+      "simple": "More than a little, but not very. Quite cold is cold, but not very cold.",
       "emoji": "📏",
       "imageQuery": null,
       "note": null
@@ -105,6 +113,7 @@
       "pos": "adverb",
       "example": "I’ve been very busy recently.",
       "exampleTr": "Son zamanlarda çok yoğunum.",
+      "simple": "Not long ago.",
       "emoji": "🕐",
       "imageQuery": null,
       "note": null
@@ -117,6 +126,7 @@
       "pos": "noun",
       "example": "Cooking is my favourite hobby.",
       "exampleTr": "Yemek yapmak en sevdiğim hobi.",
+      "simple": "A fun thing you like to do when you are free.",
       "emoji": "🎨",
       "imageQuery": null,
       "note": null
@@ -129,6 +139,7 @@
       "pos": null,
       "example": "What do you do for fun on weekends?",
       "exampleTr": "Hafta sonları eğlence olarak ne yaparsın?",
+      "simple": "You ask what a person likes to do to have fun.",
       "emoji": "🎮",
       "imageQuery": null,
       "note": null
@@ -141,6 +152,7 @@
       "pos": "noun",
       "example": "My neighbour has two cats.",
       "exampleTr": "Komşumun iki kedisi var.",
+      "simple": "A person who lives in the house near yours.",
       "emoji": "🏘️",
       "imageQuery": "neighbours",
       "note": null
@@ -153,6 +165,7 @@
       "pos": "adjective",
       "example": "You’re so lucky!",
       "exampleTr": "Ne şanslısın!",
+      "simple": "Good things come to you, and you did not plan them.",
       "emoji": "🍀",
       "imageQuery": null,
       "note": null
@@ -165,6 +178,7 @@
       "pos": "adverb",
       "example": "I’ll probably stay at home.",
       "exampleTr": "Muhtemelen evde kalırım.",
+      "simple": "It will most likely be true. You are almost sure.",
       "emoji": "🤷",
       "imageQuery": null,
       "note": null
@@ -177,6 +191,7 @@
       "pos": "adverb",
       "example": "Anyway, how was your day?",
       "exampleTr": "Neyse, günün nasıl geçti?",
+      "simple": "You say you want to stop and go to the next thing.",
       "emoji": "↪️",
       "imageQuery": null,
       "note": null
@@ -189,6 +204,7 @@
       "pos": null,
       "example": "Anyway, I've got to go. See you!",
       "exampleTr": "Neyse, gitmem lazım. Görüşürüz!",
+      "simple": "You say you must go now, and you stop talking.",
       "emoji": "🏃",
       "imageQuery": null,
       "note": "Sohbeti kibarca bitirmenin kolay yolu."
@@ -201,6 +217,7 @@
       "pos": null,
       "example": "By the way, are you coming tonight?",
       "exampleTr": "Bu arada, bu akşam geliyor musun?",
+      "simple": "You say a new thing you just thought of.",
       "emoji": "💬",
       "imageQuery": null,
       "note": null
@@ -213,6 +230,7 @@
       "pos": null,
       "example": "Nice weather today, isn't it?",
       "exampleTr": "Bugün hava güzel, değil mi?",
+      "simple": "You say the day is nice outside, and you want the person to say yes.",
       "emoji": "☀️",
       "imageQuery": null,
       "note": "İngilizlerin klasik sohbet açılışı."
@@ -225,6 +243,7 @@
       "pos": null,
       "example": "So, what do you do for a living?",
       "exampleTr": "Peki, sen ne iş yapıyorsun?",
+      "simple": "You ask what work a person does to get money.",
       "emoji": "💼",
       "imageQuery": null,
       "note": null
@@ -237,6 +256,7 @@
       "pos": null,
       "example": "It was great to see you. Keep in touch!",
       "exampleTr": "Seni görmek çok güzeldi. Haberleşelim!",
+      "simple": "You say: write or call me so we stay friends.",
       "emoji": "🤝",
       "imageQuery": null,
       "note": null
@@ -249,6 +269,7 @@
       "pos": null,
       "example": "We often hang out at the weekend.",
       "exampleTr": "Hafta sonları sık sık takılırız.",
+      "simple": "You stay with friends and have fun, with no plan.",
       "emoji": "🛹",
       "imageQuery": null,
       "note": null
@@ -261,6 +282,7 @@
       "pos": null,
       "example": "I ran into my old teacher yesterday.",
       "exampleTr": "Dün eski öğretmenime rastladım.",
+      "simple": "You see a person, and you did not plan it.",
       "emoji": "😯",
       "imageQuery": null,
       "note": null
@@ -273,6 +295,7 @@
       "pos": null,
       "example": "I get along well with my neighbours.",
       "exampleTr": "Komşularımla iyi anlaşırım.",
+      "simple": "You and a person are friends and are nice to each other.",
       "emoji": "🫂",
       "imageQuery": null,
       "note": "\"get along with\" + kişi."

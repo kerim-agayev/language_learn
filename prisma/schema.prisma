@@ -21,6 +21,7 @@ enum ItemType {
   CHUNK
   PHRASAL
   SENTENCE
+  COLLOCATION
 }
 
 model User {
@@ -80,6 +81,7 @@ model Item {
   emoji     String?
   image     String?
   note      String?
+  simple    String? // Feynman: explained in simple English, like to a 5-year-old
   topic     String
   source    String      @default("core")
   users     UserItem[]

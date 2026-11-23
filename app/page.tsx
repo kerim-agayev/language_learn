@@ -52,6 +52,28 @@ export default async function Home() {
           </div>
         </div>
       </section>
+
+      <section className="grid gap-8 border-t border-line py-12 sm:grid-cols-3">
+        {[
+          {
+            t: "Bir çocuk gibi",
+            d: "5 yaşındaki bir İngiliz çocuk okuyamaz ama konuşur. Sen de onun sırasıyla öğrenirsin: önce her gün duyulan kelimeler, \"come here\", \"put your shoes on\" gibi kalıplar ve phrasal verb'ler.",
+          },
+          {
+            t: "Önce resim ve ses",
+            d: "Yeni kelime resmi, sesi ve basit İngilizce açıklamasıyla gelir. Türkçesi bir dokunuş uzakta ama son çare. Testlerin çoğu tamamen İngilizce.",
+          },
+          {
+            t: "Feynman tekniği",
+            d: "Her şey 5 yaşındaki birine anlatır gibi açıklanır. Bir kelimeyi iyice öğrendiğinde senden onu kendi cümlende kullanmanı ister; yazarak ya da sesli.",
+          },
+        ].map((x) => (
+          <div key={x.t}>
+            <h2 className="font-display text-xl font-bold">{x.t}</h2>
+            <p className="mt-2 text-muted">{x.d}</p>
+          </div>
+        ))}
+      </section>
     </main>
   );
 }

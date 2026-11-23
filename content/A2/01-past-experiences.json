@@ -9,6 +9,7 @@
       "pos": "noun",
       "example": "Living abroad was a great experience.",
       "exampleTr": "Yurt dışında yaşamak harika bir deneyimdi.",
+      "simple": "Something you did or saw. It stays in your head after.",
       "emoji": "🌟",
       "imageQuery": null,
       "note": null
@@ -21,6 +22,7 @@
       "pos": null,
       "example": "Last weekend I visited my grandma.",
       "exampleTr": "Geçen hafta sonu büyükannemi ziyaret ettim.",
+      "simple": "The two days at the end of the last week, just before now.",
       "emoji": "📅",
       "imageQuery": null,
       "note": null
@@ -33,6 +35,7 @@
       "pos": null,
       "example": "I went to the cinema with my friends.",
       "exampleTr": "Arkadaşlarımla sinemaya gittim.",
+      "simple": "You say this to tell where you went and who came with you.",
       "emoji": "🎬",
       "imageQuery": null,
       "note": "\"went\", \"go\"nun geçmiş hâli. \"to\" yönü gösterir."
@@ -45,6 +48,7 @@
       "pos": null,
       "example": "Did you have a good weekend?",
       "exampleTr": "Hafta sonun güzel geçti mi?",
+      "simple": "You ask if the two days off were nice for someone.",
       "emoji": "😊",
       "imageQuery": null,
       "note": "Pazartesi sabahı en çok duyacağın soru."
@@ -57,6 +61,7 @@
       "pos": "verb",
       "example": "I really enjoyed the concert.",
       "exampleTr": "Konserden gerçekten keyif aldım.",
+      "simple": "You like something and it makes you happy.",
       "emoji": "😄",
       "imageQuery": null,
       "note": null
@@ -69,6 +74,7 @@
       "pos": "adverb",
       "example": "I met her two years ago.",
       "exampleTr": "Onunla iki yıl önce tanıştım.",
+      "simple": "You say how long before today something was.",
       "emoji": "⏪",
       "imageQuery": null,
       "note": null
@@ -81,6 +87,7 @@
       "pos": null,
       "example": "I've never been to London.",
       "exampleTr": "Hiç Londra’da bulunmadım.",
+      "simple": "You say you have not been to that place, not one time.",
       "emoji": "🌍",
       "imageQuery": null,
       "note": "\"been to\" = oraya gidip dönmek. Hiç gitmediğini söylerken kullanılır."
@@ -93,6 +100,7 @@
       "pos": "adverb",
       "example": "Have you ever eaten sushi?",
       "exampleTr": "Hiç suşi yedin mi?",
+      "simple": "At any time in your life, up to now.",
       "emoji": "❓",
       "imageQuery": null,
       "note": null
@@ -105,6 +113,7 @@
       "pos": null,
       "example": "Have you ever been abroad?",
       "exampleTr": "Hiç yurt dışına çıktın mı?",
+      "simple": "You ask if someone did a thing at any time in their life.",
       "emoji": "🧳",
       "imageQuery": null,
       "note": "Yaşam boyu deneyimi sorar; zaman söylemezsin."
@@ -117,6 +126,7 @@
       "pos": "adverb",
       "example": "I tried skiing once.",
       "exampleTr": "Bir kere kayak yapmayı denedim.",
+      "simple": "One time only.",
       "emoji": "1️⃣",
       "imageQuery": null,
       "note": null
@@ -129,6 +139,7 @@
       "pos": "adverb",
       "example": "I have seen that film twice.",
       "exampleTr": "O filmi iki kere izledim.",
+      "simple": "Two times.",
       "emoji": "2️⃣",
       "imageQuery": null,
       "note": null
@@ -141,6 +152,7 @@
       "pos": null,
       "example": "We lived there a long time ago.",
       "exampleTr": "Orada çok uzun zaman önce yaşadık.",
+      "simple": "Many, many years before today.",
       "emoji": "⏳",
       "imageQuery": null,
       "note": null
@@ -153,6 +165,7 @@
       "pos": "verb",
       "example": "What happened at the party?",
       "exampleTr": "Partide ne oldu?",
+      "simple": "Something takes place. For example, a cup falls and breaks.",
       "emoji": "❗",
       "imageQuery": null,
       "note": null
@@ -165,6 +178,7 @@
       "pos": null,
       "example": "You look upset. What happened?",
       "exampleTr": "Üzgün görünüyorsun. Ne oldu?",
+      "simple": "You ask this when you see something is not right and want to know why.",
       "emoji": "😮",
       "imageQuery": null,
       "note": null
@@ -177,6 +191,7 @@
       "pos": "verb",
       "example": "I remember my first day at school.",
       "exampleTr": "Okuldaki ilk günümü hatırlıyorum.",
+      "simple": "You have a thing in your head from before, and you can think of it.",
       "emoji": "🧠",
       "imageQuery": null,
       "note": null
@@ -189,6 +204,7 @@
       "pos": null,
       "example": "I can't remember his name.",
       "exampleTr": "Adını hatırlayamıyorum.",
+      "simple": "You say this when you try to think of something, but it does not come back.",
       "emoji": "🤔",
       "imageQuery": null,
       "note": "Hatırlamıyorum = I don’t remember. Hatırlayamıyorum = I can’t remember."
@@ -201,6 +217,7 @@
       "pos": "verb",
       "example": "I forgot my keys this morning.",
       "exampleTr": "Bu sabah anahtarlarımı unuttum.",
+      "simple": "You do not have a thing in your head from before anymore.",
       "emoji": "🤦",
       "imageQuery": null,
       "note": null
@@ -213,6 +230,7 @@
       "pos": "verb",
       "example": "I lost my wallet on the bus.",
       "exampleTr": "Cüzdanımı otobüste kaybettim.",
+      "simple": "You had a thing, and now you cannot find it.",
       "emoji": "😟",
       "imageQuery": "lost wallet",
       "note": null
@@ -225,6 +243,7 @@
       "pos": null,
       "example": "I used to play football every day.",
       "exampleTr": "Eskiden her gün futbol oynardım.",
+      "simple": "You did this a lot before, but you do not do it now.",
       "emoji": "⚽",
       "imageQuery": null,
       "note": "Artık yapmadığın alışkanlıklar için."
@@ -237,6 +256,7 @@
       "pos": null,
       "example": "I grew up in a small town.",
       "exampleTr": "Küçük bir kasabada büyüdüm.",
+      "simple": "You get bigger and older, from a baby to a big person.",
       "emoji": "🌱",
       "imageQuery": null,
       "note": "\"grew\", \"grow\"un geçmiş hâli."
@@ -249,6 +269,7 @@
       "pos": null,
       "example": "We ended up at my place.",
       "exampleTr": "Sonunda bizim eve geldik.",
+      "simple": "After many things, you get to a place you did not plan to be.",
       "emoji": "🔚",
       "imageQuery": null,
       "note": "Planlamadığın bir sonucu anlatır."
