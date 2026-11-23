@@ -30,7 +30,7 @@ Coworkers form a team and race daily on the same 10 items. UI text in Turkish; c
   Only items with a `dialogue` field get it (currently the ~300 sitcom items). Revealed cards show the whole chat.
 - **Anki route:** after each answer the learner grades Again/Hard/Good/Easy; each button shows its next interval
   (`previews` + `formatInterval`). Nothing is saved until graded (`check` -> `commit`). Wrong answer = Again only.
-  "Again" cards come back once more in the same session. Sidebar shows Anki's New / Learning / Review counters.
+  "Again" cards come back once more in the same session. Sidebar shows New / Learning / Review as TOTALS with "N şimdi" or "next in X" underneath (due-only counts sat at 0 and the user read that as broken).
 
 ## Core rules (non-negotiable)
 1. **Strict level gate** (`levelComplete` in `lib/srs.ts`, tested): next level opens only when every item of the

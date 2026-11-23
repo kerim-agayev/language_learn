@@ -1,7 +1,15 @@
 import { requireUser } from "@/lib/auth";
 import { stats, syncLevel } from "@/lib/learn";
+import { formatInterval } from "@/lib/srs";
 import { Nav } from "@/components/Nav";
 import { Learner } from "@/components/Learner";
+
+/** "3 şimdi" when some are due, otherwise when the next one comes back ("8 dk sonra"). */
+function when(b: { total: number; dueNow: number; nextIn: number }) {
+  if (!b.total) return "—";
+  if (b.dueNow) return `${b.dueNow} şimdi`;
+  return `${formatInterval(b.nextIn)} sonra`;
+}
 
 export default async function LearnPage() {
   const user = await requireUser();
@@ -48,16 +56,17 @@ export default async function LearnPage() {
           </div>
 
           <div>
-            <p className="text-muted">Şu an sırada</p>
+            <p className="text-muted">Kartların</p>
             <div className="mt-1 grid grid-cols-3 gap-2 text-center">
               {[
-                { n: s.queue.fresh, l: "Yeni", c: "text-pen" },
-                { n: s.queue.learning, l: "Öğreniliyor", c: "text-bad" },
-                { n: s.queue.review, l: "Tekrar", c: "text-good" },
+                { n: s.queue.fresh, l: "Yeni", c: "text-pen", sub: "bu seviyede" },
+                { n: s.queue.learning.total, l: "Öğreniliyor", c: "text-bad", sub: when(s.queue.learning) },
+                { n: s.queue.review.total, l: "Tekrar", c: "text-good", sub: when(s.queue.review) },
               ].map((x) => (
                 <div key={x.l} className="rounded-xl bg-paper px-2 py-2">
                   <p className={`font-display text-2xl font-bold ${x.c}`}>{x.n}</p>
                   <p className="text-xs text-muted">{x.l}</p>
+                  <p className="mt-0.5 text-[11px] leading-tight text-muted">{x.sub}</p>
                 </div>
               ))}
             </div>

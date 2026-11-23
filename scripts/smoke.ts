@@ -46,6 +46,9 @@ async function main() {
     const s = await stats(a.id, "A1");
     assert.equal(s.today.n, 2);
     assert.equal(s.queue.fresh, s.progress.total - 1);
+    // counters show totals, not only due cards (due-only counts sat at 0 and looked broken)
+    assert.equal(s.queue.learning.total + s.queue.review.total, 1, "the one seen card is counted");
+    assert.ok(s.queue.learning.dueNow + s.queue.review.dueNow <= 1);
     assert.equal(s.streak, 1);
     assert.equal(s.progress.introduced, 1);
 

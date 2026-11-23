@@ -230,7 +230,7 @@ export async function challengeAnswer(userId: string, challengeId: string, itemI
 export async function stats(userId: string, level: string) {
   const today = todayKey();
   const now = new Date();
-  const [[t], days, progress, due] = await Promise.all([
+  const [[t], days, progress, due, dueNow] = await Promise.all([
     db.$queryRaw<{ n: number; ok: number; pts: number }[]>`
       SELECT count(*)::int n, (count(*) FILTER (WHERE correct))::int ok, coalesce(sum(points),0)::int pts
       FROM "ReviewLog" WHERE "userId" = ${userId}
@@ -239,11 +239,22 @@ export async function stats(userId: string, level: string) {
       SELECT DISTINCT to_char(("createdAt" AT TIME ZONE 'UTC' AT TIME ZONE ${TZ})::date, 'YYYY-MM-DD') d
       FROM "ReviewLog" WHERE "userId" = ${userId} ORDER BY d DESC LIMIT 400`,
     levelProgress(userId, level as LevelName),
+    // per state: how many cards, how many due now, and when the next one comes back
+    db.userItem.groupBy({ by: ["state"], where: { userId }, _count: true, _min: { due: true } }),
     db.userItem.groupBy({ by: ["state"], where: { userId, due: { lte: now } }, _count: true }),
   ]);
-  const n = (st: number[]) => due.filter((d) => st.includes(d.state)).reduce((a, d) => a + d._count, 0);
-  // Anki's three counters: new left in this level, learning (incl. relearning) due, reviews due
-  const queue = { fresh: progress.total - progress.introduced, learning: n([State.Learning, State.Relearning]), review: n([State.Review]) };
+  const learningStates: number[] = [State.Learning, State.Relearning];
+  const bucket = (states: number[]) => {
+    const rows = due.filter((d) => states.includes(d.state));
+    const next = rows.map((r) => r._min.due).filter((d): d is Date => !!d).sort((a, b) => a.getTime() - b.getTime())[0];
+    return {
+      total: rows.reduce((a, r) => a + r._count, 0),
+      dueNow: dueNow.filter((d) => states.includes(d.state)).reduce((a, d) => a + d._count, 0),
+      nextIn: next && next > now ? next.getTime() - now.getTime() : 0, // ms until the next card of this kind
+    };
+  };
+  // Anki-style counters, but showing totals too (due-only counts sat at 0 and looked broken)
+  const queue = { fresh: progress.total - progress.introduced, learning: bucket(learningStates), review: bucket([State.Review]) };
   return { today: t, streak: streak(days.map((r) => r.d), today), progress, queue };
 }
 
