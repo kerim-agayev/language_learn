@@ -67,6 +67,11 @@ Coworkers form a team and race daily on the same 10 items. UI text in Turkish; c
   lost that way). After parallel writes always run `check-content` and count files.
 - `npx tsx scripts/check-content.ts` validates + lists duplicates (seed keeps the first (type,en) occurrence).
 - `npm run images` → Pixabay (+ Anki media) → `public/img/<slug>.webp` 480×360, committed. Re-run safe.
+- After fetching images run `npx tsx scripts/dedupe-images.ts` (byte-identical pictures; `--fix` re-downloads an unused
+  photo, never touches Anki pictures) and `npx tsx scripts/similar-images.ts` (look-alikes; `--sheet out.png a,b,c`
+  makes a labelled contact sheet to eyeball relevance). Pixabay often returns the same top photo for related queries.
+  Abstract chunks/idioms get no picture (`imageQuery: null` → emoji); a misleading photo is worse than none.
+  Never delete images by iterating loadContent(): duplicate (type,en) entries share one file.
 - `npx prisma db seed` upserts by (type,en) → safe to re-run, keeps progress.
 
 ## Design

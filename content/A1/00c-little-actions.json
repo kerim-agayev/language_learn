@@ -206,7 +206,7 @@
       "exampleTr": "Dedeye el salla!",
       "simple": "You move your hand up and down to say hello or bye.",
       "emoji": "👋",
-      "imageQuery": "child waving",
+      "imageQuery": null,
       "note": null
     },
     {

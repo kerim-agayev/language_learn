@@ -206,7 +206,7 @@
       "exampleTr": "Hadi, geciktik!",
       "simple": "Please move now. Please try.",
       "emoji": "➡️",
-      "imageQuery": "mother child hurry",
+      "imageQuery": null,
       "note": "Hem \"acele et\" hem \"hadi bakalım\" anlamında."
     },
     {
@@ -258,7 +258,7 @@
       "exampleTr": "Bir dakika, geliyorum!",
       "simple": "Wait a little. Or hold tight with your hands.",
       "emoji": "🤚",
-      "imageQuery": "child holding tight",
+      "imageQuery": null,
       "note": null
     },
     {
@@ -271,7 +271,7 @@
       "exampleTr": "Geri gel! O tarafa değil!",
       "simple": "Walk to me again. You went away.",
       "emoji": "↩️",
-      "imageQuery": "mother calling child",
+      "imageQuery": null,
       "note": null
     },
     {
