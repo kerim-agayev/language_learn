@@ -198,18 +198,80 @@ export async function check(userId: string, itemId: number, mode: Mode, choice: 
 }
 
 /** Step 2: the learner picks Again/Hard/Good/Easy. The answer is re-judged here, so points can't be faked. */
-export async function commit(userId: string, itemId: number, mode: Mode, choice: string, ms: number, g: Grade) {
+export async function commit(userId: string, itemId: number, mode: Mode, choice: string, ms: number, g: Grade, test?: TestKind) {
   const { correct } = await judge(itemId, mode, choice);
   const now = new Date();
   const ui = await db.userItem.findUnique({ where: { userId_itemId: { userId, itemId } } });
-  const pts = ui && ui.due > now ? 0 : answerPoints(mode, correct, ms); // early practice doesn't farm points
+  // early practice doesn't farm points; a review test does score, but only while that test is genuinely open
+  const inTest = test ? await testAnswerAllowed(userId, itemId, test) : false;
+  const pts = !inTest && ui && ui.due > now ? 0 : answerPoints(mode, correct, ms);
   const card = grade(ui ? fromJson(ui.card) : null, g, correct, now);
   const data = { card: JSON.parse(JSON.stringify(card)), due: card.due, state: card.state, stability: card.stability };
   await db.$transaction([
     db.userItem.upsert({ where: { userId_itemId: { userId, itemId } }, create: { userId, itemId, ...data }, update: data }),
-    db.reviewLog.create({ data: { userId, itemId, correct, ms: Math.min(ms, 600_000), points: pts, mode } }),
+    db.reviewLog.create({ data: { userId, itemId, correct, ms: Math.min(ms, 600_000), points: pts, mode, test: inTest ? test : null } }),
   ]);
   return { points: pts, due: card.due };
+}
+
+// ---------- weekly / monthly review tests ----------
+// Words you "know" still fade. Once a week (and once a month) you get a mixed test of what you met recently:
+// dialogues, gaps, pictures, simple-English clues, your own sentence. Answers go through the normal Anki grading,
+// so anything you got wrong drops back into "learning" and comes round often again.
+
+export type TestKind = "week" | "month";
+// Pool = cards you studied between `fromDays` and `toDays` ago: the weekly test covers the last week, the monthly one
+// the 3 weeks before that (the cards most at risk of fading), so the two never ask the same thing.
+export const TESTS: Record<TestKind, { days: number; fromDays: number; toDays: number; size: number; label: string }> = {
+  week: { days: 7, fromDays: 0, toDays: 7, size: 15, label: "Haftalık test" },
+  month: { days: 30, fromDays: 7, toDays: 30, size: 25, label: "Aylık test" },
+};
+const MIN_POOL = 5;
+
+/** Items you answered in the test's window (outside tests and challenges), minus the ones you hid. */
+async function testPool(userId: string, kind: TestKind) {
+  const { fromDays, toDays } = TESTS[kind];
+  const createdAt = { gte: new Date(Date.now() - toDays * 864e5), lte: new Date(Date.now() - fromDays * 864e5) };
+  const rows = await db.reviewLog.findMany({
+    where: { userId, test: null, challengeId: null, createdAt, item: { users: { some: { userId, known: false } } } },
+    distinct: ["itemId"],
+    select: { itemId: true },
+  });
+  return rows.map((r) => r.itemId);
+}
+
+/** A test can be taken once per period (rolling: 7 / 30 days since you last took it). */
+export async function testStatus(userId: string) {
+  const out = {} as Record<TestKind, { available: boolean; poolSize: number; nextInMs: number }>;
+  for (const kind of Object.keys(TESTS) as TestKind[]) {
+    const [last, pool] = await Promise.all([
+      db.reviewLog.findFirst({ where: { userId, test: kind }, orderBy: { createdAt: "desc" }, select: { createdAt: true } }),
+      testPool(userId, kind),
+    ]);
+    const nextInMs = last ? Math.max(0, last.createdAt.getTime() + TESTS[kind].days * 864e5 - Date.now()) : 0;
+    out[kind] = { available: nextInMs === 0 && pool.length >= MIN_POOL, poolSize: pool.length, nextInMs };
+  }
+  return out;
+}
+
+/** Server-side guard so test points can't be farmed: the test must be open and the item must be in its pool. */
+async function testAnswerAllowed(userId: string, itemId: number, kind: TestKind) {
+  const { days, size } = TESTS[kind];
+  const since = new Date(Date.now() - days * 864e5);
+  const answered = await db.reviewLog.findMany({ where: { userId, test: kind, createdAt: { gte: since } }, select: { itemId: true, createdAt: true } });
+  if (answered.length >= size || answered.some((a) => a.itemId === itemId)) return false;
+  // started within the last 2 hours (one sitting) or not started yet
+  if (answered.length && Date.now() - Math.min(...answered.map((a) => a.createdAt.getTime())) > 2 * 3600e3) return false;
+  return (await testPool(userId, kind)).includes(itemId);
+}
+
+export async function testQuizzes(userId: string, kind: TestKind, sound: boolean) {
+  const status = (await testStatus(userId))[kind];
+  if (!status.available) return null;
+  const ids = shuffle(await testPool(userId, kind)).slice(0, TESTS[kind].size);
+  const items = await db.item.findMany({ where: { id: { in: ids } } });
+  // strong=true: the Feynman "use it in your own sentence" step is allowed here
+  return Promise.all(shuffle(items).map((it) => buildQuiz(it, false, undefined, true, sound)));
 }
 
 /**

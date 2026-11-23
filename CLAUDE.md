@@ -32,6 +32,12 @@ Coworkers form a team and race daily on the same 10 items. UI text in Turkish; c
   (`markKnown`): `UserItem.known=true`, parked 100 years out with huge stability → never served, counts as mastered
   for the gate, excluded from sidebar counters, no log/points. Ayarlar lists hidden cards with "Geri getir" (`unmarkKnown`
   deletes the UserItem so it comes back as new). Not offered in the team challenge.
+- **Nothing fades away:** FSRS `maximum_interval` = 60 days (`MAX_INTERVAL_DAYS`), whatever the learner presses.
+- **Review tests** (`/test/week`, `/test/month`, sidebar buttons): weekly = 15 cards studied in the last 7 days,
+  monthly = 25 cards studied 7–30 days ago (never the same cards). Mixed modes incl. dialog and "own sentence",
+  normal Anki grading (wrong → back to learning). Once per rolling 7/30 days; needs ≥ 5 cards in the pool.
+  Test answers score even if the card isn't due, guarded server-side (`testAnswerAllowed`: open test, item in pool,
+  once per item, one sitting). `ReviewLog.test` = "week" | "month".
 - **Anki route:** after each answer the learner grades Again/Hard/Good/Easy; each button shows its next interval
   (`previews` + `formatInterval`). Nothing is saved until graded (`check` -> `commit`). Wrong answer = Again only.
   "Again" cards come back once more in the same session. Sidebar shows New / Learning / Review as TOTALS with "N şimdi" or "next in X" underneath (due-only counts sat at 0 and the user read that as broken).

@@ -1,6 +1,11 @@
-import { fsrs, createEmptyCard, Rating, State, type Card } from "ts-fsrs";
+import { fsrs, generatorParameters, createEmptyCard, Rating, State, type Card } from "ts-fsrs";
 
-const scheduler = fsrs();
+/**
+ * No card disappears for longer than this, whatever you press. Even "Easy" words get forgotten if you never meet
+ * them; plain FSRS would push a twice-"Easy" card past 2 months, then years.
+ */
+export const MAX_INTERVAL_DAYS = 60;
+const scheduler = fsrs(generatorParameters({ maximum_interval: MAX_INTERVAL_DAYS }));
 
 export const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"] as const;
 export type LevelName = (typeof LEVELS)[number];

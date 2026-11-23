@@ -58,6 +58,17 @@ test("anki-style grading: buttons grow intervals, wrong answer forced to Again",
   assert.ok(c.due.getTime() - t.getTime() > 864e5);
 });
 
+test("no card is ever scheduled more than 60 days out, even after many Easy answers", () => {
+  let t = new Date("2026-01-01T09:00:00Z");
+  let c = grade(null, 4, true, t);
+  for (let i = 0; i < 10; i++) {
+    t = c.due;
+    c = grade(c, 4, true, t);
+    assert.ok(c.due.getTime() - t.getTime() <= 60 * 864e5 + 1000, `step ${i}`);
+  }
+  assert.ok(previews(c, t)[4] <= 60 * 864e5 + 1000);
+});
+
 test("formatInterval", () => {
   assert.equal(formatInterval(30_000), "1 dk");
   assert.equal(formatInterval(10 * 60_000), "10 dk");

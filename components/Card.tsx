@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { answerChallenge, checkAnswer, commitAnswer, hideItem } from "@/app/actions";
 import type { Grade } from "@/lib/srs";
-import type { AnswerResult, ItemView, Quiz } from "@/lib/learn";
+import type { AnswerResult, ItemView, Quiz, TestKind } from "@/lib/learn";
 
 const TYPE_LABEL: Record<string, string> = {
   WORD: "kelime",
@@ -216,11 +216,14 @@ function ProduceInput({ onSubmit, busy }: { onSubmit: (s: string) => void; busy:
 export function QuizCard({
   quiz,
   challengeId,
+  test,
   autoSpeak = false,
   onDone,
 }: {
   quiz: Quiz;
   challengeId?: string;
+  /** set when the card is part of the weekly/monthly review test */
+  test?: TestKind;
   /** off when the user disabled sound (silent office PC) */
   autoSpeak?: boolean;
   /** r is null when the card was hidden ("never show again") */
@@ -271,7 +274,7 @@ export function QuizCard({
     lock.current = true; // stays locked: this card is finished once graded
     setBusy(true);
     try {
-      const c = await commitAnswer(quiz.itemId, quiz.mode, picked ?? "", tookMs.current, g);
+      const c = await commitAnswer(quiz.itemId, quiz.mode, picked ?? "", tookMs.current, g, test);
       onDone({ ...result, points: c.points }, g);
     } catch (e) {
       lock.current = false;

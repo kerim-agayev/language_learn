@@ -116,6 +116,7 @@ model ReviewLog {
   correct     Boolean
   ms          Int
   points      Int
+  test        String? // "week" | "month" when the answer came from a review test
   mode        String
   challengeId String?
   createdAt   DateTime        @default(now())

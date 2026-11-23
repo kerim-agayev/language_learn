@@ -1,5 +1,6 @@
 import { requireUser } from "@/lib/auth";
-import { stats, syncLevel } from "@/lib/learn";
+import Link from "next/link";
+import { TESTS, stats, syncLevel, testStatus, type TestKind } from "@/lib/learn";
 import { formatInterval } from "@/lib/srs";
 import { Nav } from "@/components/Nav";
 import { Learner } from "@/components/Learner";
@@ -14,7 +15,7 @@ function when(b: { total: number; dueNow: number; nextIn: number }) {
 export default async function LearnPage() {
   const user = await requireUser();
   const level = await syncLevel(user.id, user.level);
-  const s = await stats(user.id, level);
+  const [s, tests] = await Promise.all([stats(user.id, level), testStatus(user.id)]);
   const p = s.progress;
   const goalPct = Math.min(100, Math.round((s.today.n / user.dailyGoal) * 100));
   const lv = { "--lv": `var(--${level})` } as React.CSSProperties;
@@ -53,6 +54,30 @@ export default async function LearnPage() {
             <p className="mt-2 text-muted">
               {p.introduced}/{p.total} görüldü, {p.mastered} kalıcı. Sonraki seviye için tümü görülmeli ve %90&apos;ı kalıcı olmalı.
             </p>
+          </div>
+
+          <div>
+            <p className="text-muted">Tekrar testleri</p>
+            <div className="mt-1 flex flex-col gap-2">
+              {(Object.keys(TESTS) as TestKind[]).map((k) => {
+                const t = tests[k];
+                return t.available ? (
+                  <Link key={k} href={`/test/${k}`} className="flex items-center justify-between rounded-xl bg-pen px-3 py-2.5 font-bold text-pen-ink">
+                    <span>{TESTS[k].label}</span>
+                    <span className="text-xs font-normal">{Math.min(t.poolSize, TESTS[k].size)} soru, hazır</span>
+                  </Link>
+                ) : (
+                  <div key={k} className="flex items-center justify-between rounded-xl bg-paper px-3 py-2.5">
+                    <span>{TESTS[k].label}</span>
+                    <span className="text-xs text-muted">
+                      {t.nextInMs > 0
+                        ? `${formatInterval(t.nextInMs)} sonra`
+                        : k === "month" ? `${t.poolSize}/5 kart (7–30 gün önce)` : `${t.poolSize}/5 kart çalışıldı`}
+                    </span>
+                  </div>
+                );
+              })}
+            </div>
           </div>
 
           <div>
