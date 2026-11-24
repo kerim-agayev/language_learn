@@ -1,0 +1,413 @@
+{
+  "topic": "Gündelik argo: İngiliz ve Amerikan",
+  "items": [
+    {
+      "type": "WORD",
+      "en": "sorted",
+      "tr": "halledildi, tamamdır, ayarlandı",
+      "ipa": "/ˈsɔː.tɪd/",
+      "pos": "adjective",
+      "example": "Don't worry about the tickets, it's all sorted.",
+      "exampleTr": "Biletleri dert etme, her şey ayarlandı.",
+      "simple": "Everything is done and fixed. No problem now.",
+      "dialogue": [
+        "A: Did you book the taxi for tomorrow?",
+        "B: Yep, sorted."
+      ],
+      "emoji": "👍",
+      "imageQuery": null,
+      "note": "İngiliz argosu; tek başına 'Sorted!' = Tamamdır!"
+    },
+    {
+      "type": "WORD",
+      "en": "gobsmacked",
+      "tr": "ağzı açık kalmış, şok olmuş",
+      "ipa": "/ˈɡɒb.smækt/",
+      "pos": "adjective",
+      "example": "I was gobsmacked when she said she was moving to Australia.",
+      "exampleTr": "Avustralya'ya taşınacağını söyleyince ağzım açık kaldı.",
+      "simple": "So surprised that your mouth falls open.",
+      "dialogue": [
+        "A: They're getting married after two weeks?",
+        "B: I know, I was gobsmacked."
+      ],
+      "emoji": "😮",
+      "imageQuery": null,
+      "note": "İngiliz argosu; 'gob' = ağız."
+    },
+    {
+      "type": "WORD",
+      "en": "faff",
+      "tr": "oyalanmak, gereksiz uğraşmak; zahmet",
+      "ipa": "/fæf/",
+      "pos": "verb",
+      "example": "Stop faffing about and get in the car!",
+      "exampleTr": "Oyalanmayı bırak da arabaya bin!",
+      "simple": "Waste time doing small, silly things instead of the main job.",
+      "dialogue": [
+        "A: Are you ready yet?",
+        "B: Nearly, I'm just having a faff with my hair."
+      ],
+      "emoji": "🌀",
+      "imageQuery": null,
+      "note": "İngiliz argosu; isim olarak 'What a faff!' = Ne zahmet!"
+    },
+    {
+      "type": "WORD",
+      "en": "naff",
+      "tr": "zevksiz, ucuz, rüküş",
+      "ipa": "/næf/",
+      "pos": "adjective",
+      "example": "That jumper's a bit naff, isn't it?",
+      "exampleTr": "O kazak biraz zevksiz, değil mi?",
+      "simple": "Cheap-looking and not cool.",
+      "dialogue": [
+        "A: Do you like the decorations?",
+        "B: Honestly? They're a bit naff."
+      ],
+      "emoji": "🙄",
+      "imageQuery": null,
+      "note": "İngiliz argosu; Amerikanca yakın karşılığı 'cheesy' ya da 'tacky'."
+    },
+    {
+      "type": "WORD",
+      "en": "jammy",
+      "tr": "şanslı (hak etmeden)",
+      "ipa": "/ˈdʒæm.i/",
+      "pos": "adjective",
+      "example": "You won again? You jammy thing!",
+      "exampleTr": "Yine mi kazandın? Ne şanslı şeysin!",
+      "simple": "Very lucky, maybe more lucky than fair.",
+      "dialogue": [
+        "A: I found twenty quid on the pavement!",
+        "B: You jammy so-and-so."
+      ],
+      "emoji": "🍀",
+      "imageQuery": null,
+      "note": "İngiliz argosu; kıskançlıkla karışık takılma."
+    },
+    {
+      "type": "WORD",
+      "en": "loaded",
+      "tr": "çok zengin, parası bol",
+      "ipa": "/ˈləʊ.dɪd/",
+      "pos": "adjective",
+      "example": "His parents are loaded, so he's never had a job.",
+      "exampleTr": "Ailesi çok zengin, o yüzden hiç çalışmadı.",
+      "simple": "Having lots and lots of money.",
+      "dialogue": [
+        "A: Did you see her new car?",
+        "B: Yeah, she must be loaded."
+      ],
+      "emoji": "💰",
+      "imageQuery": null,
+      "note": "Hem İngiliz hem Amerikan argosu; İngilizcede 'minted' da denir."
+    },
+    {
+      "type": "WORD",
+      "en": "skive",
+      "tr": "(işten, okuldan) kaytarmak, ekmek",
+      "ipa": "/skaɪv/",
+      "pos": "verb",
+      "example": "Half the class skived off on Friday.",
+      "exampleTr": "Sınıfın yarısı cuma günü okulu ekti.",
+      "simple": "Stay away from school or work when you should be there.",
+      "dialogue": [
+        "A: Where's Dan?",
+        "B: I think he decided to skive today."
+      ],
+      "emoji": "🏖️",
+      "imageQuery": null,
+      "note": "İngiliz argosu, genelde 'skive off'; Amerikanca 'play hooky'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "a doddle",
+      "tr": "çocuk oyuncağı, çok kolay",
+      "ipa": null,
+      "pos": null,
+      "example": "The driving test was a doddle.",
+      "exampleTr": "Sürüş sınavı çocuk oyuncağıydı.",
+      "simple": "Something very, very easy.",
+      "dialogue": [
+        "A: Is the new software hard to use?",
+        "B: No, it's a doddle."
+      ],
+      "emoji": "🧸",
+      "imageQuery": null,
+      "note": "İngiliz argosu; Amerikanca 'a breeze', 'a cinch'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "take the mickey",
+      "tr": "dalga geçmek, makaraya almak",
+      "ipa": null,
+      "pos": null,
+      "example": "Are you taking the mickey out of my accent?",
+      "exampleTr": "Aksanımla dalga mı geçiyorsun?",
+      "simple": "Laugh at someone or tease them, sometimes unkindly.",
+      "dialogue": [
+        "A: Nice hat. Very... brave.",
+        "B: Don't take the mickey!"
+      ],
+      "emoji": "😜",
+      "imageQuery": null,
+      "note": "İngiliz argosu; 'take the mick' da denir. Ayrıca 'fazla ileri gitmek'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "throw a sickie",
+      "tr": "yalandan hastalık izni almak",
+      "ipa": null,
+      "pos": null,
+      "example": "He threw a sickie to watch the match.",
+      "exampleTr": "Maçı izlemek için yalandan rapor aldı.",
+      "simple": "Say you are ill so you can skip work, but you are not.",
+      "dialogue": [
+        "A: The weather's amazing today.",
+        "B: Don't even think about it. You can't throw a sickie again."
+      ],
+      "emoji": "🤒",
+      "imageQuery": null,
+      "note": "İngiliz ve Avustralya argosu; Amerikanca 'call in sick' (dürüst olmasa da)."
+    },
+    {
+      "type": "WORD",
+      "en": "chinwag",
+      "tr": "muhabbet, dedikodu sohbeti",
+      "ipa": "/ˈtʃɪn.wæɡ/",
+      "pos": "noun",
+      "example": "We had a good chinwag over coffee.",
+      "exampleTr": "Kahve eşliğinde güzel bir muhabbet ettik.",
+      "simple": "A long, friendly chat.",
+      "dialogue": [
+        "A: Where have you been for an hour?",
+        "B: Just having a chinwag with the neighbour."
+      ],
+      "emoji": "💬",
+      "imageQuery": null,
+      "note": "İngiliz argosu, sıcak ve şakacı."
+    },
+    {
+      "type": "WORD",
+      "en": "kerfuffle",
+      "tr": "yaygara, curcuna, karmaşa",
+      "ipa": "/kəˈfʌf.əl/",
+      "pos": "noun",
+      "example": "There was a bit of a kerfuffle at the checkout.",
+      "exampleTr": "Kasada biraz curcuna çıktı.",
+      "simple": "A small fuss or noisy mix-up.",
+      "dialogue": [
+        "A: What was all the shouting about?",
+        "B: Just a kerfuffle over a parking space."
+      ],
+      "emoji": "🌪️",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; büyük olmayan karışıklıklar için esprili kelime."
+    },
+    {
+      "type": "WORD",
+      "en": "dodgy",
+      "tr": "şüpheli, güvenilmez, bozuk",
+      "ipa": "/ˈdɒdʒ.i/",
+      "pos": "adjective",
+      "example": "I had a dodgy kebab last night and I've felt sick all day.",
+      "exampleTr": "Dün akşam şüpheli bir kebap yedim, bütün gün midem bulandı.",
+      "simple": "Not safe, not honest, or not working well.",
+      "dialogue": [
+        "A: He's selling iPhones for fifty quid.",
+        "B: Sounds dodgy to me."
+      ],
+      "emoji": "🤨",
+      "imageQuery": null,
+      "note": "İngiliz argosu; kişi, yemek, araba, diz için. Amerikanca 'sketchy'."
+    },
+    {
+      "type": "WORD",
+      "en": "bloke",
+      "tr": "adam, herif",
+      "ipa": "/bləʊk/",
+      "pos": "noun",
+      "example": "Some bloke at the pub bought us a drink.",
+      "exampleTr": "Bardaki adamın biri bize içki ısmarladı.",
+      "simple": "A man, any ordinary man.",
+      "dialogue": [
+        "A: Who's that talking to your mum?",
+        "B: Just a bloke from her book club."
+      ],
+      "emoji": "🧔",
+      "imageQuery": null,
+      "note": "İngiliz argosu; Amerikanca 'guy'. Kadın için kullanılmaz."
+    },
+    {
+      "type": "WORD",
+      "en": "bummed",
+      "tr": "morali bozuk, üzgün",
+      "ipa": "/bʌmd/",
+      "pos": "adjective",
+      "example": "I'm so bummed the concert got cancelled.",
+      "exampleTr": "Konserin iptal olmasına çok bozuldum.",
+      "simple": "Sad and disappointed.",
+      "dialogue": [
+        "A: Did you get the tickets?",
+        "B: No, they sold out. I'm bummed."
+      ],
+      "emoji": "😔",
+      "imageQuery": null,
+      "note": "Amerikan argosu; İngilizcede 'gutted'a yakın."
+    },
+    {
+      "type": "WORD",
+      "en": "flaky",
+      "tr": "güvenilmez, son anda ekip giden",
+      "ipa": "/ˈfleɪ.ki/",
+      "pos": "adjective",
+      "example": "Don't count on Mark, he's really flaky.",
+      "exampleTr": "Mark'a güvenme, son anda ekmeyi çok sever.",
+      "simple": "A person who makes plans but often doesn't show up.",
+      "dialogue": [
+        "A: She cancelled on me again.",
+        "B: She's always been flaky."
+      ],
+      "emoji": "🥐",
+      "imageQuery": null,
+      "note": "Amerikan argosu, İngiltere'de de yaygın; 'flake' = sürekli ekip giden kişi."
+    },
+    {
+      "type": "WORD",
+      "en": "spendy",
+      "tr": "pahalı, tuzlu",
+      "ipa": "/ˈspen.di/",
+      "pos": "adjective",
+      "example": "That new sushi place is a bit spendy.",
+      "exampleTr": "O yeni suşi yeri biraz tuzlu.",
+      "simple": "It costs a lot of money.",
+      "dialogue": [
+        "A: Should we go to that rooftop bar?",
+        "B: Sure, but it's kind of spendy."
+      ],
+      "emoji": "💳",
+      "imageQuery": null,
+      "note": "Amerikan argosu (özellikle batı yakası); 'pricey'nin argo hali."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I'm beat",
+      "tr": "çok yorgunum, bittim",
+      "ipa": null,
+      "pos": null,
+      "example": "I'm beat. I'm going straight to bed.",
+      "exampleTr": "Bittim. Doğruca yatağa gidiyorum.",
+      "simple": "I am very, very tired.",
+      "dialogue": [
+        "A: Want to watch another episode?",
+        "B: No, I'm beat."
+      ],
+      "emoji": "🥱",
+      "imageQuery": null,
+      "note": "Amerikan argosu; İngilizcede 'knackered'."
+    },
+    {
+      "type": "WORD",
+      "en": "sketchy",
+      "tr": "şüpheli, tekinsiz",
+      "ipa": "/ˈsketʃ.i/",
+      "pos": "adjective",
+      "example": "That part of town gets a bit sketchy at night.",
+      "exampleTr": "Şehrin o kısmı geceleri biraz tekinsiz oluyor.",
+      "simple": "It feels not safe or not honest.",
+      "dialogue": [
+        "A: The website wants my passport number.",
+        "B: That's sketchy. Don't do it."
+      ],
+      "emoji": "🕵️",
+      "imageQuery": null,
+      "note": "Amerikan argosu; İngiltere'de 'dodgy'. Ayrıca 'eksik, belirsiz' bilgi için."
+    },
+    {
+      "type": "WORD",
+      "en": "legit",
+      "tr": "gerçek, sahici; harbiden",
+      "ipa": "/ləˈdʒɪt/",
+      "pos": "adjective",
+      "example": "Is this offer legit or is it a scam?",
+      "exampleTr": "Bu teklif gerçek mi yoksa dolandırıcılık mı?",
+      "simple": "Real and honest, not fake. Also: really.",
+      "dialogue": [
+        "A: This burger is legit the best I've ever had.",
+        "B: Told you!"
+      ],
+      "emoji": "✅",
+      "imageQuery": null,
+      "note": "Amerikan kökenli, gençler arasında her yerde; 'legit amazing' = harbiden harika."
+    },
+    {
+      "type": "WORD",
+      "en": "salty",
+      "tr": "bozulmuş, kıl olmuş (kaybettiği için)",
+      "ipa": "/ˈsɔːl.ti/",
+      "pos": "adjective",
+      "example": "He's still salty about losing the game.",
+      "exampleTr": "Maçı kaybettiği için hâlâ kıl.",
+      "simple": "Upset and bitter about something small.",
+      "dialogue": [
+        "A: Why won't Ozan talk to me?",
+        "B: He's salty you beat him at FIFA."
+      ],
+      "emoji": "🧂",
+      "imageQuery": null,
+      "note": "Amerikan ve internet argosu; gençler arasında yaygın."
+    },
+    {
+      "type": "WORD",
+      "en": "dibs",
+      "tr": "kapış! benim! (bir şeye ilk hak iddia etmek)",
+      "ipa": "/dɪbz/",
+      "pos": "noun",
+      "example": "Dibs on the front seat!",
+      "exampleTr": "Ön koltuk benim!",
+      "simple": "You say it fast to be the first to get something.",
+      "dialogue": [
+        "A: Who wants the last slice?",
+        "B: Dibs!"
+      ],
+      "emoji": "🙋",
+      "imageQuery": null,
+      "note": "Amerikan argosu; 'call dibs on something'. İngilizcede 'bagsy'."
+    },
+    {
+      "type": "WORD",
+      "en": "zonked",
+      "tr": "bitkin, sızmış",
+      "ipa": "/zɒŋkt/",
+      "pos": "adjective",
+      "example": "After the flight, I was completely zonked.",
+      "exampleTr": "Uçuştan sonra tamamen bitkindim.",
+      "simple": "So tired that you could fall asleep anywhere.",
+      "dialogue": [
+        "A: Where's Grandpa?",
+        "B: Zonked on the sofa after lunch."
+      ],
+      "emoji": "😴",
+      "imageQuery": null,
+      "note": "Amerikan argosu; 'zonk out' = sızıp kalmak."
+    },
+    {
+      "type": "CHUNK",
+      "en": "the boonies",
+      "tr": "kırsal, ücra yer, dağ başı",
+      "ipa": null,
+      "pos": null,
+      "example": "They bought a house way out in the boonies.",
+      "exampleTr": "Ta dağ başında bir ev almışlar.",
+      "simple": "A place very far from towns and shops.",
+      "dialogue": [
+        "A: Where does your cousin live?",
+        "B: Out in the boonies. No phone signal at all."
+      ],
+      "emoji": "🌾",
+      "imageQuery": null,
+      "note": "Amerikan argosu; 'boondocks'un kısası. İngilizcede 'the middle of nowhere'."
+    }
+  ]
+}

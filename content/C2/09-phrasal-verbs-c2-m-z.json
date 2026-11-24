@@ -1,0 +1,447 @@
+{
+  "topic": "Phrasal verb'ler (M–Z)",
+  "items": [
+    {
+      "type": "PHRASAL",
+      "en": "muddle through",
+      "tr": "bir şekilde idare etmek, yamalı bohçayla halletmek",
+      "ipa": "/ˈmʌd.əl θruː/",
+      "pos": null,
+      "example": "We had no plan, but we managed to muddle through.",
+      "exampleTr": "Hiç planımız yoktu ama bir şekilde idare ettik.",
+      "simple": "You don't really know what you are doing, but you still get it done.",
+      "dialogue": [
+        "A: How was your first week as a manager?",
+        "B: Honestly? I just tried to muddle through."
+      ],
+      "emoji": "🤷",
+      "imageQuery": null,
+      "note": "Planı, bilgisi olmadan 'kıvırıp' halletmek; hafif esprili."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "palm off",
+      "tr": "(kötü bir şeyi) birine kakalamak, yutturmak",
+      "ipa": "/pɑːm ɒf/",
+      "pos": null,
+      "example": "He tried to palm off his old laptop on me.",
+      "exampleTr": "Eski laptopunu bana kakalamaya çalıştı.",
+      "simple": "Give someone a thing you don't want, and act like it is good.",
+      "dialogue": [
+        "A: Why have you got two printers?",
+        "B: My brother wanted to palm off his broken one on me."
+      ],
+      "emoji": "🫴",
+      "imageQuery": null,
+      "note": "Genelde 'palm something off on someone' kalıbıyla."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "pare down",
+      "tr": "en aza indirmek, sadeleştirmek",
+      "ipa": "/peə daʊn/",
+      "pos": null,
+      "example": "We need to pare down the guest list a bit.",
+      "exampleTr": "Davetli listesini biraz kısmamız lazım.",
+      "simple": "Make something smaller by cutting the bits you don't need.",
+      "dialogue": [
+        "A: Your suitcase won't close.",
+        "B: Yeah, I need to pare down what I'm taking."
+      ],
+      "emoji": "✂️",
+      "imageQuery": null,
+      "note": "Liste, bütçe, eşya için; 'cut down'dan daha titiz bir kısma."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "piggyback on",
+      "tr": "(başkasının işinin) sırtından geçinmek, üstüne binmek",
+      "ipa": "/ˈpɪɡ.i.bæk ɒn/",
+      "pos": null,
+      "example": "They just piggyback on our ideas and take the credit.",
+      "exampleTr": "Bizim fikirlerimizin üstüne binip övgüyü onlar alıyor.",
+      "simple": "Use what someone else made to help yourself, without much work.",
+      "dialogue": [
+        "A: Can we use the marketing team's survey?",
+        "B: Sure, let's piggyback on their data."
+      ],
+      "emoji": "🐷",
+      "imageQuery": null,
+      "note": "Hem olumsuz (sırtından geçinmek) hem nötr (üstüne kurmak) olabilir."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "play up",
+      "tr": "(beden, makine) sorun çıkarmak, (çocuk) yaramazlık yapmak",
+      "ipa": "/pleɪ ʌp/",
+      "pos": null,
+      "example": "My knee always starts to play up when it rains.",
+      "exampleTr": "Yağmur yağınca dizim hep sızlamaya başlıyor.",
+      "simple": "When a body part or machine stops working well again.",
+      "dialogue": [
+        "A: You're limping.",
+        "B: Yeah, my back's started to play up again."
+      ],
+      "emoji": "🦵",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; diz, sırt, araba, internet için çok yaygın."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "plough through",
+      "tr": "(sıkıcı/uzun bir şeyi) zar zor bitirmek",
+      "ipa": "/plaʊ θruː/",
+      "pos": null,
+      "example": "I had to plough through two hundred emails this morning.",
+      "exampleTr": "Bu sabah iki yüz e-postayı zar zor eritmem gerekti.",
+      "simple": "Keep going through a lot of boring stuff until it's done.",
+      "dialogue": [
+        "A: Did you finish the report?",
+        "B: I'm still trying to plough through it."
+      ],
+      "emoji": "🚜",
+      "imageQuery": null,
+      "note": "ABD'de 'plow through'. Okumak, yemek, iş yığını için."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "polish off",
+      "tr": "silip süpürmek, bir çırpıda bitirmek",
+      "ipa": "/ˈpɒl.ɪʃ ɒf/",
+      "pos": null,
+      "example": "The kids managed to polish off a whole pizza.",
+      "exampleTr": "Çocuklar koca bir pizzayı silip süpürdü.",
+      "simple": "Eat or finish all of something, quickly and happily.",
+      "dialogue": [
+        "A: Where's the rest of the cake?",
+        "B: Dad decided to polish off the last bit."
+      ],
+      "emoji": "🍕",
+      "imageQuery": null,
+      "note": "Yemek için ama iş için de: 'polish off the report'."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "psych yourself up",
+      "tr": "kendini gaza getirmek, moral toplamak",
+      "ipa": "/saɪk jɔːˈself ʌp/",
+      "pos": null,
+      "example": "I need ten minutes to psych myself up before a big call.",
+      "exampleTr": "Büyük bir görüşmeden önce kendimi hazırlamak için on dakikaya ihtiyacım var.",
+      "simple": "Tell yourself you can do it, so you feel ready and brave.",
+      "dialogue": [
+        "A: You've been staring at that door for ages.",
+        "B: I know. You've got to psych yourself up to ask for a raise."
+      ],
+      "emoji": "💪",
+      "imageQuery": null,
+      "note": "'yourself' kişiye göre değişir: myself, himself..."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "rattle off",
+      "tr": "(ezbere, hızlıca) sıralamak",
+      "ipa": "/ˈræt.əl ɒf/",
+      "pos": null,
+      "example": "She can rattle off every capital city in Europe.",
+      "exampleTr": "Avrupa'daki bütün başkentleri bir çırpıda sayabiliyor.",
+      "simple": "Say a long list very fast, without stopping to think.",
+      "dialogue": [
+        "A: Do you know all the passwords?",
+        "B: Yeah, I can rattle off the lot."
+      ],
+      "emoji": "🗣️",
+      "imageQuery": null,
+      "note": "Liste, isim, rakam sayarken; etkileyici ya da umursamaz bir hız."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "rein in",
+      "tr": "dizginlemek, frenlemek",
+      "ipa": "/reɪn ɪn/",
+      "pos": null,
+      "example": "We really need to rein in our spending this month.",
+      "exampleTr": "Bu ay harcamalarımızı gerçekten dizginlememiz lazım.",
+      "simple": "Stop something from going too far, like pulling a horse to slow it.",
+      "dialogue": [
+        "A: Another takeaway?",
+        "B: I know, I know, I need to rein in the takeaways."
+      ],
+      "emoji": "🐎",
+      "imageQuery": null,
+      "note": "Harcama, öfke, kontrolden çıkan biri için."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "sound out",
+      "tr": "(birinin) ağzını aramak, nabzını yoklamak",
+      "ipa": "/saʊnd aʊt/",
+      "pos": null,
+      "example": "Can you sound out the boss before I ask officially?",
+      "exampleTr": "Ben resmen sormadan önce patronun ağzını arar mısın?",
+      "simple": "Gently ask someone what they think, before you really ask.",
+      "dialogue": [
+        "A: Do you think Mark would join the team?",
+        "B: Not sure. Let me sound out his manager first."
+      ],
+      "emoji": "👂",
+      "imageQuery": null,
+      "note": "'sound someone out' de denir; burada bölünmemiş hali."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "swot up on",
+      "tr": "(bir konuya) sıkı çalışmak, inek gibi çalışmak",
+      "ipa": "/swɒt ʌp ɒn/",
+      "pos": null,
+      "example": "I need to swot up on Spanish before the trip.",
+      "exampleTr": "Geziden önce İspanyolcaya sıkı çalışmam lazım.",
+      "simple": "Study a topic hard and fast, usually before a test.",
+      "dialogue": [
+        "A: You know a lot about wine all of a sudden.",
+        "B: I had to swot up on it for the dinner party."
+      ],
+      "emoji": "📚",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi, gayriresmî. ABD'de 'bone up on'."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "wriggle out of",
+      "tr": "(bir sorumluluktan) sıyrılmak, yan çizmek",
+      "ipa": "/ˈrɪɡ.əl aʊt əv/",
+      "pos": null,
+      "example": "He always finds a way to wriggle out of washing up.",
+      "exampleTr": "Bulaşıktan sıyrılmanın hep bir yolunu buluyor.",
+      "simple": "Find a sneaky way not to do something you should do.",
+      "dialogue": [
+        "A: Is Tom helping us move on Saturday?",
+        "B: He'll try to wriggle out of it, trust me."
+      ],
+      "emoji": "🪱",
+      "imageQuery": null,
+      "note": "Kurnazca kaçmak; 'weasel out of' ile yakın."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "whip up",
+      "tr": "(yemek) çabucak hazırlamak; (duygu) körüklemek",
+      "ipa": "/wɪp ʌp/",
+      "pos": null,
+      "example": "Give me ten minutes and I'll whip up some pasta.",
+      "exampleTr": "On dakika ver, hemen bir makarna yapayım.",
+      "simple": "Make something to eat very quickly.",
+      "dialogue": [
+        "A: I'm starving and there's nothing in.",
+        "B: Don't worry, I can whip up an omelette."
+      ],
+      "emoji": "🍝",
+      "imageQuery": null,
+      "note": "'whip up support/anger' = desteği/öfkeyi körüklemek."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "spring for",
+      "tr": "(birinin yerine) parasını ödemek, cebinden çıkarmak",
+      "ipa": "/sprɪŋ fɔː/",
+      "pos": null,
+      "example": "Dad said he'd spring for dinner tonight.",
+      "exampleTr": "Babam bu akşamki yemeği kendisinin ödeyeceğini söyledi.",
+      "simple": "Pay for something, often for other people, as a treat.",
+      "dialogue": [
+        "A: Should we get the cheap seats?",
+        "B: Come on, let's spring for the good ones."
+      ],
+      "emoji": "💸",
+      "imageQuery": null,
+      "note": "Amerikan İngilizcesi, gayriresmî; İngiltere'de 'stump up' benzeri."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "rustle up",
+      "tr": "(eldekiyle) bir şeyler ayarlamak, uydurmak",
+      "ipa": "/ˈrʌs.əl ʌp/",
+      "pos": null,
+      "example": "Let me see if I can rustle up something for lunch.",
+      "exampleTr": "Bakayım, öğle yemeği için bir şeyler ayarlayabilir miyim.",
+      "simple": "Quickly find or make something with what you have.",
+      "dialogue": [
+        "A: We need two more people for the quiz team.",
+        "B: I'll rustle up a couple of mates."
+      ],
+      "emoji": "🥪",
+      "imageQuery": null,
+      "note": "Yemek, para, yardımcı bulmak için; 'whip up'tan daha doğaçlama."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "muscle in on",
+      "tr": "(zorla) araya girmek, el koymaya çalışmak",
+      "ipa": "/ˈmʌs.əl ɪn ɒn/",
+      "pos": null,
+      "example": "Another company is trying to muscle in on our clients.",
+      "exampleTr": "Başka bir şirket müşterilerimize çökmeye çalışıyor.",
+      "simple": "Push your way into something that belongs to other people.",
+      "dialogue": [
+        "A: Why is Gary at our meeting?",
+        "B: He wants to muscle in on our project."
+      ],
+      "emoji": "💪",
+      "imageQuery": null,
+      "note": "Olumsuz; iş, sohbet, fırsat için."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "pore over",
+      "tr": "üzerine eğilip incelemek",
+      "ipa": "/pɔːr ˈəʊ.vər/",
+      "pos": null,
+      "example": "He spent all weekend poring over the holiday brochures.",
+      "exampleTr": "Bütün hafta sonunu tatil broşürlerini inceleyerek geçirdi.",
+      "simple": "Look at something very carefully for a long time.",
+      "dialogue": [
+        "A: Have you signed the contract?",
+        "B: Not yet. I want to pore over it first."
+      ],
+      "emoji": "🔎",
+      "imageQuery": null,
+      "note": "'pour over' diye yazılmaz! Harita, belge, fotoğraf için."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "rack up",
+      "tr": "biriktirmek, (borç, puan) yığmak",
+      "ipa": "/ræk ʌp/",
+      "pos": null,
+      "example": "I managed to rack up a huge phone bill in Spain.",
+      "exampleTr": "İspanya'da kocaman bir telefon faturası biriktirdim.",
+      "simple": "Get more and more of something, like points or bills.",
+      "dialogue": [
+        "A: How many air miles have you got now?",
+        "B: I've managed to rack up loads this year."
+      ],
+      "emoji": "📈",
+      "imageQuery": null,
+      "note": "Borç, ceza, puan, mil, galibiyet için."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "rub off on",
+      "tr": "(huy, alışkanlık) birine sirayet etmek, bulaşmak",
+      "ipa": "/rʌb ɒf ɒn/",
+      "pos": null,
+      "example": "Her confidence has started to rub off on me.",
+      "exampleTr": "Onun özgüveni bana da geçmeye başladı.",
+      "simple": "When you spend time with someone and start to be like them.",
+      "dialogue": [
+        "A: Since when do you go running?",
+        "B: I guess Jake's habits have started to rub off on me."
+      ],
+      "emoji": "🧽",
+      "imageQuery": null,
+      "note": "Genelde olumlu; 'Don't let it rub off on you' uyarı olarak."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "sail through",
+      "tr": "(sınav, görev) kolayca geçmek",
+      "ipa": "/seɪl θruː/",
+      "pos": null,
+      "example": "Don't worry, you'll sail through the interview.",
+      "exampleTr": "Merak etme, mülakatı çantada keklik geçersin.",
+      "simple": "Pass something easily, with no problems.",
+      "dialogue": [
+        "A: I'm so nervous about my driving test.",
+        "B: You'll sail through it, honestly."
+      ],
+      "emoji": "⛵",
+      "imageQuery": null,
+      "note": "Sınav, mülakat, ehliyet için cesaretlendirirken."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "sponge off",
+      "tr": "(birinin) sırtından geçinmek, otlakçılık yapmak",
+      "ipa": "/spʌndʒ ɒf/",
+      "pos": null,
+      "example": "He's thirty and still sponges off his parents.",
+      "exampleTr": "Otuz yaşında ve hâlâ annesiyle babasının sırtından geçiniyor.",
+      "simple": "Live on someone else's money and give nothing back.",
+      "dialogue": [
+        "A: Is your cousin still living with you?",
+        "B: Yep. He's happy to sponge off us forever."
+      ],
+      "emoji": "🧽",
+      "imageQuery": null,
+      "note": "Olumsuz, gayriresmî; 'sponge' tek başına 'otlakçı' da olur."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "string along",
+      "tr": "(birini) oyalamak, boş umutla bekletmek",
+      "ipa": "/strɪŋ əˈlɒŋ/",
+      "pos": null,
+      "example": "I think he's just stringing her along.",
+      "exampleTr": "Bence onu sadece oyalıyor.",
+      "simple": "Make someone hope for something you won't really give them.",
+      "dialogue": [
+        "A: They keep saying the promotion is coming.",
+        "B: Sounds like they just string along anyone who waits."
+      ],
+      "emoji": "🧶",
+      "imageQuery": null,
+      "note": "İlişki veya iş teklifi için; 'string someone along' da olur."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "swan off",
+      "tr": "(sorumluluğu bırakıp) keyfince çekip gitmek",
+      "ipa": "/swɒn ɒf/",
+      "pos": null,
+      "example": "She swanned off to Ibiza and left me with the kids.",
+      "exampleTr": "Keyfince İbiza'ya gitti, çocukları bana bıraktı.",
+      "simple": "Go off to have fun while other people do the work.",
+      "dialogue": [
+        "A: Where's Phil?",
+        "B: He decided to swan off to lunch at eleven."
+      ],
+      "emoji": "🦢",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi, sitemli ve alaycı."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "whittle down",
+      "tr": "(azar azar) azaltmak, eleyerek indirmek",
+      "ipa": "/ˈwɪt.əl daʊn/",
+      "pos": null,
+      "example": "We've whittled down the list to three flats.",
+      "exampleTr": "Listeyi eleye eleye üç daireye indirdik.",
+      "simple": "Make a list or number smaller, bit by bit.",
+      "dialogue": [
+        "A: Have you picked a wedding venue?",
+        "B: We're trying to whittle down the options."
+      ],
+      "emoji": "🪵",
+      "imageQuery": null,
+      "note": "Aday, seçenek, borç sayısını azaltırken."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "waffle on",
+      "tr": "boş boş uzatmak, lafı dolandırmak",
+      "ipa": "/ˈwɒf.əl ɒn/",
+      "pos": null,
+      "example": "He'll waffle on for ages if you let him.",
+      "exampleTr": "İzin verirsen saatlerce lafı dolandırır.",
+      "simple": "Talk for a long time without saying anything useful.",
+      "dialogue": [
+        "A: How was the meeting?",
+        "B: Long. Steve likes to waffle on about nothing."
+      ],
+      "emoji": "🧇",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; 'Sorry, I'm waffling' diye kendini de eleştirebilirsin."
+    }
+  ]
+}

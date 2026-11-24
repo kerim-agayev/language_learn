@@ -1,0 +1,413 @@
+{
+  "topic": "Yumuşatma, hafifletme, kibar itiraz",
+  "items": [
+    {
+      "type": "CHUNK",
+      "en": "It's not ideal",
+      "tr": "ideal sayılmaz, pek iyi değil",
+      "ipa": null,
+      "pos": null,
+      "example": "Working this weekend? It's not ideal, but fine.",
+      "exampleTr": "Bu hafta sonu çalışmak mı? İdeal sayılmaz ama olur.",
+      "simple": "A soft way to say something is bad or annoying.",
+      "dialogue": [
+        "A: They've moved the meeting to 8 a.m. on Friday.",
+        "B: Hmm. It's not ideal, but I'll be there."
+      ],
+      "emoji": "😬",
+      "imageQuery": null,
+      "note": "İngilizler 'berbat' yerine böyle der; kötüyü hafifletir."
+    },
+    {
+      "type": "CHUNK",
+      "en": "That could have gone better",
+      "tr": "daha iyi geçebilirdi (kötü geçti)",
+      "ipa": null,
+      "pos": null,
+      "example": "Well, that could have gone better. Nobody laughed at my joke.",
+      "exampleTr": "Eh, daha iyi geçebilirdi. Esprime kimse gülmedi.",
+      "simple": "A soft way to say: that went badly.",
+      "dialogue": [
+        "A: How was the presentation?",
+        "B: That could have gone better. My laptop died halfway through."
+      ],
+      "emoji": "😅",
+      "imageQuery": null,
+      "note": "Kötü giden bir şeyden sonra kendini tiye alan kuru ifade."
+    },
+    {
+      "type": "CHUNK",
+      "en": "a bit of a nightmare",
+      "tr": "epey sıkıntılı, tam bir kabus",
+      "ipa": null,
+      "pos": null,
+      "example": "Getting here was a bit of a nightmare, the roads were blocked.",
+      "exampleTr": "Buraya gelmek tam bir kabustu, yollar kapalıydı.",
+      "simple": "Very hard or very annoying, but you say it softly.",
+      "dialogue": [
+        "A: How was the move?",
+        "B: A bit of a nightmare, honestly. The van never showed up."
+      ],
+      "emoji": "😩",
+      "imageQuery": null,
+      "note": "'a bit of a' kötü şeyi yumuşatır: a bit of a mess, a bit of a problem."
+    },
+    {
+      "type": "CHUNK",
+      "en": "leave a lot to be desired",
+      "tr": "çok eksiği olmak, pek tatmin edici olmamak",
+      "ipa": null,
+      "pos": null,
+      "example": "The service in that place leaves a lot to be desired.",
+      "exampleTr": "O mekandaki hizmetin çok eksiği var.",
+      "simple": "It is not good. It should be much better.",
+      "dialogue": [
+        "A: Did you like the new café?",
+        "B: The coffee's great, but the service does leave a lot to be desired."
+      ],
+      "emoji": "👎",
+      "imageQuery": null,
+      "note": "Kibar ama net eleştiri; hizmet, yemek, iş kalitesi için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "on the pricey side",
+      "tr": "biraz pahalıca",
+      "ipa": null,
+      "pos": null,
+      "example": "It's lovely, but it's a bit on the pricey side.",
+      "exampleTr": "Çok güzel ama biraz pahalıca.",
+      "simple": "It costs a little too much money.",
+      "dialogue": [
+        "A: What did you think of the flat?",
+        "B: Nice area, but it's on the pricey side."
+      ],
+      "emoji": "💸",
+      "imageQuery": null,
+      "note": "'on the ... side' kalıbı yumuşatır: on the small side, on the late side."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I've had better days",
+      "tr": "daha iyi günlerim olmuştu, pek iyi sayılmam",
+      "ipa": null,
+      "pos": null,
+      "example": "I've had better days, to be honest. My car broke down this morning.",
+      "exampleTr": "Açıkçası daha iyi günlerim olmuştu. Bu sabah arabam bozuldu.",
+      "simple": "A soft way to say: today is a bad day.",
+      "dialogue": [
+        "A: You okay? You look shattered.",
+        "B: I've had better days. The baby was up all night."
+      ],
+      "emoji": "😮‍💨",
+      "imageQuery": null,
+      "note": "'Nasılsın?' sorusuna dürüst ama dramatik olmayan cevap."
+    },
+    {
+      "type": "CHUNK",
+      "en": "not half bad",
+      "tr": "hiç fena değil, gayet iyi",
+      "ipa": null,
+      "pos": null,
+      "example": "This homemade pizza is not half bad!",
+      "exampleTr": "Bu ev yapımı pizza hiç fena değil!",
+      "simple": "It is quite good, better than you thought.",
+      "dialogue": [
+        "A: So? What do you think of my curry?",
+        "B: Not half bad, actually. Is there any more?"
+      ],
+      "emoji": "👌",
+      "imageQuery": null,
+      "note": "Daha çok İngiliz İngilizcesi; aslında övgüdür."
+    },
+    {
+      "type": "CHUNK",
+      "en": "You could say that",
+      "tr": "öyle de denebilir (hem de nasıl)",
+      "ipa": null,
+      "pos": null,
+      "example": "\"Was the party loud?\" \"You could say that. The police turned up.\"",
+      "exampleTr": "\"Parti gürültülü müydü?\" \"Öyle de denebilir. Polis geldi.\"",
+      "simple": "Yes, and really much more than that.",
+      "dialogue": [
+        "A: Was the exam hard?",
+        "B: You could say that. Half the class left in tears."
+      ],
+      "emoji": "😏",
+      "imageQuery": null,
+      "note": "Kuru mizahla 'evet, hem de fazlasıyla' demek."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Let's just say",
+      "tr": "şöyle söyleyeyim, diyelim ki",
+      "ipa": null,
+      "pos": null,
+      "example": "Let's just say the date didn't end well.",
+      "exampleTr": "Şöyle söyleyeyim, buluşma pek iyi bitmedi.",
+      "simple": "You hint at something bad without telling every detail.",
+      "dialogue": [
+        "A: How did your parents take the news?",
+        "B: Let's just say they weren't thrilled."
+      ],
+      "emoji": "🤐",
+      "imageQuery": null,
+      "note": "Ayrıntıya girmeden kötü bir şeyi ima etmek için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I could be wrong, but",
+      "tr": "yanılıyor olabilirim ama",
+      "ipa": null,
+      "pos": null,
+      "example": "I could be wrong, but isn't the shop closed on Sundays?",
+      "exampleTr": "Yanılıyor olabilirim ama dükkan pazar günleri kapalı değil mi?",
+      "simple": "You are not fully sure, so you say it softly.",
+      "dialogue": [
+        "A: The deadline's next Friday.",
+        "B: I could be wrong, but I think it's this Friday."
+      ],
+      "emoji": "🤔",
+      "imageQuery": null,
+      "note": "Birini kibarca düzeltmenin en yaygın yolu."
+    },
+    {
+      "type": "CHUNK",
+      "en": "That's one way of looking at it",
+      "tr": "bu da bir bakış açısı (pek katılmıyorum)",
+      "ipa": null,
+      "pos": null,
+      "example": "\"Getting fired is a fresh start.\" \"That's one way of looking at it.\"",
+      "exampleTr": "\"Kovulmak yeni bir başlangıçtır.\" \"Bu da bir bakış açısı.\"",
+      "simple": "You don't really agree, but you say it nicely.",
+      "dialogue": [
+        "A: Missing the flight means an extra day of holiday!",
+        "B: Well, that's one way of looking at it."
+      ],
+      "emoji": "🧐",
+      "imageQuery": null,
+      "note": "Kibar ama hafif alaycı itiraz."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I'm not sure I'd agree",
+      "tr": "pek katıldığımı söyleyemem",
+      "ipa": null,
+      "pos": null,
+      "example": "I'm not sure I'd agree. He's always been fair to me.",
+      "exampleTr": "Pek katıldığımı söyleyemem. Bana hep adil davrandı.",
+      "simple": "A gentle way to say: I don't agree.",
+      "dialogue": [
+        "A: The new boss is useless.",
+        "B: I'm not sure I'd agree. Give her a chance."
+      ],
+      "emoji": "🤨",
+      "imageQuery": null,
+      "note": "'I disagree' demekten çok daha yumuşak."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I hear what you're saying, but",
+      "tr": "ne demek istediğini anlıyorum ama",
+      "ipa": null,
+      "pos": null,
+      "example": "I hear what you're saying, but we just don't have the budget.",
+      "exampleTr": "Ne demek istediğini anlıyorum ama bütçemiz yok.",
+      "simple": "I understand you, but I still think something different.",
+      "dialogue": [
+        "A: We should hire two more people.",
+        "B: I hear what you're saying, but who's going to pay for them?"
+      ],
+      "emoji": "👂",
+      "imageQuery": null,
+      "note": "İş yerinde kibar itiraz; ardından asıl görüşün gelir."
+    },
+    {
+      "type": "CHUNK",
+      "en": "for want of a better word",
+      "tr": "daha iyi bir kelime bulamadığım için",
+      "ipa": null,
+      "pos": null,
+      "example": "He's, for want of a better word, a bit intense.",
+      "exampleTr": "Daha iyi bir kelime bulamıyorum ama biraz yoğun biri.",
+      "simple": "You use a word, but you know it is not the perfect word.",
+      "dialogue": [
+        "A: How would you describe her new boyfriend?",
+        "B: He's... quirky, for want of a better word."
+      ],
+      "emoji": "🔤",
+      "imageQuery": null,
+      "note": "Tam oturmayan bir kelimeyi kullanırken araya eklenir."
+    },
+    {
+      "type": "CHUNK",
+      "en": "It's not without its problems",
+      "tr": "sorunsuz da değil",
+      "ipa": null,
+      "pos": null,
+      "example": "The new system's faster, but it's not without its problems.",
+      "exampleTr": "Yeni sistem daha hızlı ama sorunsuz da değil.",
+      "simple": "It is good, but it has some bad parts too.",
+      "dialogue": [
+        "A: Do you like working from home?",
+        "B: Mostly, yeah. It's not without its problems, though."
+      ],
+      "emoji": "⚠️",
+      "imageQuery": null,
+      "note": "Çifte olumsuzla hafifletme: 'birkaç sorunu var' demenin kibar yolu."
+    },
+    {
+      "type": "CHUNK",
+      "en": "rough around the edges",
+      "tr": "biraz ham, cilasız",
+      "ipa": null,
+      "pos": null,
+      "example": "The app's a bit rough around the edges, but it works.",
+      "exampleTr": "Uygulama biraz ham ama çalışıyor.",
+      "simple": "Mostly good, but not finished or smooth yet.",
+      "dialogue": [
+        "A: What do you make of the new guy?",
+        "B: He's rough around the edges, but he's a hard worker."
+      ],
+      "emoji": "🪨",
+      "imageQuery": null,
+      "note": "İşler için de insanlar için de: kaba görünen ama iyi biri."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I wouldn't say no",
+      "tr": "hayır demem (isterim)",
+      "ipa": null,
+      "pos": null,
+      "example": "\"Another slice of cake?\" \"I wouldn't say no.\"",
+      "exampleTr": "\"Bir dilim daha pasta?\" \"Hayır demem.\"",
+      "simple": "A shy, polite way to say: yes, please.",
+      "dialogue": [
+        "A: Fancy a cup of tea?",
+        "B: Ooh, I wouldn't say no."
+      ],
+      "emoji": "🍰",
+      "imageQuery": null,
+      "note": "İngilizcede 'evet' demenin alçakgönüllü yolu."
+    },
+    {
+      "type": "CHUNK",
+      "en": "There's a slight problem",
+      "tr": "ufak bir sorun var (aslında büyük)",
+      "ipa": null,
+      "pos": null,
+      "example": "There's a slight problem: I've locked the keys in the car.",
+      "exampleTr": "Ufak bir sorun var: anahtarları arabanın içinde kilitledim.",
+      "simple": "You say small problem, but it is really a big one.",
+      "dialogue": [
+        "A: Is everything ready for the party?",
+        "B: There's a slight problem. The cake is on the floor."
+      ],
+      "emoji": "🔑",
+      "imageQuery": null,
+      "note": "Kötü haberi yumuşatmak için; çoğu zaman komik etki yaratır."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I see it a bit differently",
+      "tr": "ben biraz farklı görüyorum",
+      "ipa": null,
+      "pos": null,
+      "example": "I see it a bit differently. I think the price is the real issue.",
+      "exampleTr": "Ben biraz farklı görüyorum. Bence asıl sorun fiyat.",
+      "simple": "A kind way to say you have another idea.",
+      "dialogue": [
+        "A: The problem is clearly the marketing.",
+        "B: I see it a bit differently, actually."
+      ],
+      "emoji": "👓",
+      "imageQuery": null,
+      "note": "Toplantıda karşı görüşü çatışmasız sunmak için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "correct me if I'm wrong",
+      "tr": "yanılıyorsam düzelt",
+      "ipa": null,
+      "pos": null,
+      "example": "Correct me if I'm wrong, but didn't you say you'd be here at nine?",
+      "exampleTr": "Yanılıyorsam düzelt ama dokuzda burada olacağını söylememiş miydin?",
+      "simple": "You think you are right, but you ask in a polite way.",
+      "dialogue": [
+        "A: I never said I'd help with the move.",
+        "B: Correct me if I'm wrong, but you literally said 'count me in'."
+      ],
+      "emoji": "☝️",
+      "imageQuery": null,
+      "note": "Çoğu zaman aslında haklı olduğunu ima eder."
+    },
+    {
+      "type": "CHUNK",
+      "en": "It's not the worst idea",
+      "tr": "fena fikir değil",
+      "ipa": null,
+      "pos": null,
+      "example": "Ordering pizza? It's not the worst idea.",
+      "exampleTr": "Pizza söylemek mi? Fena fikir değil.",
+      "simple": "A soft way to say: that idea is quite good.",
+      "dialogue": [
+        "A: What if we leave early and beat the traffic?",
+        "B: It's not the worst idea."
+      ],
+      "emoji": "💡",
+      "imageQuery": null,
+      "note": "Övgüyü olumsuzla yumuşatmak, tipik İngiliz tarzı."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I'm a little concerned that",
+      "tr": "...dan biraz endişeliyim",
+      "ipa": null,
+      "pos": null,
+      "example": "I'm a little concerned that we haven't heard back from them.",
+      "exampleTr": "Onlardan hâlâ haber alamamış olmamız beni biraz endişelendiriyor.",
+      "simple": "You are worried, but you say it calmly.",
+      "dialogue": [
+        "A: The client hasn't replied all week.",
+        "B: Yeah, I'm a little concerned that they've lost interest."
+      ],
+      "emoji": "😟",
+      "imageQuery": null,
+      "note": "İş yerinde kaygıyı panik yaratmadan dile getirmek için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "not really my thing",
+      "tr": "pek bana göre değil",
+      "ipa": null,
+      "pos": null,
+      "example": "Karaoke's not really my thing, but I'll come and watch.",
+      "exampleTr": "Karaoke pek bana göre değil ama gelip izlerim.",
+      "simple": "You don't like it much, but you say it kindly.",
+      "dialogue": [
+        "A: Want to come to the salsa class?",
+        "B: Thanks, but dancing's not really my thing."
+      ],
+      "emoji": "🎤",
+      "imageQuery": null,
+      "note": "'Nefret ederim' demeden kibarca geri çevirmek."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I'm not sure that's quite right",
+      "tr": "bunun tam doğru olduğundan emin değilim",
+      "ipa": null,
+      "pos": null,
+      "example": "I'm not sure that's quite right. I think we paid more than that.",
+      "exampleTr": "Bunun tam doğru olduğundan emin değilim. Sanırım daha fazla ödedik.",
+      "simple": "A polite way to say: I think that is wrong.",
+      "dialogue": [
+        "A: So the trip cost us about two hundred quid.",
+        "B: I'm not sure that's quite right. Check the receipts."
+      ],
+      "emoji": "📏",
+      "imageQuery": null,
+      "note": "'You're wrong' demenin çok daha kibar hali."
+    }
+  ]
+}

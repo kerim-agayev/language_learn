@@ -1,0 +1,447 @@
+{
+  "topic": "Para, kira ve resmî işler",
+  "items": [
+    {
+      "type": "CHUNK",
+      "en": "hard up",
+      "tr": "darda, sıkıntıda",
+      "ipa": null,
+      "pos": null,
+      "example": "We were pretty hard up when I was a kid.",
+      "exampleTr": "Ben çocukken epey darda kalmıştık.",
+      "simple": "Not having enough money, often for a long time.",
+      "dialogue": [
+        "A: Why don't you ask your parents for help?",
+        "B: They're pretty hard up themselves."
+      ],
+      "emoji": "🪹",
+      "imageQuery": null,
+      "note": "'skint'ten daha uzun süreli yoksulluk; biraz eski usul ama yaygın."
+    },
+    {
+      "type": "WORD",
+      "en": "flush",
+      "tr": "(geçici olarak) paralı, cebi dolu",
+      "ipa": "/flʌʃ/",
+      "pos": "adjective",
+      "example": "I'm feeling flush this month, dinner's on me.",
+      "exampleTr": "Bu ay cebim dolu, yemek benden.",
+      "simple": "Having lots of money right now, for a short time.",
+      "dialogue": [
+        "A: You bought everyone drinks?",
+        "B: I just got my bonus, so I'm flush."
+      ],
+      "emoji": "🤑",
+      "imageQuery": null,
+      "note": "Gayriresmî; genelde maaş ya da ikramiyeden sonra."
+    },
+    {
+      "type": "WORD",
+      "en": "splurge",
+      "tr": "(bir şeye) har vurup harman savurmak, çılgınca para harcamak",
+      "ipa": "/splɜːdʒ/",
+      "pos": "verb",
+      "example": "I splurged on a really nice coat in the sales.",
+      "exampleTr": "İndirimde çok güzel bir montu kafaya taktım ve aldım.",
+      "simple": "Spend a lot of money on something nice, just for fun.",
+      "dialogue": [
+        "A: Nice watch!",
+        "B: Thanks. I decided to splurge for my birthday."
+      ],
+      "emoji": "🛍️",
+      "imageQuery": null,
+      "note": "Fiil ve isim: 'a little splurge' = küçük bir şımarıklık."
+    },
+    {
+      "type": "WORD",
+      "en": "overdraft",
+      "tr": "kredili mevduat hesabı, eksi bakiye",
+      "ipa": "/ˈəʊ.və.drɑːft/",
+      "pos": "noun",
+      "example": "I'm already deep into my overdraft and it's only the tenth.",
+      "exampleTr": "Ayın daha onu ve şimdiden eksi hesaba epey girdim.",
+      "simple": "Money the bank lets you spend when your account is empty.",
+      "dialogue": [
+        "A: Can you lend me fifty quid?",
+        "B: Sorry, I'm in my overdraft myself."
+      ],
+      "emoji": "🏦",
+      "imageQuery": null,
+      "note": "'go into my overdraft' = hesabı eksiye düşürmek."
+    },
+    {
+      "type": "WORD",
+      "en": "haggle",
+      "tr": "pazarlık etmek",
+      "ipa": "/ˈhæɡ.əl/",
+      "pos": "verb",
+      "example": "You have to haggle at the market, nobody pays full price.",
+      "exampleTr": "Pazarda pazarlık etmen lazım, kimse tam fiyat ödemez.",
+      "simple": "Talk with a seller to make the price lower.",
+      "dialogue": [
+        "A: He wanted forty for that lamp.",
+        "B: Did you haggle? I'd have paid twenty."
+      ],
+      "emoji": "🤝",
+      "imageQuery": null,
+      "note": "'haggle over the price' kalıbı."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "a rent hike",
+      "tr": "kira artışı",
+      "ipa": "/ə rent haɪk/",
+      "pos": null,
+      "example": "The landlord just hit us with a massive rent hike.",
+      "exampleTr": "Ev sahibi bize kocaman bir kira artışı yaptı.",
+      "simple": "When the owner suddenly makes you pay more money to live there.",
+      "dialogue": [
+        "A: Why are you moving out?",
+        "B: We just got a rent hike, and I can't afford it."
+      ],
+      "emoji": "📈",
+      "imageQuery": null,
+      "note": "'hike' = ani ve büyük artış; 'price hike' da yaygın."
+    },
+    {
+      "type": "WORD",
+      "en": "freebie",
+      "tr": "bedava şey, promosyon",
+      "ipa": "/ˈfriː.bi/",
+      "pos": "noun",
+      "example": "I came back from the conference with a bag full of freebies.",
+      "exampleTr": "Konferanstan bir çanta dolusu promosyonla döndüm.",
+      "simple": "A small thing you get for free, like a pen or a sample.",
+      "dialogue": [
+        "A: Where did you get that mug?",
+        "B: It was a freebie from the bank."
+      ],
+      "emoji": "🎁",
+      "imageQuery": null,
+      "note": "Gayriresmî; fuar, otel, mağaza için."
+    },
+    {
+      "type": "WORD",
+      "en": "fleece",
+      "tr": "(birini) kazıklamak, soymak",
+      "ipa": "/fliːs/",
+      "pos": "verb",
+      "example": "The taxi driver totally fleeced us.",
+      "exampleTr": "Taksici bizi fena kazıkladı.",
+      "simple": "Take too much money from someone by tricking them.",
+      "dialogue": [
+        "A: Twelve euros for a coffee?",
+        "B: They fleece tourists here."
+      ],
+      "emoji": "🐑",
+      "imageQuery": null,
+      "note": "Gayriresmî; turist tuzakları için çok yaygın."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "a nest egg",
+      "tr": "kenarda biriktirilmiş para, birikim",
+      "ipa": "/ə ˈnest eɡ/",
+      "pos": null,
+      "example": "We've built up a nice little nest egg for retirement.",
+      "exampleTr": "Emeklilik için kenarda güzel bir birikim yaptık.",
+      "simple": "Money you save slowly and keep safe for later.",
+      "dialogue": [
+        "A: Are you going to spend the inheritance?",
+        "B: No, it'll be a nest egg for the kids."
+      ],
+      "emoji": "🪺",
+      "imageQuery": null,
+      "note": "'a nice little nest egg' çok tipik."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "dip into my savings",
+      "tr": "birikimimden harcamak, kenardakine el atmak",
+      "ipa": "/dɪp ˈɪn.tuː maɪ ˈseɪ.vɪŋz/",
+      "pos": null,
+      "example": "I had to dip into my savings to fix the car.",
+      "exampleTr": "Arabayı tamir ettirmek için birikimime el atmak zorunda kaldım.",
+      "simple": "Take some of the money you saved, because you need it now.",
+      "dialogue": [
+        "A: How did you pay for the new boiler?",
+        "B: I had to dip into my savings."
+      ],
+      "emoji": "🫙",
+      "imageQuery": null,
+      "note": "'my' kişiye göre değişir."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "get my deposit back",
+      "tr": "depozitomu geri almak",
+      "ipa": "/ɡet maɪ dɪˈpɒz.ɪt bæk/",
+      "pos": null,
+      "example": "I cleaned the whole flat so I'd get my deposit back.",
+      "exampleTr": "Depozitomu geri alayım diye bütün daireyi temizledim.",
+      "simple": "Get back the money you paid the owner before you moved in.",
+      "dialogue": [
+        "A: Why are you scrubbing the oven?",
+        "B: I want to get my deposit back."
+      ],
+      "emoji": "🔑",
+      "imageQuery": null,
+      "note": "Kiracılıkta: 'The landlord kept my deposit' = depozitomu vermedi."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "set up a direct debit",
+      "tr": "otomatik ödeme talimatı vermek",
+      "ipa": "/set ʌp ə dəˌrekt ˈdeb.ɪt/",
+      "pos": null,
+      "example": "Just set up a direct debit and you'll never miss a bill.",
+      "exampleTr": "Otomatik ödeme talimatı ver, hiçbir faturayı kaçırmazsın.",
+      "simple": "Tell the bank to pay a bill by itself every month.",
+      "dialogue": [
+        "A: I keep forgetting to pay the gym.",
+        "B: Why don't you set up a direct debit?"
+      ],
+      "emoji": "🔁",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; ABD'de 'set up autopay'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "bills included",
+      "tr": "faturalar dahil",
+      "ipa": null,
+      "pos": null,
+      "example": "It's eight hundred a month, bills included.",
+      "exampleTr": "Aylığı sekiz yüz, faturalar dahil.",
+      "simple": "The price already has water, power and internet in it.",
+      "dialogue": [
+        "A: Is the rent for the flat high?",
+        "B: Not really. It's six hundred, bills included."
+      ],
+      "emoji": "🧾",
+      "imageQuery": null,
+      "note": "Kiralık ilanlarında çok sık; 'excluding bills' = faturalar hariç."
+    },
+    {
+      "type": "CHUNK",
+      "en": "strapped for cash",
+      "tr": "eli dar, nakit sıkıntısında",
+      "ipa": null,
+      "pos": null,
+      "example": "We're a bit strapped for cash until the end of the month.",
+      "exampleTr": "Ay sonuna kadar biraz eli darız.",
+      "simple": "Not having enough money right now.",
+      "dialogue": [
+        "A: Want to come to the gig?",
+        "B: I'm a bit strapped for cash this week."
+      ],
+      "emoji": "🪢",
+      "imageQuery": null,
+      "note": "Gayriresmî ama kibar; 'skint' kadar argo değil."
+    },
+    {
+      "type": "CHUNK",
+      "en": "paycheck to paycheck",
+      "tr": "maaştan maaşa, ancak ay sonunu getirerek",
+      "ipa": null,
+      "pos": null,
+      "example": "Most of my friends are living paycheck to paycheck.",
+      "exampleTr": "Arkadaşlarımın çoğu maaştan maaşa yaşıyor.",
+      "simple": "All your money is gone before you get paid again.",
+      "dialogue": [
+        "A: Have you got any savings?",
+        "B: Savings? I live paycheck to paycheck."
+      ],
+      "emoji": "🗓️",
+      "imageQuery": null,
+      "note": "ABD kökenli; İngiltere'de 'payday to payday' de denir."
+    },
+    {
+      "type": "CHUNK",
+      "en": "daylight robbery",
+      "tr": "düpedüz soygun, fahiş fiyat",
+      "ipa": null,
+      "pos": null,
+      "example": "Eight pounds for a pint? That's daylight robbery!",
+      "exampleTr": "Bir bira sekiz pound mu? Bu düpedüz soygun!",
+      "simple": "A price that is so high it feels like stealing.",
+      "dialogue": [
+        "A: Parking here is twenty quid a day.",
+        "B: Daylight robbery!"
+      ],
+      "emoji": "🦹",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; ABD'de 'highway robbery'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "the small print",
+      "tr": "ince ayrıntılar, küçük puntolu şartlar",
+      "ipa": null,
+      "pos": null,
+      "example": "Always read the small print before you sign.",
+      "exampleTr": "İmzalamadan önce küçük puntolu şartları mutlaka oku.",
+      "simple": "The tiny writing in a contract, where the bad news hides.",
+      "dialogue": [
+        "A: The phone deal was free, but now they want money.",
+        "B: Did you read the small print?"
+      ],
+      "emoji": "📄",
+      "imageQuery": null,
+      "note": "ABD'de 'the fine print'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "red tape",
+      "tr": "bürokrasi, kırtasiyecilik",
+      "ipa": null,
+      "pos": null,
+      "example": "There's so much red tape just to get a parking permit.",
+      "exampleTr": "Sadece park izni almak için bile o kadar bürokrasi var ki.",
+      "simple": "Lots of forms and slow rules that make simple things take ages.",
+      "dialogue": [
+        "A: Have you got your visa yet?",
+        "B: No, I'm still stuck in red tape."
+      ],
+      "emoji": "📋",
+      "imageQuery": null,
+      "note": "'cut through the red tape' = bürokrasiyi aşmak."
+    },
+    {
+      "type": "CHUNK",
+      "en": "pay through the nose",
+      "tr": "fahiş fiyat ödemek, kazık yemek",
+      "ipa": null,
+      "pos": null,
+      "example": "If you book last minute, you pay through the nose.",
+      "exampleTr": "Son dakika alırsan kazığı yersin.",
+      "simple": "Pay much more money than something should cost.",
+      "dialogue": [
+        "A: How much were the concert tickets?",
+        "B: Don't ask. We had to pay through the nose."
+      ],
+      "emoji": "👃",
+      "imageQuery": null,
+      "note": "'pay through the nose for something' kalıbı."
+    },
+    {
+      "type": "CHUNK",
+      "en": "tighten our belts",
+      "tr": "kemerleri sıkmak",
+      "ipa": null,
+      "pos": null,
+      "example": "With the baby coming, we'll have to tighten our belts.",
+      "exampleTr": "Bebek geliyor, kemerleri sıkmamız gerekecek.",
+      "simple": "Spend less money because times are hard.",
+      "dialogue": [
+        "A: No holiday this year?",
+        "B: Nope. We need to tighten our belts."
+      ],
+      "emoji": "🪢",
+      "imageQuery": null,
+      "note": "'our' kişiye göre değişir; Türkçedeki 'kemer sıkmak' ile birebir."
+    },
+    {
+      "type": "CHUNK",
+      "en": "a money pit",
+      "tr": "para yutan kuyu, dipsiz kuyu",
+      "ipa": null,
+      "pos": null,
+      "example": "That old house turned out to be a money pit.",
+      "exampleTr": "O eski ev tam bir para kuyusu çıktı.",
+      "simple": "A thing that keeps needing more and more money, like an old house.",
+      "dialogue": [
+        "A: Another repair on the car?",
+        "B: I know. It's a money pit."
+      ],
+      "emoji": "🕳️",
+      "imageQuery": null,
+      "note": "Ev, eski araba, tekne için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "go halves",
+      "tr": "yarı yarıya ödemek",
+      "ipa": null,
+      "pos": null,
+      "example": "Let's go halves on a taxi.",
+      "exampleTr": "Taksiyi yarı yarıya ödeyelim.",
+      "simple": "Two people each pay half.",
+      "dialogue": [
+        "A: That pizza's huge.",
+        "B: Want to go halves?"
+      ],
+      "emoji": "➗",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi, gayriresmî; 'go halves on something'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "stuck on hold",
+      "tr": "telefonda bekletilmek",
+      "ipa": null,
+      "pos": null,
+      "example": "I've been stuck on hold with the bank for forty minutes.",
+      "exampleTr": "Kırk dakikadır bankada telefonda bekletiliyorum.",
+      "simple": "Waiting on the phone, listening to music, for someone to answer.",
+      "dialogue": [
+        "A: Did you sort out the internet bill?",
+        "B: No, I was stuck on hold for an hour."
+      ],
+      "emoji": "☎️",
+      "imageQuery": null,
+      "note": "'put someone on hold' = hatta bekletmek."
+    },
+    {
+      "type": "CHUNK",
+      "en": "money's a bit tight",
+      "tr": "paralar biraz kısıtlı, eli dar",
+      "ipa": null,
+      "pos": null,
+      "example": "Money's a bit tight at the moment, so we're staying in.",
+      "exampleTr": "Şu an paralar biraz kısıtlı, o yüzden evdeyiz.",
+      "simple": "There isn't much money right now.",
+      "dialogue": [
+        "A: Are you coming skiing this year?",
+        "B: I'd love to, but money's a bit tight."
+      ],
+      "emoji": "💷",
+      "imageQuery": null,
+      "note": "Para sıkıntısını kibarca söylemenin en yaygın yolu."
+    },
+    {
+      "type": "CHUNK",
+      "en": "the going rate",
+      "tr": "piyasa fiyatı, geçerli ücret",
+      "ipa": null,
+      "pos": null,
+      "example": "What's the going rate for a babysitter these days?",
+      "exampleTr": "Bu aralar bebek bakıcısının piyasa ücreti ne kadar?",
+      "simple": "The normal price most people pay for something right now.",
+      "dialogue": [
+        "A: He wants fifteen an hour for tutoring.",
+        "B: That's about the going rate."
+      ],
+      "emoji": "🏷️",
+      "imageQuery": null,
+      "note": "Ücret, kira, hizmet bedeli sorarken."
+    },
+    {
+      "type": "CHUNK",
+      "en": "break even",
+      "tr": "kâr da zarar da etmemek, başa baş gelmek",
+      "ipa": null,
+      "pos": null,
+      "example": "After all the costs, we barely managed to break even.",
+      "exampleTr": "Tüm masraflardan sonra ancak başa baş geldik.",
+      "simple": "You make back the same money you spent, no more, no less.",
+      "dialogue": [
+        "A: Did the bake sale make any money?",
+        "B: We just about managed to break even."
+      ],
+      "emoji": "⚖️",
+      "imageQuery": null,
+      "note": "Yan iş, etkinlik, garaj satışı için de."
+    }
+  ]
+}

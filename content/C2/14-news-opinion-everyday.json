@@ -1,0 +1,447 @@
+{
+  "topic": "Haberler, dedikodu ve görüş bildirmek",
+  "items": [
+    {
+      "type": "CHUNK",
+      "en": "Have you seen what's going on with",
+      "tr": "... olanları gördün mü?",
+      "ipa": null,
+      "pos": null,
+      "example": "Have you seen what's going on with the trains this week?",
+      "exampleTr": "Bu hafta trenlerde olanları gördün mü?",
+      "simple": "A way to start talking about some news you want to discuss.",
+      "dialogue": [
+        "A: Have you seen what's going on with the petrol prices?",
+        "B: I know! I nearly cried at the pump."
+      ],
+      "emoji": "📰",
+      "imageQuery": null,
+      "note": "Haber/dedikodu sohbetini açmanın en doğal yolu."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I'll believe it when I see it",
+      "tr": "görmeden inanmam",
+      "ipa": null,
+      "pos": null,
+      "example": "They say the new road will open in May. I'll believe it when I see it.",
+      "exampleTr": "Yeni yolun mayısta açılacağını söylüyorlar. Görmeden inanmam.",
+      "simple": "You don't trust a promise until it really happens.",
+      "dialogue": [
+        "A: The landlord says he'll fix the heating this week.",
+        "B: I'll believe it when I see it."
+      ],
+      "emoji": "🙄",
+      "imageQuery": null,
+      "note": "Siyasi vaatler, tamirci sözleri için alaycı."
+    },
+    {
+      "type": "CHUNK",
+      "en": "The way I see it",
+      "tr": "bence, bana kalırsa",
+      "ipa": null,
+      "pos": null,
+      "example": "The way I see it, they should have resigned weeks ago.",
+      "exampleTr": "Bana kalırsa haftalar önce istifa etmeleri gerekirdi.",
+      "simple": "Words you say before you tell your own idea about something.",
+      "dialogue": [
+        "A: Do you think the strike will work?",
+        "B: The way I see it, they've got nothing to lose."
+      ],
+      "emoji": "👓",
+      "imageQuery": null,
+      "note": "Görüş bildirmeye başlarken; 'In my opinion'dan daha sohbet dili."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I'm not one for gossip, but",
+      "tr": "dedikoduyu sevmem ama...",
+      "ipa": null,
+      "pos": null,
+      "example": "I'm not one for gossip, but guess who's leaving?",
+      "exampleTr": "Dedikoduyu sevmem ama bil bakalım kim ayrılıyor?",
+      "simple": "Something people say right before they share some gossip.",
+      "dialogue": [
+        "A: I'm not one for gossip, but did you hear about Dan and Lucy?",
+        "B: No! Tell me everything."
+      ],
+      "emoji": "🤭",
+      "imageQuery": null,
+      "note": "Esprili ikiyüzlülük: bunu diyen hemen dedikodu yapar."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Word on the street is",
+      "tr": "kulağıma gelene göre, söylentiye göre",
+      "ipa": null,
+      "pos": null,
+      "example": "Word on the street is they're closing the Leeds office.",
+      "exampleTr": "Söylentiye göre Leeds ofisini kapatıyorlar.",
+      "simple": "People are saying this, but nobody is sure it's true.",
+      "dialogue": [
+        "A: Any news about the restructure?",
+        "B: Word on the street is it's happening in March."
+      ],
+      "emoji": "🗣️",
+      "imageQuery": null,
+      "note": "Gayriresmî, hafif esprili; 'Rumour has it' ile yakın."
+    },
+    {
+      "type": "CHUNK",
+      "en": "You couldn't make it up",
+      "tr": "uydursan bu kadar olmaz",
+      "ipa": null,
+      "pos": null,
+      "example": "The minister got caught speeding on his way to a road safety talk. You couldn't make it up.",
+      "exampleTr": "Bakan, trafik güvenliği konuşmasına giderken hız yaparken yakalandı. Uydursan bu kadar olmaz.",
+      "simple": "Something is so silly or strange that nobody could invent it.",
+      "dialogue": [
+        "A: The fire station burned down last night.",
+        "B: Seriously? You couldn't make it up."
+      ],
+      "emoji": "🤯",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; absürt haberler için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Who'd have thought",
+      "tr": "kimin aklına gelirdi, kim derdi",
+      "ipa": null,
+      "pos": null,
+      "example": "Who'd have thought he'd end up running the company?",
+      "exampleTr": "Kim derdi onun şirketi yöneteceğini?",
+      "simple": "You are surprised, because nobody expected this.",
+      "dialogue": [
+        "A: Tom from accounts is getting married.",
+        "B: Who'd have thought it? He never talks to anyone."
+      ],
+      "emoji": "😮",
+      "imageQuery": null,
+      "note": "Bazen tek başına: 'Who'd have thought it?'"
+    },
+    {
+      "type": "CHUNK",
+      "en": "Call me cynical, but",
+      "tr": "kuşkucu diyebilirsin ama...",
+      "ipa": null,
+      "pos": null,
+      "example": "Call me cynical, but I think they only did it for the publicity.",
+      "exampleTr": "Bana kuşkucu de ama bence sırf reklam için yaptılar.",
+      "simple": "You say this before a doubtful idea, so people don't think you're too negative.",
+      "dialogue": [
+        "A: The company's donating to charity now.",
+        "B: Call me cynical, but it's tax time."
+      ],
+      "emoji": "🤨",
+      "imageQuery": null,
+      "note": "'Call me old-fashioned, but' de aynı yapıda."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I wouldn't put it past him",
+      "tr": "ondan her şey beklenir",
+      "ipa": null,
+      "pos": null,
+      "example": "Did he really lie about that? I wouldn't put it past him.",
+      "exampleTr": "Gerçekten bu konuda yalan mı söyledi? Ondan her şey beklenir.",
+      "simple": "You think he might do a bad thing, because that's what he's like.",
+      "dialogue": [
+        "A: Do you think Gary took the last biscuit?",
+        "B: I wouldn't put it past him."
+      ],
+      "emoji": "😒",
+      "imageQuery": null,
+      "note": "Zamir değişir: 'I wouldn't put it past her/them.'"
+    },
+    {
+      "type": "CHUNK",
+      "en": "Sounds a bit fishy to me",
+      "tr": "bana biraz şüpheli geliyor",
+      "ipa": null,
+      "pos": null,
+      "example": "A free holiday just for answering a call? Sounds a bit fishy to me.",
+      "exampleTr": "Sadece telefona cevap verdin diye bedava tatil mi? Bana biraz şüpheli geliyor.",
+      "simple": "Something seems not quite right, maybe a trick.",
+      "dialogue": [
+        "A: He says he lost the receipt and the box.",
+        "B: Sounds a bit fishy to me."
+      ],
+      "emoji": "🐟",
+      "imageQuery": null,
+      "note": "'fishy' = kokuşmuş, şüpheli."
+    },
+    {
+      "type": "CHUNK",
+      "en": "the talk of the office",
+      "tr": "ofisin dilinde, herkesin konuştuğu konu",
+      "ipa": null,
+      "pos": null,
+      "example": "Their argument at the party is the talk of the office.",
+      "exampleTr": "Partideki kavgaları ofiste herkesin dilinde.",
+      "simple": "Something everyone at work is talking about.",
+      "dialogue": [
+        "A: Why is everyone whispering?",
+        "B: Your new haircut is the talk of the office!"
+      ],
+      "emoji": "☕",
+      "imageQuery": null,
+      "note": "'the talk of the town' kalıbından; yer değişebilir."
+    },
+    {
+      "type": "CHUNK",
+      "en": "That's not a good look",
+      "tr": "bu hiç hoş görünmüyor, imaj açısından kötü",
+      "ipa": null,
+      "pos": null,
+      "example": "Posting party pics on a sick day? That's not a good look.",
+      "exampleTr": "Hastalık izninde parti fotoğrafı paylaşmak mı? Bu hiç hoş görünmüyor.",
+      "simple": "What someone did makes them look bad to other people.",
+      "dialogue": [
+        "A: The CEO got a bonus while cutting jobs.",
+        "B: That's not a good look."
+      ],
+      "emoji": "😬",
+      "imageQuery": null,
+      "note": "Yeni ve çok yaygın; ünlüler ve şirketler için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Let's not go down that road",
+      "tr": "o konuya hiç girmeyelim",
+      "ipa": null,
+      "pos": null,
+      "example": "Politics at Christmas dinner? Let's not go down that road.",
+      "exampleTr": "Yılbaşı yemeğinde siyaset mi? O konuya hiç girmeyelim.",
+      "simple": "Let's not start talking about that, it will only cause trouble.",
+      "dialogue": [
+        "A: So, who did you vote for?",
+        "B: Let's not go down that road."
+      ],
+      "emoji": "🚧",
+      "imageQuery": null,
+      "note": "Tartışma çıkaracak konuyu kibarca kapatmak için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "The plot thickens",
+      "tr": "işler karışıyor, olay derinleşiyor",
+      "ipa": null,
+      "pos": null,
+      "example": "He was seen at the hotel with someone else? The plot thickens.",
+      "exampleTr": "Otelde başka biriyle mi görülmüş? Olay derinleşiyor.",
+      "simple": "The story is getting more interesting and mysterious.",
+      "dialogue": [
+        "A: And then she deleted all her photos with him.",
+        "B: Ooh, the plot thickens."
+      ],
+      "emoji": "🕵️",
+      "imageQuery": null,
+      "note": "Esprili; dedikodu ya da gizem gibi bir durumda."
+    },
+    {
+      "type": "CHUNK",
+      "en": "doing the rounds",
+      "tr": "dolaşıyor, elden ele geziyor",
+      "ipa": null,
+      "pos": null,
+      "example": "There's a video doing the rounds of the boss dancing.",
+      "exampleTr": "Patronun dans ettiği bir video elden ele dolaşıyor.",
+      "simple": "A story, joke or illness that goes from person to person.",
+      "dialogue": [
+        "A: Have you heard the rumour about the merger?",
+        "B: Yeah, it's been doing the rounds all week."
+      ],
+      "emoji": "🔄",
+      "imageQuery": null,
+      "note": "Söylenti, video, grip için: 'There's a bug doing the rounds.'"
+    },
+    {
+      "type": "CHUNK",
+      "en": "Make of that what you will",
+      "tr": "bundan ne anlarsan artık",
+      "ipa": null,
+      "pos": null,
+      "example": "He said he was 'busy' on Saturday. Make of that what you will.",
+      "exampleTr": "Cumartesi 'meşgul' olduğunu söyledi. Bundan ne anlarsan artık.",
+      "simple": "I tell you the facts; you decide what they mean.",
+      "dialogue": [
+        "A: So she just left without saying goodbye?",
+        "B: Yep. Make of that what you will."
+      ],
+      "emoji": "🤷",
+      "imageQuery": null,
+      "note": "Yorumu karşıya bırakarak ima etmek için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "What's your take on",
+      "tr": "... hakkında ne düşünüyorsun?",
+      "ipa": null,
+      "pos": null,
+      "example": "What's your take on the new working-from-home rules?",
+      "exampleTr": "Yeni evden çalışma kuralları hakkında ne düşünüyorsun?",
+      "simple": "A way to ask what someone thinks about something.",
+      "dialogue": [
+        "A: What's your take on all this AI stuff?",
+        "B: Honestly? Half excited, half terrified."
+      ],
+      "emoji": "💬",
+      "imageQuery": null,
+      "note": "'take' = görüş, yorum. Gündelik, iş ortamında da uygun."
+    },
+    {
+      "type": "CHUNK",
+      "en": "a hot take",
+      "tr": "aykırı/iddialı görüş",
+      "ipa": null,
+      "pos": null,
+      "example": "Here's a hot take: the original film was better.",
+      "exampleTr": "İddialı bir görüş: ilk film daha iyiydi.",
+      "simple": "A bold opinion that many people will not agree with.",
+      "dialogue": [
+        "A: Pineapple on pizza is actually great.",
+        "B: Ooh, that's a hot take."
+      ],
+      "emoji": "🌶️",
+      "imageQuery": null,
+      "note": "Sosyal medyadan çıkma; bazen alaycı: 'Wow, what a hot take.'"
+    },
+    {
+      "type": "CHUNK",
+      "en": "There's more to it than meets the eye",
+      "tr": "işin göründüğünden fazlası var",
+      "ipa": null,
+      "pos": null,
+      "example": "Everyone blames the driver, but there's more to it than meets the eye.",
+      "exampleTr": "Herkes şoförü suçluyor ama işin göründüğünden fazlası var.",
+      "simple": "The story is more complicated than it looks at first.",
+      "dialogue": [
+        "A: Why would a happy couple suddenly split up?",
+        "B: I reckon there's more to it than meets the eye."
+      ],
+      "emoji": "🧊",
+      "imageQuery": null,
+      "note": "Haber ve dedikodularda 'Bu işte bir bit yeniği var' tonu."
+    },
+    {
+      "type": "CHUNK",
+      "en": "a slippery slope",
+      "tr": "kaygan zemin, sonu kötü giden yol",
+      "ipa": null,
+      "pos": null,
+      "example": "Letting them work weekends once is a slippery slope.",
+      "exampleTr": "Bir kez hafta sonu çalıştırmak kaygan bir zemin.",
+      "simple": "One small step that can lead to more and more bad things.",
+      "dialogue": [
+        "A: It's just one extra hour a day.",
+        "B: That's a slippery slope, mate."
+      ],
+      "emoji": "⛷️",
+      "imageQuery": null,
+      "note": "Tartışmalarda: 'It's a slippery slope.'"
+    },
+    {
+      "type": "CHUNK",
+      "en": "I'm calling it now",
+      "tr": "şimdiden söylüyorum, yazın bir kenara",
+      "ipa": null,
+      "pos": null,
+      "example": "I'm calling it now: they'll be engaged by Christmas.",
+      "exampleTr": "Şimdiden söylüyorum: Noel'e kadar nişanlanırlar.",
+      "simple": "You say what will happen before it happens, to show you knew.",
+      "dialogue": [
+        "A: The new guy seems nice.",
+        "B: I'm calling it now, he'll be the boss in a year."
+      ],
+      "emoji": "📣",
+      "imageQuery": null,
+      "note": "Tahmin yaparken esprili ve kendinden emin."
+    },
+    {
+      "type": "CHUNK",
+      "en": "a bit rich coming from",
+      "tr": "... ağzına yakışmıyor, kim söylüyor",
+      "ipa": null,
+      "pos": null,
+      "example": "Him telling me to save money? That's a bit rich coming from him.",
+      "exampleTr": "Bana para biriktir diyor, onun ağzına yakışıyor mu?",
+      "simple": "Someone criticises you for something they do too.",
+      "dialogue": [
+        "A: Sam says you're always late.",
+        "B: That's a bit rich coming from Sam!"
+      ],
+      "emoji": "🙃",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; ikiyüzlülüğü belirtirken."
+    },
+    {
+      "type": "SENTENCE",
+      "en": "Don't believe everything you read.",
+      "tr": "Okuduğun her şeye inanma.",
+      "ipa": null,
+      "pos": null,
+      "example": "It's just a rumour online. Don't believe everything you read.",
+      "exampleTr": "İnternette bir söylenti sadece. Okuduğun her şeye inanma.",
+      "simple": "Things you see on the internet or in papers are not always true.",
+      "dialogue": [
+        "A: It says here coffee causes baldness!",
+        "B: Don't believe everything you read."
+      ],
+      "emoji": "📱",
+      "imageQuery": null,
+      "note": "Sosyal medya haberleri için sık uyarı."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Mark my words",
+      "tr": "sözlerimi not et, bak göreceksin",
+      "ipa": null,
+      "pos": null,
+      "example": "Mark my words, prices are going up again next year.",
+      "exampleTr": "Bak göreceksin, fiyatlar seneye yine artacak.",
+      "simple": "Remember what I say now, because it will come true.",
+      "dialogue": [
+        "A: Do you think the new café will last?",
+        "B: Mark my words, it'll be closed by summer."
+      ],
+      "emoji": "☝️",
+      "imageQuery": null,
+      "note": "Kehanet tonu; biraz yaşlı ağzı ama çok yaygın."
+    },
+    {
+      "type": "CHUNK",
+      "en": "knowing him",
+      "tr": "onu tanıdığım kadarıyla, ondan bu beklenir",
+      "ipa": null,
+      "pos": null,
+      "example": "Knowing him, he'll turn up an hour late with no apology.",
+      "exampleTr": "Onu bildiğim kadarıyla bir saat geç gelir, özür de dilemez.",
+      "simple": "Because you know what he is like, you can guess what he'll do.",
+      "dialogue": [
+        "A: Do you think he's read the email?",
+        "B: Knowing him, he hasn't even opened it."
+      ],
+      "emoji": "🧐",
+      "imageQuery": null,
+      "note": "Zamir değişir: 'knowing her / knowing my mum'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "all a bit convenient",
+      "tr": "her şey biraz fazla denk gelmiş",
+      "ipa": null,
+      "pos": null,
+      "example": "He lost the files the day before the audit? It's all a bit convenient.",
+      "exampleTr": "Denetimden bir gün önce dosyaları mı kaybetti? Her şey biraz fazla denk gelmiş.",
+      "simple": "Something happens at just the right time for someone, so it seems planned.",
+      "dialogue": [
+        "A: She got sick the day of her presentation.",
+        "B: Hmm, all a bit convenient, isn't it?"
+      ],
+      "emoji": "🤔",
+      "imageQuery": null,
+      "note": "Şüphe ima eder: 'Isn't it all a bit convenient?'"
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "topic": "İleri deyimler (A–L)",
+  "items": [
+    {
+      "type": "CHUNK",
+      "en": "an axe to grind",
+      "tr": "kişisel bir derdi/hıncı olmak",
+      "ipa": null,
+      "pos": null,
+      "example": "He's got an axe to grind with the management, so take what he says with care.",
+      "exampleTr": "Yönetimle kişisel bir derdi var, söylediklerine dikkatli yaklaş.",
+      "simple": "You are angry about something old, so you keep attacking it.",
+      "dialogue": [
+        "A: Why does she always criticise my ideas?",
+        "B: I think she's got an axe to grind after the promotion."
+      ],
+      "emoji": "🪓",
+      "imageQuery": null,
+      "note": "Birinin tarafsız olmadığını, kendi derdi olduğunu söylerken."
+    },
+    {
+      "type": "CHUNK",
+      "en": "at arm's length",
+      "tr": "mesafeli, belli bir uzaklıkta",
+      "ipa": null,
+      "pos": null,
+      "example": "I keep my ex's friends at arm's length.",
+      "exampleTr": "Eski sevgilimin arkadaşlarıyla mesafemi korurum.",
+      "simple": "You stay a little far from someone and don't get close.",
+      "dialogue": [
+        "A: Are you close to your new neighbours?",
+        "B: Not really. I keep them at arm's length."
+      ],
+      "emoji": "🤚",
+      "imageQuery": null,
+      "note": "Genelde 'keep someone at arm's length' kalıbıyla."
+    },
+    {
+      "type": "CHUNK",
+      "en": "at the drop of a hat",
+      "tr": "hemen, hiç düşünmeden",
+      "ipa": null,
+      "pos": null,
+      "example": "She'd fly to Paris at the drop of a hat.",
+      "exampleTr": "Bir dakikada kalkıp Paris'e uçar.",
+      "simple": "Very fast, without waiting or thinking.",
+      "dialogue": [
+        "A: Would he really help us move?",
+        "B: Oh yeah, he'd help at the drop of a hat."
+      ],
+      "emoji": "🎩",
+      "imageQuery": null,
+      "note": "Birinin bir şeyi ne kadar kolay/hevesle yaptığını anlatır."
+    },
+    {
+      "type": "CHUNK",
+      "en": "bend over backwards",
+      "tr": "(birine yardım için) takla atmak, elinden geleni yapmak",
+      "ipa": null,
+      "pos": null,
+      "example": "We bent over backwards to make them feel welcome.",
+      "exampleTr": "Kendilerini rahat hissetsinler diye takla attık.",
+      "simple": "You try very, very hard to help or please someone.",
+      "dialogue": [
+        "A: They still complained about the hotel?",
+        "B: Yeah, and the staff had to bend over backwards for them."
+      ],
+      "emoji": "🤸",
+      "imageQuery": null,
+      "note": "Genelde nankörlük karşısında şikayet ederken kullanılır."
+    },
+    {
+      "type": "CHUNK",
+      "en": "bite your tongue",
+      "tr": "dilini tutmak, bir şey söylememek için kendini zor tutmak",
+      "ipa": null,
+      "pos": null,
+      "example": "I had to bite my tongue when he started talking about politics.",
+      "exampleTr": "Politikadan bahsetmeye başlayınca dilimi zor tuttum.",
+      "simple": "You want to say something, but you stay quiet.",
+      "dialogue": [
+        "A: My mother-in-law criticised my cooking again.",
+        "B: Just bite your tongue. It's only one weekend."
+      ],
+      "emoji": "🤐",
+      "imageQuery": null,
+      "note": "Aileyle, patronla tartışmamak için susarken."
+    },
+    {
+      "type": "CHUNK",
+      "en": "come up trumps",
+      "tr": "beklenmedik şekilde başarmak, imdada yetişmek",
+      "ipa": null,
+      "pos": null,
+      "example": "My brother came up trumps and lent me his car.",
+      "exampleTr": "Abim imdadıma yetişti, arabasını ödünç verdi.",
+      "simple": "Someone does something great when you really need it.",
+      "dialogue": [
+        "A: Do you think the caterers will be ready in time?",
+        "B: Don't worry, they always come up trumps."
+      ],
+      "emoji": "🃏",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; beklenmedik iyi sonuç için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "come rain or shine",
+      "tr": "ne olursa olsun, her koşulda",
+      "ipa": null,
+      "pos": null,
+      "example": "He goes for a run every morning, come rain or shine.",
+      "exampleTr": "Ne olursa olsun her sabah koşuya çıkar.",
+      "simple": "You do it every time, in good or bad times.",
+      "dialogue": [
+        "A: Will the market be open on Saturday?",
+        "B: It's open every week, come rain or shine."
+      ],
+      "emoji": "🌦️",
+      "imageQuery": null,
+      "note": "Kararlılığı ve düzenliliği vurgular."
+    },
+    {
+      "type": "CHUNK",
+      "en": "crossed wires",
+      "tr": "yanlış anlaşılma, iletişim kazası",
+      "ipa": null,
+      "pos": null,
+      "example": "Sorry, I think we've got crossed wires. I meant next Tuesday.",
+      "exampleTr": "Pardon, sanırım yanlış anlaştık. Gelecek salıyı kastetmiştim.",
+      "simple": "Two people understand the same thing in different ways.",
+      "dialogue": [
+        "A: I thought you were bringing the drinks!",
+        "B: We must have got crossed wires. I brought dessert."
+      ],
+      "emoji": "🔌",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; kimseyi suçlamadan karışıklığı düzeltmek için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "a dark horse",
+      "tr": "sürpriz yetenekleri olan kişi, gizli cevher",
+      "ipa": null,
+      "pos": null,
+      "example": "Tom plays the piano? He's a dark horse!",
+      "exampleTr": "Tom piyano mu çalıyor? Meğer ne gizli cevhermiş!",
+      "simple": "A quiet person who surprises you with a hidden talent.",
+      "dialogue": [
+        "A: Did you know Sara speaks four languages?",
+        "B: No way! She's a dark horse."
+      ],
+      "emoji": "🐎",
+      "imageQuery": null,
+      "note": "Birinin hiç bilinmeyen bir yönü ortaya çıkınca."
+    },
+    {
+      "type": "CHUNK",
+      "en": "dig your heels in",
+      "tr": "ayak diremek, inat etmek",
+      "ipa": null,
+      "pos": null,
+      "example": "Every time I mention moving, my wife digs her heels in.",
+      "exampleTr": "Ne zaman taşınmaktan bahsetsem karım ayak diriyor.",
+      "simple": "You refuse to change your mind, no matter what.",
+      "dialogue": [
+        "A: Dad won't let me borrow the car.",
+        "B: If you dig your heels in, he'll only get worse."
+      ],
+      "emoji": "🦶",
+      "imageQuery": null,
+      "note": "İnatla karşı çıkmayı anlatır; genelde eleştirel."
+    },
+    {
+      "type": "CHUNK",
+      "en": "dodge a bullet",
+      "tr": "kıl payı kurtulmak, büyük beladan sıyrılmak",
+      "ipa": null,
+      "pos": null,
+      "example": "The flight I missed got cancelled anyway, so I dodged a bullet.",
+      "exampleTr": "Kaçırdığım uçuş zaten iptal olmuş, yani beladan sıyrıldım.",
+      "simple": "Something bad almost happened to you, but it didn't.",
+      "dialogue": [
+        "A: He turned out to be married.",
+        "B: Wow. Sounds like you managed to dodge a bullet there."
+      ],
+      "emoji": "🏃",
+      "imageQuery": null,
+      "note": "Özellikle kötü çıkan bir ilişki/iş için 'iyi ki olmamış' anlamında."
+    },
+    {
+      "type": "CHUNK",
+      "en": "eat humble pie",
+      "tr": "hatasını kabul edip boyun eğmek",
+      "ipa": null,
+      "pos": null,
+      "example": "I was sure I was right, but I had to eat humble pie.",
+      "exampleTr": "Haklı olduğumdan emindim ama hatamı kabul edip boyun eğmek zorunda kaldım.",
+      "simple": "You say sorry and admit you were wrong, and it feels bad.",
+      "dialogue": [
+        "A: So the restaurant was open after all?",
+        "B: Yep. Time to eat humble pie and apologise to Dan."
+      ],
+      "emoji": "🥧",
+      "imageQuery": null,
+      "note": "Utançla 'yanılmışım' demek zorunda kalmak."
+    },
+    {
+      "type": "CHUNK",
+      "en": "a far cry from",
+      "tr": "...dan çok farklı, ...la uzaktan yakından ilgisi yok",
+      "ipa": null,
+      "pos": null,
+      "example": "This tiny flat is a far cry from the house we had in Izmir.",
+      "exampleTr": "Bu minicik daire İzmir'deki evimizden çok farklı.",
+      "simple": "Very, very different from something else.",
+      "dialogue": [
+        "A: How's the new job?",
+        "B: It's a far cry from what they promised in the interview."
+      ],
+      "emoji": "📏",
+      "imageQuery": null,
+      "note": "Genelde eskisiyle kıyas yaparken, çoğu zaman 'daha kötü' anlamında."
+    },
+    {
+      "type": "CHUNK",
+      "en": "fall on deaf ears",
+      "tr": "kulak ardı edilmek, dinlenmemek",
+      "ipa": null,
+      "pos": null,
+      "example": "My advice always seems to fall on deaf ears.",
+      "exampleTr": "Tavsiyelerim hep kulak ardı ediliyor gibi.",
+      "simple": "You say something, but nobody listens or cares.",
+      "dialogue": [
+        "A: Did you tell the landlord about the leak?",
+        "B: Three times. It seems to fall on deaf ears."
+      ],
+      "emoji": "🙉",
+      "imageQuery": null,
+      "note": "Uyarı, şikayet, öneri dinlenmeyince."
+    },
+    {
+      "type": "CHUNK",
+      "en": "get the wrong end of the stick",
+      "tr": "yanlış anlamak, ters anlamak",
+      "ipa": null,
+      "pos": null,
+      "example": "She got the wrong end of the stick and thought I was leaving.",
+      "exampleTr": "Ters anladı, gittiğimi sandı.",
+      "simple": "You understand something in the wrong way.",
+      "dialogue": [
+        "A: Wait, you're not quitting?",
+        "B: No! You always get the wrong end of the stick."
+      ],
+      "emoji": "🪵",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; günlük yanlış anlaşılmalar için çok yaygın."
+    },
+    {
+      "type": "CHUNK",
+      "en": "go pear-shaped",
+      "tr": "ters gitmek, sarpa sarmak",
+      "ipa": null,
+      "pos": null,
+      "example": "The whole plan went pear-shaped when the babysitter cancelled.",
+      "exampleTr": "Bebek bakıcısı iptal edince bütün plan sarpa sardı.",
+      "simple": "When a plan goes wrong and gets messy.",
+      "dialogue": [
+        "A: Is the surprise party still on?",
+        "B: Yes, but it could easily go pear-shaped if she comes home early."
+      ],
+      "emoji": "🍐",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi, gündelik; genelde 'it all went pear-shaped'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "a hard act to follow",
+      "tr": "yerini doldurmak zor kişi/şey",
+      "ipa": null,
+      "pos": null,
+      "example": "Our last manager was brilliant, so she's a hard act to follow.",
+      "exampleTr": "Önceki müdürümüz harikaydı, yerini doldurmak zor.",
+      "simple": "Someone was so good that the next one will look worse.",
+      "dialogue": [
+        "A: You're giving the speech after Mark?",
+        "B: I know. He's a hard act to follow."
+      ],
+      "emoji": "🎭",
+      "imageQuery": null,
+      "note": "Birinin ardından gelen kişiye düşen zor durumu anlatır."
+    },
+    {
+      "type": "CHUNK",
+      "en": "have a field day",
+      "tr": "bayram etmek, (eleştiri/dedikodu için) fırsatı kaçırmamak",
+      "ipa": null,
+      "pos": null,
+      "example": "If the press finds out, they'll have a field day.",
+      "exampleTr": "Basın bunu öğrenirse bayram eder.",
+      "simple": "Someone has lots of fun, often by attacking or laughing at others.",
+      "dialogue": [
+        "A: Should I tell my sister I failed my driving test?",
+        "B: She'll have a field day with that."
+      ],
+      "emoji": "🎉",
+      "imageQuery": null,
+      "note": "Genelde basın, dedikoducular veya eleştirmenler için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "heads will roll",
+      "tr": "kelleler gidecek, birileri ceza yiyecek",
+      "ipa": null,
+      "pos": null,
+      "example": "If this mistake reaches the client, heads will roll.",
+      "exampleTr": "Bu hata müşteriye ulaşırsa kelleler gidecek.",
+      "simple": "Someone will get in big trouble or lose their job.",
+      "dialogue": [
+        "A: Who deleted the whole database?",
+        "B: No idea, but heads will roll."
+      ],
+      "emoji": "😱",
+      "imageQuery": null,
+      "note": "İş yerinde büyük bir hata sonrası abartılı uyarı."
+    },
+    {
+      "type": "CHUNK",
+      "en": "a hot potato",
+      "tr": "kimsenin el sürmek istemediği sıcak konu",
+      "ipa": null,
+      "pos": null,
+      "example": "Pay rises are a bit of a hot potato at the moment.",
+      "exampleTr": "Maaş zamları şu an kimsenin girmek istemediği sıcak bir konu.",
+      "simple": "A topic that is so tricky that everyone wants to avoid it.",
+      "dialogue": [
+        "A: Should we bring up the parking problem at the meeting?",
+        "B: Careful, that's a hot potato."
+      ],
+      "emoji": "🥔",
+      "imageQuery": null,
+      "note": "Tartışmalı, tehlikeli konular için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "in the doghouse",
+      "tr": "gözden düşmüş, başı dertte (özellikle eşiyle)",
+      "ipa": null,
+      "pos": null,
+      "example": "I forgot our anniversary, so I'm in the doghouse.",
+      "exampleTr": "Yıl dönümümüzü unuttum, şimdi başım dertte.",
+      "simple": "Someone is angry with you because you did something wrong.",
+      "dialogue": [
+        "A: Why are you sleeping on the sofa?",
+        "B: I'm in the doghouse. Don't ask."
+      ],
+      "emoji": "🐶",
+      "imageQuery": null,
+      "note": "Genelde eş ya da sevgiliyle ilgili esprili kullanım."
+    },
+    {
+      "type": "CHUNK",
+      "en": "jump through hoops",
+      "tr": "türlü zorluklardan geçmek, takla attırılmak",
+      "ipa": null,
+      "pos": null,
+      "example": "We had to jump through hoops just to open a bank account.",
+      "exampleTr": "Sadece banka hesabı açmak için türlü zorluktan geçmek zorunda kaldık.",
+      "simple": "You must do many silly, hard steps to get something.",
+      "dialogue": [
+        "A: Did you get your visa?",
+        "B: Finally. I had to jump through hoops for months."
+      ],
+      "emoji": "⭕",
+      "imageQuery": null,
+      "note": "Bürokrasi ve gereksiz prosedürler için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "keep your cards close to your chest",
+      "tr": "niyetini/planını belli etmemek",
+      "ipa": null,
+      "pos": null,
+      "example": "He keeps his cards close to his chest, so nobody knows if he'll stay.",
+      "exampleTr": "Niyetini hiç belli etmiyor, kalıp kalmayacağını kimse bilmiyor.",
+      "simple": "You don't tell people your plans or secrets.",
+      "dialogue": [
+        "A: Should I tell them I've got another offer?",
+        "B: Not yet. Keep your cards close to your chest."
+      ],
+      "emoji": "🃏",
+      "imageQuery": null,
+      "note": "Pazarlıkta veya iş değişikliğinde ketum olmayı anlatır."
+    },
+    {
+      "type": "CHUNK",
+      "en": "let sleeping dogs lie",
+      "tr": "eski defterleri açmamak, uyuyan yılanın kuyruğuna basmamak",
+      "ipa": null,
+      "pos": null,
+      "example": "I thought about asking her about the money, but I'll let sleeping dogs lie.",
+      "exampleTr": "Paranın hesabını sormayı düşündüm ama eski defterleri açmayayım.",
+      "simple": "Don't talk about an old problem, or it will start again.",
+      "dialogue": [
+        "A: Should I ask him why he never paid me back?",
+        "B: It's been years. Just let sleeping dogs lie."
+      ],
+      "emoji": "🐕",
+      "imageQuery": null,
+      "note": "Kapanmış bir tartışmayı yeniden açmamak için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "lose the plot",
+      "tr": "kafayı yemek, saçmalamaya başlamak",
+      "ipa": null,
+      "pos": null,
+      "example": "When the kids broke the TV, I nearly lost the plot.",
+      "exampleTr": "Çocuklar televizyonu kırınca neredeyse kafayı yiyordum.",
+      "simple": "You get very confused, angry or start acting crazy.",
+      "dialogue": [
+        "A: He wants to sell the house and buy a boat.",
+        "B: Has he started to lose the plot?"
+      ],
+      "emoji": "🤯",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi, gündelik; öfke ya da tuhaf davranış için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "left, right and centre",
+      "tr": "her yerden, her taraftan, durmadan",
+      "ipa": null,
+      "pos": null,
+      "example": "Since the news came out, people have been calling me left, right and centre.",
+      "exampleTr": "Haber çıkalı beri insanlar her yerden beni arıyor.",
+      "simple": "Everywhere and all the time, a lot.",
+      "dialogue": [
+        "A: How's the new shop doing?",
+        "B: Great! We're selling stuff left, right and centre."
+      ],
+      "emoji": "↔️",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; Amerikanca 'left and right'."
+    }
+  ]
+}

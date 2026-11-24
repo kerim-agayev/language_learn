@@ -68,7 +68,8 @@ Coworkers form a team and race daily on the same 10 items. UI text in Turkish; c
   `/kelime/[slug]` (one item, ISR: rendered on first visit, cached 1 day; no cookies read there). `Item.slug` is set by the
   seed (`pageSlug(en)`, type appended on clashes; the twin's canonical points to the plain slug; sitemap lists canonical only).
   `/liste/[slug]`: SEO topic lists defined in `LISTS` (`lib/public.ts`, Prisma where on type/topic; work list = topic names).
-  Public pages share `PublicHeader` + `ItemGrid`.
+  Public pages share `PublicHeader` + `ItemGrid`. GEO (AI search): `/llms.txt` (route, built from LEVEL_INFO/LISTS/FAQ) and
+  the landing FAQ (`lib/faq.ts`, visible + FAQPage JSON-LD). Keep FAQ answers true to the app when features change.
 - PWA: `app/manifest.ts` (PNG icons in `public/icons/`), `public/sw.js` (cache-first for `/_next/static`, `/img`, `/icons`;
   pages always network, `/offline` fallback; never caches per-user pages), registered by `PwaRegister` in the root layout,
   `InstallButton` in the learn sidebar (iOS gets a "Paylaş → Ana Ekrana Ekle" hint). Bump `V` in sw.js to drop old caches.
@@ -78,7 +79,7 @@ Coworkers form a team and race daily on the same 10 items. UI text in Turkish; c
 
 ## Content pipeline
 - `content/<LEVEL>/<NN>-<topic>.json` (format: `content/SCHEMA.md`), `content/anki.json` = user's imported Anki deck.
-- Currently in DB: A1 446, A2 360, B1 379, B2 417, C1 464 (incl. Anki words); C2 only the Anki words. **Next content job: C2.**
+- Currently in DB: A1 496, A2 411, B1 431, B2 469, C1 513, C2 477 (incl. Anki words). C2 core (01–16, 2026-11-24) has `dialogue` on every item.
 - **Sitcom English**: `<LEVEL>/20-sitcom-*.json` and `21-sitcom-*.json` (A1–C2) — everyday dialogue typical of Friends,
   HIMYM, Malcolm in the Middle, The Office, Seinfeld, Big Bang Theory, B99, Modern Family, Breaking Bad. Based on model
   knowledge of the shows (no transcripts, no frequency counts); original examples, ≤3 short catchphrases in total;
@@ -113,7 +114,6 @@ Coworkers form a team and race daily on the same 10 items. UI text in Turkish; c
   level (A1 00a–07 / 08–16, A2 01–08 / 09–17, B1/B2/C1 01–08 / 09–16) + one for anki.json; each edits only its own
   files with a scratchpad script prefixed by its group name; rule: one line contains `en` verbatim; then run
   `scripts/check-content.ts` (reports unblankable dialogues) and re-seed.
-- C2 core content (C2 currently = sitcom files + Anki words).
 
 ## Later (only when asked)
-Badges, weekly summary, Google login, nicer TTS voices, C2 core content, de-duplicate B2 phrasal/collocation files (two writers overlapped ~26 items).
+Badges, weekly summary, Google login, nicer TTS voices, de-duplicate B2 phrasal/collocation files (two writers overlapped ~26 items).

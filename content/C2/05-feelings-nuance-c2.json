@@ -1,0 +1,413 @@
+{
+  "topic": "Duyguların ince tonları",
+  "items": [
+    {
+      "type": "WORD",
+      "en": "smug",
+      "tr": "kendini beğenmiş, ukala bir memnuniyetle",
+      "ipa": "/smʌɡ/",
+      "pos": "adjective",
+      "example": "He's been so smug since he got promoted.",
+      "exampleTr": "Terfi aldığından beri öyle bir kendini beğenmiş ki.",
+      "simple": "Too pleased with yourself, in an annoying way.",
+      "dialogue": [
+        "A: Did you see his face when he won?",
+        "B: Yeah, he looked so smug."
+      ],
+      "emoji": "😏",
+      "imageQuery": null,
+      "note": "Olumsuz; 'smug look/smile' çok yaygın."
+    },
+    {
+      "type": "WORD",
+      "en": "miffed",
+      "tr": "bozulmuş, alınmış, hafif kırgın",
+      "ipa": "/mɪft/",
+      "pos": "adjective",
+      "example": "She was a bit miffed that nobody asked her opinion.",
+      "exampleTr": "Kimsenin fikrini sormamasına biraz bozuldu.",
+      "simple": "A little bit angry or hurt, not very much.",
+      "dialogue": [
+        "A: Is Jo okay?",
+        "B: She's a bit miffed we didn't invite her."
+      ],
+      "emoji": "😤",
+      "imageQuery": null,
+      "note": "Gündelik, özellikle İngiliz İngilizcesi; küçük kırgınlıklar için."
+    },
+    {
+      "type": "WORD",
+      "en": "peeved",
+      "tr": "sinirli, gıcık olmuş",
+      "ipa": "/piːvd/",
+      "pos": "adjective",
+      "example": "I was really peeved when they cancelled at the last minute.",
+      "exampleTr": "Son dakikada iptal edince gerçekten gıcık oldum.",
+      "simple": "Annoyed because someone did something unfair or silly.",
+      "dialogue": [
+        "A: Why are you peeved?",
+        "B: Someone ate my lunch from the fridge again."
+      ],
+      "emoji": "😒",
+      "imageQuery": null,
+      "note": "'pet peeve' = en gıcık olduğun şey."
+    },
+    {
+      "type": "WORD",
+      "en": "rattled",
+      "tr": "sarsılmış, tedirgin, morali bozulmuş",
+      "ipa": "/ˈræt.əld/",
+      "pos": "adjective",
+      "example": "The near miss on the motorway left me a bit rattled.",
+      "exampleTr": "Otoyolda kıl payı atlattığımız kaza beni biraz sarstı.",
+      "simple": "Shaken and nervous after something scary or surprising.",
+      "dialogue": [
+        "A: You look pale. What happened?",
+        "B: Some guy shouted at me on the bus. I'm a bit rattled."
+      ],
+      "emoji": "😰",
+      "imageQuery": null,
+      "note": "'Don't let him rattle you' = seni sarsmasına izin verme."
+    },
+    {
+      "type": "WORD",
+      "en": "flustered",
+      "tr": "telaşlanmış, ne yapacağını şaşırmış",
+      "ipa": "/ˈflʌs.təd/",
+      "pos": "adjective",
+      "example": "I get flustered when people watch me cook.",
+      "exampleTr": "İnsanlar beni yemek yaparken izleyince telaşlanıyorum.",
+      "simple": "Nervous and confused because you are in a hurry or watched.",
+      "dialogue": [
+        "A: Why did you forget your lines?",
+        "B: The director walked in and I got flustered."
+      ],
+      "emoji": "😳",
+      "imageQuery": null,
+      "note": "Utanç ve aceleyle karışık telaş için."
+    },
+    {
+      "type": "WORD",
+      "en": "crestfallen",
+      "tr": "yüzü düşmüş, hayal kırıklığına uğramış",
+      "ipa": "/ˈkrestˌfɔː.lən/",
+      "pos": "adjective",
+      "example": "He looked crestfallen when she said no.",
+      "exampleTr": "Kız hayır deyince yüzü düştü.",
+      "simple": "Very sad because you hoped for something and didn't get it.",
+      "dialogue": [
+        "A: How did Tim take the news?",
+        "B: He was crestfallen. He really wanted that job."
+      ],
+      "emoji": "😞",
+      "imageQuery": null,
+      "note": "Ani hayal kırıklığının yüze yansıması."
+    },
+    {
+      "type": "WORD",
+      "en": "giddy",
+      "tr": "içi içine sığmayan, başı dönen (heyecandan)",
+      "ipa": "/ˈɡɪd.i/",
+      "pos": "adjective",
+      "example": "The kids were giddy with excitement on Christmas Eve.",
+      "exampleTr": "Çocukların Noel arifesinde heyecandan içi içine sığmıyordu.",
+      "simple": "So happy and excited that you feel a little silly.",
+      "dialogue": [
+        "A: You're smiling like a teenager.",
+        "B: I know! I feel giddy since he called."
+      ],
+      "emoji": "🤪",
+      "imageQuery": null,
+      "note": "Hem heyecan hem baş dönmesi anlamında."
+    },
+    {
+      "type": "WORD",
+      "en": "smitten",
+      "tr": "vurulmuş, tutulmuş, abayı yakmış",
+      "ipa": "/ˈsmɪt.ən/",
+      "pos": "adjective",
+      "example": "He's completely smitten with his new girlfriend.",
+      "exampleTr": "Yeni kız arkadaşına resmen abayı yakmış.",
+      "simple": "Suddenly in love, or liking someone very, very much.",
+      "dialogue": [
+        "A: Your brother can't stop talking about Ayşe.",
+        "B: He's totally smitten."
+      ],
+      "emoji": "😍",
+      "imageQuery": null,
+      "note": "Genelde 'smitten with someone'; bebek ve evcil hayvan için de."
+    },
+    {
+      "type": "WORD",
+      "en": "mortified",
+      "tr": "utançtan yerin dibine girmiş",
+      "ipa": "/ˈmɔː.tɪ.faɪd/",
+      "pos": "adjective",
+      "example": "I was mortified when my phone rang during the funeral.",
+      "exampleTr": "Cenazede telefonum çalınca utançtan yerin dibine girdim.",
+      "simple": "So embarrassed that you want to hide forever.",
+      "dialogue": [
+        "A: You sent the joke to your boss instead of your friend?",
+        "B: Yes. I'm mortified."
+      ],
+      "emoji": "🫣",
+      "imageQuery": null,
+      "note": "'embarrassed'ın çok daha güçlüsü."
+    },
+    {
+      "type": "WORD",
+      "en": "prickly",
+      "tr": "huysuz, diken diken, hemen savunmaya geçen",
+      "ipa": "/ˈprɪk.li/",
+      "pos": "adjective",
+      "example": "She gets a bit prickly if you ask about her ex.",
+      "exampleTr": "Eski sevgilisini sorarsan biraz diken diken oluyor.",
+      "simple": "Easily annoyed and quick to get defensive.",
+      "dialogue": [
+        "A: Why did he snap at me?",
+        "B: He's always prickly before his coffee."
+      ],
+      "emoji": "🌵",
+      "imageQuery": null,
+      "note": "Hem kişi hem konu için: 'a prickly subject'."
+    },
+    {
+      "type": "WORD",
+      "en": "cagey",
+      "tr": "ağzı sıkı, ketum, kaçamak",
+      "ipa": "/ˈkeɪ.dʒi/",
+      "pos": "adjective",
+      "example": "He was very cagey about where he'd been all night.",
+      "exampleTr": "Bütün gece nerede olduğu konusunda çok ketumdu.",
+      "simple": "Not wanting to tell you things, a bit secretive.",
+      "dialogue": [
+        "A: Did she tell you why she's leaving?",
+        "B: No, she was really cagey about it."
+      ],
+      "emoji": "🤫",
+      "imageQuery": null,
+      "note": "Bir şey saklıyormuş gibi davranan biri için."
+    },
+    {
+      "type": "WORD",
+      "en": "listless",
+      "tr": "isteksiz, halsiz, hevesi kaçmış",
+      "ipa": "/ˈlɪst.ləs/",
+      "pos": "adjective",
+      "example": "I've felt a bit listless since the holidays ended.",
+      "exampleTr": "Tatil bittiğinden beri kendimi biraz isteksiz hissediyorum.",
+      "simple": "No energy, and not interested in doing anything.",
+      "dialogue": [
+        "A: You've been on the sofa all day.",
+        "B: I know. I just feel listless."
+      ],
+      "emoji": "🫠",
+      "imageQuery": null,
+      "note": "Hem yorgunluk hem de motivasyonsuzluk için."
+    },
+    {
+      "type": "WORD",
+      "en": "nonplussed",
+      "tr": "afallamış, ne diyeceğini bilemeyen",
+      "ipa": "/nɒnˈplʌst/",
+      "pos": "adjective",
+      "example": "I was nonplussed when he suddenly started crying.",
+      "exampleTr": "Birden ağlamaya başlayınca afalladım.",
+      "simple": "So surprised and confused that you don't know what to do.",
+      "dialogue": [
+        "A: What did you say when she proposed?",
+        "B: Nothing! I was totally nonplussed."
+      ],
+      "emoji": "😶",
+      "imageQuery": null,
+      "note": "Dikkat: Amerikancada bazen 'umursamaz' anlamında da kullanılır."
+    },
+    {
+      "type": "WORD",
+      "en": "underwhelmed",
+      "tr": "hiç etkilenmemiş, hayal kırıklığına uğramış",
+      "ipa": "/ˌʌn.dəˈwelmd/",
+      "pos": "adjective",
+      "example": "Everyone raved about the film, but I was underwhelmed.",
+      "exampleTr": "Herkes filme bayıldı ama ben hiç etkilenmedim.",
+      "simple": "You expected something great, but it was just okay.",
+      "dialogue": [
+        "A: So, how was that famous burger place?",
+        "B: Honestly? I was a bit underwhelmed."
+      ],
+      "emoji": "😑",
+      "imageQuery": null,
+      "note": "'overwhelmed'ın esprili karşıtı; gündelik ve yaygın."
+    },
+    {
+      "type": "WORD",
+      "en": "starstruck",
+      "tr": "ünlü birini görünce büyülenmiş, dili tutulmuş",
+      "ipa": "/ˈstɑː.strʌk/",
+      "pos": "adjective",
+      "example": "I met my favourite singer and got completely starstruck.",
+      "exampleTr": "En sevdiğim şarkıcıyla tanıştım, dilim tutuldu.",
+      "simple": "So excited to meet a famous person that you can't speak.",
+      "dialogue": [
+        "A: Did you ask for a selfie?",
+        "B: No, I was too starstruck to say a word."
+      ],
+      "emoji": "🤩",
+      "imageQuery": null,
+      "note": "Ünlülerle karşılaşınca yaşanan heyecan."
+    },
+    {
+      "type": "CHUNK",
+      "en": "a bit put out",
+      "tr": "biraz bozulmuş, gücenmiş",
+      "ipa": null,
+      "pos": null,
+      "example": "She seemed a bit put out that we started without her.",
+      "exampleTr": "Onsuz başladığımıza biraz bozulmuş gibiydi.",
+      "simple": "A little upset because you were not treated nicely.",
+      "dialogue": [
+        "A: Is Dad annoyed we didn't call?",
+        "B: He's a bit put out, but he'll get over it."
+      ],
+      "emoji": "🙁",
+      "imageQuery": null,
+      "note": "İngilizce'de çok yaygın, kibar bir 'gücenmek'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "at a loose end",
+      "tr": "yapacak bir şeyi olmayan, boşta",
+      "ipa": null,
+      "pos": null,
+      "example": "I'm at a loose end this Saturday if you fancy a drink.",
+      "exampleTr": "Bu cumartesi boştayım, bir şey içmek istersen.",
+      "simple": "You have nothing to do and feel a bit bored.",
+      "dialogue": [
+        "A: What are you doing tonight?",
+        "B: Nothing, I'm at a loose end. Why?"
+      ],
+      "emoji": "🪢",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; Amerikanca 'at loose ends'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "out of sorts",
+      "tr": "keyifsiz, kendinde değil",
+      "ipa": null,
+      "pos": null,
+      "example": "I've been out of sorts all week, I think I'm coming down with something.",
+      "exampleTr": "Bütün hafta keyifsizdim, sanırım hasta oluyorum.",
+      "simple": "You feel a bit ill or a bit sad, not like yourself.",
+      "dialogue": [
+        "A: You're quiet today.",
+        "B: Sorry, I'm a bit out of sorts."
+      ],
+      "emoji": "🥴",
+      "imageQuery": null,
+      "note": "Hafif hastalık ya da hafif moral bozukluğu için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "beside myself",
+      "tr": "kendimde değilim (endişe, öfke, sevinçten)",
+      "ipa": null,
+      "pos": null,
+      "example": "I was beside myself with worry when he didn't come home.",
+      "exampleTr": "Eve gelmeyince endişeden kendimde değildim.",
+      "simple": "A feeling is so strong that you can't control yourself.",
+      "dialogue": [
+        "A: Were you scared when the kids got lost?",
+        "B: I was beside myself."
+      ],
+      "emoji": "😵",
+      "imageQuery": null,
+      "note": "Genelde 'beside yourself with worry/rage/joy'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "at the end of my tether",
+      "tr": "sabrımın sonuna geldim, tükendim",
+      "ipa": null,
+      "pos": null,
+      "example": "The baby hasn't slept for three nights. I'm at the end of my tether.",
+      "exampleTr": "Bebek üç gecedir uyumadı. Sabrımın sonuna geldim.",
+      "simple": "You are so tired and stressed you can't take any more.",
+      "dialogue": [
+        "A: Are the builders still making noise?",
+        "B: Every morning at seven. I'm at the end of my tether."
+      ],
+      "emoji": "🪫",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; Amerikanca 'at the end of my rope'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "chomping at the bit",
+      "tr": "sabırsızlanmak, yerinde duramamak",
+      "ipa": null,
+      "pos": null,
+      "example": "The kids are chomping at the bit to open their presents.",
+      "exampleTr": "Çocuklar hediyelerini açmak için sabırsızlanıyor.",
+      "simple": "So eager to start that you can't wait.",
+      "dialogue": [
+        "A: Is the new guy ready to start?",
+        "B: Ready? He's chomping at the bit."
+      ],
+      "emoji": "🐴",
+      "imageQuery": null,
+      "note": "Hevesli bekleyişi anlatır; 'champing' da denir."
+    },
+    {
+      "type": "CHUNK",
+      "en": "itchy feet",
+      "tr": "yerinde duramama, gitme/değişiklik isteği",
+      "ipa": null,
+      "pos": null,
+      "example": "After two years in the same job, I'm getting itchy feet.",
+      "exampleTr": "Aynı işte iki yıl sonra içimde gitme isteği başladı.",
+      "simple": "You want to travel or change your life again.",
+      "dialogue": [
+        "A: Another trip? You just got back!",
+        "B: I know, I've got itchy feet again."
+      ],
+      "emoji": "🦶",
+      "imageQuery": null,
+      "note": "Seyahat, taşınma veya iş değiştirme isteği için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "a bit of a downer",
+      "tr": "moral bozucu bir şey, keyif kaçıran",
+      "ipa": null,
+      "pos": null,
+      "example": "The film was good, but the ending was a bit of a downer.",
+      "exampleTr": "Film güzeldi ama sonu biraz moral bozucuydu.",
+      "simple": "Something that makes you feel sad or less happy.",
+      "dialogue": [
+        "A: They cancelled the barbecue because of rain.",
+        "B: That's a bit of a downer."
+      ],
+      "emoji": "🌧️",
+      "imageQuery": null,
+      "note": "Kişi için de: 'Don't be such a downer' = keyfimizi kaçırma."
+    },
+    {
+      "type": "CHUNK",
+      "en": "on tenterhooks",
+      "tr": "diken üstünde, merakla beklerken",
+      "ipa": null,
+      "pos": null,
+      "example": "We were on tenterhooks waiting for the test results.",
+      "exampleTr": "Test sonuçlarını diken üstünde bekledik.",
+      "simple": "Nervous and excited while you wait to know something.",
+      "dialogue": [
+        "A: Did you hear back about the flat?",
+        "B: Not yet. I've been on tenterhooks all day."
+      ],
+      "emoji": "⏳",
+      "imageQuery": null,
+      "note": "Sonuç, haber, karar beklerken."
+    }
+  ]
+}

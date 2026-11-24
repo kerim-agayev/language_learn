@@ -1,0 +1,447 @@
+{
+  "topic": "Deyimler (M–Z)",
+  "items": [
+    {
+      "type": "CHUNK",
+      "en": "make a song and dance about it",
+      "tr": "yaygara koparmak, olayı büyütmek",
+      "ipa": null,
+      "pos": null,
+      "example": "It's only a scratch, don't make a song and dance about it.",
+      "exampleTr": "Sadece bir çizik, yaygara koparma.",
+      "simple": "Make a lot of noise and fuss about something small.",
+      "dialogue": [
+        "A: I told him I'd be ten minutes late.",
+        "B: And he had to make a song and dance about it?"
+      ],
+      "emoji": "🎭",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; 'make a fuss' un renkli hali."
+    },
+    {
+      "type": "CHUNK",
+      "en": "nip it in the bud",
+      "tr": "işi baştan kesmek, daha büyümeden önlemek",
+      "ipa": null,
+      "pos": null,
+      "example": "If the kids start arguing, nip it in the bud.",
+      "exampleTr": "Çocuklar tartışmaya başlarsa daha büyümeden kes.",
+      "simple": "Stop a problem when it is still very small, before it grows.",
+      "dialogue": [
+        "A: Two people were late again this morning.",
+        "B: Let's nip it in the bud before it becomes a habit."
+      ],
+      "emoji": "🌱",
+      "imageQuery": null,
+      "note": "Kötü alışkanlık, dedikodu, sorun için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "sail close to the wind",
+      "tr": "sınırda gezinmek, riskli oynamak",
+      "ipa": null,
+      "pos": null,
+      "example": "Claiming that as a business lunch is sailing close to the wind.",
+      "exampleTr": "Onu iş yemeği diye göstermek biraz sınırda gezinmek.",
+      "simple": "Do something that is nearly not allowed, and you might get in trouble.",
+      "dialogue": [
+        "A: I told my boss I was at the dentist, but I was at the football.",
+        "B: You like to sail close to the wind, don't you?"
+      ],
+      "emoji": "⛵",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; yasa, kural, ahlak sınırına yaklaşmak."
+    },
+    {
+      "type": "CHUNK",
+      "en": "pie in the sky",
+      "tr": "hayal, olmayacak duaya amin",
+      "ipa": null,
+      "pos": null,
+      "example": "His plan to retire at forty is pie in the sky.",
+      "exampleTr": "Kırkında emekli olma planı hayalden ibaret.",
+      "simple": "A nice idea or plan that will almost surely never happen.",
+      "dialogue": [
+        "A: The council says the new metro line will be ready next year.",
+        "B: That's pie in the sky."
+      ],
+      "emoji": "🥧",
+      "imageQuery": null,
+      "note": "Planı/vaadi küçümserken."
+    },
+    {
+      "type": "CHUNK",
+      "en": "pull the rug out from under me",
+      "tr": "ayağımın altındaki halıyı çekmek, beni yüzüstü bırakmak",
+      "ipa": null,
+      "pos": null,
+      "example": "They cancelled the funding and pulled the rug out from under me.",
+      "exampleTr": "Finansmanı iptal edip ayağımın altındaki halıyı çektiler.",
+      "simple": "Suddenly take away help someone was counting on.",
+      "dialogue": [
+        "A: Why did you leave the band?",
+        "B: They decided to pull the rug out from under me a week before the tour."
+      ],
+      "emoji": "🧶",
+      "imageQuery": null,
+      "note": "'me' kişiye göre değişir: 'pull the rug out from under them'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "pass the buck",
+      "tr": "topu başkasına atmak, sorumluluktan kaçmak",
+      "ipa": null,
+      "pos": null,
+      "example": "Don't pass the buck, it was your idea.",
+      "exampleTr": "Topu başkasına atma, senin fikrindi.",
+      "simple": "Say a problem is someone else's job, so you don't have to deal with it.",
+      "dialogue": [
+        "A: Who's going to tell the client?",
+        "B: Don't look at me. Typical, everyone wants to pass the buck."
+      ],
+      "emoji": "🏓",
+      "imageQuery": null,
+      "note": "ABD kökenli, her yerde yaygın; 'The buck stops here' = sorumluluk bende."
+    },
+    {
+      "type": "CHUNK",
+      "en": "put a sock in it",
+      "tr": "kes sesini, sus artık",
+      "ipa": null,
+      "pos": null,
+      "example": "Put a sock in it, I'm trying to watch the film!",
+      "exampleTr": "Kes sesini, filmi izlemeye çalışıyorum!",
+      "simple": "A funny, rude way to tell someone to stop talking.",
+      "dialogue": [
+        "A: And another thing about my boss...",
+        "B: Oh, put a sock in it, mate."
+      ],
+      "emoji": "🧦",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi, şakacı ama kaba; yakın arkadaş arasında."
+    },
+    {
+      "type": "CHUNK",
+      "en": "rain on my parade",
+      "tr": "keyfimi kaçırmak, hevesimi kırmak",
+      "ipa": null,
+      "pos": null,
+      "example": "I'm excited about this trip, so don't rain on my parade.",
+      "exampleTr": "Bu gezi için heyecanlıyım, keyfimi kaçırma.",
+      "simple": "Spoil someone's happy moment by saying something negative.",
+      "dialogue": [
+        "A: You know it's going to rain all week in Rome?",
+        "B: Thanks for that. Way to rain on my parade."
+      ],
+      "emoji": "🌧️",
+      "imageQuery": null,
+      "note": "'my' kişiye göre değişir: 'rain on her parade'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "on the wagon",
+      "tr": "içkiyi bırakmış, alkole tövbe etmiş",
+      "ipa": null,
+      "pos": null,
+      "example": "No wine for me, thanks. I'm on the wagon this month.",
+      "exampleTr": "Bana şarap yok, sağ ol. Bu ay içkiyi bıraktım.",
+      "simple": "Not drinking any alcohol for a while.",
+      "dialogue": [
+        "A: Fancy a pint after work?",
+        "B: Can't, I'm on the wagon till Christmas."
+      ],
+      "emoji": "🚱",
+      "imageQuery": null,
+      "note": "'fall off the wagon' = içkiye geri dönmek."
+    },
+    {
+      "type": "CHUNK",
+      "en": "sweep it under the carpet",
+      "tr": "halının altına süpürmek, örtbas etmek",
+      "ipa": null,
+      "pos": null,
+      "example": "We can't just sweep it under the carpet and hope nobody notices.",
+      "exampleTr": "Bunu halının altına süpürüp kimse fark etmesin diye umamayız.",
+      "simple": "Hide a problem instead of dealing with it.",
+      "dialogue": [
+        "A: Should we tell the client about the mistake?",
+        "B: Yes. We can't sweep it under the carpet."
+      ],
+      "emoji": "🧹",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; ABD'de 'under the rug'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "read the room",
+      "tr": "ortamı okumak, havayı koklamak",
+      "ipa": null,
+      "pos": null,
+      "example": "He told a joke at the funeral. He really can't read the room.",
+      "exampleTr": "Cenazede fıkra anlattı. Ortamı hiç okuyamıyor.",
+      "simple": "Notice how people feel around you before you speak or act.",
+      "dialogue": [
+        "A: Should I ask for a raise in today's meeting?",
+        "B: They just announced job cuts. Read the room!"
+      ],
+      "emoji": "👥",
+      "imageQuery": null,
+      "note": "Sosyal medyada da çok yaygın: 'Read the room, mate.'"
+    },
+    {
+      "type": "CHUNK",
+      "en": "split hairs",
+      "tr": "kılı kırk yarmak",
+      "ipa": null,
+      "pos": null,
+      "example": "Stop splitting hairs, it's basically the same thing.",
+      "exampleTr": "Kılı kırk yarma, temelde aynı şey.",
+      "simple": "Argue about tiny little differences that don't really matter.",
+      "dialogue": [
+        "A: Technically it was five to nine, not nine.",
+        "B: Let's not split hairs."
+      ],
+      "emoji": "💇",
+      "imageQuery": null,
+      "note": "Hafif sinirli: 'Now you're just splitting hairs.'"
+    },
+    {
+      "type": "CHUNK",
+      "en": "put two and two together",
+      "tr": "iki ile ikiyi toplamak, durumu çakmak",
+      "ipa": null,
+      "pos": null,
+      "example": "I saw them leave together and put two and two together.",
+      "exampleTr": "Birlikte çıktıklarını gördüm ve durumu çaktım.",
+      "simple": "Use what you saw or heard to guess what's really going on.",
+      "dialogue": [
+        "A: How did you know about the surprise?",
+        "B: Mum was hiding a cake. I just put two and two together."
+      ],
+      "emoji": "🧩",
+      "imageQuery": null,
+      "note": "Bazen 'put two and two together and make five' = yanlış sonuç çıkarmak."
+    },
+    {
+      "type": "CHUNK",
+      "en": "talk shop",
+      "tr": "(iş dışında) iş konuşmak",
+      "ipa": null,
+      "pos": null,
+      "example": "Can we please not talk shop at dinner?",
+      "exampleTr": "Yemekte lütfen iş konuşmasak?",
+      "simple": "Talk about work when you're with colleagues outside work.",
+      "dialogue": [
+        "A: So, about that budget meeting...",
+        "B: It's Friday night. Let's not talk shop."
+      ],
+      "emoji": "💼",
+      "imageQuery": null,
+      "note": "Genelde şikâyet: 'No talking shop tonight!'"
+    },
+    {
+      "type": "CHUNK",
+      "en": "touch wood",
+      "tr": "nazar değmesin, tahtaya vur",
+      "ipa": null,
+      "pos": null,
+      "example": "I haven't been ill all year, touch wood.",
+      "exampleTr": "Bütün yıl hasta olmadım, nazar değmesin.",
+      "simple": "Something people say so their good luck doesn't stop.",
+      "dialogue": [
+        "A: How's the new car?",
+        "B: No problems so far, touch wood."
+      ],
+      "emoji": "🪵",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; ABD'de 'knock on wood'. Söylerken tahtaya vurulur."
+    },
+    {
+      "type": "CHUNK",
+      "en": "water under the bridge",
+      "tr": "geçmişte kaldı, olan oldu",
+      "ipa": null,
+      "pos": null,
+      "example": "We had a fight years ago, but it's water under the bridge now.",
+      "exampleTr": "Yıllar önce kavga ettik ama artık geçmişte kaldı.",
+      "simple": "Something bad from the past that doesn't matter anymore.",
+      "dialogue": [
+        "A: Sorry again about what I said at the wedding.",
+        "B: Forget it, it's water under the bridge."
+      ],
+      "emoji": "🌉",
+      "imageQuery": null,
+      "note": "Barışırken: 'Don't worry, it's water under the bridge.'"
+    },
+    {
+      "type": "CHUNK",
+      "en": "whet my appetite",
+      "tr": "iştahımı kabarttı, merakımı artırdı",
+      "ipa": null,
+      "pos": null,
+      "example": "The trailer really whetted my appetite for the film.",
+      "exampleTr": "Fragman filme olan merakımı iyice artırdı.",
+      "simple": "Make you want more of something by giving you a little bit first.",
+      "dialogue": [
+        "A: Did you like the first episode?",
+        "B: Yeah, it was enough to whet my appetite."
+      ],
+      "emoji": "🍽️",
+      "imageQuery": null,
+      "note": "'wet' değil 'whet' (bilemek). Mecazen ilgi uyandırmak."
+    },
+    {
+      "type": "CHUNK",
+      "en": "par for the course",
+      "tr": "olağan, bekleneni, hep böyle",
+      "ipa": null,
+      "pos": null,
+      "example": "The train was late again, but that's par for the course.",
+      "exampleTr": "Tren yine gecikti ama bu olağan bir şey.",
+      "simple": "Something bad that happens so often you expect it.",
+      "dialogue": [
+        "A: The printer's jammed again.",
+        "B: That's par for the course in this office."
+      ],
+      "emoji": "⛳",
+      "imageQuery": null,
+      "note": "Golften gelir; genelde bıkkın bir kabulleniş."
+    },
+    {
+      "type": "CHUNK",
+      "en": "ruffle a few feathers",
+      "tr": "birilerini rahatsız etmek, ortalığı karıştırmak",
+      "ipa": null,
+      "pos": null,
+      "example": "The new boss has ruffled a few feathers already.",
+      "exampleTr": "Yeni patron şimdiden birilerini rahatsız etti.",
+      "simple": "Upset some people by changing things or saying what you think.",
+      "dialogue": [
+        "A: I'm going to tell them their plan won't work.",
+        "B: Fair enough, but you might ruffle a few feathers."
+      ],
+      "emoji": "🪶",
+      "imageQuery": null,
+      "note": "Genelde değişim getiren kişi için, çok olumsuz değil."
+    },
+    {
+      "type": "CHUNK",
+      "en": "stick your oar in",
+      "tr": "burnunu sokmak, lafa karışmak",
+      "ipa": null,
+      "pos": null,
+      "example": "Nobody asked you to stick your oar in.",
+      "exampleTr": "Kimse senden burnunu sokmanı istemedi.",
+      "simple": "Give your opinion when no one asked for it.",
+      "dialogue": [
+        "A: I was only trying to help with their argument.",
+        "B: Well, you shouldn't stick your oar in."
+      ],
+      "emoji": "🚣",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi, gayriresmî, sitemli."
+    },
+    {
+      "type": "CHUNK",
+      "en": "shoot yourself in the foot",
+      "tr": "kendi ayağına sıkmak, kendi kuyunu kazmak",
+      "ipa": null,
+      "pos": null,
+      "example": "If you skip the interview, you'll shoot yourself in the foot.",
+      "exampleTr": "Mülakata gitmezsen kendi ayağına sıkarsın.",
+      "simple": "Do something silly that ends up hurting you.",
+      "dialogue": [
+        "A: I'm thinking of telling my boss what I really think of him.",
+        "B: Don't shoot yourself in the foot."
+      ],
+      "emoji": "🦶",
+      "imageQuery": null,
+      "note": "Zamir kişiye göre: 'He really shot himself in the foot.'"
+    },
+    {
+      "type": "CHUNK",
+      "en": "pull the wool over my eyes",
+      "tr": "gözümü boyamak, beni kandırmak",
+      "ipa": null,
+      "pos": null,
+      "example": "Don't try to pull the wool over my eyes, I know you were out.",
+      "exampleTr": "Gözümü boyamaya çalışma, dışarıda olduğunu biliyorum.",
+      "simple": "Trick someone so they don't see what is really happening.",
+      "dialogue": [
+        "A: I was studying all night, honest!",
+        "B: You can't pull the wool over my eyes."
+      ],
+      "emoji": "🐑",
+      "imageQuery": null,
+      "note": "'my' kişiye göre değişir: 'pull the wool over their eyes'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "throw in the towel",
+      "tr": "pes etmek, havlu atmak",
+      "ipa": null,
+      "pos": null,
+      "example": "After three failed attempts, I threw in the towel.",
+      "exampleTr": "Üç başarısız denemeden sonra pes ettim.",
+      "simple": "Stop trying because you think you can't win.",
+      "dialogue": [
+        "A: Are you still learning the guitar?",
+        "B: No, I decided to throw in the towel."
+      ],
+      "emoji": "🥊",
+      "imageQuery": null,
+      "note": "Boks'tan; Türkçedeki 'havlu atmak' ile birebir."
+    },
+    {
+      "type": "CHUNK",
+      "en": "the penny dropped",
+      "tr": "jeton düştü, sonunda anladım",
+      "ipa": null,
+      "pos": null,
+      "example": "It took me a while, but then the penny dropped.",
+      "exampleTr": "Biraz zaman aldı ama sonra jeton düştü.",
+      "simple": "You finally understand something after not getting it for a while.",
+      "dialogue": [
+        "A: When did you realise it was a surprise party?",
+        "B: When I saw the balloons, the penny dropped."
+      ],
+      "emoji": "🪙",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; Türkçedeki 'jeton düştü' ile aynı."
+    },
+    {
+      "type": "CHUNK",
+      "en": "throw a spanner in the works",
+      "tr": "işe çomak sokmak",
+      "ipa": null,
+      "pos": null,
+      "example": "The rain threw a spanner in the works for our barbecue.",
+      "exampleTr": "Yağmur mangal planımıza çomak soktu.",
+      "simple": "Something that suddenly stops a plan from working.",
+      "dialogue": [
+        "A: The venue just cancelled our booking.",
+        "B: Well, that's going to throw a spanner in the works."
+      ],
+      "emoji": "🔧",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; ABD'de 'throw a wrench in the works'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "put my foot in it",
+      "tr": "pot kırmak, çam devirmek",
+      "ipa": null,
+      "pos": null,
+      "example": "I really put my foot in it when I asked when the baby was due.",
+      "exampleTr": "Bebeğin ne zaman doğacağını sorunca fena çam devirdim.",
+      "simple": "Say something by mistake that upsets or embarrasses someone.",
+      "dialogue": [
+        "A: Why is Jen so upset with you?",
+        "B: I put my foot in it about her haircut."
+      ],
+      "emoji": "👣",
+      "imageQuery": null,
+      "note": "'my' kişiye göre değişir: 'He put his foot in it.'"
+    }
+  ]
+}

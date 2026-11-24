@@ -1,0 +1,447 @@
+{
+  "topic": "İlişkiler ve sosyal hayat",
+  "items": [
+    {
+      "type": "WORD",
+      "en": "frenemy",
+      "tr": "dost görünümlü düşman, sahte arkadaş",
+      "ipa": "/ˈfren.ə.mi/",
+      "pos": "noun",
+      "example": "She's not really a friend, more of a frenemy.",
+      "exampleTr": "O aslında arkadaş değil, daha çok dost kılığında düşman.",
+      "simple": "Someone who acts like your friend but secretly wants you to lose.",
+      "dialogue": [
+        "A: Are you inviting Chloe?",
+        "B: I have to. She's my office frenemy."
+      ],
+      "emoji": "🐍",
+      "imageQuery": null,
+      "note": "friend + enemy; gayriresmî, esprili."
+    },
+    {
+      "type": "WORD",
+      "en": "ghost",
+      "tr": "(birini) aniden yok saymak, mesajlara cevap vermeyip ortadan kaybolmak",
+      "ipa": "/ɡəʊst/",
+      "pos": "verb",
+      "example": "We went on three dates and then he ghosted me.",
+      "exampleTr": "Üç kez buluştuk, sonra bir anda ortadan kayboldu.",
+      "simple": "Stop answering someone's messages and just vanish, with no goodbye.",
+      "dialogue": [
+        "A: Did that guy ever text you back?",
+        "B: Nope. Why do people ghost instead of just saying no?"
+      ],
+      "emoji": "👻",
+      "imageQuery": null,
+      "note": "Flört ve arkadaşlıkta; iş başvurularında da kullanılır."
+    },
+    {
+      "type": "WORD",
+      "en": "needy",
+      "tr": "sürekli ilgi bekleyen, yapışkan",
+      "ipa": "/ˈniː.di/",
+      "pos": "adjective",
+      "example": "He's lovely, but a bit needy, he texts me every hour.",
+      "exampleTr": "Çok tatlı ama biraz ilgi delisi, her saat mesaj atıyor.",
+      "simple": "Someone who always wants your time and attention.",
+      "dialogue": [
+        "A: Is your new cat friendly?",
+        "B: Too friendly. She's so needy."
+      ],
+      "emoji": "🥺",
+      "imageQuery": null,
+      "note": "İlişki ve arkadaşlıkta olumsuz; 'clingy' ile yakın."
+    },
+    {
+      "type": "WORD",
+      "en": "passive-aggressive",
+      "tr": "pasif-agresif, laf sokan",
+      "ipa": "/ˌpæs.ɪv əˈɡres.ɪv/",
+      "pos": "adjective",
+      "example": "Her 'per my last email' was very passive-aggressive.",
+      "exampleTr": "'Son e-postamda belirttiğim üzere' demesi çok pasif-agresifti.",
+      "simple": "Being angry in a quiet, sneaky way instead of saying it.",
+      "dialogue": [
+        "A: My flatmate left a note: 'Hope you enjoyed MY milk.'",
+        "B: Wow, that's so passive-aggressive."
+      ],
+      "emoji": "🙂",
+      "imageQuery": null,
+      "note": "Ofis yazışmalarında ve ev arkadaşı notlarında çok kullanılır."
+    },
+    {
+      "type": "WORD",
+      "en": "tight-knit",
+      "tr": "birbirine çok bağlı, sıkı fıkı",
+      "ipa": "/ˌtaɪtˈnɪt/",
+      "pos": "adjective",
+      "example": "We're a tight-knit family, we talk every day.",
+      "exampleTr": "Birbirimize çok bağlı bir aileyiz, her gün konuşuruz.",
+      "simple": "A small group of people who are very close and help each other.",
+      "dialogue": [
+        "A: Is it hard being new in the village?",
+        "B: A bit. It's a tight-knit community."
+      ],
+      "emoji": "🧶",
+      "imageQuery": null,
+      "note": "Aile, ekip, mahalle için."
+    },
+    {
+      "type": "WORD",
+      "en": "standoffish",
+      "tr": "soğuk, mesafeli",
+      "ipa": "/ˌstændˈɒf.ɪʃ/",
+      "pos": "adjective",
+      "example": "She seemed standoffish at first, but she's just shy.",
+      "exampleTr": "İlk başta mesafeli görünüyordu ama sadece utangaç.",
+      "simple": "Not friendly, keeps away from people and doesn't chat.",
+      "dialogue": [
+        "A: What do you think of the new neighbour?",
+        "B: Bit standoffish, to be honest."
+      ],
+      "emoji": "🧊",
+      "imageQuery": null,
+      "note": "Genelde ilk izlenim için; 'aloof'tan daha gündelik."
+    },
+    {
+      "type": "WORD",
+      "en": "falling-out",
+      "tr": "küslük, aranın bozulması",
+      "ipa": "/ˌfɔː.lɪŋˈaʊt/",
+      "pos": "noun",
+      "example": "They had a falling-out over money and haven't spoken since.",
+      "exampleTr": "Para yüzünden araları bozuldu ve o günden beri konuşmuyorlar.",
+      "simple": "A fight that makes two friends stop being friends for a while.",
+      "dialogue": [
+        "A: Aren't you and Kate friends anymore?",
+        "B: We had a bit of a falling-out last year."
+      ],
+      "emoji": "💔",
+      "imageQuery": null,
+      "note": "'have a falling-out with someone' kalıbı; fiili 'fall out'."
+    },
+    {
+      "type": "WORD",
+      "en": "high-maintenance",
+      "tr": "nazlı, çok ilgi isteyen, zahmetli",
+      "ipa": "/ˌhaɪˈmeɪn.tən.əns/",
+      "pos": "adjective",
+      "example": "My ex was really high-maintenance.",
+      "exampleTr": "Eski sevgilim gerçekten çok nazlıydı.",
+      "simple": "Someone who needs lots of time, care and attention all the time.",
+      "dialogue": [
+        "A: Your new puppy is adorable.",
+        "B: Adorable, but very high-maintenance."
+      ],
+      "emoji": "💅",
+      "imageQuery": null,
+      "note": "Kişi, evcil hayvan, bitki için; tersi 'low-maintenance'."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "a fair-weather friend",
+      "tr": "iyi gün dostu",
+      "ipa": "/ə ˈfeə.weð.ə frend/",
+      "pos": null,
+      "example": "When I lost my job, I found out who the fair-weather friends were.",
+      "exampleTr": "İşimi kaybedince kimlerin iyi gün dostu olduğunu anladım.",
+      "simple": "A friend who stays only when things are good, and leaves when things go bad.",
+      "dialogue": [
+        "A: Has Lee called since you got ill?",
+        "B: No. Turns out he's a fair-weather friend."
+      ],
+      "emoji": "🌤️",
+      "imageQuery": null,
+      "note": "'fair-weather fan' = sadece kazanınca destekleyen taraftar."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "an awkward silence",
+      "tr": "garip bir sessizlik",
+      "ipa": "/ən ˈɔː.kwəd ˈsaɪ.ləns/",
+      "pos": null,
+      "example": "There was an awkward silence after he mentioned his ex.",
+      "exampleTr": "Eski sevgilisinden bahsedince garip bir sessizlik oldu.",
+      "simple": "When nobody talks and everyone feels a bit uncomfortable.",
+      "dialogue": [
+        "A: How did the dinner with your in-laws go?",
+        "B: Let's just say there was an awkward silence or two."
+      ],
+      "emoji": "😶",
+      "imageQuery": null,
+      "note": "Çok yaygın; 'cue awkward silence' esprili kullanım."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "offer an olive branch",
+      "tr": "barış eli uzatmak",
+      "ipa": "/ˈɒf.ər ən ˈɒl.ɪv brɑːntʃ/",
+      "pos": null,
+      "example": "I decided to offer an olive branch and invite her for coffee.",
+      "exampleTr": "Barış eli uzatıp onu kahveye davet etmeye karar verdim.",
+      "simple": "Do something kind to show you want to stop fighting.",
+      "dialogue": [
+        "A: You're still not talking to your brother?",
+        "B: I think it's time to offer an olive branch."
+      ],
+      "emoji": "🫒",
+      "imageQuery": null,
+      "note": "'extend an olive branch' de denir."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "bad blood",
+      "tr": "husumet, düşmanlık, kan davası",
+      "ipa": "/bæd blʌd/",
+      "pos": null,
+      "example": "There's been bad blood between the two families for years.",
+      "exampleTr": "İki aile arasında yıllardır husumet var.",
+      "simple": "Old anger between people that hasn't gone away.",
+      "dialogue": [
+        "A: Why won't they sit at the same table?",
+        "B: There's a lot of bad blood there."
+      ],
+      "emoji": "🩸",
+      "imageQuery": null,
+      "note": "'There's bad blood between them' kalıbı."
+    },
+    {
+      "type": "CHUNK",
+      "en": "the black sheep of the family",
+      "tr": "ailenin yüz karası, ailenin aykırısı",
+      "ipa": null,
+      "pos": null,
+      "example": "My uncle is the black sheep of the family.",
+      "exampleTr": "Amcam ailenin yüz karası sayılır.",
+      "simple": "The one person in a family who is very different, often in a bad way.",
+      "dialogue": [
+        "A: Why does nobody talk about your cousin?",
+        "B: He's the black sheep of the family."
+      ],
+      "emoji": "🐑",
+      "imageQuery": null,
+      "note": "Bazen gururla: 'I'm the black sheep, I became an artist.'"
+    },
+    {
+      "type": "WORD",
+      "en": "plus-one",
+      "tr": "(davete) yanında getirdiğin kişi, eşlikçi",
+      "ipa": "/ˌplʌsˈwʌn/",
+      "pos": "noun",
+      "example": "Can I bring a plus-one to the wedding?",
+      "exampleTr": "Düğüne yanımda birini getirebilir miyim?",
+      "simple": "The extra person you can bring with you to a party or wedding.",
+      "dialogue": [
+        "A: Are you bringing anyone to the party?",
+        "B: Yeah, my sister's my plus-one."
+      ],
+      "emoji": "💌",
+      "imageQuery": null,
+      "note": "Davetiyede 'John + 1' gibi yazılır; 'my plus-one' = eşlikçim."
+    },
+    {
+      "type": "CHUNK",
+      "en": "read too much into it",
+      "tr": "fazla anlam yüklemek, abartmak",
+      "ipa": null,
+      "pos": null,
+      "example": "She didn't reply with a kiss, but don't read too much into it.",
+      "exampleTr": "Mesajını öpücüksüz göndermiş ama fazla anlam yükleme.",
+      "simple": "Think something means more than it really does.",
+      "dialogue": [
+        "A: He said 'ok.' with a full stop. Is he angry?",
+        "B: I wouldn't read too much into it."
+      ],
+      "emoji": "🔍",
+      "imageQuery": null,
+      "note": "Mesaj, bakış, söz yorumlarken çok kullanılır."
+    },
+    {
+      "type": "CHUNK",
+      "en": "have a soft spot for",
+      "tr": "(birine/bir şeye) zaafı olmak",
+      "ipa": null,
+      "pos": null,
+      "example": "I've always had a soft spot for my little cousin.",
+      "exampleTr": "Küçük kuzenime hep ayrı bir zaafım olmuştur.",
+      "simple": "Like someone or something a lot, even if you don't know why.",
+      "dialogue": [
+        "A: Why do you let him get away with everything?",
+        "B: I just have a soft spot for him."
+      ],
+      "emoji": "💗",
+      "imageQuery": null,
+      "note": "Kişi, yemek, eski şarkı için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "joined at the hip",
+      "tr": "ayrılmaz ikili, yapışık",
+      "ipa": null,
+      "pos": null,
+      "example": "Those two are joined at the hip, you never see one without the other.",
+      "exampleTr": "O ikisi yapışık gibi, birini diğeri olmadan göremezsin.",
+      "simple": "Two people who are always together.",
+      "dialogue": [
+        "A: Is Amy coming?",
+        "B: If Ben's coming, yes. They're joined at the hip."
+      ],
+      "emoji": "👯",
+      "imageQuery": null,
+      "note": "Hafif esprili; bazen 'biraz fazla' anlamında."
+    },
+    {
+      "type": "CHUNK",
+      "en": "not on speaking terms",
+      "tr": "küs, konuşmuyorlar",
+      "ipa": null,
+      "pos": null,
+      "example": "My sister and I are not on speaking terms right now.",
+      "exampleTr": "Kız kardeşimle şu an küsüz.",
+      "simple": "Two people are so angry that they don't talk to each other.",
+      "dialogue": [
+        "A: Is your dad coming to the wedding?",
+        "B: Not sure. He and my mum are not on speaking terms."
+      ],
+      "emoji": "🤐",
+      "imageQuery": null,
+      "note": "'back on speaking terms' = barıştılar."
+    },
+    {
+      "type": "CHUNK",
+      "en": "put a brave face on it",
+      "tr": "belli etmemek, metin görünmek",
+      "ipa": null,
+      "pos": null,
+      "example": "She's heartbroken, but she's putting a brave face on it.",
+      "exampleTr": "Kalbi kırık ama belli etmiyor.",
+      "simple": "Look happy and strong even when you feel sad inside.",
+      "dialogue": [
+        "A: How's Tom coping after the break-up?",
+        "B: He's trying to put a brave face on it."
+      ],
+      "emoji": "🙂",
+      "imageQuery": null,
+      "note": "'put on a brave face' de denir."
+    },
+    {
+      "type": "CHUNK",
+      "en": "make the first move",
+      "tr": "ilk adımı atmak",
+      "ipa": null,
+      "pos": null,
+      "example": "Neither of them wants to make the first move.",
+      "exampleTr": "İkisi de ilk adımı atmak istemiyor.",
+      "simple": "Be the one who starts, like texting first or saying sorry first.",
+      "dialogue": [
+        "A: Just text him!",
+        "B: No way, I'm not going to make the first move."
+      ],
+      "emoji": "👣",
+      "imageQuery": null,
+      "note": "Flörtte ve barışmada; 'Who made the first move?'"
+    },
+    {
+      "type": "CHUNK",
+      "en": "hold it against me",
+      "tr": "bana kin tutmak, (bunu) bana karşı kullanmak",
+      "ipa": null,
+      "pos": null,
+      "example": "I forgot your birthday, please don't hold it against me.",
+      "exampleTr": "Doğum gününü unuttum, lütfen bana kırılma.",
+      "simple": "Stay angry at someone for a long time because of one thing.",
+      "dialogue": [
+        "A: Sorry I missed your party. Please don't hold it against me.",
+        "B: Don't be silly, it's fine."
+      ],
+      "emoji": "🤞",
+      "imageQuery": null,
+      "note": "'me' kişiye göre değişir: 'I won't hold it against you.'"
+    },
+    {
+      "type": "CHUNK",
+      "en": "on the same wavelength",
+      "tr": "aynı frekansta, kafa kafaya uyan",
+      "ipa": null,
+      "pos": null,
+      "example": "We just clicked, we're totally on the same wavelength.",
+      "exampleTr": "Hemen anlaştık, tamamen aynı frekanstayız.",
+      "simple": "Two people who think and feel the same way, so they understand each other.",
+      "dialogue": [
+        "A: How's the new flatmate?",
+        "B: Great. We're on the same wavelength about everything."
+      ],
+      "emoji": "📻",
+      "imageQuery": null,
+      "note": "Arkadaşlık ve iş ortaklığında."
+    },
+    {
+      "type": "CHUNK",
+      "en": "walk all over you",
+      "tr": "seni ezip geçmek, sana istediğini yaptırmak",
+      "ipa": null,
+      "pos": null,
+      "example": "If you always say yes, people will walk all over you.",
+      "exampleTr": "Hep evet dersen insanlar seni ezer geçer.",
+      "simple": "Treat you badly because they know you won't say no.",
+      "dialogue": [
+        "A: My boss gave me another weekend shift.",
+        "B: You can't let him walk all over you."
+      ],
+      "emoji": "🥾",
+      "imageQuery": null,
+      "note": "'Don't let them walk all over you' kalıbı çok yaygın."
+    },
+    {
+      "type": "CHUNK",
+      "en": "leave me hanging",
+      "tr": "beni ortada bırakmak, cevapsız bırakmak",
+      "ipa": null,
+      "pos": null,
+      "example": "You can't just leave me hanging like that, what happened next?",
+      "exampleTr": "Beni öyle merakta bırakamazsın, sonra ne oldu?",
+      "simple": "Not answer or not finish something, so someone is left waiting.",
+      "dialogue": [
+        "A: I'll tell you the rest tomorrow.",
+        "B: Don't leave me hanging!"
+      ],
+      "emoji": "⏳",
+      "imageQuery": null,
+      "note": "Çak/high five'a karşılık vermeyince de: 'Don't leave me hanging!'"
+    },
+    {
+      "type": "CHUNK",
+      "en": "blow hot and cold",
+      "tr": "bir sıcak bir soğuk davranmak, kararsız olmak",
+      "ipa": null,
+      "pos": null,
+      "example": "He keeps blowing hot and cold about moving in together.",
+      "exampleTr": "Birlikte taşınma konusunda bir sıcak bir soğuk davranıyor.",
+      "simple": "Be keen one day and not interested the next day.",
+      "dialogue": [
+        "A: Is she interested in the job or not?",
+        "B: She seems to blow hot and cold."
+      ],
+      "emoji": "🌡️",
+      "imageQuery": null,
+      "note": "İlişki veya karar konusunda kararsızlık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "mend fences",
+      "tr": "araları düzeltmek, barışmak",
+      "ipa": null,
+      "pos": null,
+      "example": "It's time you mended fences with your dad.",
+      "exampleTr": "Babanla aranı düzeltmenin zamanı geldi.",
+      "simple": "Fix a friendship after a fight.",
+      "dialogue": [
+        "A: You're having lunch with Sarah? I thought you'd fallen out.",
+        "B: We're trying to mend fences."
+      ],
+      "emoji": "🪚",
+      "imageQuery": null,
+      "note": "'mend fences with someone' kalıbı."
+    }
+  ]
+}

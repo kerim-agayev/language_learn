@@ -1,0 +1,447 @@
+{
+  "topic": "Konuşmada atasözleri ve kalıp sözler",
+  "items": [
+    {
+      "type": "CHUNK",
+      "en": "every cloud",
+      "tr": "her işte bir hayır vardır (kısaltılmış)",
+      "ipa": null,
+      "pos": null,
+      "example": "I lost my job, but now I can travel. Every cloud, eh?",
+      "exampleTr": "İşimi kaybettim ama artık seyahat edebilirim. Her işte bir hayır var, değil mi?",
+      "simple": "Short way to say: even a bad thing can bring something good.",
+      "dialogue": [
+        "A: The flight's cancelled, but they gave us a free hotel.",
+        "B: Well, every cloud, eh?"
+      ],
+      "emoji": "🌥️",
+      "imageQuery": null,
+      "note": "Tamamı: 'Every cloud has a silver lining.' Konuşmada çoğu zaman yarım bırakılır."
+    },
+    {
+      "type": "CHUNK",
+      "en": "better the devil you know",
+      "tr": "bildiğin şeytan bilmediğin melekten iyidir",
+      "ipa": null,
+      "pos": null,
+      "example": "I don't love my job, but better the devil you know.",
+      "exampleTr": "İşimi çok sevmiyorum ama bildiğin şeytan bilmediğin melekten iyidir.",
+      "simple": "Something you know, even if not great, is safer than something new.",
+      "dialogue": [
+        "A: Why don't you switch to the other internet company?",
+        "B: Nah, better the devil you know."
+      ],
+      "emoji": "😈",
+      "imageQuery": null,
+      "note": "Değişiklikten kaçınırken; Türkçe karşılığıyla birebir."
+    },
+    {
+      "type": "CHUNK",
+      "en": "when in Rome",
+      "tr": "Roma'da Romalı gibi davran (kısaltılmış)",
+      "ipa": null,
+      "pos": null,
+      "example": "Everyone eats with their hands here, so when in Rome!",
+      "exampleTr": "Burada herkes elle yiyor, eh, Roma'da Romalı gibi!",
+      "simple": "In a new place, do what the local people do.",
+      "dialogue": [
+        "A: Dinner at ten o'clock at night?",
+        "B: It's Spain. When in Rome!"
+      ],
+      "emoji": "🏛️",
+      "imageQuery": null,
+      "note": "Tamamı: 'When in Rome, do as the Romans do.' Tatilde çok kullanılır."
+    },
+    {
+      "type": "CHUNK",
+      "en": "too many cooks",
+      "tr": "fazla aşçı yemeği bozar (kısaltılmış)",
+      "ipa": null,
+      "pos": null,
+      "example": "Five people editing one document? Too many cooks.",
+      "exampleTr": "Bir belgeyi beş kişi mi düzenliyor? Fazla aşçı yemeği bozar.",
+      "simple": "When too many people work on one thing, they spoil it.",
+      "dialogue": [
+        "A: Shall I help you two with the cooking?",
+        "B: No thanks, too many cooks."
+      ],
+      "emoji": "👩‍🍳",
+      "imageQuery": null,
+      "note": "Tamamı: 'Too many cooks spoil the broth.'"
+    },
+    {
+      "type": "CHUNK",
+      "en": "don't count your chickens",
+      "tr": "dereyi görmeden paçaları sıvama",
+      "ipa": null,
+      "pos": null,
+      "example": "You haven't got the job yet, so don't count your chickens.",
+      "exampleTr": "İşi daha almadın, dereyi görmeden paçaları sıvama.",
+      "simple": "Don't be sure of a good thing before it really happens.",
+      "dialogue": [
+        "A: Once I win the lottery, I'm buying a boat.",
+        "B: Don't count your chickens!"
+      ],
+      "emoji": "🐣",
+      "imageQuery": null,
+      "note": "Tamamı: '...before they hatch.' Genelde yarım söylenir."
+    },
+    {
+      "type": "SENTENCE",
+      "en": "Beggars can't be choosers.",
+      "tr": "Dilenciye hıyar vermişler, eğri diye beğenmemiş.",
+      "ipa": null,
+      "pos": null,
+      "example": "It's not my dream flat, but beggars can't be choosers.",
+      "exampleTr": "Hayalimdeki daire değil ama seçici olacak durumda değilim.",
+      "simple": "If you need help, you can't be picky about what you get.",
+      "dialogue": [
+        "A: There's only decaf left.",
+        "B: Beggars can't be choosers. I'll take it."
+      ],
+      "emoji": "🙏",
+      "imageQuery": null,
+      "note": "Kendi durumun için alçakgönüllü söylenir; başkasına söylemek kaba olabilir."
+    },
+    {
+      "type": "SENTENCE",
+      "en": "It takes two to tango.",
+      "tr": "Tek elden ses çıkmaz.",
+      "ipa": null,
+      "pos": null,
+      "example": "Don't just blame him for the fight. It takes two to tango.",
+      "exampleTr": "Kavga için sadece onu suçlama. Tek elden ses çıkmaz.",
+      "simple": "When two people have a problem, both of them helped make it.",
+      "dialogue": [
+        "A: She started the argument!",
+        "B: Come on, it takes two to tango."
+      ],
+      "emoji": "💃",
+      "imageQuery": null,
+      "note": "Kavga ya da ilişki sorunlarında tek tarafı suçlamamak için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "no smoke without fire",
+      "tr": "ateş olmayan yerden duman çıkmaz",
+      "ipa": null,
+      "pos": null,
+      "example": "Everyone's saying he cheated. No smoke without fire.",
+      "exampleTr": "Herkes onun aldattığını söylüyor. Ateş olmayan yerden duman çıkmaz.",
+      "simple": "If people talk about it, there's probably some truth in it.",
+      "dialogue": [
+        "A: They say the boss is selling the company.",
+        "B: Well, no smoke without fire."
+      ],
+      "emoji": "🔥",
+      "imageQuery": null,
+      "note": "Tamamı: 'There's no smoke without fire.' Dedikoduya inanırken."
+    },
+    {
+      "type": "SENTENCE",
+      "en": "You can't have your cake and eat it.",
+      "tr": "Hem dağdan hem bağdan olmaz.",
+      "ipa": null,
+      "pos": null,
+      "example": "You want a big house and no mortgage? You can't have your cake and eat it.",
+      "exampleTr": "Hem büyük ev hem kredisiz mi? Hem dağdan hem bağdan olmaz.",
+      "simple": "You can't have two good things when they don't go together.",
+      "dialogue": [
+        "A: I want to work less but earn more.",
+        "B: You can't have your cake and eat it."
+      ],
+      "emoji": "🍰",
+      "imageQuery": null,
+      "note": "Konuşmada 'You can't have it both ways' ile aynı anlam."
+    },
+    {
+      "type": "CHUNK",
+      "en": "the grass is always greener",
+      "tr": "komşunun tavuğu komşuya kaz görünür",
+      "ipa": null,
+      "pos": null,
+      "example": "Everyone thinks city life is better. The grass is always greener.",
+      "exampleTr": "Herkes şehir hayatını daha iyi sanıyor. Komşunun tavuğu komşuya kaz görünür.",
+      "simple": "Other people's lives always look better than yours, but often aren't.",
+      "dialogue": [
+        "A: I wish I had Jake's job.",
+        "B: The grass is always greener, mate."
+      ],
+      "emoji": "🌿",
+      "imageQuery": null,
+      "note": "Tamamı: '...on the other side (of the fence).' Çoğu zaman yarım bırakılır."
+    },
+    {
+      "type": "SENTENCE",
+      "en": "Rome wasn't built in a day.",
+      "tr": "Roma bir günde kurulmadı.",
+      "ipa": null,
+      "pos": null,
+      "example": "You've only been learning for a month. Rome wasn't built in a day.",
+      "exampleTr": "Daha bir aydır öğreniyorsun. Roma bir günde kurulmadı.",
+      "simple": "Big things take a long time, so be patient.",
+      "dialogue": [
+        "A: I've been to the gym twice and I still look the same.",
+        "B: Give it time. Rome wasn't built in a day."
+      ],
+      "emoji": "🧱",
+      "imageQuery": null,
+      "note": "Sabırsız birini cesaretlendirirken."
+    },
+    {
+      "type": "SENTENCE",
+      "en": "If it ain't broke, don't fix it.",
+      "tr": "Çalışan şeyi kurcalama.",
+      "ipa": null,
+      "pos": null,
+      "example": "Why change the menu? If it ain't broke, don't fix it.",
+      "exampleTr": "Menüyü neden değiştiriyorsunuz? Çalışan şeyi kurcalama.",
+      "simple": "If something works fine, don't try to change it.",
+      "dialogue": [
+        "A: Should we redesign the website?",
+        "B: Why? If it ain't broke, don't fix it."
+      ],
+      "emoji": "🔧",
+      "imageQuery": null,
+      "note": "'ain't' bilerek yanlış, gayriresmî; sabit kalıp böyle."
+    },
+    {
+      "type": "SENTENCE",
+      "en": "Old habits die hard.",
+      "tr": "Eski alışkanlıklar kolay bırakılmaz.",
+      "ipa": null,
+      "pos": null,
+      "example": "I still check my work emails on holiday. Old habits die hard.",
+      "exampleTr": "Tatilde hâlâ iş e-postalarımı kontrol ediyorum. Eski alışkanlıklar kolay bırakılmaz.",
+      "simple": "Things you always did are very hard to stop doing.",
+      "dialogue": [
+        "A: You're retired! Why are you up at six?",
+        "B: Old habits die hard."
+      ],
+      "emoji": "🚬",
+      "imageQuery": null,
+      "note": "Kendine ya da başkasına hafif hoşgörüyle."
+    },
+    {
+      "type": "SENTENCE",
+      "en": "Two wrongs don't make a right.",
+      "tr": "Kötülüğe kötülükle karşılık verilmez.",
+      "ipa": null,
+      "pos": null,
+      "example": "He was rude first, I know, but two wrongs don't make a right.",
+      "exampleTr": "İlk o kabalık etti, biliyorum, ama kötülüğe kötülükle karşılık verilmez.",
+      "simple": "If someone does a bad thing, doing a bad thing back is still bad.",
+      "dialogue": [
+        "A: He ate my lunch, so I'm eating his.",
+        "B: Two wrongs don't make a right."
+      ],
+      "emoji": "✖️",
+      "imageQuery": null,
+      "note": "Çocuklara ve intikam isteyenlere çok söylenir."
+    },
+    {
+      "type": "CHUNK",
+      "en": "needs must",
+      "tr": "mecburiyet, yapacak bir şey yok",
+      "ipa": null,
+      "pos": null,
+      "example": "I hate the bus, but my car's broken, so needs must.",
+      "exampleTr": "Otobüsten nefret ediyorum ama arabam bozuk, mecburen.",
+      "simple": "You have to do it, even if you don't want to.",
+      "dialogue": [
+        "A: You're working on a Sunday?",
+        "B: Needs must. The rent's due."
+      ],
+      "emoji": "🤷",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; tamamı: 'Needs must when the devil drives.'"
+    },
+    {
+      "type": "SENTENCE",
+      "en": "Ignorance is bliss.",
+      "tr": "Bilmemek en iyisi, cahillik mutluluktur.",
+      "ipa": null,
+      "pos": null,
+      "example": "I don't want to know how much the wedding cost. Ignorance is bliss.",
+      "exampleTr": "Düğünün kaça mal olduğunu bilmek istemiyorum. Bilmemek en iyisi.",
+      "simple": "Sometimes not knowing about a problem makes you happier.",
+      "dialogue": [
+        "A: Do you want to know what's in that sausage?",
+        "B: No. Ignorance is bliss."
+      ],
+      "emoji": "😌",
+      "imageQuery": null,
+      "note": "Kötü haberi duymak istemezken esprili."
+    },
+    {
+      "type": "CHUNK",
+      "en": "live and learn",
+      "tr": "yaşaya yaşaya öğreniyoruz, ders oldu",
+      "ipa": null,
+      "pos": null,
+      "example": "I paid the full price and saw it half off the next day. Live and learn.",
+      "exampleTr": "Tam fiyat ödedim, ertesi gün yarı fiyata gördüm. Ders oldu.",
+      "simple": "You made a mistake, but now you know better.",
+      "dialogue": [
+        "A: You bought shoes online without checking the size?",
+        "B: I know. Live and learn."
+      ],
+      "emoji": "📖",
+      "imageQuery": null,
+      "note": "Küçük bir hatadan sonra kendini teselli ederken."
+    },
+    {
+      "type": "SENTENCE",
+      "en": "What goes around comes around.",
+      "tr": "Ne ekersen onu biçersin.",
+      "ipa": null,
+      "pos": null,
+      "example": "He cheated on everyone, and now he's been dumped. What goes around comes around.",
+      "exampleTr": "Herkesi aldattı, şimdi de terk edildi. Ne ekersen onu biçersin.",
+      "simple": "If you do bad things, bad things will come back to you.",
+      "dialogue": [
+        "A: The guy who stole my parking spot just got a ticket.",
+        "B: Ha! What goes around comes around."
+      ],
+      "emoji": "🔁",
+      "imageQuery": null,
+      "note": "Karma fikri; genelde biri hak ettiğini bulunca."
+    },
+    {
+      "type": "CHUNK",
+      "en": "don't put all your eggs in one basket",
+      "tr": "bütün yumurtaları aynı sepete koyma",
+      "ipa": null,
+      "pos": null,
+      "example": "Apply for a few jobs, don't put all your eggs in one basket.",
+      "exampleTr": "Birkaç işe başvur, bütün yumurtaları aynı sepete koyma.",
+      "simple": "Don't trust only one plan; have other plans too.",
+      "dialogue": [
+        "A: I'm only applying to one university.",
+        "B: Don't put all your eggs in one basket."
+      ],
+      "emoji": "🧺",
+      "imageQuery": null,
+      "note": "Para, iş, başvuru konularında tavsiye."
+    },
+    {
+      "type": "SENTENCE",
+      "en": "Absence makes the heart grow fonder.",
+      "tr": "Uzaklık sevgiyi artırır.",
+      "ipa": null,
+      "pos": null,
+      "example": "We only see each other at weekends, but absence makes the heart grow fonder.",
+      "exampleTr": "Sadece hafta sonları görüşüyoruz ama uzaklık sevgiyi artırır.",
+      "simple": "When you're far from someone you love, you miss them and love them more.",
+      "dialogue": [
+        "A: Aren't you sad he's away for a month?",
+        "B: A bit, but absence makes the heart grow fonder."
+      ],
+      "emoji": "💞",
+      "imageQuery": null,
+      "note": "Uzak mesafe ilişkilerinde; şakayla tersini de söyleyenler olur."
+    },
+    {
+      "type": "CHUNK",
+      "en": "out of sight, out of mind",
+      "tr": "gözden ırak olan gönülden de ırak olur",
+      "ipa": null,
+      "pos": null,
+      "example": "I keep the biscuits in the top cupboard. Out of sight, out of mind.",
+      "exampleTr": "Bisküvileri üst dolapta tutuyorum. Gözden ırak, gönülden ırak.",
+      "simple": "When you can't see something, you forget about it.",
+      "dialogue": [
+        "A: Have you heard from your old school friends?",
+        "B: Not really. Out of sight, out of mind."
+      ],
+      "emoji": "🙈",
+      "imageQuery": null,
+      "note": "Hem ilişkiler hem alışkanlıklar için."
+    },
+    {
+      "type": "SENTENCE",
+      "en": "Don't look a gift horse in the mouth.",
+      "tr": "Bahşiş atın dişine bakılmaz.",
+      "ipa": null,
+      "pos": null,
+      "example": "It's a free upgrade. Don't look a gift horse in the mouth.",
+      "exampleTr": "Bedava yükseltme bu. Bahşiş atın dişine bakılmaz.",
+      "simple": "If you get something free, don't complain about it.",
+      "dialogue": [
+        "A: Why would they give us free tickets? It's weird.",
+        "B: Don't look a gift horse in the mouth."
+      ],
+      "emoji": "🐴",
+      "imageQuery": null,
+      "note": "Türkçe karşılığıyla neredeyse birebir."
+    },
+    {
+      "type": "CHUNK",
+      "en": "birds of a feather",
+      "tr": "tencere yuvarlanmış kapağını bulmuş, benzer benzerini bulur",
+      "ipa": null,
+      "pos": null,
+      "example": "Both of them are always late. Birds of a feather.",
+      "exampleTr": "İkisi de hep geç kalıyor. Tencere yuvarlanmış kapağını bulmuş.",
+      "simple": "People who are alike like to be together.",
+      "dialogue": [
+        "A: Tom and his new girlfriend both love conspiracy theories.",
+        "B: Birds of a feather, eh?"
+      ],
+      "emoji": "🐦",
+      "imageQuery": null,
+      "note": "Tamamı: '...flock together.' Konuşmada yarım bırakılır."
+    },
+    {
+      "type": "CHUNK",
+      "en": "each to their own",
+      "tr": "herkesin zevki kendine",
+      "ipa": null,
+      "pos": null,
+      "example": "He puts ketchup on everything. Each to their own.",
+      "exampleTr": "Her şeye ketçap koyuyor. Herkesin zevki kendine.",
+      "simple": "Different people like different things, and that's OK.",
+      "dialogue": [
+        "A: My neighbour has forty garden gnomes.",
+        "B: Each to their own, I suppose."
+      ],
+      "emoji": "🤝",
+      "imageQuery": null,
+      "note": "Eski hali 'each to his own'; ABD'de 'to each their own'."
+    },
+    {
+      "type": "SENTENCE",
+      "en": "Easy come, easy go.",
+      "tr": "Haydan gelen huya gider.",
+      "ipa": null,
+      "pos": null,
+      "example": "I won fifty quid and lost it the same night. Easy come, easy go.",
+      "exampleTr": "Elli pound kazandım, aynı gece kaybettim. Haydan gelen huya gider.",
+      "simple": "Things you got easily, you can lose easily, so don't be sad.",
+      "dialogue": [
+        "A: You lost the money you found on the street?",
+        "B: Yep. Easy come, easy go."
+      ],
+      "emoji": "💸",
+      "imageQuery": null,
+      "note": "Kayba umursamazca bakarken."
+    },
+    {
+      "type": "SENTENCE",
+      "en": "A leopard can't change its spots.",
+      "tr": "Huylu huyundan vazgeçmez.",
+      "ipa": null,
+      "pos": null,
+      "example": "He says he's changed, but a leopard can't change its spots.",
+      "exampleTr": "Değiştiğini söylüyor ama huylu huyundan vazgeçmez.",
+      "simple": "People don't really change who they are.",
+      "dialogue": [
+        "A: He promised he'd stop lying.",
+        "B: A leopard can't change its spots."
+      ],
+      "emoji": "🐆",
+      "imageQuery": null,
+      "note": "Genelde eski sevgili veya güvenilmez biri hakkında."
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "topic": "Muğlak dil ve dolgu ifadeleri",
+  "items": [
+    {
+      "type": "CHUNK",
+      "en": "and whatnot",
+      "tr": "falan filan, ve benzeri şeyler",
+      "ipa": null,
+      "pos": null,
+      "example": "We need plates, cups and whatnot for the party.",
+      "exampleTr": "Parti için tabak, bardak falan filan lazım.",
+      "simple": "And other things like that. You don't need to name them all.",
+      "dialogue": [
+        "A: What do you need from the shop?",
+        "B: Just bread, milk and whatnot."
+      ],
+      "emoji": "🧺",
+      "imageQuery": null,
+      "note": "Listenin sonunda; 'and stuff' un biraz daha renkli hali."
+    },
+    {
+      "type": "CHUNK",
+      "en": "give or take",
+      "tr": "aşağı yukarı, üç aşağı beş yukarı",
+      "ipa": null,
+      "pos": null,
+      "example": "It's about two hours from here, give or take.",
+      "exampleTr": "Buradan aşağı yukarı iki saat.",
+      "simple": "About this much, maybe a little more or a little less.",
+      "dialogue": [
+        "A: How many people are coming?",
+        "B: Thirty, give or take."
+      ],
+      "emoji": "⚖️",
+      "imageQuery": null,
+      "note": "Sayıdan sonra ya da önce: 'give or take ten minutes'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "or something along those lines",
+      "tr": "ya da ona benzer bir şey",
+      "ipa": null,
+      "pos": null,
+      "example": "He said he was 'reassessing his priorities', or something along those lines.",
+      "exampleTr": "'Önceliklerini yeniden değerlendirdiğini' ya da ona benzer bir şey söyledi.",
+      "simple": "You don't remember the exact words, but it was like that.",
+      "dialogue": [
+        "A: What exactly did the email say?",
+        "B: 'Please see me urgently', or something along those lines."
+      ],
+      "emoji": "〰️",
+      "imageQuery": null,
+      "note": "Birinin sözünü kabaca aktarırken."
+    },
+    {
+      "type": "CHUNK",
+      "en": "that sort of thing",
+      "tr": "o tarz şeyler, öyle şeyler",
+      "ipa": null,
+      "pos": null,
+      "example": "I like hiking, camping, that sort of thing.",
+      "exampleTr": "Doğa yürüyüşü, kamp, o tarz şeyleri severim.",
+      "simple": "Things like the ones you just said.",
+      "dialogue": [
+        "A: What do you do at the weekend?",
+        "B: Gardening, cooking, that sort of thing."
+      ],
+      "emoji": "🏕️",
+      "imageQuery": null,
+      "note": "ABD'de daha çok 'that kind of thing'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "and all that jazz",
+      "tr": "falan feşmekan, ve bilimum şey",
+      "ipa": null,
+      "pos": null,
+      "example": "There'll be speeches, cake, balloons and all that jazz.",
+      "exampleTr": "Konuşmalar, pasta, balonlar falan feşmekan olacak.",
+      "simple": "And all the other usual things that go with it.",
+      "dialogue": [
+        "A: Is it a proper wedding?",
+        "B: Oh yes, church, white dress and all that jazz."
+      ],
+      "emoji": "🎷",
+      "imageQuery": null,
+      "note": "Esprili, biraz alaycı; sıkıcı/şatafatlı şeyler için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "what's-his-name",
+      "tr": "şeysi, adı neydi onun",
+      "ipa": null,
+      "pos": null,
+      "example": "I saw what's-his-name from your old job at the gym.",
+      "exampleTr": "Gym'de senin eski işten şeyi gördüm, adı neydi.",
+      "simple": "A word you use when you forget a man's name.",
+      "dialogue": [
+        "A: Who was that at the door?",
+        "B: What's-his-name, the guy from number six."
+      ],
+      "emoji": "🤔",
+      "imageQuery": null,
+      "note": "Kadın için 'what's-her-name'; çok gündelik."
+    },
+    {
+      "type": "CHUNK",
+      "en": "thingamajig",
+      "tr": "şey, zımbırtı, şeysi",
+      "ipa": null,
+      "pos": null,
+      "example": "Pass me that thingamajig for opening tins.",
+      "exampleTr": "Konserve açmaya yarayan şu zımbırtıyı uzatsana.",
+      "simple": "A silly word for a thing when you forget what it's called.",
+      "dialogue": [
+        "A: What are you looking for?",
+        "B: The little thingamajig that charges my headphones."
+      ],
+      "emoji": "🔩",
+      "imageQuery": null,
+      "note": "Esprili; 'thingy', 'whatsit' de aynı anlamda."
+    },
+    {
+      "type": "CHUNK",
+      "en": "or thereabouts",
+      "tr": "ya da civarı, aşağı yukarı",
+      "ipa": null,
+      "pos": null,
+      "example": "I'll be there at seven or thereabouts.",
+      "exampleTr": "Yedi ya da civarında orada olurum.",
+      "simple": "Near that number, time or place, but not exact.",
+      "dialogue": [
+        "A: How old is the house?",
+        "B: A hundred years or thereabouts."
+      ],
+      "emoji": "📍",
+      "imageQuery": null,
+      "note": "Saat, yaş, fiyattan sonra."
+    },
+    {
+      "type": "CHUNK",
+      "en": "at a push",
+      "tr": "zorlasan, çok gerekirse",
+      "ipa": null,
+      "pos": null,
+      "example": "We can fit six in the car at a push.",
+      "exampleTr": "Zorlarsak arabaya altı kişi sığabiliriz.",
+      "simple": "It's possible, but only if you really try hard.",
+      "dialogue": [
+        "A: Can you finish it by Thursday?",
+        "B: At a push, yes. Friday would be safer."
+      ],
+      "emoji": "🫸",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; ABD'de 'if push comes to shove'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "as it were",
+      "tr": "tabiri caizse, deyim yerindeyse",
+      "ipa": null,
+      "pos": null,
+      "example": "He's the black sheep of the family, as it were.",
+      "exampleTr": "O, tabiri caizse, ailenin yüz karası.",
+      "simple": "You say this after using words in a funny or not quite exact way.",
+      "dialogue": [
+        "A: So you're back on the market?",
+        "B: Back on the dating scene, as it were."
+      ],
+      "emoji": "🎩",
+      "imageQuery": null,
+      "note": "Hafif esprili ve kibar; ironiyle de kullanılır."
+    },
+    {
+      "type": "CHUNK",
+      "en": "in a manner of speaking",
+      "tr": "bir bakıma, bir anlamda",
+      "ipa": null,
+      "pos": null,
+      "example": "We're married, in a manner of speaking. We just never had a wedding.",
+      "exampleTr": "Bir bakıma evliyiz. Sadece hiç düğün yapmadık.",
+      "simple": "It's true in one way, but not exactly true.",
+      "dialogue": [
+        "A: So are you the boss now?",
+        "B: In a manner of speaking. Nobody else wanted the job."
+      ],
+      "emoji": "🗨️",
+      "imageQuery": null,
+      "note": "'Sort of' un daha kibar/esprili hali."
+    },
+    {
+      "type": "CHUNK",
+      "en": "for all I know",
+      "tr": "bana kalırsa, ne bileyim, belki de",
+      "ipa": null,
+      "pos": null,
+      "example": "For all I know, he could be in Australia by now.",
+      "exampleTr": "Ne bileyim, şimdiye Avustralya'da bile olabilir.",
+      "simple": "I really don't know, so anything could be true.",
+      "dialogue": [
+        "A: Where's your brother these days?",
+        "B: For all I know, he's still in Berlin."
+      ],
+      "emoji": "🤷",
+      "imageQuery": null,
+      "note": "Bilgisizliği vurgular; hafif umursamazlık."
+    },
+    {
+      "type": "CHUNK",
+      "en": "if you know what I mean",
+      "tr": "anladın sen onu, ne demek istediğimi anladın",
+      "ipa": null,
+      "pos": null,
+      "example": "He's a bit... intense, if you know what I mean.",
+      "exampleTr": "Biraz... yoğun biri, anladın sen onu.",
+      "simple": "You hope the other person understands the thing you don't say.",
+      "dialogue": [
+        "A: How's your new flatmate?",
+        "B: He's very... clean, if you know what I mean."
+      ],
+      "emoji": "😉",
+      "imageQuery": null,
+      "note": "İma ederken; bazen sadece dolgu kelime."
+    },
+    {
+      "type": "CHUNK",
+      "en": "off the top of my head",
+      "tr": "aklıma ilk gelen, hemen şimdi aklımdan",
+      "ipa": null,
+      "pos": null,
+      "example": "Off the top of my head, I'd say about fifty quid.",
+      "exampleTr": "Şöyle bir aklımdan, elli pound civarı derim.",
+      "simple": "Said fast, without checking or thinking for long.",
+      "dialogue": [
+        "A: What's the wifi password?",
+        "B: I don't know it off the top of my head."
+      ],
+      "emoji": "💭",
+      "imageQuery": null,
+      "note": "'I can't remember off the top of my head' = şu an çıkaramadım."
+    },
+    {
+      "type": "CHUNK",
+      "en": "if you catch my drift",
+      "tr": "ne demek istediğimi anladıysan",
+      "ipa": null,
+      "pos": null,
+      "example": "Let's just say they're more than friends, if you catch my drift.",
+      "exampleTr": "Arkadaştan öte diyelim, ne demek istediğimi anladıysan.",
+      "simple": "You hope the other person understands what you are hinting at.",
+      "dialogue": [
+        "A: Is the new manager strict?",
+        "B: Let's say he likes things done his way, if you catch my drift."
+      ],
+      "emoji": "🎣",
+      "imageQuery": null,
+      "note": "Gayriresmî; ima için. 'if you know what I mean' ile yakın ama daha imalı."
+    },
+    {
+      "type": "CHUNK",
+      "en": "the long and the short of it",
+      "tr": "uzun lafın kısası, özetle",
+      "ipa": null,
+      "pos": null,
+      "example": "The long and the short of it is, we're moving to Leeds.",
+      "exampleTr": "Uzun lafın kısası, Leeds'e taşınıyoruz.",
+      "simple": "The main point, without all the details.",
+      "dialogue": [
+        "A: So what happened with the car?",
+        "B: The long and the short of it is, it's dead."
+      ],
+      "emoji": "📏",
+      "imageQuery": null,
+      "note": "Uzun bir hikâyeyi özetlemeden önce."
+    },
+    {
+      "type": "CHUNK",
+      "en": "where was I",
+      "tr": "nerede kalmıştım",
+      "ipa": null,
+      "pos": null,
+      "example": "Sorry, my phone rang. Now, where was I?",
+      "exampleTr": "Pardon, telefonum çaldı. Eee, nerede kalmıştım?",
+      "simple": "You say this when you were talking and forgot your place.",
+      "dialogue": [
+        "A: Sorry, carry on with the story.",
+        "B: Right, where was I? Oh yes, the police turned up."
+      ],
+      "emoji": "🧭",
+      "imageQuery": null,
+      "note": "Sözün bölününce; 'Anyway, where was I?' çok tipik."
+    },
+    {
+      "type": "CHUNK",
+      "en": "or what have you",
+      "tr": "ya da her neyse, falan",
+      "ipa": null,
+      "pos": null,
+      "example": "You can bring snacks, drinks or what have you.",
+      "exampleTr": "Atıştırmalık, içecek ya da her neyse getirebilirsin.",
+      "simple": "Or other similar things.",
+      "dialogue": [
+        "A: What should I put in the box?",
+        "B: Old clothes, books or what have you."
+      ],
+      "emoji": "🧃",
+      "imageQuery": null,
+      "note": "Biraz eski usul ama yaygın; 'and whatnot' gibi."
+    },
+    {
+      "type": "CHUNK",
+      "en": "bits and bobs",
+      "tr": "ıvır zıvır, ufak tefek şeyler",
+      "ipa": null,
+      "pos": null,
+      "example": "I just need to pick up a few bits and bobs from the shop.",
+      "exampleTr": "Dükkândan birkaç ufak tefek şey almam lazım.",
+      "simple": "Lots of small different things.",
+      "dialogue": [
+        "A: What's in that drawer?",
+        "B: Oh, just bits and bobs. Batteries, string, keys."
+      ],
+      "emoji": "🧷",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi, gayriresmî; ABD'de 'odds and ends'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "and so on and so forth",
+      "tr": "ve saire ve saire",
+      "ipa": null,
+      "pos": null,
+      "example": "He went on about his diet, his gym, his protein shakes and so on and so forth.",
+      "exampleTr": "Diyetini, spor salonunu, protein içeceklerini ve saire ve saire anlattı durdu.",
+      "simple": "And more and more of the same things.",
+      "dialogue": [
+        "A: What did the trainer talk about?",
+        "B: Teamwork, synergy, and so on and so forth."
+      ],
+      "emoji": "➰",
+      "imageQuery": null,
+      "note": "Sıkılmışlık ya da alay tonu katar."
+    },
+    {
+      "type": "CHUNK",
+      "en": "the whole shebang",
+      "tr": "her şey, bütün takımıyla",
+      "ipa": null,
+      "pos": null,
+      "example": "We had a band, fireworks, the whole shebang.",
+      "exampleTr": "Orkestra, havai fişek, her şey vardı.",
+      "simple": "Everything, all of it, with nothing left out.",
+      "dialogue": [
+        "A: Did you just buy a new bike?",
+        "B: Bike, helmet, lights, the whole shebang."
+      ],
+      "emoji": "🎆",
+      "imageQuery": null,
+      "note": "Gayriresmî, esprili; 'the whole lot' ile yakın."
+    },
+    {
+      "type": "CHUNK",
+      "en": "ish",
+      "tr": "gibi, civarı, şöyle böyle",
+      "ipa": null,
+      "pos": null,
+      "example": "I'll be ready at sevenish. Well, seven-thirty-ish.",
+      "exampleTr": "Yedi gibi hazır olurum. Yani yedi buçuk gibi.",
+      "simple": "A little bit, more or less, not exactly.",
+      "dialogue": [
+        "A: Are you ready to go?",
+        "B: Ish. Give me five minutes."
+      ],
+      "emoji": "〽️",
+      "imageQuery": null,
+      "note": "Tek başına cevap da olur: 'Are you ready?' 'Ish.'"
+    },
+    {
+      "type": "CHUNK",
+      "en": "how can I put this",
+      "tr": "nasıl desem",
+      "ipa": null,
+      "pos": null,
+      "example": "How can I put this... your cooking is very brave.",
+      "exampleTr": "Nasıl desem... yemeklerin çok cesur.",
+      "simple": "You say this when you need time to find kind words for bad news.",
+      "dialogue": [
+        "A: Did you like my poem?",
+        "B: Well, how can I put this... it's very long."
+      ],
+      "emoji": "🫣",
+      "imageQuery": null,
+      "note": "Kırıcı bir şeyi yumuşatmadan hemen önce."
+    },
+    {
+      "type": "CHUNK",
+      "en": "if that makes sense",
+      "tr": "anlatabildim mi",
+      "ipa": null,
+      "pos": null,
+      "example": "I want a job that matters, if that makes sense.",
+      "exampleTr": "Bir anlamı olan bir iş istiyorum, anlatabildim mi.",
+      "simple": "You check that the other person understood what you tried to say.",
+      "dialogue": [
+        "A: Why do you want to move?",
+        "B: I just need a change, if that makes sense."
+      ],
+      "emoji": "🧠",
+      "imageQuery": null,
+      "note": "Çok yaygın, özellikle genç konuşmacılarda; bazen dolgu."
+    },
+    {
+      "type": "CHUNK",
+      "en": "not gonna lie",
+      "tr": "yalan yok, açık konuşayım",
+      "ipa": null,
+      "pos": null,
+      "example": "Not gonna lie, I cried at the end of that film.",
+      "exampleTr": "Yalan yok, o filmin sonunda ağladım.",
+      "simple": "Words you say before you admit something honestly.",
+      "dialogue": [
+        "A: How was the new burger place?",
+        "B: Not gonna lie, it was amazing."
+      ],
+      "emoji": "🙊",
+      "imageQuery": null,
+      "note": "Çok gayriresmî; mesajda 'ngl' diye yazılır."
+    },
+    {
+      "type": "CHUNK",
+      "en": "you know the drill",
+      "tr": "usulü biliyorsun, nasıl olduğunu bilirsin",
+      "ipa": null,
+      "pos": null,
+      "example": "Shoes off at the door, you know the drill.",
+      "exampleTr": "Ayakkabılar kapıda çıkarılıyor, usulü biliyorsun.",
+      "simple": "You already know how this works, so I don't need to explain.",
+      "dialogue": [
+        "A: What do I do with my bag?",
+        "B: Same as always, you know the drill."
+      ],
+      "emoji": "📋",
+      "imageQuery": null,
+      "note": "Tekrarlanan rutinler için, gayriresmî."
+    }
+  ]
+}

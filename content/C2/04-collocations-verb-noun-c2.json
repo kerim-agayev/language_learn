@@ -1,0 +1,430 @@
+{
+  "topic": "İleri fiil + isim eşdizimleri",
+  "items": [
+    {
+      "type": "COLLOCATION",
+      "en": "break the mould",
+      "tr": "kalıpları kırmak, alışılmışın dışına çıkmak",
+      "ipa": "/breɪk ðə məʊld/",
+      "pos": null,
+      "example": "Their new phone really breaks the mould.",
+      "exampleTr": "Yeni telefonları gerçekten kalıpları kırıyor.",
+      "simple": "Do something in a new way that nobody did before.",
+      "dialogue": [
+        "A: Why do you like this café so much?",
+        "B: It doesn't try to break the mould. It just does great coffee."
+      ],
+      "emoji": "🔨",
+      "imageQuery": null,
+      "note": "'They broke the mould when they made him' = eşi benzeri yok."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "carry weight",
+      "tr": "sözü geçmek, ağırlığı olmak",
+      "ipa": "/ˈkær.i weɪt/",
+      "pos": null,
+      "example": "Her opinion carries a lot of weight around here.",
+      "exampleTr": "Burada onun fikrinin çok ağırlığı var.",
+      "simple": "People listen to it because it is important.",
+      "dialogue": [
+        "A: Should I ask Ahmet to back me up?",
+        "B: Yes, his word will carry weight with the director."
+      ],
+      "emoji": "⚖️",
+      "imageQuery": null,
+      "note": "Söz, fikir, tavsiye için; 'carries a lot of weight'."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "clear your name",
+      "tr": "adını temize çıkarmak",
+      "ipa": "/klɪər jɔː neɪm/",
+      "pos": null,
+      "example": "He spent years trying to clear his name.",
+      "exampleTr": "Adını temize çıkarmak için yıllarca uğraştı.",
+      "simple": "Show everyone you did not do the bad thing.",
+      "dialogue": [
+        "A: They think I took the money from the till.",
+        "B: Then check the cameras and clear your name."
+      ],
+      "emoji": "🧼",
+      "imageQuery": null,
+      "note": "Haksız suçlamaya karşı aklanmak için."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "curry favour",
+      "tr": "yaranmaya çalışmak, gözüne girmeye çalışmak",
+      "ipa": "/ˈkʌr.i ˈfeɪ.vər/",
+      "pos": null,
+      "example": "He's always trying to curry favour with the new manager.",
+      "exampleTr": "Sürekli yeni müdürün gözüne girmeye çalışıyor.",
+      "simple": "Try to make someone important like you, to get something.",
+      "dialogue": [
+        "A: Why did she bring cakes for the boss?",
+        "B: She's trying to curry favour before the reviews."
+      ],
+      "emoji": "🍛",
+      "imageQuery": null,
+      "note": "Olumsuz anlam; genelde 'curry favour with someone'."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "force my hand",
+      "tr": "eli mahkum bırakmak, beni zorlamak",
+      "ipa": "/fɔːs maɪ hænd/",
+      "pos": null,
+      "example": "I didn't want to sack him, but he forced my hand.",
+      "exampleTr": "Onu kovmak istemiyordum ama elim mahkum kaldı.",
+      "simple": "Someone makes you do something before you are ready.",
+      "dialogue": [
+        "A: Why did you call the police on the neighbours?",
+        "B: I had no choice. They decided to force my hand."
+      ],
+      "emoji": "✋",
+      "imageQuery": null,
+      "note": "Biri seni istemediğin bir karara itince."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "hedge your bets",
+      "tr": "riski dağıtmak, garantiye almak",
+      "ipa": "/hedʒ jɔː bets/",
+      "pos": null,
+      "example": "I applied to five universities to hedge my bets.",
+      "exampleTr": "Garantiye almak için beş üniversiteye başvurdum.",
+      "simple": "Choose more than one thing so you don't lose everything.",
+      "dialogue": [
+        "A: Why bring an umbrella and sunglasses?",
+        "B: With British weather, it's smart to hedge your bets."
+      ],
+      "emoji": "🎲",
+      "imageQuery": null,
+      "note": "Tek seçeneğe güvenmemek için."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "jog your memory",
+      "tr": "hafızanı tazelemek, aklına getirmek",
+      "ipa": "/dʒɒɡ jɔː ˈmem.ər.i/",
+      "pos": null,
+      "example": "Maybe this photo will jog your memory.",
+      "exampleTr": "Belki bu fotoğraf aklına bir şeyler getirir.",
+      "simple": "Help someone remember something.",
+      "dialogue": [
+        "A: I don't remember meeting her.",
+        "B: She was at Ali's wedding. Does that jog your memory?"
+      ],
+      "emoji": "🧠",
+      "imageQuery": null,
+      "note": "Birinin unuttuğu bir şeyi hatırlatırken."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "save face",
+      "tr": "itibarını kurtarmak, rezil olmamak",
+      "ipa": "/seɪv feɪs/",
+      "pos": null,
+      "example": "He said he was ill to save face.",
+      "exampleTr": "Rezil olmamak için hasta olduğunu söyledi.",
+      "simple": "Do something so people won't laugh at you or think less of you.",
+      "dialogue": [
+        "A: Why did he say he quit? He was fired.",
+        "B: He's just trying to save face."
+      ],
+      "emoji": "🎭",
+      "imageQuery": null,
+      "note": "Karşıtı 'lose face' = itibar kaybetmek."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "make headway",
+      "tr": "ilerleme kaydetmek, yol almak",
+      "ipa": "/meɪk ˈhed.weɪ/",
+      "pos": null,
+      "example": "We're finally making headway with the kitchen.",
+      "exampleTr": "Mutfakta nihayet yol alıyoruz.",
+      "simple": "Move forward with something that was slow or hard.",
+      "dialogue": [
+        "A: How's the job hunt going?",
+        "B: Slowly, but I think I'm starting to make headway."
+      ],
+      "emoji": "🚶",
+      "imageQuery": null,
+      "note": "Zor bir işte ilerleme için; genelde 'make some headway'."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "muddy the waters",
+      "tr": "ortalığı bulandırmak, işi karıştırmak",
+      "ipa": "/ˈmʌd.i ðə ˈwɔː.təz/",
+      "pos": null,
+      "example": "Let's not muddy the waters with another option.",
+      "exampleTr": "Bir seçenek daha ekleyip ortalığı bulandırmayalım.",
+      "simple": "Make a simple thing confusing.",
+      "dialogue": [
+        "A: Should I mention the other offer too?",
+        "B: No, that will only muddy the waters."
+      ],
+      "emoji": "🌊",
+      "imageQuery": null,
+      "note": "Tartışmayı kasıtlı ya da kasıtsız karıştırmak için."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "nurse a hangover",
+      "tr": "akşamdan kalmalığı geçirmeye çalışmak",
+      "ipa": "/nɜːs ə ˈhæŋ.əʊ.vər/",
+      "pos": null,
+      "example": "He's in bed nursing a hangover.",
+      "exampleTr": "Yatakta akşamdan kalmalığını atlatmaya çalışıyor.",
+      "simple": "Rest and feel sick the day after drinking too much.",
+      "dialogue": [
+        "A: Coming to brunch?",
+        "B: I'll pass. I need to stay in bed and nurse a hangover."
+      ],
+      "emoji": "🤕",
+      "imageQuery": null,
+      "note": "Gündelik ve esprili; 'nurse a cold/a drink' da denir."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "overstay your welcome",
+      "tr": "fazla kalıp bıktırmak, misafirliği uzatmak",
+      "ipa": "/ˌəʊ.vəˈsteɪ jɔː ˈwel.kəm/",
+      "pos": null,
+      "example": "My cousin came for a week and stayed a month. He overstayed his welcome.",
+      "exampleTr": "Kuzenim bir haftalığına geldi, bir ay kaldı. Misafirliği fazla uzattı.",
+      "simple": "Stay at someone's place for too long, so they get tired of you.",
+      "dialogue": [
+        "A: How long should I stay at their place?",
+        "B: A weekend's plenty. You don't want to overstay your welcome."
+      ],
+      "emoji": "🛋️",
+      "imageQuery": null,
+      "note": "Misafirlik ya da bir yerde fazla oyalanmak için."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "pay lip service",
+      "tr": "lafta destek vermek, laf olsun diye söylemek",
+      "ipa": "/peɪ lɪp ˈsɜː.vɪs/",
+      "pos": null,
+      "example": "They pay lip service to work-life balance, but everyone works till nine.",
+      "exampleTr": "İş-özel hayat dengesine lafta destek veriyorlar ama herkes dokuza kadar çalışıyor.",
+      "simple": "Say you support something, but do nothing for it.",
+      "dialogue": [
+        "A: The company says it cares about mental health.",
+        "B: They just pay lip service to it."
+      ],
+      "emoji": "👄",
+      "imageQuery": null,
+      "note": "Şirketlerin ve siyasetçilerin içi boş sözleri için."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "pick a fight",
+      "tr": "kavga çıkarmak, sataşmak",
+      "ipa": "/pɪk ə faɪt/",
+      "pos": null,
+      "example": "He always picks a fight when he's had a few drinks.",
+      "exampleTr": "Birkaç kadeh içince hep kavga çıkarır.",
+      "simple": "Start an argument or fight on purpose.",
+      "dialogue": [
+        "A: Why are you criticising my shoes now?",
+        "B: I'm not trying to pick a fight, I promise."
+      ],
+      "emoji": "🥊",
+      "imageQuery": null,
+      "note": "Kasten tartışma başlatan biri için."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "pull your weight",
+      "tr": "üzerine düşeni yapmak, yükü paylaşmak",
+      "ipa": "/pʊl jɔː weɪt/",
+      "pos": null,
+      "example": "If everyone pulls their weight, we'll finish by six.",
+      "exampleTr": "Herkes üzerine düşeni yaparsa altıda bitiririz.",
+      "simple": "Do your fair part of the work.",
+      "dialogue": [
+        "A: Why is Sam so annoyed with me?",
+        "B: He thinks you don't pull your weight on the team."
+      ],
+      "emoji": "🏋️",
+      "imageQuery": null,
+      "note": "Ekip işi veya ev işleri paylaşımında."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "raise eyebrows",
+      "tr": "şaşkınlık yaratmak, kaş kaldırtmak",
+      "ipa": "/reɪz ˈaɪ.braʊz/",
+      "pos": null,
+      "example": "His holiday photos raised a few eyebrows at work.",
+      "exampleTr": "Tatil fotoğrafları iş yerinde bazılarının kaşlarını kaldırttı.",
+      "simple": "Make people surprised or a bit shocked.",
+      "dialogue": [
+        "A: She wore pyjamas to the meeting?",
+        "B: Yes, and it did raise eyebrows."
+      ],
+      "emoji": "🤨",
+      "imageQuery": null,
+      "note": "Hafif skandal veya tuhaf davranış için."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "set the record straight",
+      "tr": "yanlışı düzeltmek, gerçeği açıklamak",
+      "ipa": "/set ðə ˈrek.ɔːd streɪt/",
+      "pos": null,
+      "example": "Let me set the record straight: I never said that.",
+      "exampleTr": "Şu yanlışı düzelteyim: Ben öyle bir şey hiç söylemedim.",
+      "simple": "Tell people the true story after a wrong one went around.",
+      "dialogue": [
+        "A: Everyone thinks you're moving to Berlin.",
+        "B: I need to set the record straight. I'm only visiting."
+      ],
+      "emoji": "📢",
+      "imageQuery": null,
+      "note": "Dedikodu veya yanlış bilgiye karşı."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "steal the show",
+      "tr": "şovu çalmak, gecenin yıldızı olmak",
+      "ipa": "/stiːl ðə ʃəʊ/",
+      "pos": null,
+      "example": "The best man's speech stole the show.",
+      "exampleTr": "Sağdıcın konuşması gecenin yıldızı oldu.",
+      "simple": "Be the best or most loved part of an event.",
+      "dialogue": [
+        "A: How was the school play?",
+        "B: Our little one managed to steal the show!"
+      ],
+      "emoji": "🌟",
+      "imageQuery": null,
+      "note": "Beklenmedik biri öne çıkınca."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "strike a chord",
+      "tr": "(birinin) içine dokunmak, tanıdık gelmek",
+      "ipa": "/straɪk ə kɔːd/",
+      "pos": null,
+      "example": "That song really struck a chord with me.",
+      "exampleTr": "O şarkı gerçekten içime dokundu.",
+      "simple": "Something makes you feel strong feelings because it feels true for you.",
+      "dialogue": [
+        "A: Why do people love that ad so much?",
+        "B: I think it manages to strike a chord with parents."
+      ],
+      "emoji": "🎸",
+      "imageQuery": null,
+      "note": "Duygusal yankı uyandıran şeyler için."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "take stock",
+      "tr": "durumu değerlendirmek, durup bir bakmak",
+      "ipa": "/teɪk stɒk/",
+      "pos": null,
+      "example": "After the divorce, I took some time to take stock of my life.",
+      "exampleTr": "Boşanmadan sonra hayatımı gözden geçirmek için biraz zaman ayırdım.",
+      "simple": "Stop and think carefully about where you are now.",
+      "dialogue": [
+        "A: Are you going to look for a new job right away?",
+        "B: No, first I want to take stock."
+      ],
+      "emoji": "📋",
+      "imageQuery": null,
+      "note": "Genelde 'take stock of something'."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "test the waters",
+      "tr": "nabız yoklamak, ortamı koklamak",
+      "ipa": "/test ðə ˈwɔː.təz/",
+      "pos": null,
+      "example": "I'll mention it casually to test the waters.",
+      "exampleTr": "Nabız yoklamak için laf arasında söyleyeceğim.",
+      "simple": "Try something small first to see how people react.",
+      "dialogue": [
+        "A: Should I ask for a four-day week?",
+        "B: Bring it up in a chat first to test the waters."
+      ],
+      "emoji": "🦶",
+      "imageQuery": null,
+      "note": "Büyük bir adımdan önce tepkiyi görmek için."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "toe the line",
+      "tr": "kurallara uymak, hizaya girmek",
+      "ipa": "/təʊ ðə laɪn/",
+      "pos": null,
+      "example": "If you want to keep this job, you'll have to toe the line.",
+      "exampleTr": "Bu işte kalmak istiyorsan hizaya girmen gerekecek.",
+      "simple": "Do what the rules or the boss say, even if you don't like it.",
+      "dialogue": [
+        "A: Why didn't you argue with the new policy?",
+        "B: It's easier to toe the line until my contract's renewed."
+      ],
+      "emoji": "📏",
+      "imageQuery": null,
+      "note": "Otoriteye boyun eğmeyi anlatır; 'tow' değil 'toe' yazılır."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "bend the rules",
+      "tr": "kuralları esnetmek",
+      "ipa": "/bend ðə ruːlz/",
+      "pos": null,
+      "example": "The receptionist bent the rules and let us check in early.",
+      "exampleTr": "Resepsiyonist kuralları esnetip erken giriş yapmamıza izin verdi.",
+      "simple": "Do something a bit against the rules, but not very bad.",
+      "dialogue": [
+        "A: Can I bring my dog into the office?",
+        "B: Officially no, but we can bend the rules on Fridays."
+      ],
+      "emoji": "〰️",
+      "imageQuery": null,
+      "note": "'break the rules'dan daha hafif."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "foot the bill",
+      "tr": "faturayı ödemek, masrafı üstlenmek",
+      "ipa": "/fʊt ðə bɪl/",
+      "pos": null,
+      "example": "The company footed the bill for our team dinner.",
+      "exampleTr": "Ekip yemeğimizin masrafını şirket üstlendi.",
+      "simple": "Pay for something, often something big.",
+      "dialogue": [
+        "A: Who's paying for the wedding?",
+        "B: Her parents offered to foot the bill."
+      ],
+      "emoji": "🧾",
+      "imageQuery": null,
+      "note": "Genelde bir başkası veya kurum ödediğinde."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "jump the queue",
+      "tr": "sırayı kaynatmak, sıraya kaynak yapmak",
+      "ipa": "/dʒʌmp ðə kjuː/",
+      "pos": null,
+      "example": "Some guy tried to jump the queue at the bakery.",
+      "exampleTr": "Fırında adamın biri sıraya kaynak yapmaya çalıştı.",
+      "simple": "Go in front of people who were waiting before you.",
+      "dialogue": [
+        "A: Excuse me, we've been waiting twenty minutes.",
+        "B: Sorry, I didn't mean to jump the queue."
+      ],
+      "emoji": "🚶‍♂️",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; Amerikanca 'cut in line'."
+    }
+  ]
+}

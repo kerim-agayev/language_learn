@@ -1,0 +1,447 @@
+{
+  "topic": "Sıfat / zarf collocation'ları",
+  "items": [
+    {
+      "type": "COLLOCATION",
+      "en": "a blatant lie",
+      "tr": "apaçık yalan, kuyruklu yalan",
+      "ipa": "/ə ˈbleɪ.tənt laɪ/",
+      "pos": null,
+      "example": "That's a blatant lie and you know it.",
+      "exampleTr": "Bu apaçık bir yalan, sen de biliyorsun.",
+      "simple": "A lie that is so clear, everyone can see it is not true.",
+      "dialogue": [
+        "A: He said he was stuck in traffic.",
+        "B: That's a blatant lie. I saw him at the pub."
+      ],
+      "emoji": "🤥",
+      "imageQuery": null,
+      "note": "'blatant' = utanmadan, göz göre göre; 'blatant rip-off' da olur."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "a flimsy excuse",
+      "tr": "çürük bahane",
+      "ipa": "/ə ˈflɪm.zi ɪkˈskjuːs/",
+      "pos": null,
+      "example": "'My dog ate it' is a pretty flimsy excuse.",
+      "exampleTr": "'Köpeğim yedi' oldukça çürük bir bahane.",
+      "simple": "A reason that is weak and nobody really believes.",
+      "dialogue": [
+        "A: She said she couldn't come because of the rain.",
+        "B: Bit of a flimsy excuse, isn't it?"
+      ],
+      "emoji": "🪶",
+      "imageQuery": null,
+      "note": "'flimsy' aslında 'ince, dayanıksız' demek; argüman için de kullanılır."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "a fleeting glimpse",
+      "tr": "kısacık bir bakış, bir anlığına görme",
+      "ipa": "/ə ˈfliː.tɪŋ ˈɡlɪmps/",
+      "pos": null,
+      "example": "I only caught a fleeting glimpse of him at the airport.",
+      "exampleTr": "Havalimanında onu sadece bir anlığına gördüm.",
+      "simple": "You see something for a very short moment, then it's gone.",
+      "dialogue": [
+        "A: Did you see the bride?",
+        "B: Just a fleeting glimpse as she walked in."
+      ],
+      "emoji": "👀",
+      "imageQuery": null,
+      "note": "Ünlü, manzara, geçen araba için; 'catch a fleeting glimpse' kalıbı."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "a sore point",
+      "tr": "hassas konu, yara",
+      "ipa": "/ə sɔː pɔɪnt/",
+      "pos": null,
+      "example": "Don't mention his ex, it's a bit of a sore point.",
+      "exampleTr": "Eski sevgilisinden bahsetme, biraz hassas bir konu.",
+      "simple": "A topic that makes someone upset, so you'd better not talk about it.",
+      "dialogue": [
+        "A: How's his driving test going?",
+        "B: Shh, that's a sore point. He failed again."
+      ],
+      "emoji": "🩹",
+      "imageQuery": null,
+      "note": "'a bit of a sore point' şeklinde yumuşatarak çok kullanılır."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "a foregone conclusion",
+      "tr": "baştan belli olan sonuç",
+      "ipa": "/ə ˈfɔː.ɡɒn kənˈkluː.ʒən/",
+      "pos": null,
+      "example": "Let's be honest, the result was a foregone conclusion.",
+      "exampleTr": "Dürüst olalım, sonuç baştan belliydi.",
+      "simple": "Everyone knew how it would end before it even started.",
+      "dialogue": [
+        "A: Do you think Sarah will get the job?",
+        "B: It's a foregone conclusion. She's the boss's niece."
+      ],
+      "emoji": "🏁",
+      "imageQuery": null,
+      "note": "Maç, seçim, terfi için; 'It's not a foregone conclusion' = henüz belli değil."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "a seasoned pro",
+      "tr": "kaşarlanmış usta, işin kurdu",
+      "ipa": "/ə ˈsiː.zənd prəʊ/",
+      "pos": null,
+      "example": "She handled the angry client like a seasoned pro.",
+      "exampleTr": "Kızgın müşteriyi işin kurdu gibi idare etti.",
+      "simple": "Someone who has done a thing many times and is very good at it.",
+      "dialogue": [
+        "A: Aren't you nervous about the speech?",
+        "B: Nah, I'm a seasoned pro at this by now."
+      ],
+      "emoji": "🎖️",
+      "imageQuery": null,
+      "note": "Bazen esprili: 'You're a seasoned pro at moving house now'."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "an uphill battle",
+      "tr": "zorlu mücadele, yokuş yukarı savaş",
+      "ipa": "/ən ˌʌpˈhɪl ˈbæt.əl/",
+      "pos": null,
+      "example": "Getting my kids to eat vegetables is an uphill battle.",
+      "exampleTr": "Çocuklarıma sebze yedirmek tam bir zorlu mücadele.",
+      "simple": "Something very hard to do, like walking up a steep hill.",
+      "dialogue": [
+        "A: How's the diet going?",
+        "B: It's an uphill battle with all the office biscuits."
+      ],
+      "emoji": "⛰️",
+      "imageQuery": null,
+      "note": "'an uphill struggle' da aynı anlamda."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "an open secret",
+      "tr": "herkesin bildiği sır",
+      "ipa": "/ən ˈəʊ.pən ˈsiː.krət/",
+      "pos": null,
+      "example": "It's an open secret that they're dating.",
+      "exampleTr": "Çıktıkları herkesin bildiği bir sır.",
+      "simple": "A secret that is not really secret, because everyone knows it.",
+      "dialogue": [
+        "A: Is Mike really leaving?",
+        "B: Oh, it's an open secret. He's already cleared his desk."
+      ],
+      "emoji": "🤫",
+      "imageQuery": null,
+      "note": "Ofis dedikodusunda çok kullanılır."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "a knee-jerk reaction",
+      "tr": "düşünmeden verilen tepki, refleks tepki",
+      "ipa": "/ə ˈniː.dʒɜːk riˈæk.ʃən/",
+      "pos": null,
+      "example": "Quitting was just a knee-jerk reaction to a bad day.",
+      "exampleTr": "İstifa etmek kötü bir güne verilmiş düşüncesiz bir tepkiydi.",
+      "simple": "Doing something fast without thinking, like when a doctor taps your knee.",
+      "dialogue": [
+        "A: I'm going to delete all my social media.",
+        "B: Isn't that a knee-jerk reaction to one bad comment?"
+      ],
+      "emoji": "🦵",
+      "imageQuery": null,
+      "note": "Genelde eleştiri: aceleci, düşünülmemiş karar."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "a half-hearted attempt",
+      "tr": "gönülsüz deneme, baştan savma girişim",
+      "ipa": "/ə ˌhɑːfˈhɑː.tɪd əˈtempt/",
+      "pos": null,
+      "example": "He made a half-hearted attempt to tidy his room.",
+      "exampleTr": "Odasını toplamak için baştan savma bir girişimde bulundu.",
+      "simple": "Trying to do something, but not really trying hard.",
+      "dialogue": [
+        "A: Did he apologise?",
+        "B: Sort of. It was a half-hearted attempt at best."
+      ],
+      "emoji": "😑",
+      "imageQuery": null,
+      "note": "'make a half-hearted attempt' kalıbı; özür için de: 'a half-hearted apology'."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "a sneaking suspicion",
+      "tr": "içten içe şüphe, bir sezgi",
+      "ipa": "/ə ˈsniː.kɪŋ səˈspɪʃ.ən/",
+      "pos": null,
+      "example": "I've got a sneaking suspicion he's forgotten my birthday.",
+      "exampleTr": "İçimden bir ses doğum günümü unuttuğunu söylüyor.",
+      "simple": "A small feeling inside that something is true, but you're not sure.",
+      "dialogue": [
+        "A: Why are you smiling?",
+        "B: I have a sneaking suspicion they're planning a surprise."
+      ],
+      "emoji": "🕵️",
+      "imageQuery": null,
+      "note": "Hep 'have a sneaking suspicion that...' kalıbında."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "a raw deal",
+      "tr": "haksızlık, kazık",
+      "ipa": "/ə rɔː diːl/",
+      "pos": null,
+      "example": "The night staff always get a raw deal on holidays.",
+      "exampleTr": "Bayramlarda gece vardiyası hep haksızlığa uğruyor.",
+      "simple": "When you are treated unfairly and get less than others.",
+      "dialogue": [
+        "A: They gave her the smallest office again.",
+        "B: She always gets a raw deal."
+      ],
+      "emoji": "🥩",
+      "imageQuery": null,
+      "note": "'get a raw deal' kalıbıyla, gayriresmî."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "a cheap shot",
+      "tr": "ucuz/alçakça laf, belden aşağı vuruş",
+      "ipa": "/ə tʃiːp ʃɒt/",
+      "pos": null,
+      "example": "Bringing up his divorce was a cheap shot.",
+      "exampleTr": "Boşanmasını gündeme getirmek alçakçaydı.",
+      "simple": "A mean thing you say to hurt someone, in an unfair way.",
+      "dialogue": [
+        "A: I only said he's going bald.",
+        "B: Come on, that was a cheap shot."
+      ],
+      "emoji": "🎯",
+      "imageQuery": null,
+      "note": "Tartışmada haksız, kişisel saldırı için."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "painfully obvious",
+      "tr": "apaçık, gözle görülür derecede belli",
+      "ipa": "/ˈpeɪn.fəl.i ˈɒb.vi.əs/",
+      "pos": null,
+      "example": "It was painfully obvious that he hadn't read the report.",
+      "exampleTr": "Raporu okumadığı apaçık belliydi.",
+      "simple": "So easy to see that it is almost embarrassing.",
+      "dialogue": [
+        "A: Do you think she likes him?",
+        "B: It's painfully obvious. She laughs at all his jokes."
+      ],
+      "emoji": "🙈",
+      "imageQuery": null,
+      "note": "Genelde utanç verici bir durum için."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "wildly optimistic",
+      "tr": "aşırı iyimser, hayalci",
+      "ipa": "/ˈwaɪld.li ˌɒp.tɪˈmɪs.tɪk/",
+      "pos": null,
+      "example": "Finishing it by Friday is wildly optimistic.",
+      "exampleTr": "Cumaya kadar bitirmek fazlasıyla iyimser bir beklenti.",
+      "simple": "Hoping for something good that is very unlikely to happen.",
+      "dialogue": [
+        "A: I reckon the builders will be done in a week.",
+        "B: That sounds wildly optimistic to me."
+      ],
+      "emoji": "🌈",
+      "imageQuery": null,
+      "note": "Tahmin, plan, bütçe eleştirirken nazik ama net."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "refreshingly honest",
+      "tr": "insanı ferahlatacak kadar dürüst",
+      "ipa": "/rɪˈfreʃ.ɪŋ.li ˈɒn.ɪst/",
+      "pos": null,
+      "example": "The new manager is refreshingly honest about the problems.",
+      "exampleTr": "Yeni müdür sorunlar konusunda insanın içini açacak kadar dürüst.",
+      "simple": "Honest in a nice, surprising way, when most people aren't.",
+      "dialogue": [
+        "A: The estate agent said the flat was tiny.",
+        "B: Wow, that's refreshingly honest for an estate agent."
+      ],
+      "emoji": "🍃",
+      "imageQuery": null,
+      "note": "Övgü; 'refreshingly normal/direct' da denir."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "fiercely loyal",
+      "tr": "sonuna kadar sadık",
+      "ipa": "/ˈfɪəs.li ˈlɔɪ.əl/",
+      "pos": null,
+      "example": "She's fiercely loyal to her friends.",
+      "exampleTr": "Arkadaşlarına sonuna kadar sadıktır.",
+      "simple": "Someone who always stands by you and will fight for you.",
+      "dialogue": [
+        "A: Will Sam tell anyone?",
+        "B: No way. He's fiercely loyal."
+      ],
+      "emoji": "🐕",
+      "imageQuery": null,
+      "note": "Kişi, hayran, köpek için; güçlü bir övgü."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "hopelessly lost",
+      "tr": "fena halde kaybolmuş, tamamen şaşırmış",
+      "ipa": "/ˈhəʊp.ləs.li lɒst/",
+      "pos": null,
+      "example": "Without my phone, I'd be hopelessly lost in this city.",
+      "exampleTr": "Telefonum olmasa bu şehirde fena halde kaybolurdum.",
+      "simple": "So lost you have no idea where you are or what to do.",
+      "dialogue": [
+        "A: Did you understand the new software?",
+        "B: No, I'm hopelessly lost."
+      ],
+      "emoji": "🧭",
+      "imageQuery": null,
+      "note": "Yer için ama mecazen de: 'hopelessly lost in maths'."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "vaguely familiar",
+      "tr": "hafiften tanıdık",
+      "ipa": "/ˈveɪɡ.li fəˈmɪl.i.ə/",
+      "pos": null,
+      "example": "Your face looks vaguely familiar. Have we met?",
+      "exampleTr": "Yüzünüz hafiften tanıdık geliyor. Tanışıyor muyuz?",
+      "simple": "You think you've seen or heard it before, but you're not sure.",
+      "dialogue": [
+        "A: Do you know this song?",
+        "B: It sounds vaguely familiar."
+      ],
+      "emoji": "🤔",
+      "imageQuery": null,
+      "note": "Yüz, isim, şarkı için; 'rings a bell' ile yakın."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "mildly amusing",
+      "tr": "hafif komik, biraz eğlenceli",
+      "ipa": "/ˈmaɪld.li əˈmjuː.zɪŋ/",
+      "pos": null,
+      "example": "The film was mildly amusing, but nothing special.",
+      "exampleTr": "Film hafif komikti ama özel bir şey değildi.",
+      "simple": "A little bit funny, but it didn't make you really laugh.",
+      "dialogue": [
+        "A: Did you like his stand-up show?",
+        "B: It was mildly amusing, I suppose."
+      ],
+      "emoji": "🙂",
+      "imageQuery": null,
+      "note": "Çoğu zaman kibar bir küçümseme; İngiliz soğukluğu."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "ridiculously expensive",
+      "tr": "saçma derecede pahalı",
+      "ipa": "/rɪˈdɪk.jə.ləs.li ɪkˈspen.sɪv/",
+      "pos": null,
+      "example": "Coffee at the airport is ridiculously expensive.",
+      "exampleTr": "Havalimanında kahve saçma derecede pahalı.",
+      "simple": "Costs so much money that it seems silly.",
+      "dialogue": [
+        "A: Shall we eat here?",
+        "B: No, it's ridiculously expensive."
+      ],
+      "emoji": "💸",
+      "imageQuery": null,
+      "note": "Konuşmada çok yaygın; 'stupidly expensive' de denir."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "woefully unprepared",
+      "tr": "fena halde hazırlıksız",
+      "ipa": "/ˈwəʊ.fəl.i ˌʌn.prɪˈpeəd/",
+      "pos": null,
+      "example": "I turned up to the exam woefully unprepared.",
+      "exampleTr": "Sınava fena halde hazırlıksız gittim.",
+      "simple": "Not ready at all, in a sad and worrying way.",
+      "dialogue": [
+        "A: Did you bring a map, water, anything?",
+        "B: No. I'm woefully unprepared for this hike."
+      ],
+      "emoji": "😰",
+      "imageQuery": null,
+      "note": "'woefully' = acınacak derecede; esprili de kullanılır."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "perfectly capable",
+      "tr": "gayet yapabilecek durumda",
+      "ipa": "/ˈpɜː.fɪkt.li ˈkeɪ.pə.bəl/",
+      "pos": null,
+      "example": "I'm perfectly capable of making my own dinner, thanks.",
+      "exampleTr": "Kendi yemeğimi gayet yapabilirim, sağ ol.",
+      "simple": "You can do it fine by yourself, you don't need help.",
+      "dialogue": [
+        "A: Do you want me to park the car for you?",
+        "B: I'm perfectly capable of parking, thank you."
+      ],
+      "emoji": "👌",
+      "imageQuery": null,
+      "note": "Hafif alıngan tonda: 'Ben yaparım, karışma.'"
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "notoriously difficult",
+      "tr": "zorluğuyla nam salmış",
+      "ipa": "/nəʊˈtɔː.ri.əs.li ˈdɪf.ɪ.kəlt/",
+      "pos": null,
+      "example": "That recipe is notoriously difficult to get right.",
+      "exampleTr": "O tarif doğru yapması zor olmasıyla meşhurdur.",
+      "simple": "Everyone knows it is very hard to do.",
+      "dialogue": [
+        "A: I'm going to try to get a table at that restaurant.",
+        "B: Good luck, it's notoriously difficult."
+      ],
+      "emoji": "🧗",
+      "imageQuery": null,
+      "note": "'notoriously' kötü ünü anlatır: 'notoriously late, notoriously unreliable'."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "eerily quiet",
+      "tr": "ürkütücü derecede sessiz",
+      "ipa": "/ˈɪə.rəl.i ˈkwaɪ.ət/",
+      "pos": null,
+      "example": "The office was eerily quiet on Christmas Eve.",
+      "exampleTr": "Noel arifesinde ofis ürkütücü derecede sessizdi.",
+      "simple": "So quiet that it feels strange and a bit scary.",
+      "dialogue": [
+        "A: Where are the kids?",
+        "B: No idea. It's eerily quiet upstairs."
+      ],
+      "emoji": "👻",
+      "imageQuery": null,
+      "note": "'eerily similar' = tüyler ürpertecek kadar benzer."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "downright rude",
+      "tr": "düpedüz kaba",
+      "ipa": "/ˈdaʊn.raɪt ruːd/",
+      "pos": null,
+      "example": "Ignoring her like that was downright rude.",
+      "exampleTr": "Onu öyle görmezden gelmek düpedüz kabalıktı.",
+      "simple": "Not just a bit rude, but really, clearly rude.",
+      "dialogue": [
+        "A: He didn't even say thank you.",
+        "B: That's downright rude."
+      ],
+      "emoji": "😤",
+      "imageQuery": null,
+      "note": "'downright' olumsuz sıfatları güçlendirir: 'downright dangerous'."
+    }
+  ]
+}

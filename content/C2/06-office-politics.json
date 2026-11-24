@@ -1,0 +1,413 @@
+{
+  "topic": "Ofis politikası",
+  "items": [
+    {
+      "type": "COLLOCATION",
+      "en": "play politics",
+      "tr": "siyaset yapmak, entrika çevirmek",
+      "ipa": "/pleɪ ˈpɒl.ə.tɪks/",
+      "pos": null,
+      "example": "I just want to do my job, not play politics.",
+      "exampleTr": "Ben sadece işimi yapmak istiyorum, entrika çevirmek değil.",
+      "simple": "Do things to get power, not because they are right.",
+      "dialogue": [
+        "A: Why did he side with the director?",
+        "B: He's started to play politics. He wants her job."
+      ],
+      "emoji": "♟️",
+      "imageQuery": null,
+      "note": "İş yerinde çıkar için manevra yapmak; olumsuz."
+    },
+    {
+      "type": "CHUNK",
+      "en": "the pecking order",
+      "tr": "hiyerarşi, gayriresmi sıralama",
+      "ipa": null,
+      "pos": null,
+      "example": "As the new guy, I'm at the bottom of the pecking order.",
+      "exampleTr": "Yeni olduğum için sıralamanın en altındayım.",
+      "simple": "Who is more important and who is less in a group.",
+      "dialogue": [
+        "A: Why does Kemal always get the best desk?",
+        "B: That's the pecking order, I'm afraid."
+      ],
+      "emoji": "🐔",
+      "imageQuery": null,
+      "note": "Resmi olmayan güç sıralaması için."
+    },
+    {
+      "type": "WORD",
+      "en": "turf war",
+      "tr": "yetki/alan kavgası",
+      "ipa": "/ˈtɜːf wɔːr/",
+      "pos": "noun",
+      "example": "There's a turf war between marketing and sales.",
+      "exampleTr": "Pazarlama ile satış arasında bir alan kavgası var.",
+      "simple": "Two groups fight about who controls something.",
+      "dialogue": [
+        "A: Why can't they just share the budget?",
+        "B: It's a turf war. Nobody wants to give an inch."
+      ],
+      "emoji": "⚔️",
+      "imageQuery": null,
+      "note": "Departmanlar arası 'bu benim işim' çekişmesi."
+    },
+    {
+      "type": "CHUNK",
+      "en": "on a power trip",
+      "tr": "yetki sarhoşu, güç zehirlenmesi yaşayan",
+      "ipa": null,
+      "pos": null,
+      "example": "Since he became team leader, he's been on a power trip.",
+      "exampleTr": "Takım lideri olduğundan beri yetki sarhoşu oldu.",
+      "simple": "Someone enjoys their power too much and bosses people.",
+      "dialogue": [
+        "A: He made us redo the slides three times.",
+        "B: He's on a power trip."
+      ],
+      "emoji": "👑",
+      "imageQuery": null,
+      "note": "Küçük bir yetkiyi abartan kişi için."
+    },
+    {
+      "type": "WORD",
+      "en": "yes-man",
+      "tr": "evet efendimci, her şeye evet diyen",
+      "ipa": "/ˈjes.mæn/",
+      "pos": "noun",
+      "example": "The boss surrounds himself with yes-men.",
+      "exampleTr": "Patron etrafını evet efendimcilerle doldurur.",
+      "simple": "Someone who always agrees with the boss.",
+      "dialogue": [
+        "A: Why does Ali never disagree?",
+        "B: He's a total yes-man."
+      ],
+      "emoji": "🙇",
+      "imageQuery": null,
+      "note": "Olumsuz; çoğulu 'yes-men'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "the powers that be",
+      "tr": "yukarıdakiler, karar vericiler",
+      "ipa": null,
+      "pos": null,
+      "example": "The powers that be have decided to close the office on Fridays.",
+      "exampleTr": "Yukarıdakiler cuma günleri ofisi kapatmaya karar vermiş.",
+      "simple": "The important people who make the big decisions.",
+      "dialogue": [
+        "A: Who decided we can't have coffee machines anymore?",
+        "B: The powers that be, apparently."
+      ],
+      "emoji": "🏛️",
+      "imageQuery": null,
+      "note": "Kim olduğu belirsiz yönetim için hafif alaycı."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "pull rank",
+      "tr": "rütbesini kullanmak, makamını öne sürmek",
+      "ipa": "/pʊl ræŋk/",
+      "pos": null,
+      "example": "I hate to pull rank, but this needs to be done today.",
+      "exampleTr": "Makamımı öne sürmek istemem ama bunun bugün bitmesi lazım.",
+      "simple": "Use your higher job to make people do what you want.",
+      "dialogue": [
+        "A: She wanted the window seat too.",
+        "B: So she decided to pull rank? Classic."
+      ],
+      "emoji": "🎖️",
+      "imageQuery": null,
+      "note": "Tartışmayı 'ben müdürüm' diyerek bitirmek."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "take credit for",
+      "tr": "(başkasının işini) sahiplenmek, üstlenmek",
+      "ipa": "/teɪk ˈkred.ɪt fɔːr/",
+      "pos": null,
+      "example": "He always takes credit for my ideas in meetings.",
+      "exampleTr": "Toplantılarda hep benim fikirlerimi sahipleniyor.",
+      "simple": "Say the good work was yours, even when it wasn't.",
+      "dialogue": [
+        "A: The client loved the design!",
+        "B: Great, as long as Gary doesn't take credit for it."
+      ],
+      "emoji": "🏆",
+      "imageQuery": null,
+      "note": "Haksız sahiplenmede de, hak edilmiş övgüde de kullanılır."
+    },
+    {
+      "type": "CHUNK",
+      "en": "managing up",
+      "tr": "üstünü yönetmek, patronla ilişkiyi idare etmek",
+      "ipa": null,
+      "pos": null,
+      "example": "Half my job is managing up, keeping my boss calm and informed.",
+      "exampleTr": "İşimin yarısı üstümü yönetmek: patronumu sakin ve bilgili tutmak.",
+      "simple": "Helping your boss work well, so your life gets easier too.",
+      "dialogue": [
+        "A: How do you get your boss to approve things so fast?",
+        "B: It's all about managing up. I tell her before she asks."
+      ],
+      "emoji": "⬆️",
+      "imageQuery": null,
+      "note": "İş dünyası jargonu ama günlük ofis sohbetinde de yaygın."
+    },
+    {
+      "type": "CHUNK",
+      "en": "drop me in it",
+      "tr": "beni zor durumda bırakmak, başımı yakmak",
+      "ipa": null,
+      "pos": null,
+      "example": "Thanks for telling the boss I was late. You really dropped me in it.",
+      "exampleTr": "Patrona geç kaldığımı söylediğin için sağ ol. Başımı fena yaktın.",
+      "simple": "Say something that gets another person into trouble.",
+      "dialogue": [
+        "A: I told Mum you were at the party.",
+        "B: Why would you drop me in it like that?"
+      ],
+      "emoji": "🕳️",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; 'drop someone in it' kalıbı."
+    },
+    {
+      "type": "CHUNK",
+      "en": "cover yourself",
+      "tr": "kendini sağlama almak, ileride suçlanmamak için önlem almak",
+      "ipa": null,
+      "pos": null,
+      "example": "Always put it in an email to cover yourself.",
+      "exampleTr": "Kendini sağlama almak için her zaman e-postayla yaz.",
+      "simple": "Keep proof so nobody can blame you later.",
+      "dialogue": [
+        "A: Should I just tell him on the phone?",
+        "B: Send an email too. You need to cover yourself."
+      ],
+      "emoji": "🛡️",
+      "imageQuery": null,
+      "note": "Amerikanca kaba hali 'cover your ass (CYA)'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "keep your head down",
+      "tr": "dikkat çekmemek, başını eğip işini yapmak",
+      "ipa": null,
+      "pos": null,
+      "example": "During the layoffs, I just kept my head down and worked.",
+      "exampleTr": "İşten çıkarmalar sırasında dikkat çekmeden işimi yaptım.",
+      "simple": "Stay quiet and do your work, so you don't get in trouble.",
+      "dialogue": [
+        "A: Everyone is fighting about the new manager.",
+        "B: Just keep your head down until it blows over."
+      ],
+      "emoji": "🙇‍♂️",
+      "imageQuery": null,
+      "note": "Kriz ve gerginlik dönemlerinde tavsiye olarak."
+    },
+    {
+      "type": "CHUNK",
+      "en": "throw your weight around",
+      "tr": "otorite taslamak, kabadayılık etmek",
+      "ipa": null,
+      "pos": null,
+      "example": "The new director likes to throw his weight around.",
+      "exampleTr": "Yeni direktör otorite taslamayı seviyor.",
+      "simple": "Use your power in a rude, bossy way.",
+      "dialogue": [
+        "A: I'm the new team lead, so I told everyone to stay late.",
+        "B: Careful. Don't throw your weight around in your first week."
+      ],
+      "emoji": "🦏",
+      "imageQuery": null,
+      "note": "Kibirli ve baskıcı davranış için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "a seat at the table",
+      "tr": "söz hakkı, karar masasında yer",
+      "ipa": null,
+      "pos": null,
+      "example": "For once, the junior staff have a seat at the table.",
+      "exampleTr": "İlk kez kıdemsiz çalışanların da karar masasında yeri var.",
+      "simple": "You are allowed to help make the big decisions.",
+      "dialogue": [
+        "A: Why do you want to join the planning committee?",
+        "B: I want a seat at the table when they decide the budget."
+      ],
+      "emoji": "🪑",
+      "imageQuery": null,
+      "note": "Karar süreçlerine dahil olmayı anlatır."
+    },
+    {
+      "type": "CHUNK",
+      "en": "a box-ticking exercise",
+      "tr": "göstermelik/formalite iş",
+      "ipa": null,
+      "pos": null,
+      "example": "The annual review is just a box-ticking exercise.",
+      "exampleTr": "Yıllık değerlendirme sadece formalite.",
+      "simple": "Something done only for the rules, not because it helps.",
+      "dialogue": [
+        "A: Did you read the safety training?",
+        "B: No one does. It's a box-ticking exercise."
+      ],
+      "emoji": "☑️",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; anlamsız bürokrasi için."
+    },
+    {
+      "type": "WORD",
+      "en": "rubber-stamp",
+      "tr": "(sorgulamadan) onaylamak, göstermelik onay vermek",
+      "ipa": "/ˌrʌb.əˈstæmp/",
+      "pos": "verb",
+      "example": "The board just rubber-stamped the plan without reading it.",
+      "exampleTr": "Yönetim kurulu planı okumadan onaylayıverdi.",
+      "simple": "Say yes to a plan without really checking it.",
+      "dialogue": [
+        "A: Will the director change our proposal?",
+        "B: No, she'll just rubber-stamp it."
+      ],
+      "emoji": "🔖",
+      "imageQuery": null,
+      "note": "İsim olarak da: 'just a rubber stamp' = göstermelik onay mercii."
+    },
+    {
+      "type": "WORD",
+      "en": "empire-building",
+      "tr": "kendi krallığını kurma, kadro ve güç biriktirme",
+      "ipa": "/ˈem.paɪəˌbɪl.dɪŋ/",
+      "pos": "noun",
+      "example": "Hiring five assistants? That's pure empire-building.",
+      "exampleTr": "Beş asistan almak mı? Bu düpedüz krallık kurmak.",
+      "simple": "Getting more people and power just to feel important.",
+      "dialogue": [
+        "A: Why does his team keep growing?",
+        "B: Empire-building, if you ask me."
+      ],
+      "emoji": "🏰",
+      "imageQuery": null,
+      "note": "Gereksiz büyüme ve güç toplama eleştirisi."
+    },
+    {
+      "type": "CHUNK",
+      "en": "a poisoned chalice",
+      "tr": "zehirli hediye, başa bela görev",
+      "ipa": null,
+      "pos": null,
+      "example": "Running that project is a poisoned chalice, nobody's ever succeeded.",
+      "exampleTr": "O projeyi yönetmek başa bela bir görev, kimse başaramadı.",
+      "simple": "A job that looks good but will bring you trouble.",
+      "dialogue": [
+        "A: They offered me the team leader job!",
+        "B: Careful, it might be a poisoned chalice."
+      ],
+      "emoji": "🍷",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; özellikle terfiler için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "a safe pair of hands",
+      "tr": "güvenilir, işi sağlam kişi",
+      "ipa": null,
+      "pos": null,
+      "example": "Give it to Leyla, she's a safe pair of hands.",
+      "exampleTr": "Onu Leyla'ya ver, işi sağlam biridir.",
+      "simple": "A person you can trust to do the job well.",
+      "dialogue": [
+        "A: Who should handle the big client?",
+        "B: Murat. He's a safe pair of hands."
+      ],
+      "emoji": "🤲",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; övgü ama 'pek yaratıcı değil' anlamı da taşıyabilir."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "plausible deniability",
+      "tr": "inkar edebilme payı",
+      "ipa": "/ˈplɔː.zə.bəl dɪˌnaɪ.əˈbɪl.ə.ti/",
+      "pos": null,
+      "example": "Don't tell me the details. I want plausible deniability.",
+      "exampleTr": "Ayrıntıları anlatma. İnkar edebilme payım kalsın.",
+      "simple": "If you don't know, you can honestly say 'I didn't know'.",
+      "dialogue": [
+        "A: Do you want to know what we're planning for the boss?",
+        "B: No. I'd prefer plausible deniability."
+      ],
+      "emoji": "🙈",
+      "imageQuery": null,
+      "note": "Gündelik konuşmada genelde esprili kullanılır."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "play favourites",
+      "tr": "kayırmacılık yapmak, ayrım yapmak",
+      "ipa": "/pleɪ ˈfeɪ.vər.ɪts/",
+      "pos": null,
+      "example": "A good manager doesn't play favourites.",
+      "exampleTr": "İyi bir müdür kayırmacılık yapmaz.",
+      "simple": "Be nicer to some people than to others, unfairly.",
+      "dialogue": [
+        "A: Why does Selin always get the good projects?",
+        "B: The boss likes to play favourites."
+      ],
+      "emoji": "⭐",
+      "imageQuery": null,
+      "note": "Amerikanca yazımı 'play favorites'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "jump ship",
+      "tr": "gemiyi terk etmek, başka yere kaçmak",
+      "ipa": null,
+      "pos": null,
+      "example": "Half the team jumped ship when the company was sold.",
+      "exampleTr": "Şirket satılınca ekibin yarısı gemiyi terk etti.",
+      "simple": "Leave a job or group suddenly, often for a better one.",
+      "dialogue": [
+        "A: Are you staying after the merger?",
+        "B: If things get worse, I'll jump ship."
+      ],
+      "emoji": "🚢",
+      "imageQuery": null,
+      "note": "Özellikle işler kötüye giderken ayrılmak için."
+    },
+    {
+      "type": "COLLOCATION",
+      "en": "a blame culture",
+      "tr": "suçlu arama kültürü",
+      "ipa": "/ə bleɪm ˈkʌl.tʃər/",
+      "pos": null,
+      "example": "There's such a blame culture here that nobody admits mistakes.",
+      "exampleTr": "Burada öyle bir suçlu arama kültürü var ki kimse hatasını kabul etmiyor.",
+      "simple": "A place where people look for someone to blame, not to fix things.",
+      "dialogue": [
+        "A: Why did nobody report the bug?",
+        "B: Because of a blame culture. People are scared."
+      ],
+      "emoji": "👉",
+      "imageQuery": null,
+      "note": "Toksik iş yerlerini anlatırken."
+    },
+    {
+      "type": "WORD",
+      "en": "firefighting",
+      "tr": "yangın söndürme, acil sorunlarla uğraşma",
+      "ipa": "/ˈfaɪəˌfaɪ.tɪŋ/",
+      "pos": "noun",
+      "example": "I spent the whole day firefighting and did none of my real work.",
+      "exampleTr": "Bütün günü acil sorunlarla uğraşarak geçirdim, asıl işimi hiç yapamadım.",
+      "simple": "Fixing one sudden problem after another all day.",
+      "dialogue": [
+        "A: Did you finish the report?",
+        "B: No, it was firefighting from nine till six."
+      ],
+      "emoji": "🧯",
+      "imageQuery": null,
+      "note": "İş yerinde mecaz anlam; planlı çalışmanın tersi."
+    }
+  ]
+}

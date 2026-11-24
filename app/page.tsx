@@ -5,6 +5,7 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 import { LEVELS } from "@/lib/srs";
 import { SITE_DESC, SITE_URL } from "@/lib/site";
 import { LEVEL_INFO, LISTS } from "@/lib/public";
+import { FAQ } from "@/lib/faq";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -16,6 +17,12 @@ const jsonLd = {
   operatingSystem: "Web",
   inLanguage: "tr",
   offers: { "@type": "Offer", price: "0", priceCurrency: "TRY" },
+};
+
+const faqLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: FAQ.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
 };
 
 export default async function Home() {
@@ -116,7 +123,19 @@ export default async function Home() {
           ))}
         </ul>
       </section>
+      <section className="border-t border-line py-12">
+        <h2 className="font-display text-xl font-bold">Sık sorulan sorular</h2>
+        <div className="mt-4 flex flex-col gap-2">
+          {FAQ.map((f) => (
+            <details key={f.q} className="group rounded-xl bg-paper px-4 py-3">
+              <summary className="cursor-pointer font-bold">{f.q}</summary>
+              <p className="mt-2 text-muted">{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </section>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
     </main>
   );
 }

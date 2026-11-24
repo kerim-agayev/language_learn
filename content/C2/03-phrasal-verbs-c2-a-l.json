@@ -1,0 +1,413 @@
+{
+  "topic": "İleri phrasal verb'ler (A–L)",
+  "items": [
+    {
+      "type": "PHRASAL",
+      "en": "breeze through",
+      "tr": "çok kolay geçmek, su gibi halletmek",
+      "ipa": "/briːz θruː/",
+      "pos": null,
+      "example": "She breezed through the interview.",
+      "exampleTr": "Mülakatı su gibi geçti.",
+      "simple": "You do something hard very easily.",
+      "dialogue": [
+        "A: Were you nervous about the exam?",
+        "B: Not really. I expected to breeze through it."
+      ],
+      "emoji": "🌬️",
+      "imageQuery": null,
+      "note": "Sınav, mülakat, görev için; zahmetsiz başarıyı vurgular."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "buckle down",
+      "tr": "ciddi ciddi işe koyulmak",
+      "ipa": "/ˈbʌk.əl daʊn/",
+      "pos": null,
+      "example": "I need to buckle down and finish this report.",
+      "exampleTr": "Ciddi ciddi oturup bu raporu bitirmem lazım.",
+      "simple": "Stop playing and start working hard.",
+      "dialogue": [
+        "A: Exams start in two weeks.",
+        "B: I know. Time to buckle down."
+      ],
+      "emoji": "📚",
+      "imageQuery": null,
+      "note": "Ertelemeyi bırakıp ciddileşmeyi anlatır."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "butter up",
+      "tr": "yağ çekmek, yaranmaya çalışmak",
+      "ipa": "/ˈbʌt.ər ʌp/",
+      "pos": null,
+      "example": "He's buttering up the boss before asking for a raise.",
+      "exampleTr": "Zam istemeden önce patrona yağ çekiyor.",
+      "simple": "Say nice things to someone so they will help you.",
+      "dialogue": [
+        "A: Why are you making me breakfast?",
+        "B: Can't I butter up my favourite sister?"
+      ],
+      "emoji": "🧈",
+      "imageQuery": null,
+      "note": "Bir şey istemeden önce birini övmek; hafif alaycı."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "churn out",
+      "tr": "seri üretmek, peş peşe çıkarmak (çoğu zaman özensizce)",
+      "ipa": "/tʃɜːn aʊt/",
+      "pos": null,
+      "example": "That studio churns out the same kind of film every year.",
+      "exampleTr": "O stüdyo her yıl aynı tür filmi seri üretiyor.",
+      "simple": "Make lots of something fast, often not very good.",
+      "dialogue": [
+        "A: How many emails do you write a day?",
+        "B: I churn out about fifty, I reckon."
+      ],
+      "emoji": "🏭",
+      "imageQuery": null,
+      "note": "Nitelikten çok niceliği eleştirirken."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "cobble together",
+      "tr": "derme çatma bir şey ortaya çıkarmak",
+      "ipa": "/ˈkɒb.əl təˈɡeð.ər/",
+      "pos": null,
+      "example": "We cobbled together a dinner from whatever was in the fridge.",
+      "exampleTr": "Buzdolabında ne varsa ondan derme çatma bir akşam yemeği çıkardık.",
+      "simple": "Make something quickly from whatever you have.",
+      "dialogue": [
+        "A: Did you have time to prepare the slides?",
+        "B: I managed to cobble together something last night."
+      ],
+      "emoji": "🧩",
+      "imageQuery": null,
+      "note": "Hızlı ve özensiz hazırlanmış plan, yemek, sunum için."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "conk out",
+      "tr": "bozulup durmak, (insan) sızıp kalmak",
+      "ipa": "/kɒŋk aʊt/",
+      "pos": null,
+      "example": "My old car finally conked out on the motorway.",
+      "exampleTr": "Eski arabam sonunda otoyolda bozulup kaldı.",
+      "simple": "A machine stops working, or a tired person falls asleep.",
+      "dialogue": [
+        "A: Is the printer working again?",
+        "B: It printed two pages and then decided to conk out."
+      ],
+      "emoji": "🚗",
+      "imageQuery": null,
+      "note": "Gündelik, esprili; makineler ve yorgun insanlar için."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "cotton on",
+      "tr": "sonunda çakmak, jeton düşmek",
+      "ipa": "/ˈkɒt.ən ɒn/",
+      "pos": null,
+      "example": "It took me ages to cotton on that they were dating.",
+      "exampleTr": "Çıktıklarını çakmam çok uzun sürdü.",
+      "simple": "Finally understand something that was a bit hidden.",
+      "dialogue": [
+        "A: Did he know it was a surprise party?",
+        "B: No, he didn't cotton on until he opened the door."
+      ],
+      "emoji": "💡",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; genelde 'cotton on to' biçimiyle."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "dish out",
+      "tr": "(eleştiri, tavsiye) dağıtmak, durmadan vermek",
+      "ipa": "/dɪʃ aʊt/",
+      "pos": null,
+      "example": "He loves dishing out advice, but he never takes any.",
+      "exampleTr": "Herkese akıl vermeye bayılır ama kendisi hiç almaz.",
+      "simple": "Give lots of something to people, like advice or criticism.",
+      "dialogue": [
+        "A: Why is he so upset about one joke?",
+        "B: He can dish out criticism, but he can't take it."
+      ],
+      "emoji": "🍽️",
+      "imageQuery": null,
+      "note": "'He can dish it out but he can't take it' kalıbı çok yaygın."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "dredge up",
+      "tr": "(geçmişi) eşelemek, eski bir konuyu deşmek",
+      "ipa": "/dredʒ ʌp/",
+      "pos": null,
+      "example": "Why do you always dredge up stuff from ten years ago?",
+      "exampleTr": "Neden hep on yıl önceki şeyleri eşeliyorsun?",
+      "simple": "Talk again about an old bad thing that should stay forgotten.",
+      "dialogue": [
+        "A: Remember when you forgot my birthday in 2015?",
+        "B: Please don't dredge up the past again."
+      ],
+      "emoji": "🪝",
+      "imageQuery": null,
+      "note": "Kavgalarda eski hataları ortaya dökmek için."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "drum up",
+      "tr": "(destek, müşteri, ilgi) toplamaya çalışmak",
+      "ipa": "/drʌm ʌp/",
+      "pos": null,
+      "example": "We handed out flyers to drum up some business.",
+      "exampleTr": "Biraz iş getirmek için el ilanı dağıttık.",
+      "simple": "Work hard to get people interested or to help.",
+      "dialogue": [
+        "A: Not many people have signed up for the quiz night.",
+        "B: Let's post on the group chat to drum up some interest."
+      ],
+      "emoji": "🥁",
+      "imageQuery": null,
+      "note": "Genelde 'drum up support/business/interest' ile."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "duck out of",
+      "tr": "(bir şeyden) sıvışmak, yan çizmek",
+      "ipa": "/dʌk aʊt əv/",
+      "pos": null,
+      "example": "I ducked out of the meeting early to pick up my son.",
+      "exampleTr": "Oğlumu almak için toplantıdan erken sıvıştım.",
+      "simple": "Leave quietly or avoid doing something.",
+      "dialogue": [
+        "A: Where's Mike?",
+        "B: He tried to duck out of the washing-up again."
+      ],
+      "emoji": "🦆",
+      "imageQuery": null,
+      "note": "Toplantı, görev veya sorumluluktan kaçmak için."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "eke out",
+      "tr": "kıt kanaat idare etmek, zar zor çıkarmak",
+      "ipa": "/iːk aʊt/",
+      "pos": null,
+      "example": "I'm trying to eke out my savings until I find a job.",
+      "exampleTr": "İş bulana kadar birikimimi idareli kullanmaya çalışıyorum.",
+      "simple": "Make a small amount last a long time.",
+      "dialogue": [
+        "A: How are you managing without a salary?",
+        "B: Just about. I'm trying to eke out what's left."
+      ],
+      "emoji": "🪙",
+      "imageQuery": null,
+      "note": "'eke out a living' = zar zor geçimini sağlamak."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "fall back on",
+      "tr": "(zor durumda) ...a başvurmak, yedek olarak dayanmak",
+      "ipa": "/fɔːl bæk ɒn/",
+      "pos": null,
+      "example": "It's good to have some savings to fall back on.",
+      "exampleTr": "Kenarda başvurabileceğin biraz birikim olması iyidir.",
+      "simple": "Use something when your first plan does not work.",
+      "dialogue": [
+        "A: Why study accounting if you want to be an actor?",
+        "B: So I've got something to fall back on."
+      ],
+      "emoji": "🛟",
+      "imageQuery": null,
+      "note": "Yedek plan, birikim, eski beceri için."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "fizzle out",
+      "tr": "sönüp gitmek, yavaş yavaş bitmek",
+      "ipa": "/ˈfɪz.əl aʊt/",
+      "pos": null,
+      "example": "The conversation just fizzled out after a while.",
+      "exampleTr": "Bir süre sonra sohbet öylece söndü gitti.",
+      "simple": "Something slowly stops, with no big ending.",
+      "dialogue": [
+        "A: Are you still seeing that guy from the gym?",
+        "B: No, things kind of started to fizzle out."
+      ],
+      "emoji": "🎇",
+      "imageQuery": null,
+      "note": "İlişki, heves, sohbet, proje için."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "fritter away",
+      "tr": "(para, zaman) çarçur etmek",
+      "ipa": "/ˈfrɪt.ər əˈweɪ/",
+      "pos": null,
+      "example": "He frittered away his inheritance on cars.",
+      "exampleTr": "Mirasını arabalara çarçur etti.",
+      "simple": "Waste money or time on small, silly things.",
+      "dialogue": [
+        "A: I got a bonus this month!",
+        "B: Nice. Don't fritter away all of it on takeaways."
+      ],
+      "emoji": "💸",
+      "imageQuery": null,
+      "note": "Azar azar boşa harcamayı anlatır."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "gear up for",
+      "tr": "...a hazırlanmak, hazırlık yapmak",
+      "ipa": "/ɡɪər ʌp fɔːr/",
+      "pos": null,
+      "example": "The shops are gearing up for the Christmas rush.",
+      "exampleTr": "Mağazalar Noel yoğunluğuna hazırlanıyor.",
+      "simple": "Get ready for something big that is coming.",
+      "dialogue": [
+        "A: Why is everyone working late?",
+        "B: We have to gear up for the product launch."
+      ],
+      "emoji": "⚙️",
+      "imageQuery": null,
+      "note": "Yoğun bir dönem veya etkinlik öncesi hazırlık için."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "hole up",
+      "tr": "bir yere kapanmak, saklanmak",
+      "ipa": "/həʊl ʌp/",
+      "pos": null,
+      "example": "I'm going to hole up at home and finish my thesis.",
+      "exampleTr": "Evde kapanıp tezimi bitireceğim.",
+      "simple": "Stay inside one place and hide from people for a while.",
+      "dialogue": [
+        "A: Any plans for the weekend?",
+        "B: I'm going to hole up with a box set and pizza."
+      ],
+      "emoji": "🏠",
+      "imageQuery": null,
+      "note": "Gündelik; çalışmak veya kafa dinlemek için içeri kapanmak."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "hunker down",
+      "tr": "sıkı durmak, sinip beklemek, kafayı işe vermek",
+      "ipa": "/ˈhʌŋ.kə daʊn/",
+      "pos": null,
+      "example": "We hunkered down and waited for the storm to pass.",
+      "exampleTr": "Sinip fırtınanın geçmesini bekledik.",
+      "simple": "Stay in a safe place and wait, or focus hard on work.",
+      "dialogue": [
+        "A: The deadline is Monday.",
+        "B: Then let's hunker down and get it done this weekend."
+      ],
+      "emoji": "⛺",
+      "imageQuery": null,
+      "note": "Kötü dönemi atlatmak ya da yoğun çalışmak için."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "jazz up",
+      "tr": "canlandırmak, renk katmak",
+      "ipa": "/dʒæz ʌp/",
+      "pos": null,
+      "example": "A few cushions will jazz up the sofa.",
+      "exampleTr": "Birkaç yastık koltuğa renk katar.",
+      "simple": "Make something more fun, bright or interesting.",
+      "dialogue": [
+        "A: This salad looks a bit boring.",
+        "B: Add some pomegranate to jazz up the colours."
+      ],
+      "emoji": "🎷",
+      "imageQuery": null,
+      "note": "Oda, kıyafet, sunum, yemek için."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "knock off",
+      "tr": "işi bırakmak, paydos etmek",
+      "ipa": "/nɒk ɒf/",
+      "pos": null,
+      "example": "Let's knock off early today, it's Friday.",
+      "exampleTr": "Bugün erken paydos edelim, cuma.",
+      "simple": "Stop working for the day.",
+      "dialogue": [
+        "A: What time do you finish?",
+        "B: I usually knock off around five."
+      ],
+      "emoji": "🔔",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi, gündelik; 'knock it off' = kes şunu."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "lay into",
+      "tr": "(birine) veryansın etmek, fırça atmak",
+      "ipa": "/leɪ ˈɪn.tuː/",
+      "pos": null,
+      "example": "The coach really laid into the players at half-time.",
+      "exampleTr": "Antrenör devre arasında oyunculara resmen veryansın etti.",
+      "simple": "Shout at someone or criticise them very angrily.",
+      "dialogue": [
+        "A: Why is Emma crying?",
+        "B: Her boss decided to lay into her in front of everyone."
+      ],
+      "emoji": "😤",
+      "imageQuery": null,
+      "note": "Sözlü saldırı; bazen fiziksel de olabilir."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "lap up",
+      "tr": "(övgü, ilgi) kana kana içmek, bayılmak",
+      "ipa": "/læp ʌp/",
+      "pos": null,
+      "example": "The kids lapped up every word of the story.",
+      "exampleTr": "Çocuklar hikayenin her kelimesini büyük keyifle dinledi.",
+      "simple": "Enjoy something very much, like praise or attention.",
+      "dialogue": [
+        "A: Is your dad enjoying his retirement party?",
+        "B: Oh, he'll lap up all the attention."
+      ],
+      "emoji": "😻",
+      "imageQuery": null,
+      "note": "İlgi ve övgüye bayılmayı, bazen saflıkla inanmayı anlatır."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "level with",
+      "tr": "(birine) açık konuşmak, dürüst olmak",
+      "ipa": "/ˈlev.əl wɪð/",
+      "pos": null,
+      "example": "Level with me: are we in trouble?",
+      "exampleTr": "Bana açık konuş: başımız dertte mi?",
+      "simple": "Tell someone the full truth, even if it is bad.",
+      "dialogue": [
+        "A: So, how bad is the damage?",
+        "B: I'll level with you. It's going to be expensive."
+      ],
+      "emoji": "🗣️",
+      "imageQuery": null,
+      "note": "Özellikle 'I'll level with you' kalıbında."
+    },
+    {
+      "type": "PHRASAL",
+      "en": "live it down",
+      "tr": "(utandırıcı bir şeyi) unutturmak",
+      "ipa": "/lɪv ɪt daʊn/",
+      "pos": null,
+      "example": "I fell asleep at my own party and I'll never live it down.",
+      "exampleTr": "Kendi partimde uyuyakaldım, bunu asla unutturamayacağım.",
+      "simple": "Make people forget something silly you did. Often you can't.",
+      "dialogue": [
+        "A: You called the teacher 'Mum' in front of the whole class?",
+        "B: I know. I'll never live it down."
+      ],
+      "emoji": "🙈",
+      "imageQuery": null,
+      "note": "Neredeyse hep olumsuz: 'never live it down'."
+    }
+  ]
+}

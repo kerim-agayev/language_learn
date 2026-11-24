@@ -1,0 +1,414 @@
+{
+  "topic": "Takılma, kuru mizah, laf sokma",
+  "items": [
+    {
+      "type": "CHUNK",
+      "en": "Don't give up the day job",
+      "tr": "bu işi bırakma sakın (sanatın vasat)",
+      "ipa": null,
+      "pos": null,
+      "example": "Nice singing, mate. Don't give up the day job.",
+      "exampleTr": "Güzel söyledin dostum. Sakın asıl işini bırakma.",
+      "simple": "A joke: you are not good at this, so keep your real job.",
+      "dialogue": [
+        "A: Did you like my stand-up routine?",
+        "B: Don't give up the day job."
+      ],
+      "emoji": "🎤",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; Amerikanca 'Don't quit your day job'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Who died and made you boss",
+      "tr": "kim seni patron yaptı, sen kimsin de emir veriyorsun",
+      "ipa": null,
+      "pos": null,
+      "example": "Who died and made you boss? I'll do it when I'm ready.",
+      "exampleTr": "Seni kim patron yaptı? Hazır olunca yaparım.",
+      "simple": "You say it when someone gives orders but is not in charge.",
+      "dialogue": [
+        "A: Right, everyone, phones away and start cleaning.",
+        "B: Who died and made you boss?"
+      ],
+      "emoji": "👑",
+      "imageQuery": null,
+      "note": "Arkadaşlar arası; şaka ya da gerçek sitem olabilir."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Steady on",
+      "tr": "yavaş ol, ağır ol, abartma",
+      "ipa": null,
+      "pos": null,
+      "example": "Steady on, it was only a joke!",
+      "exampleTr": "Yavaş ol, sadece bir şakaydı!",
+      "simple": "Calm down, you are going too far.",
+      "dialogue": [
+        "A: That's it, I'm selling your guitar!",
+        "B: Whoa, steady on!"
+      ],
+      "emoji": "🛑",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi, biraz eski moda ve şakacı."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Get you",
+      "tr": "vay, şuna bak hele (takılarak)",
+      "ipa": null,
+      "pos": null,
+      "example": "\"I've booked a table at the Ritz.\" \"Ooh, get you!\"",
+      "exampleTr": "\"Ritz'de masa ayırttım.\" \"Vay, şuna bak hele!\"",
+      "simple": "A teasing way to say: look how fancy you are.",
+      "dialogue": [
+        "A: I'm flying business class to Rome.",
+        "B: Ooh, get you!"
+      ],
+      "emoji": "💅",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; caka satan arkadaşa takılmak için."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Someone's in a good mood",
+      "tr": "birinin keyfi yerinde bakıyorum",
+      "ipa": null,
+      "pos": null,
+      "example": "Someone's in a good mood. Did you win the lottery?",
+      "exampleTr": "Birinin keyfi yerinde bakıyorum. Piyango mu vurdu?",
+      "simple": "You tease a person who is very happy for no clear reason.",
+      "dialogue": [
+        "A: Morning, everyone! Lovely day, isn't it?",
+        "B: Well, someone's in a good mood."
+      ],
+      "emoji": "😁",
+      "imageQuery": null,
+      "note": "'Someone' ile karşındakini kastedip takılırsın; tersi 'in a mood'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I'll take that as a compliment",
+      "tr": "iltifat olarak kabul ediyorum",
+      "ipa": null,
+      "pos": null,
+      "example": "\"You're so weird.\" \"I'll take that as a compliment.\"",
+      "exampleTr": "\"Çok tuhafsın.\" \"İltifat olarak kabul ediyorum.\"",
+      "simple": "Someone says a rude thing, but you pretend it was nice.",
+      "dialogue": [
+        "A: You dress like my grandad.",
+        "B: I'll take that as a compliment. He's very stylish."
+      ],
+      "emoji": "🌹",
+      "imageQuery": null,
+      "note": "Laf sokmayı tatlı bir cevapla savuşturmak."
+    },
+    {
+      "type": "CHUNK",
+      "en": "No pressure, then",
+      "tr": "hiç baskı yok yani (alaycı)",
+      "ipa": null,
+      "pos": null,
+      "example": "\"The whole family's coming to taste your cooking.\" \"No pressure, then.\"",
+      "exampleTr": "\"Bütün aile yemeğini tatmaya geliyor.\" \"Hiç baskı yok yani.\"",
+      "simple": "A joke: there is a lot of pressure on me now.",
+      "dialogue": [
+        "A: The CEO will be watching your presentation.",
+        "B: No pressure, then."
+      ],
+      "emoji": "😅",
+      "imageQuery": null,
+      "note": "Büyük beklenti karşısında kuru espri."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Says the guy who",
+      "tr": "bunu ... olan adam mı söylüyor",
+      "ipa": null,
+      "pos": null,
+      "example": "\"You should eat healthier.\" \"Says the guy who had pizza for breakfast.\"",
+      "exampleTr": "\"Daha sağlıklı beslenmelisin.\" \"Bunu kahvaltıda pizza yiyen adam mı söylüyor?\"",
+      "simple": "You point out the person does the same bad thing.",
+      "dialogue": [
+        "A: You're always late.",
+        "B: Says the guy who missed his own birthday party."
+      ],
+      "emoji": "👈",
+      "imageQuery": null,
+      "note": "Kadın için 'Says the woman who...', genel 'Says the person who...'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Was it something I said",
+      "tr": "yanlış bir şey mi söyledim (şaka)",
+      "ipa": null,
+      "pos": null,
+      "example": "Everyone left the room when I arrived. Was it something I said?",
+      "exampleTr": "Ben gelince herkes odadan çıktı. Yanlış bir şey mi söyledim?",
+      "simple": "A joke when people leave or go quiet around you.",
+      "dialogue": [
+        "A: Right, I'm off. Bye!",
+        "B: Already? Was it something I said?"
+      ],
+      "emoji": "🤷",
+      "imageQuery": null,
+      "note": "Genelde soru işaretiyle ve şaka yollu söylenir."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Thanks for the vote of confidence",
+      "tr": "güvenin için sağ ol (alaycı)",
+      "ipa": null,
+      "pos": null,
+      "example": "\"I bet you'll get lost.\" \"Thanks for the vote of confidence.\"",
+      "exampleTr": "\"Bahse girerim kaybolursun.\" \"Bana güvenin için sağ ol.\"",
+      "simple": "You say thanks, but you mean: you don't believe in me.",
+      "dialogue": [
+        "A: Are you sure you can cook for ten people?",
+        "B: Wow, thanks for the vote of confidence."
+      ],
+      "emoji": "🗳️",
+      "imageQuery": null,
+      "note": "Biri sana güvenmediğini belli edince alaycı cevap."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Speak for yourself",
+      "tr": "sen kendi adına konuş",
+      "ipa": null,
+      "pos": null,
+      "example": "\"We're all too old for clubbing.\" \"Speak for yourself!\"",
+      "exampleTr": "\"Hepimiz kulüplere gitmek için çok yaşlıyız.\" \"Sen kendi adına konuş!\"",
+      "simple": "That is true for you, not for me.",
+      "dialogue": [
+        "A: We all look terrible in the morning.",
+        "B: Speak for yourself!"
+      ],
+      "emoji": "🙋",
+      "imageQuery": null,
+      "note": "Genelleme yapan birine şakayla itiraz."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Well, this is awkward",
+      "tr": "eh, bu biraz garip oldu",
+      "ipa": null,
+      "pos": null,
+      "example": "Well, this is awkward. We're wearing the same dress.",
+      "exampleTr": "Eh, bu biraz garip oldu. Aynı elbiseyi giymişiz.",
+      "simple": "You say it out loud when a moment feels uncomfortable.",
+      "dialogue": [
+        "A: Oh. Hi. I didn't know your ex was coming tonight.",
+        "B: Well, this is awkward."
+      ],
+      "emoji": "😬",
+      "imageQuery": null,
+      "note": "Garip anı itiraf ederek gerginliği yumuşatmak."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Not that I'm complaining",
+      "tr": "şikayet ettiğimden değil ama",
+      "ipa": null,
+      "pos": null,
+      "example": "You've cleaned the whole flat? Not that I'm complaining.",
+      "exampleTr": "Bütün evi mi temizledin? Şikayet ettiğimden değil.",
+      "simple": "You are surprised, but you are happy about it.",
+      "dialogue": [
+        "A: I've made you dinner and ironed your shirts.",
+        "B: What's going on? Not that I'm complaining."
+      ],
+      "emoji": "😌",
+      "imageQuery": null,
+      "note": "Beklenmedik iyi bir şeyi şaşkınlıkla karşılarken."
+    },
+    {
+      "type": "CHUNK",
+      "en": "I'm not just a pretty face",
+      "tr": "ben sadece güzel bir surat değilim",
+      "ipa": null,
+      "pos": null,
+      "example": "I fixed the boiler myself. I'm not just a pretty face, you know.",
+      "exampleTr": "Kombiyi kendim tamir ettim. Sadece güzel bir surat değilim yani.",
+      "simple": "A funny way to say: I'm smart or useful too.",
+      "dialogue": [
+        "A: You fixed the Wi-Fi? Impressive.",
+        "B: Well, I'm not just a pretty face."
+      ],
+      "emoji": "😎",
+      "imageQuery": null,
+      "note": "Kendini övmeyi espriyle yapmak."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Story of my life",
+      "tr": "hep böyle olur zaten, benim hayatım bu",
+      "ipa": null,
+      "pos": null,
+      "example": "The bus left just as I got there. Story of my life.",
+      "exampleTr": "Ben gelince otobüs kalktı. Hep böyle olur zaten.",
+      "simple": "Bad luck like this always happens to me.",
+      "dialogue": [
+        "A: Sorry, we just sold the last piece of cake.",
+        "B: Story of my life."
+      ],
+      "emoji": "📖",
+      "imageQuery": null,
+      "note": "Kendini tiye alan, şikayetçi espri."
+    },
+    {
+      "type": "CHUNK",
+      "en": "It's a gift",
+      "tr": "Allah vergisi (alaycı ya da gerçek)",
+      "ipa": null,
+      "pos": null,
+      "example": "\"How did you burn water?\" \"It's a gift.\"",
+      "exampleTr": "\"Suyu nasıl yaktın?\" \"Allah vergisi.\"",
+      "simple": "A joke when you are amazingly bad, or good, at something.",
+      "dialogue": [
+        "A: You've broken three mugs this week!",
+        "B: What can I say? It's a gift."
+      ],
+      "emoji": "🎁",
+      "imageQuery": null,
+      "note": "Kendi beceriksizliğine kuru espri."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Don't all rush at once",
+      "tr": "hep birden koşuşmayın (alaycı)",
+      "ipa": null,
+      "pos": null,
+      "example": "\"Who wants to help me move the piano?\" Silence. \"Don't all rush at once.\"",
+      "exampleTr": "\"Piyanoyu taşımama kim yardım eder?\" Sessizlik. \"Hep birden koşuşmayın.\"",
+      "simple": "A joke when nobody wants to help.",
+      "dialogue": [
+        "A: Right, who's going to help me clean the fridge?",
+        "B: Er...",
+        "A: Don't all rush at once."
+      ],
+      "emoji": "🏃",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; gönüllü çıkmayınca."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Remind me never to",
+      "tr": "bana hatırlat da asla ... yapmayayım",
+      "ipa": null,
+      "pos": null,
+      "example": "Remind me never to play cards with you again.",
+      "exampleTr": "Hatırlat da seninle bir daha asla kart oynamayayım.",
+      "simple": "A joke: you are so good, or bad, I won't do this again.",
+      "dialogue": [
+        "A: I won every game tonight.",
+        "B: Remind me never to play Monopoly with you."
+      ],
+      "emoji": "📝",
+      "imageQuery": null,
+      "note": "Arkadaşın çok iyi ya da çok kötü bir şey yapınca."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Hold the front page",
+      "tr": "durdurun baskıyı, çok büyük haber (alaycı)",
+      "ipa": null,
+      "pos": null,
+      "example": "\"Dad's tidied his desk.\" \"Hold the front page!\"",
+      "exampleTr": "\"Babam masasını toplamış.\" \"Durdurun baskıyı!\"",
+      "simple": "A joke when news is not exciting at all.",
+      "dialogue": [
+        "A: I went to the gym today.",
+        "B: Hold the front page!"
+      ],
+      "emoji": "📰",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; Amerikanca karşılığı 'Stop the presses'."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Alert the media",
+      "tr": "basını çağırın (alaycı, sıradan bir başarıya)",
+      "ipa": null,
+      "pos": null,
+      "example": "You made your bed? Alert the media.",
+      "exampleTr": "Yatağını mı topladın? Basını çağıralım.",
+      "simple": "A joke when someone acts proud of something small.",
+      "dialogue": [
+        "A: I replied to all my emails today.",
+        "B: Alert the media!"
+      ],
+      "emoji": "📣",
+      "imageQuery": null,
+      "note": "Küçük bir başarıyı abartan birine takılmak."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Tell us what you really think",
+      "tr": "içinden geçeni söyle bari (alaycı)",
+      "ipa": null,
+      "pos": null,
+      "example": "\"That's the ugliest sofa I've ever seen.\" \"Tell us what you really think.\"",
+      "exampleTr": "\"Gördüğüm en çirkin kanepe.\" \"İçinden geçeni söyle bari.\"",
+      "simple": "A joke when someone is very, very honest.",
+      "dialogue": [
+        "A: Your new haircut makes you look like a mushroom.",
+        "B: Don't hold back. Tell us what you really think."
+      ],
+      "emoji": "😶‍🌫️",
+      "imageQuery": null,
+      "note": "Fazla açık sözlü birine kuru espri."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Easy, tiger",
+      "tr": "yavaş ol kaplan, sakin",
+      "ipa": null,
+      "pos": null,
+      "example": "Easy, tiger. It's only a game of table tennis.",
+      "exampleTr": "Sakin ol kaplan. Alt tarafı masa tenisi.",
+      "simple": "Calm down, you are too excited or too keen.",
+      "dialogue": [
+        "A: I'm going to destroy you at this quiz!",
+        "B: Easy, tiger."
+      ],
+      "emoji": "🐯",
+      "imageQuery": null,
+      "note": "Aşırı hevesli ya da agresif birine şakacı uyarı."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Someone's keen",
+      "tr": "birisi baya hevesli",
+      "ipa": null,
+      "pos": null,
+      "example": "You're here an hour early? Someone's keen.",
+      "exampleTr": "Bir saat erken mi geldin? Birisi baya hevesli.",
+      "simple": "A tease when a person looks too excited about something.",
+      "dialogue": [
+        "A: I've already packed for next month's trip.",
+        "B: Someone's keen!"
+      ],
+      "emoji": "🤓",
+      "imageQuery": null,
+      "note": "İngiliz İngilizcesi; aşırı istekliliğe takılmak."
+    },
+    {
+      "type": "CHUNK",
+      "en": "Careful, you'll strain something",
+      "tr": "dikkat, bir yerini incitirsin (tembele alaycı)",
+      "ipa": null,
+      "pos": null,
+      "example": "\"I'll pass you the remote.\" \"Careful, you'll strain something.\"",
+      "exampleTr": "\"Kumandayı uzatayım.\" \"Dikkat, bir yerini incitirsin.\"",
+      "simple": "A joke when someone lazy does a tiny bit of work.",
+      "dialogue": [
+        "A: I'll take one bag, you take the other five.",
+        "B: Careful, you'll strain something."
+      ],
+      "emoji": "🛋️",
+      "imageQuery": null,
+      "note": "Tembel birinin küçücük çabasına takılmak."
+    }
+  ]
+}
