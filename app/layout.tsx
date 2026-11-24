@@ -17,6 +17,7 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "damla: iş arasında, damla damla İngilizce", description: SITE_DESC },
   appleWebApp: { title: SITE_NAME, capable: true },
   formatDetection: { telephone: false },
+  verification: { google: "XySCFs0ifXUaUP9V4jzdHWuSRTdNX6s4pyY60JCeAac" },
 };
 
 export const viewport: Viewport = {
