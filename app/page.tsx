@@ -4,7 +4,7 @@ import { getUser } from "@/lib/auth";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { LEVELS } from "@/lib/srs";
 import { SITE_DESC, SITE_URL } from "@/lib/site";
-import { LEVEL_INFO } from "@/lib/public";
+import { LEVEL_INFO, LISTS } from "@/lib/public";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -105,6 +105,16 @@ export default async function Home() {
             </Link>
           ))}
         </div>
+      </section>
+      <section className="border-t border-line py-12">
+        <h2 className="font-display text-xl font-bold">Popüler listeler</h2>
+        <ul className="mt-4 flex flex-wrap gap-2">
+          {Object.entries(LISTS).map(([s, l]) => (
+            <li key={s}>
+              <Link href={`/liste/${s}`} className="block rounded-full bg-paper px-4 py-2 hover:outline-2 hover:outline-pen">{l.h1}</Link>
+            </li>
+          ))}
+        </ul>
       </section>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
     </main>

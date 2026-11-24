@@ -42,6 +42,12 @@ Coworkers form a team and race daily on the same 10 items. UI text in Turkish; c
   (`previews` + `formatInterval`). Nothing is saved until graded (`check` -> `commit`). Wrong answer = Again only.
   "Again" cards come back once more in the same session. Sidebar shows New / Learning / Review as TOTALS with "N şimdi" or "next in X" underneath (due-only counts sat at 0 and the user read that as broken).
 
+- **Placement test** (`/placement`, `components/Placement.tsx`; register redirects there, "Atla" skips): per level 6
+  "Türkçesi ne?" questions (`placementQuizzes`, answers judged on the server), 5 right = passed, stops early once a level
+  can't be passed. Start level = first level not passed. `applyPlacement` files every unseen card below it as known
+  (`placedCard`: FSRS Review, stability 20 → counts for the gate, due spread 10–90 days so lucky guesses get caught);
+  never moves a learner down. Sidebar offers it while the learner has < 30 cards; Ayarlar always links it.
+
 ## Core rules (non-negotiable)
 1. **Strict level gate** (`levelComplete` in `lib/srs.ts`, tested): next level opens only when every item of the
    current level was introduced AND ≥ 90% are mastered (FSRS state Review, stability ≥ 5 days). Empty levels are skipped.
@@ -60,7 +66,13 @@ Coworkers form a team and race daily on the same 10 items. UI text in Turkish; c
   `sitemap.ts`, `manifest.ts`, `opengraph-image.tsx`, `icon.svg`, `apple-icon.tsx`, JSON-LD on `/`. Logged-in pages are
   `noindex` and disallowed in robots. Public SEO pages: `/seviye/[level]` (all items of a level, by topic) and
   `/kelime/[slug]` (one item, ISR: rendered on first visit, cached 1 day; no cookies read there). `Item.slug` is set by the
-  seed (`pageSlug(en)`, type appended on clashes; the twin's canonical points to the plain slug; sitemap lists canonical only). Nav must fit 320px (level chip hides below 360px).
+  seed (`pageSlug(en)`, type appended on clashes; the twin's canonical points to the plain slug; sitemap lists canonical only).
+  `/liste/[slug]`: SEO topic lists defined in `LISTS` (`lib/public.ts`, Prisma where on type/topic; work list = topic names).
+  Public pages share `PublicHeader` + `ItemGrid`.
+- PWA: `app/manifest.ts` (PNG icons in `public/icons/`), `public/sw.js` (cache-first for `/_next/static`, `/img`, `/icons`;
+  pages always network, `/offline` fallback; never caches per-user pages), registered by `PwaRegister` in the root layout,
+  `InstallButton` in the learn sidebar (iOS gets a "Paylaş → Ana Ekrana Ekle" hint). Bump `V` in sw.js to drop old caches.
+  Playwright `setOffline` does not cut SW fetches: test the offline page by killing the server. Nav must fit 320px (level chip hides below 360px).
 - `components/Learner.tsx` timer + notifications + PiP; `components/Card.tsx` learn/quiz/reveal card
 - `scripts/smoke.ts` end-to-end check against the real DB (creates & deletes 2 users): `npx tsx --env-file=.env scripts/smoke.ts`
 
@@ -104,4 +116,4 @@ Coworkers form a team and race daily on the same 10 items. UI text in Turkish; c
 - C2 core content (C2 currently = sitcom files + Anki words).
 
 ## Later (only when asked)
-Placement test, badges, weekly summary, Google login, PWA/offline, nicer TTS voices, C2 core content, de-duplicate B2 phrasal/collocation files (two writers overlapped ~26 items).
+Badges, weekly summary, Google login, nicer TTS voices, C2 core content, de-duplicate B2 phrasal/collocation files (two writers overlapped ~26 items).

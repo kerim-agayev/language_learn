@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { SITE_DESC, SITE_NAME, SITE_URL } from "@/lib/site";
 import { Bricolage_Grotesque, Atkinson_Hyperlegible_Next } from "next/font/google";
 import "./globals.css";
+import { PwaRegister } from "@/components/Pwa";
 
 const display = Bricolage_Grotesque({ subsets: ["latin", "latin-ext"], variable: "--font-display" });
 const body = Atkinson_Hyperlegible_Next({ subsets: ["latin", "latin-ext"], variable: "--font-body", adjustFontFallback: false });
@@ -36,7 +37,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
-      <body className="min-h-dvh">{children}</body>
+      <body className="min-h-dvh">
+        {children}
+        <PwaRegister />
+      </body>
     </html>
   );
 }

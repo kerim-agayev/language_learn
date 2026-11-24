@@ -5,8 +5,8 @@ import { revalidatePath } from "next/cache";
 import { randomBytes } from "node:crypto";
 import { db } from "@/lib/db";
 import { createSession, destroySession, hashPassword, requireUser, verifyPassword } from "@/lib/auth";
-import { challengeAnswer, challengeQuizzes, check, commit, markKnown, nextBatch, unmarkKnown, type Mode, type TestKind } from "@/lib/learn";
-import type { Grade } from "@/lib/srs";
+import { applyPlacement, placementAnswer, placementQuizzes, challengeAnswer, challengeQuizzes, check, commit, markKnown, nextBatch, unmarkKnown, type Mode, type TestKind } from "@/lib/learn";
+import { LEVELS, type Grade, type LevelName } from "@/lib/srs";
 
 export type FormState = { error?: string; ok?: string } | undefined;
 
@@ -20,7 +20,7 @@ export async function register(_: FormState, f: FormData): Promise<FormState> {
   if (await db.user.findUnique({ where: { email } })) return { error: "Bu e-posta zaten kayıtlı. Giriş yap." };
   const user = await db.user.create({ data: { name, email, passwordHash: await hashPassword(password) } });
   await createSession(user.id);
-  redirect("/learn");
+  redirect("/placement");
 }
 
 export async function login(_: FormState, f: FormData): Promise<FormState> {
@@ -81,6 +81,29 @@ export async function saveSettings(_: FormState, f: FormData): Promise<FormState
   await db.user.update({ where: { id: u.id }, data: { intervalMin, workStart, workEnd, dailyGoal, sound } });
   revalidatePath("/learn");
   return { ok: "Kaydedildi." };
+}
+
+// ---------- placement test ----------
+
+const isLevel = (l: string): l is LevelName => (LEVELS as readonly string[]).includes(l);
+
+export async function getPlacement(level: string) {
+  await requireUser();
+  if (!isLevel(level)) throw new Error("Geçersiz seviye.");
+  return placementQuizzes(level);
+}
+
+export async function answerPlacement(itemId: number, choice: string) {
+  await requireUser();
+  return placementAnswer(itemId, choice);
+}
+
+export async function startAtLevel(level: string) {
+  const u = await requireUser();
+  if (!isLevel(level)) throw new Error("Geçersiz seviye.");
+  await applyPlacement(u.id, level);
+  revalidatePath("/learn");
+  redirect("/learn");
 }
 
 // ---------- teams ----------

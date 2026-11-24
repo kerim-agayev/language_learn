@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { LEVELS, type LevelName } from "@/lib/srs";
 import { LEVEL_INFO, levelItems } from "@/lib/public";
 import { PublicHeader } from "@/components/PublicHeader";
+import { ItemGrid } from "@/components/ItemGrid";
 
 export const revalidate = 86400;
 export const dynamicParams = false;
@@ -57,16 +58,7 @@ export default async function LevelPage({ params }: Props) {
       {[...topics].map(([topic, list]) => (
         <section key={topic} className="mt-10">
           <h2 className="font-display text-xl font-bold">{topic}</h2>
-          <ul className="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
-            {list.map((i) => (
-              <li key={i.slug}>
-                <Link href={`/kelime/${i.slug}`} className="block rounded-xl bg-paper px-3 py-2 hover:outline-2 hover:outline-pen">
-                  <span className="block truncate font-bold">{i.en}</span>
-                  <span className="block truncate text-sm text-muted">{i.tr}</span>
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <ItemGrid items={list} />
         </section>
       ))}
     </main>

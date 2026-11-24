@@ -38,6 +38,15 @@ export function grade(card: Card | null, g: Grade, correct: boolean, now = new D
   return scheduler.next(c, now, rating).card;
 }
 
+/**
+ * Placement test: a card the learner already knows. Counts as mastered (passes the level gate) but is not gone:
+ * it comes back as a normal review `inDays` from now, so a wrong guess in the test gets caught later.
+ */
+export function placedCard(now: Date, inDays: number, stability = 20): Card {
+  const due = new Date(now.getTime() + inDays * 86_400_000);
+  return { ...createEmptyCard(now), due, stability, difficulty: 5, state: State.Review, reps: 1, scheduled_days: Math.round(inDays), last_review: now };
+}
+
 /** Next due time for each of the 4 buttons (shown under them, like Anki). */
 export function previews(card: Card | null, now = new Date()): Record<Grade, number> {
   const c = card ?? createEmptyCard(now);

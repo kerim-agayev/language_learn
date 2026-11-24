@@ -4,6 +4,7 @@ import { restoreItem, saveSettings } from "@/app/actions";
 import { knownItems } from "@/lib/learn";
 import { Nav } from "@/components/Nav";
 import { ActionForm, Field, inputCls } from "@/components/Forms";
+import Link from "next/link";
 
 export const metadata: Metadata = { title: "Ayarlar", robots: { index: false, follow: false } };
 
@@ -66,6 +67,10 @@ export default async function SettingsPage() {
             </ul>
           )}
         </section>
+        <p className="mt-10 text-sm text-muted">
+          İngilizcen ilerledi mi? <Link href="/placement" className="font-bold text-pen underline">Seviye testini yap</Link>; bildiğin
+          seviyeleri atlarsın (seviyen asla düşmez).
+        </p>
       </main>
     </>
   );

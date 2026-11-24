@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { State } from "ts-fsrs";
-import { levelComplete, isMastered, points, normalize, fromJson, streak, usesItem, grade, previews, formatInterval, blankIn, blankDialogue } from "./srs";
+import { levelComplete, isMastered, points, normalize, fromJson, streak, usesItem, grade, previews, formatInterval, blankIn, blankDialogue, placedCard } from "./srs";
 
 test("level gate is strict", () => {
   assert.equal(levelComplete(100, 99, 99), false); // one item never seen
@@ -94,4 +94,15 @@ test("points and normalize", () => {
   assert.equal(normalize("  I'm on my WAY! "), "im on my way");
   assert.equal(normalize("IŞIK"), normalize("ışık"));
   assert.equal(normalize("İstanbul"), normalize("istanbul"));
+});
+
+test("placement card counts as mastered, comes back later, and still reacts to grading", () => {
+  const now = new Date("2026-01-01T10:00:00Z");
+  const c = placedCard(now, 30);
+  assert.ok(isMastered(c.state, c.stability));
+  assert.equal(Math.round((c.due.getTime() - now.getTime()) / 86_400_000), 30);
+  const later = new Date("2026-01-31T10:00:00Z");
+  const wrong = grade(fromJson(JSON.parse(JSON.stringify(c))), 3, false, later);
+  assert.equal(wrong.state, State.Relearning); // a lucky guess in the test gets fixed at the first review
+  assert.ok(grade(c, 3, true, later).stability > c.stability);
 });

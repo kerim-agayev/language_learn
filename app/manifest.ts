@@ -11,6 +11,19 @@ export default function manifest(): MetadataRoute.Manifest {
     display: "standalone",
     background_color: "#e9edf3",
     theme_color: "#2b55d9",
-    icons: [{ src: "/icon.svg", sizes: "any", type: "image/svg+xml" }],
+    id: "/learn",
+    scope: "/",
+    orientation: "portrait",
+    categories: ["education", "productivity"],
+    icons: [
+      { src: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
+      { src: "/icons/icon-512.png", sizes: "512x512", type: "image/png" },
+      { src: "/icons/maskable-512.png", sizes: "512x512", type: "image/png", purpose: "maskable" },
+      { src: "/icon.svg", sizes: "any", type: "image/svg+xml" },
+    ],
+    shortcuts: [
+      { name: "Öğren", url: "/learn" },
+      { name: "Takım yarışı", url: "/team" },
+    ],
   };
 }

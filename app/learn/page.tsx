@@ -5,6 +5,8 @@ import { TESTS, stats, syncLevel, testStatus, type TestKind } from "@/lib/learn"
 import { formatInterval } from "@/lib/srs";
 import { Nav } from "@/components/Nav";
 import { Learner } from "@/components/Learner";
+import { db } from "@/lib/db";
+import { InstallButton } from "@/components/Pwa";
 
 /** "3 şimdi" when some are due, otherwise when the next one comes back ("8 dk sonra"). */
 function when(b: { total: number; dueNow: number; nextIn: number }) {
@@ -19,7 +21,7 @@ export const metadata: Metadata = { title: "Öğren", robots: { index: false, fo
 export default async function LearnPage() {
   const user = await requireUser();
   const level = await syncLevel(user.id, user.level);
-  const [s, tests] = await Promise.all([stats(user.id, level), testStatus(user.id)]);
+  const [s, tests, seen] = await Promise.all([stats(user.id, level), testStatus(user.id), db.userItem.count({ where: { userId: user.id } })]);
   const p = s.progress;
   const goalPct = Math.min(100, Math.round((s.today.n / user.dailyGoal) * 100));
   const lv = { "--lv": `var(--${level})` } as React.CSSProperties;
@@ -33,6 +35,12 @@ export default async function LearnPage() {
         </section>
 
         <aside className="flex flex-col gap-5 pt-4 text-sm">
+          {seen < 30 && level !== "C2" && (
+            <Link href="/placement" className="rounded-xl border-2 border-pen px-3 py-2.5 hover:bg-paper">
+              <span className="font-bold">İngilizcen biraz var mı?</span>
+              <span className="block text-muted">Seviye testiyle bildiğin seviyeleri atla (5 dk) →</span>
+            </Link>
+          )}
           <div>
             <p className="text-muted">Bugün</p>
             <p className="font-display text-3xl font-bold">
@@ -100,6 +108,7 @@ export default async function LearnPage() {
               ))}
             </div>
           </div>
+          <InstallButton />
         </aside>
       </main>
     </>

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { db } from "@/lib/db";
 import { pageSlug } from "@/lib/content";
-import { publicItem } from "@/lib/public";
+import { LISTS, publicItem } from "@/lib/public";
 import { SITE_URL } from "@/lib/site";
 import { ItemFace } from "@/components/Card";
 import { TYPE_LABEL } from "@/lib/srs";
@@ -43,6 +43,8 @@ export default async function ItemPage({ params }: Props) {
   ]);
   const en = clean(it.en);
   const lv = it.level.toLowerCase();
+  const list = it.topic.startsWith("Dizilerden") ? "dizi-ingilizcesi" : it.topic.includes("deyim") ? "ingilizce-deyimler"
+    : ({ PHRASAL: "phrasal-verbs", CHUNK: "gundelik-ingilizce-kaliplar", COLLOCATION: "collocations" } as Record<string, string>)[it.type];
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "DefinedTerm",
@@ -93,7 +95,18 @@ export default async function ItemPage({ params }: Props) {
         </section>
       )}
 
-      <nav className="mt-8 flex justify-between gap-3 text-sm" aria-label="Önceki ve sonraki">
+      <p className="mt-8 text-sm text-muted">
+        Daha fazlası:{" "}
+        <Link href={`/seviye/${lv}`} className="font-bold text-pen underline">{it.level} kelimeleri</Link>
+        {list && (
+          <>
+            {" ve "}
+            <Link href={`/liste/${list}`} className="font-bold text-pen underline">{LISTS[list].h1}</Link>
+          </>
+        )}
+      </p>
+
+      <nav className="mt-4 flex justify-between gap-3 text-sm" aria-label="Önceki ve sonraki">
         {prev ? <Link href={`/kelime/${prev.slug}`} className="min-w-0 truncate rounded-xl px-3 py-2 hover:bg-paper">← {prev.en}</Link> : <span />}
         {next ? <Link href={`/kelime/${next.slug}`} className="min-w-0 truncate rounded-xl px-3 py-2 hover:bg-paper">{next.en} →</Link> : <span />}
       </nav>

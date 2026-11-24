@@ -1,6 +1,6 @@
 import { State, createEmptyCard } from "ts-fsrs";
 import { db, todayKey, TZ } from "./db";
-import { LEVELS, MASTERED_STABILITY, levelComplete, grade, previews, formatInterval, fromJson, points, normalize, streak, usesItem, blankDialogue, type Grade, type LevelName } from "./srs";
+import { LEVELS, MASTERED_STABILITY, levelComplete, grade, previews, formatInterval, fromJson, points, normalize, streak, usesItem, blankDialogue, placedCard, type Grade, type LevelName } from "./srs";
 import type { Item } from "./generated/prisma/client";
 
 /**
@@ -385,4 +385,39 @@ export async function challengeQuizzes(userId: string, teamId: string) {
   const todo = ch.itemIds.map((id) => items.find((i) => i.id === id)!).filter((i) => i && !doneIds.has(i.id));
   const quizzes = await Promise.all(todo.map((it, i) => buildQuiz(it, false, i % 2 ? "tr_en" : "en_tr")));
   return { challengeId: ch.id, total: ch.itemIds.length, done: doneIds.size, quizzes };
+}
+
+// ---------- placement test ----------
+// A learner who already speaks some English shouldn't grind 500 A1 cards. Level by level: 6 "what's the Turkish?"
+// questions; 5 right = level passed. The first level not passed is where they start. Everything below it is filed
+// as known (placedCard) and comes back spread over the next ~3 months, so lucky guesses get caught.
+
+export const PLACEMENT = { perLevel: 6, pass: 5 };
+
+export async function placementQuizzes(level: LevelName) {
+  const items = (await allItems()).filter((i) => i.level === level && i.source === "core" && i.type !== "SENTENCE");
+  return Promise.all(shuffle(items).slice(0, PLACEMENT.perLevel).map((it) => buildQuiz(it, false, "en_tr")));
+}
+
+export async function placementAnswer(itemId: number, choice: string) {
+  const { correct, exp } = await judge(itemId, "en_tr", choice);
+  return { correct, expected: exp };
+}
+
+/** Start at `level`: file every unseen card below it as known. Never moves a learner down. Returns cards filed. */
+export async function applyPlacement(userId: string, level: LevelName) {
+  const user = await db.user.findUniqueOrThrow({ where: { id: userId }, select: { level: true } });
+  if (LEVELS.indexOf(level) <= LEVELS.indexOf(user.level as LevelName)) return 0;
+  const below = LEVELS.slice(0, LEVELS.indexOf(level));
+  const items = await db.item.findMany({ where: { level: { in: below }, users: { none: { userId } } }, select: { id: true } });
+  const now = new Date();
+  const rows = items.map(({ id }) => {
+    const card = placedCard(now, 10 + Math.random() * 80); // ponytail: random spread so they don't all come back on one day
+    return { userId, itemId: id, card: JSON.parse(JSON.stringify(card)), due: card.due, state: card.state, stability: card.stability };
+  });
+  await db.$transaction([
+    db.userItem.createMany({ data: rows, skipDuplicates: true }),
+    db.user.update({ where: { id: userId }, data: { level } }),
+  ]);
+  return rows.length;
 }
