@@ -1,6 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { login } from "@/app/actions";
 import { ActionForm, Field } from "@/components/Forms";
+
+export const metadata: Metadata = {
+  title: "Giriş yap",
+  description: "damla hesabına giriş yap, kaldığın karttan İngilizce öğrenmeye devam et.",
+  alternates: { canonical: "/login" },
+};
+
 
 export default function Login() {
   return (

@@ -1,6 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { register } from "@/app/actions";
 import { ActionForm, Field } from "@/components/Forms";
+
+export const metadata: Metadata = {
+  title: "Ücretsiz hesap aç",
+  description: "Ücretsiz damla hesabı aç: A1'den C2'ye resimli kartlar, gündelik İngilizce, iş arkadaşlarınla günlük yarış.",
+  alternates: { canonical: "/register" },
+};
+
 
 export default function Register() {
   return (

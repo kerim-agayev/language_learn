@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { requireUser } from "@/lib/auth";
 import Link from "next/link";
 import { TESTS, stats, syncLevel, testStatus, type TestKind } from "@/lib/learn";
@@ -11,6 +12,9 @@ function when(b: { total: number; dueNow: number; nextIn: number }) {
   if (b.dueNow) return `${b.dueNow} şimdi`;
   return `${formatInterval(b.nextIn)} sonra`;
 }
+
+export const metadata: Metadata = { title: "Öğren", robots: { index: false, follow: false } };
+
 
 export default async function LearnPage() {
   const user = await requireUser();

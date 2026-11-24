@@ -3,6 +3,19 @@ import { redirect } from "next/navigation";
 import { getUser } from "@/lib/auth";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { LEVELS } from "@/lib/srs";
+import { SITE_DESC, SITE_URL } from "@/lib/site";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  name: "damla",
+  url: SITE_URL,
+  description: SITE_DESC,
+  applicationCategory: "EducationalApplication",
+  operatingSystem: "Web",
+  inLanguage: "tr",
+  offers: { "@type": "Offer", price: "0", priceCurrency: "TRY" },
+};
 
 export default async function Home() {
   if (await getUser()) redirect("/learn");
@@ -74,6 +87,7 @@ export default async function Home() {
           </div>
         ))}
       </section>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
     </main>
   );
 }

@@ -1,8 +1,12 @@
+import type { Metadata } from "next";
 import { requireUser } from "@/lib/auth";
 import { restoreItem, saveSettings } from "@/app/actions";
 import { knownItems } from "@/lib/learn";
 import { Nav } from "@/components/Nav";
 import { ActionForm, Field, inputCls } from "@/components/Forms";
+
+export const metadata: Metadata = { title: "Ayarlar", robots: { index: false, follow: false } };
+
 
 export default async function SettingsPage() {
   const u = await requireUser();

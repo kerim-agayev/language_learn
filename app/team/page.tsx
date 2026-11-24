@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { requireUser } from "@/lib/auth";
 import { db, todayKey } from "@/lib/db";
 import { leaderboard } from "@/lib/learn";
@@ -23,6 +24,9 @@ function Board({ rows, me, title }: { rows: { id: string; name: string; pts: num
     </div>
   );
 }
+
+export const metadata: Metadata = { title: "Takım", robots: { index: false, follow: false } };
+
 
 export default async function TeamPage() {
   const u = await requireUser();

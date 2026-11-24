@@ -56,6 +56,9 @@ Coworkers form a team and race daily on the same 10 items. UI text in Turkish; c
 - `lib/srs.ts` pure logic (grade/previews, gate, points, streak, normalize, usesItem) + `lib/srs.test.ts` → `npm test`
 - `lib/learn.ts` DB logic: batches, quizzes, answer, stats, leaderboard, daily challenge
 - `app/actions.ts` all server actions; pages: `/`, `/login`, `/register`, `/learn`, `/team`, `/settings`
+- SEO: `lib/site.ts` (SITE_URL from VERCEL_PROJECT_PRODUCTION_URL), root `metadata` in `app/layout.tsx`, `app/robots.ts`,
+  `sitemap.ts`, `manifest.ts`, `opengraph-image.tsx`, `icon.svg`, `apple-icon.tsx`, JSON-LD on `/`. Logged-in pages are
+  `noindex` and disallowed in robots. Nav must fit 320px (level chip hides below 360px).
 - `components/Learner.tsx` timer + notifications + PiP; `components/Card.tsx` learn/quiz/reveal card
 - `scripts/smoke.ts` end-to-end check against the real DB (creates & deletes 2 users): `npx tsx --env-file=.env scripts/smoke.ts`
 

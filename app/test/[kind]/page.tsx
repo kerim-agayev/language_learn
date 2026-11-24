@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { requireUser } from "@/lib/auth";
@@ -5,6 +6,9 @@ import { TESTS, testQuizzes, testStatus, type TestKind } from "@/lib/learn";
 import { formatInterval } from "@/lib/srs";
 import { Nav } from "@/components/Nav";
 import { TestRunner } from "@/components/TestRunner";
+
+export const metadata: Metadata = { title: "Tekrar testi", robots: { index: false, follow: false } };
+
 
 export default async function TestPage({ params }: { params: Promise<{ kind: string }> }) {
   const { kind } = await params;
