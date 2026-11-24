@@ -86,6 +86,7 @@ model Item {
   dialogue  String[] // "A: …" / "B: …" lines; one contains `en` verbatim (fill-the-gap quiz)
   topic     String
   source    String      @default("core")
+  slug      String?     @unique // public page /kelime/<slug>, set by the seed
   users     UserItem[]
   logs      ReviewLog[]
 

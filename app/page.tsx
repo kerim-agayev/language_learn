@@ -4,6 +4,7 @@ import { getUser } from "@/lib/auth";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { LEVELS } from "@/lib/srs";
 import { SITE_DESC, SITE_URL } from "@/lib/site";
+import { LEVEL_INFO } from "@/lib/public";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -86,6 +87,24 @@ export default async function Home() {
             <p className="mt-2 text-muted">{x.d}</p>
           </div>
         ))}
+      </section>
+
+      <section className="border-t border-line py-12">
+        <h2 className="font-display text-xl font-bold">Seviyelere göz at</h2>
+        <p className="mt-2 text-muted">Her seviyedeki kelimeler, kalıplar ve phrasal verb&apos;ler; resimli, sesli, Türkçe anlamlı.</p>
+        <div className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6">
+          {LEVELS.map((l) => (
+            <Link
+              key={l}
+              href={`/seviye/${l.toLowerCase()}`}
+              className="rounded-xl bg-paper px-4 py-3 hover:outline-2 hover:outline-pen"
+              style={{ "--lv": `var(--${l})` } as React.CSSProperties}
+            >
+              <span className="lv-chip rounded-full px-2.5 py-0.5 text-xs font-bold">{l}</span>
+              <span className="mt-2 block font-bold">{LEVEL_INFO[l].name}</span>
+            </Link>
+          ))}
+        </div>
       </section>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
     </main>

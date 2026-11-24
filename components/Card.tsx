@@ -2,16 +2,9 @@
 
 import { useEffect, useRef, useState } from "react";
 import { answerChallenge, checkAnswer, commitAnswer, hideItem } from "@/app/actions";
-import type { Grade } from "@/lib/srs";
+import { TYPE_LABEL, type Grade } from "@/lib/srs";
 import type { AnswerResult, ItemView, Quiz, TestKind } from "@/lib/learn";
 
-const TYPE_LABEL: Record<string, string> = {
-  WORD: "kelime",
-  CHUNK: "kalıp",
-  PHRASAL: "phrasal verb",
-  SENTENCE: "cümle kalıbı",
-  COLLOCATION: "collocation",
-};
 // English-only questions keep the learner inside English (immersion); Turkish ones are the translation backup.
 const QUESTION: Record<Quiz["mode"], string> = {
   pic_en: "What's this?",

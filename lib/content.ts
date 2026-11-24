@@ -24,6 +24,10 @@ export type Loaded = RawItem & { level: string; order: number; topic: string; so
 export const slug = (i: { type: string; en: string }) =>
   `${i.type}-${i.en}`.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 80);
 
+/** Pretty public URL part: "I'm fine." -> "im-fine". The seed makes it unique. */
+export const pageSlug = (en: string) =>
+  en.toLowerCase().replace(/['’]/g, "").normalize("NFKD").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 80);
+
 export const imgFile = (i: { type: string; en: string }) => path.join("public", "img", `${slug(i)}.webp`);
 
 /** All content in learning order. Core files first (by filename), then the user's Anki cards inside their level. */

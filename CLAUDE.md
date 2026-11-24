@@ -58,7 +58,9 @@ Coworkers form a team and race daily on the same 10 items. UI text in Turkish; c
 - `app/actions.ts` all server actions; pages: `/`, `/login`, `/register`, `/learn`, `/team`, `/settings`
 - SEO: `lib/site.ts` (SITE_URL from VERCEL_PROJECT_PRODUCTION_URL), root `metadata` in `app/layout.tsx`, `app/robots.ts`,
   `sitemap.ts`, `manifest.ts`, `opengraph-image.tsx`, `icon.svg`, `apple-icon.tsx`, JSON-LD on `/`. Logged-in pages are
-  `noindex` and disallowed in robots. Nav must fit 320px (level chip hides below 360px).
+  `noindex` and disallowed in robots. Public SEO pages: `/seviye/[level]` (all items of a level, by topic) and
+  `/kelime/[slug]` (one item, ISR: rendered on first visit, cached 1 day; no cookies read there). `Item.slug` is set by the
+  seed (`pageSlug(en)`, type appended on clashes; the twin's canonical points to the plain slug; sitemap lists canonical only). Nav must fit 320px (level chip hides below 360px).
 - `components/Learner.tsx` timer + notifications + PiP; `components/Card.tsx` learn/quiz/reveal card
 - `scripts/smoke.ts` end-to-end check against the real DB (creates & deletes 2 users): `npx tsx --env-file=.env scripts/smoke.ts`
 

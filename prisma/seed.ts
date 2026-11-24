@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import { db } from "../lib/db";
-import { loadContent, imgFile } from "../lib/content";
+import { loadContent, imgFile, pageSlug, slug } from "../lib/content";
 import type { ItemType, Level } from "../lib/generated/prisma/client";
 
 // Upserts by (type, en) so re-running after content edits keeps user progress.
@@ -13,9 +13,19 @@ async function main() {
     return true;
   });
 
+  // Same order every run -> same slugs. Clashes ("look" word vs chunk) get the type appended.
+  const used = new Set<string>();
+  const slugs = items.map((it) => {
+    let s = pageSlug(it.en) || slug(it);
+    if (used.has(s)) s = `${s}-${it.type.toLowerCase()}`;
+    for (let n = 2; used.has(s); n++) s = `${pageSlug(it.en)}-${n}`;
+    used.add(s);
+    return s;
+  });
+
   for (let i = 0; i < items.length; i += 20) {
     await Promise.all(
-      items.slice(i, i + 20).map((it) => {
+      items.slice(i, i + 20).map((it, j) => {
         const file = imgFile(it);
         const data = {
           level: it.level as Level,
@@ -32,6 +42,7 @@ async function main() {
           dialogue: it.dialogue ?? [],
           topic: it.topic,
           source: it.source,
+          slug: slugs[i + j],
         };
         return db.item.upsert({
           where: { type_en: { type: it.type as ItemType, en: it.en } },

@@ -8,6 +8,15 @@ export const MAX_INTERVAL_DAYS = 60;
 const scheduler = fsrs(generatorParameters({ maximum_interval: MAX_INTERVAL_DAYS }));
 
 export const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"] as const;
+/** Turkish label for each item type (shown under the word). */
+export const TYPE_LABEL: Record<string, string> = {
+  WORD: "kelime",
+  CHUNK: "kalıp",
+  PHRASAL: "phrasal verb",
+  SENTENCE: "cümle kalıbı",
+  COLLOCATION: "collocation",
+};
+
 export type LevelName = (typeof LEVELS)[number];
 
 /** An item counts as mastered once FSRS expects it to survive this many days. */
