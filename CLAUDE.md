@@ -48,6 +48,9 @@ Coworkers form a team and race daily on the same 10 items. UI text in Turkish; c
   (`placedCard`: FSRS Review, stability 20 → counts for the gate, due spread 10–90 days so lucky guesses get caught);
   never moves a learner down. Sidebar offers it while the learner has < 30 cards; Ayarlar always links it.
 
+- **"Hata bildir"** (`ReportIssue` in Card.tsx, on new and revealed cards): `reportItem` saves a `Report` (≤ 20/user/day).
+  Owner reads them with `npx tsx --env-file=.env scripts/reports.ts` (`--resolve 3,7`), fixes the content JSON, re-seeds.
+
 ## Core rules (non-negotiable)
 1. **Strict level gate** (`levelComplete` in `lib/srs.ts`, tested): next level opens only when every item of the
    current level was introduced AND ≥ 90% are mastered (FSRS state Review, stability ≥ 5 days). Empty levels are skipped.
@@ -116,4 +119,4 @@ Coworkers form a team and race daily on the same 10 items. UI text in Turkish; c
   `scripts/check-content.ts` (reports unblankable dialogues) and re-seed.
 
 ## Later (only when asked)
-Badges, weekly summary, Google login, nicer TTS voices, de-duplicate B2 phrasal/collocation files (two writers overlapped ~26 items).
+Password reset by e-mail (postponed 2026-11-25; needs Gmail app password or Resend + own domain). Badges, weekly summary, Google login, nicer TTS voices, de-duplicate B2 phrasal/collocation files (two writers overlapped ~26 items).

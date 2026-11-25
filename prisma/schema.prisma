@@ -39,6 +39,7 @@ model User {
   sessions     Session[]
   items        UserItem[]
   logs         ReviewLog[]
+  reports      Report[]
   teams        TeamMember[]
 }
 
@@ -89,6 +90,7 @@ model Item {
   slug      String?     @unique // public page /kelime/<slug>, set by the seed
   users     UserItem[]
   logs      ReviewLog[]
+  reports   Report[]
 
   @@unique([type, en])
   @@index([level, order])
@@ -138,4 +140,18 @@ model DailyChallenge {
   logs    ReviewLog[]
 
   @@unique([teamId, date])
+}
+
+/// "Hata bildir": a learner flags a wrong translation/example on a card. Read with scripts/reports.ts.
+model Report {
+  id        Int      @id @default(autoincrement())
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  itemId    Int
+  item      Item     @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  text      String
+  resolved  Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  @@index([resolved, createdAt])
 }

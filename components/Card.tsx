@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { answerChallenge, checkAnswer, commitAnswer, hideItem } from "@/app/actions";
+import { answerChallenge, checkAnswer, commitAnswer, hideItem, reportItem } from "@/app/actions";
 import { TYPE_LABEL, type Grade } from "@/lib/srs";
 import type { AnswerResult, ItemView, Quiz, TestKind } from "@/lib/learn";
 
@@ -308,7 +308,8 @@ export function QuizCard({
     const win = root.current?.ownerDocument.defaultView;
     if (!win) return;
     const onKey = (e: KeyboardEvent) => {
-      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+      // tagName, not instanceof: in the PiP window elements come from another realm
+      if (/^(INPUT|TEXTAREA)$/.test((e.target as HTMLElement | null)?.tagName ?? "")) return;
       if (stage === "ask" && /^[1-4]$/.test(e.key) && quiz.options.length) choose(quiz.options[Number(e.key) - 1]);
       else if ((e.key === " " || e.key === "Enter") && stage === "learn") { e.preventDefault(); setStage("ask"); }
       else if (stage === "reveal" && result?.intervals && /^[1-4]$/.test(e.key)) rateCard(Number(e.key) as Grade);
@@ -332,6 +333,7 @@ export function QuizCard({
             Got it
           </button>
           {hideButton("Bunu zaten biliyorum, bir daha gösterme")}
+          <ReportIssue itemId={quiz.itemId} />
         </>
       )}
 
@@ -406,8 +408,50 @@ export function QuizCard({
               Devam
             </button>
           )}
+          <ReportIssue itemId={quiz.itemId} />
         </div>
       )}
     </div>
+  );
+}
+
+/** "Hata bildir": flag a wrong translation, example or picture. Logged-in only (the card itself is). */
+function ReportIssue({ itemId }: { itemId: number }) {
+  const [open, setOpen] = useState(false);
+  const [text, setText] = useState("");
+  const [state, setState] = useState<{ error?: string; ok?: string }>();
+  const [busy, setBusy] = useState(false);
+  if (state?.ok) return <p className="mt-3 text-center text-sm text-good">{state.ok}</p>;
+  if (!open)
+    return (
+      <button type="button" onClick={() => setOpen(true)} className="mt-2 w-full py-1 text-xs text-muted hover:text-ink">
+        ⚑ Hata bildir
+      </button>
+    );
+  return (
+    <form
+      className="mt-3 flex flex-col gap-2"
+      onSubmit={async (e) => {
+        e.preventDefault();
+        setBusy(true);
+        setState(await reportItem(itemId, text));
+        setBusy(false);
+      }}
+    >
+      <textarea
+        autoFocus
+        value={text}
+        onChange={(e) => setText(e.target.value)}
+        maxLength={500}
+        rows={2}
+        placeholder="Ne yanlış? (çeviri, örnek cümle, resim…)"
+        className="rounded-xl border-2 border-line bg-paper px-3 py-2 text-sm text-ink focus:border-pen focus:outline-none"
+      />
+      {state?.error && <p className="text-sm text-bad">{state.error}</p>}
+      <div className="flex gap-2">
+        <button disabled={busy} className="flex-1 rounded-xl bg-pen py-2 text-sm font-bold text-pen-ink disabled:opacity-60">Gönder</button>
+        <button type="button" onClick={() => setOpen(false)} className="rounded-xl px-3 py-2 text-sm text-muted hover:bg-desk">Vazgeç</button>
+      </div>
+    </form>
   );
 }

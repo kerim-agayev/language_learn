@@ -83,6 +83,20 @@ export async function saveSettings(_: FormState, f: FormData): Promise<FormState
   return { ok: "Kaydedildi." };
 }
 
+// ---------- "Hata bildir" ----------
+
+export async function reportItem(itemId: number, text: string): Promise<FormState> {
+  const u = await requireUser();
+  const t = String(text ?? "").trim().slice(0, 500);
+  if (t.length < 3) return { error: "Ne yanlış, kısaca yaz." };
+  const since = new Date(Date.now() - 86_400_000);
+  // ponytail: simple per-user daily cap against spam; enough for a coworker app
+  if ((await db.report.count({ where: { userId: u.id, createdAt: { gte: since } } })) >= 20) return { error: "Bugün yeterince bildirdin, teşekkürler!" };
+  if (!(await db.item.findUnique({ where: { id: itemId }, select: { id: true } }))) return { error: "Kart bulunamadı." };
+  await db.report.create({ data: { userId: u.id, itemId, text: t } });
+  return { ok: "Teşekkürler! Bakıp düzelteceğiz." };
+}
+
 // ---------- placement test ----------
 
 const isLevel = (l: string): l is LevelName => (LEVELS as readonly string[]).includes(l);
